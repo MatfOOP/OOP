@@ -4,8 +4,6 @@ Ovaj sajt sadrži materijale za kurs OOP na osnovnim studijama Matematičkog fak
 
 Plan i program kursa [Objektno orjentisano programiranje](http://www.math.rs/files/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} sa veb strane fakulteta.
 
-[//]: # ([Plan i program]({%  info/P102_-_Objektno_orijentisano_programiranje.pdf %}))
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MatfRS2/RS2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
