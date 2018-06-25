@@ -8,7 +8,7 @@ Plan i program kursa [Objektno orjentisano programiranje](/info/P102_-_Objektno_
 
 * [Predavanja](/predavanja/README.md)
 
-* Vežbe
+* [Vežbe](/vezbe/README.md)
 
 ## Welcome to GitHub Pages
 

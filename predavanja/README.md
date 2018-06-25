@@ -1,4 +1,4 @@
-## Predavanja iz objektno orjentisanog programiranjea
+## OOP - Predavanja
 
 Ovde su postavljena predavanja iz predmeta Objektno orjentisano programiranje.
 
