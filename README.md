@@ -1,14 +1,20 @@
-## Objektno orjentisano programiranje
+# Objektno orjentisano programiranje
 
 Ovaj sajt sadrži materijale za kurs OOP na osnovnim studijama Matematičkog fakulteta Univerziteta u Beogradu.
 
-Plan i program kursa [Objektno orjentisano programiranje](http://www.math.rs/files/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} sa veb strane fakulteta.
+## Osnovne informacije
 
-Plan i program kursa [Objektno orjentisano programiranje](/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} se takođe nalazi i unutar ovog sajta.
+* [Plan i program kursa](/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} 
+
+* [Plan i program kursa](http://www.math.rs/files/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} sa veb strane fakulteta
+
+* Spisak ispitnih pitanja
+
+## Struktura sajta
 
 * **[Predavanja](/predavanja/README.md)**
 
-* **[Vežbe--](/vezbe/README.md)**
+* **[Vežbe](/vezbe/README.md)**
 
 ---
 ---
