@@ -6,9 +6,12 @@ Plan i program kursa [Objektno orjentisano programiranje](http://www.math.rs/fil
 
 Plan i program kursa [Objektno orjentisano programiranje](/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} se takođe nalazi i unutar ovog sajta.
 
-* [Predavanja](/predavanja/README.md)
+* [--Predavanja--](/predavanja/README.md)
 
-* [Vežbe](/vezbe/README.md)
+* [--Vežbe--](/vezbe/README.md)
+
+---
+---
 
 ## Welcome to GitHub Pages
 
