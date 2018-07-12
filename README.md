@@ -6,7 +6,7 @@ Ovaj sajt sadrži materijale za kurs OOP na osnovnim studijama Matematičkog fak
 
 * [Plan i program kursa](/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} 
 
-* Spisak ispitnih pitanja
+* [Spisak ispitnih pitanja](/info/OOPIP2011.pdf){:target="_blank"} 
 
 ## Struktura sajta
 
@@ -16,4 +16,4 @@ Ovaj sajt sadrži materijale za kurs OOP na osnovnim studijama Matematičkog fak
 
 * **[Instalcije](/INSTALCIJE.md)**
 
-* **[Veb resursi učenje](/VEB-RESURSI-ZA-UCENJE.md)**
+* **[Veb resursi za učenje](/VEB-RESURSI-ZA-UCENJE.md)**
