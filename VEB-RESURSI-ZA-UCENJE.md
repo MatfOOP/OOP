@@ -12,17 +12,17 @@
 
      * Eck: [Introduction to Programming Using Java](http://math.hws.edu/javanotes/){:target="_blank"}, 7th edition
 
-     * [Java Tutorial - Oracle](https://docs.oracle.com/javase/tutorial/){:target="_blank"} 
+     * [Java Tutorial](https://docs.oracle.com/javase/tutorial/){:target="_blank"} - Oracle
 
-     * [Java Tutorial - TutorialsPoint](https://www.tutorialspoint.com/java/index.htm){:target="_blank"} 
+     * [Java Tutorial](https://www.tutorialspoint.com/java/index.htm){:target="_blank"} - TutorialsPoint
 
 * Књиге и туторијали за различите верзије Јаве
 
     * Davis: [What's New in Java 8](https://leanpub.com/whatsnewinjava8/read){:target="_blank"} 
 
-    * [What's New in Java 8 - TutorialsPoint](https://www.tutorialspoint.com/java8/index.htm){:target="_blank"} 
+    * [What's New in Java 8](https://www.tutorialspoint.com/java8/index.htm){:target="_blank"} - TutorialsPoint 
 
-    * [What's New in Java 9 - TutorialsPoint](https://www.tutorialspoint.com/java9/index.htm){:target="_blank"} 
+    * [What's New in Java 9](https://www.tutorialspoint.com/java9/index.htm){:target="_blank"} - TutorialsPoint 
     
      * Gosling et al: [Java Language Specification (Java SE 10 Edition)](https://docs.oracle.com/javase/specs/jls/se10/html/index.html){:target="_blank"}
 
@@ -31,35 +31,35 @@
 
 * Компоненте Јава језика и окружења 
 
-    * [Java programming examples - TutorialsPoint](https://www.tutorialspoint.com/javaexamples/index.htm){:target="_blank"} 
+    * [Java programming examples](https://www.tutorialspoint.com/javaexamples/index.htm){:target="_blank"} - TutorialsPoint 
         
-    * [Package java.lang - TutorialsPoint](https://www.tutorialspoint.com/java/lang/index.htm){:target="_blank"} 
+    * [Package java.lang](https://www.tutorialspoint.com/java/lang/index.htm){:target="_blank"} - TutorialsPoint 
 
-    * [Package java.math - TutorialsPoint](https://www.tutorialspoint.com/java/math/index.htm){:target="_blank"} 
+    * [Package java.math](https://www.tutorialspoint.com/java/math/index.htm){:target="_blank"} - TutorialsPoint 
 
-    * [Package java.io - TutorialsPoint](https://www.tutorialspoint.com/java/io/index.htm){:target="_blank"} 
+    * [Package java.io](https://www.tutorialspoint.com/java/io/index.htm){:target="_blank"} - TutorialsPoint 
 
-    * [Package java.util - TutorialsPoint](https://www.tutorialspoint.com/java/util/index.htm){:target="_blank"} 
+    * [Package java.util](https://www.tutorialspoint.com/java/util/index.htm){:target="_blank"} - TutorialsPoint 
 
-    * [GUI programming and JavaFX - TutorialsPoint](https://www.tutorialspoint.com/javafx/index.htm){:target="_blank"}     
+    * [GUI programming and JavaFX](https://www.tutorialspoint.com/javafx/index.htm){:target="_blank"} - TutorialsPoint     
 
-    * [Unit testing with JUnit - TutorialsPoint](https://www.tutorialspoint.com/junit/){:target="_blank"} 
+    * [Unit testing with JUnit](https://www.tutorialspoint.com/junit/){:target="_blank"} - TutorialsPoint 
 
-    * [XML and Java - TutorialsPoint](https://www.tutorialspoint.com/java_xml/index.htm){:target="_blank"} 
+    * [XML and Java](https://www.tutorialspoint.com/java_xml/index.htm){:target="_blank"} - TutorialsPoint
 
-    * [Databases and JDBC - TutorialsPoint](http://www.tutorialspoint.com/jdbc/){:target="_blank"}     
+    * [Databases and JDBC](http://www.tutorialspoint.com/jdbc/){:target="_blank"} - TutorialsPoint     
 
  
 * Razvojna okruženja za Javu
 
-    * [IntelliJ IDEA Tutorial - TutorialsPoint](https://www.tutorialspoint.com/intellij_idea/index.htm){:target="_blank"}
+    * [IntelliJ IDEA Tutorial](https://www.tutorialspoint.com/intellij_idea/index.htm){:target="_blank"} - TutorialsPoint
 
-    * [Java debugger jdb - TutorialsPoint](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} 
+    * [Java debugger jdb](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} - TutorialsPoint 
 
 * Jezik za modeliranje UML
 
-    * [UML Tutorial  - Sparx Systems](https://www.sparxsystems.com/resources/uml2_tutorial/index.html){:target="_blank"}
+    * [UML Tutorial](https://www.sparxsystems.com/resources/uml2_tutorial/index.html){:target="_blank"}  - Sparx Systems
        
-    * [UML Tutorial  - TutorialsPoint](http://www.tutorialspoint.com/uml/){:target="_blank"}
+    * [UML Tutorial](http://www.tutorialspoint.com/uml/){:target="_blank"}  - TutorialsPoint
 
 [повратак](/README.md)
