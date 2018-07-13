@@ -1,6 +1,6 @@
 [povratak](/README.md)
 
-## OOP - Instalacija
+## OOP - Instalacije
 
 Ovde su postavljene veze za dovlačenje softvera koji treba instlairati radi uspešnog rada na kursu Objektno orjentisano programiranje.
 

@@ -14,6 +14,6 @@ Ovaj sajt sadrži materijale za kurs OOP na osnovnim studijama Matematičkog fak
 
 * **[Vežbe](/vezbe/README.md)**
 
-* **[Instalcije](/INSTALCIJE.md)**
+* **[Instalacije](/INSTALACIJE.md)**
 
 * **[Veb resursi za učenje](/VEB-RESURSI-ZA-UCENJE.md)**
