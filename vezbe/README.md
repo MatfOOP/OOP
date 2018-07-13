@@ -1,8 +1,8 @@
-[povratak](../README.md)
+[повратак](../README.md)
 
-## OOP - Vežbe
+## ООП - Вежбе
 
-Ovde su postavljene vežbe iz predmeta **Objektno orjentisano programiranje**.
+Овде су постављене вежбе из предмета **Објектно орјентисано програмирање**.
 
 
-[povratak](../README.md)
+[повратак](../README.md)

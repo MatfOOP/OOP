@@ -1,10 +1,10 @@
-[povratak](/README.md)
+[повратак](/README.md)
 
-## OOP - Veb resursi za učenje 
+## ООП - Веб ресурси за учење 
 
-Ovde su postavljene veze prema veb resursima za učenje, koji mogu pomoći pri učenju sadržaja koji se obrađuju na kursu **Objektno orjentisano programiranje**.
+Овде су постављене везе према веб ресурсима за учење, који могу помоћи при учењу садржаја који се обрађују на курсу **Објектно орјентисано програмирање**.
 
-* Knjige i tutorijali za Java jezika i okruženje
+* Књиге и туторијали за Јава језик и окружење
 
      * Eckel: [Thinking in Java](https://archive.org/details/TIJ4CcR1){:target="_blank"}, 4th edition 
 
@@ -16,45 +16,45 @@ Ovde su postavljene veze prema veb resursima za učenje, koji mogu pomoći pri u
 
      * [Java Tutorial - TutorialsPoint](https://www.tutorialspoint.com/java/index.htm){:target="_blank"} 
 
-* Knjige i tutorijali za različite verzije Jave
+* Књиге и туторијали за различите верзије Јаве
 
     * Davis: [What's New in Java 8](https://leanpub.com/whatsnewinjava8/read){:target="_blank"} 
 
-    * [Nove karakteristike kod Java 8 - TutorialsPoint](https://www.tutorialspoint.com/java8/index.htm){:target="_blank"} 
+    * [What's New in Java 8 - TutorialsPoint](https://www.tutorialspoint.com/java8/index.htm){:target="_blank"} 
 
-    * [Nove karakteristike kod Java 9 - TutorialsPoint](https://www.tutorialspoint.com/java9/index.htm){:target="_blank"} 
+    * [What's New in Java 9 - TutorialsPoint](https://www.tutorialspoint.com/java9/index.htm){:target="_blank"} 
     
-     * Gosling et al: [Java Language Specification -Java SE 10 Edition](https://docs.oracle.com/javase/specs/jls/se10/html/index.html){:target="_blank"}
+     * Gosling et al: [Java Language Specification (Java SE 10 Edition)](https://docs.oracle.com/javase/specs/jls/se10/html/index.html){:target="_blank"}
 
-     * Lindholm et al: [Java Virtual Machine Specification - Java SE 10 Edition](https://docs.oracle.com/javase/specs/jvms/se10/html/index.html){:target="_blank"}
+     * Lindholm et al: [Java Virtual Machine Specification (Java SE 10 Edition)](https://docs.oracle.com/javase/specs/jvms/se10/html/index.html){:target="_blank"}
 
 
-* Komponente Java jezika i okruženja 
+* Компоненте Јава језика и окружења 
 
-    * [Primeri Java programa - TutorialsPoint](https://www.tutorialspoint.com/javaexamples/index.htm){:target="_blank"} 
+    * [Java programming examples - TutorialsPoint](https://www.tutorialspoint.com/javaexamples/index.htm){:target="_blank"} 
         
-    * [Paket java.lang - TutorialsPoint](https://www.tutorialspoint.com/java/lang/index.htm){:target="_blank"} 
+    * [Package java.lang - TutorialsPoint](https://www.tutorialspoint.com/java/lang/index.htm){:target="_blank"} 
 
-    * [Paket java.math - TutorialsPoint](https://www.tutorialspoint.com/java/math/index.htm){:target="_blank"} 
+    * [Package java.math - TutorialsPoint](https://www.tutorialspoint.com/java/math/index.htm){:target="_blank"} 
 
-    * [Paket java.io - TutorialsPoint](https://www.tutorialspoint.com/java/io/index.htm){:target="_blank"} 
+    * [Package java.io - TutorialsPoint](https://www.tutorialspoint.com/java/io/index.htm){:target="_blank"} 
 
-    * [Paket java.util - TutorialsPoint](https://www.tutorialspoint.com/java/util/index.htm){:target="_blank"} 
+    * [Package java.util - TutorialsPoint](https://www.tutorialspoint.com/java/util/index.htm){:target="_blank"} 
 
-    * [GUI programiranje i JavaFX - TutorialsPoint](https://www.tutorialspoint.com/javafx/index.htm){:target="_blank"}     
+    * [GUI programming and JavaFX - TutorialsPoint](https://www.tutorialspoint.com/javafx/index.htm){:target="_blank"}     
 
-    * [Testiranje jedinica JUnit - TutorialsPoint](https://www.tutorialspoint.com/junit/){:target="_blank"} 
+    * [Unit testing with JUnit - TutorialsPoint](https://www.tutorialspoint.com/junit/){:target="_blank"} 
 
-    * [XML i Java - TutorialsPoint](https://www.tutorialspoint.com/java_xml/index.htm){:target="_blank"} 
+    * [XML and Java - TutorialsPoint](https://www.tutorialspoint.com/java_xml/index.htm){:target="_blank"} 
 
-    * [Baze podataka i JDBC - TutorialsPoint](http://www.tutorialspoint.com/jdbc/){:target="_blank"}     
+    * [Databases and JDBC - TutorialsPoint](http://www.tutorialspoint.com/jdbc/){:target="_blank"}     
 
  
 * Razvojna okruženja za Javu
 
     * [IntelliJ IDEA Tutorial - TutorialsPoint](https://www.tutorialspoint.com/intellij_idea/index.htm){:target="_blank"}
 
-    * [Java debager jdb - TutorialsPoint](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} 
+    * [Java debugger jdb - TutorialsPoint](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} 
 
 * Jezik za modeliranje UML
 
@@ -62,4 +62,4 @@ Ovde su postavljene veze prema veb resursima za učenje, koji mogu pomoći pri u
        
     * [UML Tutorial  - TutorialsPoint](http://www.tutorialspoint.com/uml/){:target="_blank"}
 
-[povratak](/README.md)
+[повратак](/README.md)

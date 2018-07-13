@@ -1,19 +1,25 @@
-[povratak](../README.md)
+[повратак](../README.md)
 
-## OOP - Predavanja
+## ООП - Предавања
 
-Ovde su postavljena predavanja iz predmeta **Objektno orjentisano programiranje**.
+Овде су постављена предавања из предмета **Објектно орјентисано програмирање**.
 
-1. Pojam objektno orjentisanog programiranja 
+1. Појам објектно орјентисаног програмирања 
 
-    1. Pojam objekta
+    1. Појам објекта
 
-    1. Objekti i klase
+    1. Објекти и класе
 
-    1. Učaurenje
+    1. Учаурење
 
-    1. Nasleđivanje
+    1. Наслеђивање
 
-1. Programski jezik Java
+1. Програмски језик Јава
 
-[povratak](../README.md)
+    1. Историјат и развој програмског језика и окружења Јава
+
+    1. Карактеристике програмског језика и окружења Јава
+
+    1. Типови Јава апликација
+
+[повратак](../README.md)

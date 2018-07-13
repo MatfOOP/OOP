@@ -1,8 +1,8 @@
-[povratak](/README.md)
+[повратак](/README.md)
 
-## OOP - Instalacije
+## ООП - Инсталације
 
-Ovde su postavljene veze za dovlačenje softvera koji treba instlairati radi uspešnog rada na kursu **Objektno orjentisano programiranje**.
+Овде су постављене везе за довлачење софтвера који треба инстлаирати ради успешног рада на курсу **Објектно орјентисано програмирање**.
 
 * [Java](https://java.com/en/download/){:target="_blank"} 
 
@@ -10,4 +10,4 @@ Ovde su postavljene veze za dovlačenje softvera koji treba instlairati radi usp
 
 * [ArgoUML](http://argouml.tigris.org/){:target="_blank"}
 
-[povratak](/README.md)
+[повратак](/README.md)
