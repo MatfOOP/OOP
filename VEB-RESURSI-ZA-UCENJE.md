@@ -2,7 +2,7 @@
 
 ## OOP - Veb resursi za učenje 
 
-Ovde su postavljene veze prema veb resursima za učenje, koji mogu pomoći pri učenju sadržaja koji se obrađuju na kursu Objektno orjentisano programiranje.
+Ovde su postavljene veze prema veb resursima za učenje, koji mogu pomoći pri učenju sadržaja koji se obrađuju na kursu **Objektno orjentisano programiranje**.
 
 * Knjige i tutorijali za Java jezika i okruženje
 

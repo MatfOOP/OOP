@@ -2,7 +2,7 @@
 
 ## OOP - Predavanja
 
-Ovde su postavljena predavanja iz predmeta Objektno orjentisano programiranje.
+Ovde su postavljena predavanja iz predmeta **Objektno orjentisano programiranje**.
 
 1. Pojam objektno orjentisanog programiranja 
 

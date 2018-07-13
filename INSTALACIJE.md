@@ -2,7 +2,7 @@
 
 ## OOP - Instalacije
 
-Ovde su postavljene veze za dovlačenje softvera koji treba instlairati radi uspešnog rada na kursu Objektno orjentisano programiranje.
+Ovde su postavljene veze za dovlačenje softvera koji treba instlairati radi uspešnog rada na kursu **Objektno orjentisano programiranje**.
 
 * [Java](https://java.com/en/download/){:target="_blank"} 
 

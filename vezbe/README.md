@@ -2,7 +2,7 @@
 
 ## OOP - Vežbe
 
-Ovde su postavljene vežbe iz predmeta Objektno orjentisano programiranje.
+Ovde su postavljene vežbe iz predmeta **Objektno orjentisano programiranje**.
 
 
 [povratak](../README.md)
