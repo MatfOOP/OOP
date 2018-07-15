@@ -1,4 +1,4 @@
-[повратак](/README.md)
+[почетна страна](/README.md)
 
 ## ООП - Инсталације
 
@@ -10,4 +10,4 @@
 
 * [ArgoUML](http://argouml.tigris.org/){:target="_blank"}
 
-[повратак](/README.md)
+[почетна страна](/README.md)

@@ -1,4 +1,4 @@
-[повратак](/README.md)
+[почетна страна](/README.md)
 
 ## ООП - Веб ресурси за учење 
 
@@ -62,4 +62,4 @@
        
     * [UML Tutorial](http://www.tutorialspoint.com/uml/){:target="_blank"}  - TutorialsPoint
 
-[повратак](/README.md)
+[почетна страна](/README.md)
