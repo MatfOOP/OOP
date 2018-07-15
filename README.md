@@ -4,9 +4,9 @@
 
 ## Основне информације
 
-* [План и програм курса](/predavanja/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"} 
+* [План и програм курса](/predavanja/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}  
 
-* [Списак испитних питања](/usmeni-ispit/info/OOPIP2011.pdf){:target="_blank"} 
+* [Списак испитних питања](/usmeni-ispit/info/OOPIP2011.pdf){:target="_blank"}  
 
 ## Структура веб презентације
 
