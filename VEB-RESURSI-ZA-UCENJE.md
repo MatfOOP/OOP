@@ -52,7 +52,7 @@
 
   * [IntelliJ IDEA Tutorial](https://www.tutorialspoint.com/intellij_idea/index.htm){:target="_blank"} - TutorialsPoint
 
-  * [Java debugger jdb](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} - TutorialsPoint 
+  * [Java debugger jdb](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} - TutorialsPoint  
 
 * Jezik za modeliranje UML
 
