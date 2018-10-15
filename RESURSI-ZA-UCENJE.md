@@ -4,7 +4,7 @@
 
 Овде су постављене везе према веб ресурсима за учење, који могу помоћи при учењу садржаја који се обрађују на курсу **Објектно-оријентисано програмирање**.
 
-* Књиге и туторијали за Јава језик и окружење
+* Књиге и упутства за Јава језик и окружење
 
   * Eckel: [Thinking in Java](https://archive.org/details/TIJ4CcR1){:target="_blank"}, 4th edition  
 
@@ -16,7 +16,7 @@
 
   * [Java Tutorial](https://www.tutorialspoint.com/java/index.htm){:target="_blank"} - TutorialsPoint
 
-* Књиге и туторијали за различите верзије Јаве
+* Књиге и упутства за различите верзије Јаве
 
   * Davis: [What's New in Java 8](https://leanpub.com/whatsnewinjava8/read){:target="_blank"}  
 
