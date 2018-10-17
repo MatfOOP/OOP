@@ -48,16 +48,27 @@
 
   * [Databases and JDBC](http://www.tutorialspoint.com/jdbc/){:target="_blank"} - TutorialsPoint
 
-* Razvojna okruženja za Javu
+* Развојна окружења за Јаву
 
   * [IntelliJ IDEA Tutorial](https://www.tutorialspoint.com/intellij_idea/index.htm){:target="_blank"} - TutorialsPoint
 
   * [Java debugger jdb](https://www.tutorialspoint.com/jdb/index.htm){:target="_blank"} - TutorialsPoint  
 
-* Jezik za modeliranje UML
+  * Видео упутства за рад са `JavaFX` у развојномм окружењеу `Eclipse`
+
+    * [Особине JavaFX](https://www.youtube.com/watch?v=Y-c978bikns&index=4&t=0s&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B){:target="_blank"}
+
+    * [JavaFX - Паскалов троугао - подешавање сцене програмским кодом](https://www.youtube.com/watch?v=TMaE7L9aaLU&index=5&t=0s&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B){:target="_blank"}
+
+    * [JavaFX - Паскалов троугао - подешавање сцене помоћу JavaFX Scene Builder](https://www.youtube.com/watch?v=TMaE7L9aaLU&index=5&t=0s&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B){:target="_blank"}
+
+    * [Подешавање JAR за JavaFX](https://www.youtube.com/watch?v=QMD0JHiz6PQ&index=2&t=0s&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B){:target="_blank"}
+
+* Језик за моделирање UML
 
   * [UML Tutorial](https://www.sparxsystems.com/resources/uml2_tutorial/index.html){:target="_blank"}  - Sparx Systems
 
   * [UML Tutorial](http://www.tutorialspoint.com/uml/){:target="_blank"}  - TutorialsPoint
+
 
 [почетна страна](/README.md)

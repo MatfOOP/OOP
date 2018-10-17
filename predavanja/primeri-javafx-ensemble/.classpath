@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/antlr"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/checkstyle"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/deployment"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javafx-checkstyle"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/media"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/webkit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jfxrt"/>
+	<classpathentry kind="lib" path="lib/lucene-core-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-grouping-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Oracle/JavaFX 2.0 SDK/rt/lib/jfxrt.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
