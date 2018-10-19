@@ -1,0 +1,7 @@
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\classes\debug
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-5326409a383e6ac05f1e640b4d1e4b43f0ce85bf.jar
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\classes-5a3c2ae612a7c106b19910340038950a75a63295.jar
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\classes-9a0ad5e5f216e5f18990e7d5bb11dc75fb948994.jar
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-f7491b6cc8e23ec1fdd80337c32cddd84263aba8.jar
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\classes-e00253225471ec82ba56452690da83091ada21dd.jar
+C:\Prog\ProjectsAndroid\ActionBarCompat-Basic\Application\build\intermediates\pre-dexed\debug\classes-f9397cc6f92865df646d34747da7f1675ce7b072.jar
