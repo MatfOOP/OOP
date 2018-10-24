@@ -37,4 +37,3 @@
   *[Лука Живановић](http://poincare.matf.bg.ac.rs/~luka_zivanovic/){:target="_blank"}*
 
 [почетна страна](../README.md)  
-
