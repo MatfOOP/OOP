@@ -2,18 +2,20 @@
 
 Ова веб презентација садржи материјале за курс ООП на основним студијама Математичког факултета Универзитета у Београду.
 
-## Основне информације
+## Информације о курсу
 
-* [План и програм курса](/predavanja/info/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}  
+* **[Основне информације](/informacije/README.md)**
 
-* [Списак испитних питања](/usmeni-ispiti/info/OOPIP2011.pdf){:target="_blank"}  
+[comment]: # (** [Списак испитних питања](/usmeni-ispiti/info/OOPIP2011.pdf){:target="_blank"}  **)
 
-## Структура веб презентације
+* **[Инсталације](/INSTALACIJE.md)**
+
+* **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
+
+## Настава
 
 * **[Предавања](/predavanja/README.md)**
 
 * **[Вежбе](/vezbe/README.md)**
 
-* **[Инсталације](/INSTALACIJE.md)**
-
-* **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
+## Колоквијуми и испити
