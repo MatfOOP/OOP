@@ -751,8 +751,8 @@
 
     * [Примери Јава кода са предавања](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java){:target="_blank"}
 
-    * Хорстман, Корнел: [Примери из књиге "Java"](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horstman){:target="_blank"}
+    * [Примери из књиге "Java", аутори Хорстман, Корнел](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horstman){:target="_blank"}
 
-    * Хортон: [Примери из књиге "Java"](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
+    * [Примери из књиге "Java", аутор Хортон](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
 
 [ООП](../README.md)
