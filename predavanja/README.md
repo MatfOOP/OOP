@@ -1,7 +1,7 @@
 
-# ООП - Предавања
+# Предавања -- Објектно-оријентисано програмирање @ Математички факултет
 
-[почетна страна](../README.md)
+[ООП](../README.md)
 
 Овде су постављена предавања из предмета **Објектно-оријентисано програмирање**.
 
@@ -747,4 +747,12 @@
 
             1. Повезивање и анимација  
 
-[почетна страна](../README.md)
+* Примери Јава програмског кода
+
+    * [Примери Јава кода са предавања](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java){:target="_blank"}
+
+    * Хорстман, Корнел: [Примери из књиге "Java"](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horstman){:target="_blank"}
+
+    * Хортон: [Примери из књиге "Java"](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
+
+[ООП](../README.md)
