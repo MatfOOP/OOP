@@ -20,6 +20,8 @@
 
   * **[Званичан план и програм курса](P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
+  * **[Начин реализације курса](../predavanja/prezentacije/OOP00-Koncepcija kursa.pdf){:target="_blank"}**
+
 * Термини за консултације у академској 2018/19 години
 
 * Аутори веб страна курса
