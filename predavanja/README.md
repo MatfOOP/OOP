@@ -111,7 +111,7 @@
 
         1. Хијерархија наслеђивања у Јави, класа Object
 
-1. Граматика језика Јава
+1. [Граматика језика Јава](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
 
     1. Језици за опис конструкција језика Јава
 
@@ -137,7 +137,7 @@
 
         1. Белине
 
-    1. Типови података у Јави
+    1. [Типови података у Јави](/prezentacije/OOP05-Tipovi podataka u Javi.pdf){:target="_blank"}
 
         1. Примитивни тип
 
@@ -159,7 +159,7 @@
 
             1. Наслеђивае класа, примерци надкласе и подкласе
 
-    1. Променљиве  
+    1. [Променљиве](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  
 
         1. Променљиве примерка, класне променљиве, локалне променљиве
 
@@ -181,7 +181,7 @@
 
             1. Оператори: арност, асоцијативност, приоритет
 
-        1. Наредбе гранања
+        1. [Наредбе гранања](/prezentacije/OOP07-Upravljacke stukture u Javi.pdf){:target="_blank"}
 
             1. Непотпуна наредба `if`
 
@@ -201,7 +201,7 @@
 
             1. Наредба `continue` и циклуси
 
-1. Низови у Јави
+1. [Низови у Јави](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"}
 
     1. Декларација и иницијализација низа
 
@@ -213,7 +213,7 @@
 
     1. Вишедимензионални низ
 
-1. Класе, поља, методи и објекти у Јави
+1. [Класе, поља, методи и објекти у Јави](/prezentacije/OOP09-Klase i objekti u Javi.pdf){:target="_blank"}
 
     1. Дефиниција класе у Јави
 
@@ -287,7 +287,7 @@
 
     1. Улазна тачка програма, метод `main`
 
-    1. Модификатори  
+    1. [Модификатори](/prezentacije/OOP10-Modifikatori.pdf){:target="_blank"}  
 
         1. Модификатори за контролу видљивости, тј. приступа  
 
@@ -335,7 +335,7 @@
 
         1. Увоз класних метода,  наредба `import static`
 
-    1. Апстрактне класе
+    1. [Апстрактне класе](/prezentacije/OOP11-Apstraktne klase i interfejsi.pdf){:target="_blank"}
 
         1. Дефинисање апстрактне класе
 
@@ -375,7 +375,7 @@
 
         1. Принципи SOLID
 
-1. Угњеждене и унутрашње класе
+1. [Угњеждене и унутрашње класе](/prezentacije/OOP12-Sopstveni paketi, unutrasnje klase.pdf){:target="_blank"}
 
     1. Угњеждене класе
 
@@ -389,7 +389,7 @@
 
     1. Анонимне класе
 
-1. Изузеци и тврдње
+1. [Изузеци и тврдње](/prezentacije/OOP13-Izuzeci.pdf){:target="_blank"}
 
     1. Изузеци у Јави
 
@@ -415,7 +415,7 @@
 
     1. Тврдње
 
-1. Енумерисани типови
+1. [Енумерисани типови](/prezentacije/OOP14-Enumerisani i genericki tipovi.pdf){:target="_blank"}
 
 1. Генерички типови
 
@@ -437,7 +437,7 @@
 
     1. Генериции и наслеђивање
 
-1. Рефлексија
+1. [Рефлексија](/prezentacije/OOP15-Refleksija i anotacija.pdf){:target="_blank"}
 
     1. Класе за рефлексију
 
@@ -479,7 +479,7 @@
 
     1. Испитивање забелешки помоћу рефлексије  
 
-1. Колекције i каталози
+1. [Колекције i каталози](/prezentacije/OOP16-Kolekcije.pdf){:target="_blank"}
 
     1. Интерфејс и имплементација
 
@@ -547,7 +547,7 @@
 
         1. Аострактне колекцијске класе, креирање нових колекција
 
-1. Улаз и излаз
+1. [Улаз и излаз](/prezentacije/OOP17-Ulaz i izlaz, serijalizacija.pdf){:target="_blank"}
 
     1. Токови, читачи и писачи
 
@@ -583,7 +583,7 @@
 
     1. XML серијализација и десеријализација
 
-1. Елементи функционалног профрамирања у Јави
+1. [Елементи функционалног програмирања у Јави](/prezentacije/OOP18-Lambda izrazi.pdf){:target="_blank"}
 
     1. Ламбда изрази за функцијске објекте
 
@@ -749,10 +749,10 @@
 
 * Примери Јава програмског кода
 
-    * [Примери Јава кода са предавања](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java){:target="_blank"}
+  * [Примери Јава кода са предавања](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java){:target="_blank"}
 
-    * [Примери из књиге "Java", аутори Хорстман, Корнел](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horstman){:target="_blank"}
+  * [Примери из књиге "Java", аутори Хорстман, Корнел](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horstman){:target="_blank"}
 
-    * [Примери из књиге "Java", аутор Хортон](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
+  * [Примери из књиге "Java", аутор Хортон](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
 
 [ООП](../README.md)
