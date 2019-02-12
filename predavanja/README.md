@@ -479,7 +479,7 @@
 
     1. Испитивање забелешки помоћу рефлексије  
 
-1. [Колекције i каталози](/prezentacije/OOP16-Kolekcije.pdf){:target="_blank"}
+1. [Колекције и каталози](/prezentacije/OOP16-Kolekcije.pdf){:target="_blank"}
 
     1. Интерфејс и имплементација
 
