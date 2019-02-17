@@ -48,8 +48,8 @@
 
   *[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}*
 
-  *[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}**
+  *[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}*
 
-  *[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}**
+  *[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}*
 
 [ООП](../README.md)  
