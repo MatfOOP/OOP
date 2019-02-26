@@ -2,7 +2,7 @@
 
 [ООП](../README.md)
 
-* Наставници и асистенти  
+## Наставници и асистенти  
 
   * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
 
@@ -14,17 +14,29 @@
 
   * Асистент: **[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}**
 
-  * Асистент: **[Лука Живановић](http://poincare.matf.bg.ac.rs/~luka_zivanovic/){:target="_blank"}**
+  * Асистент: **[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}**
 
-* План и програм курса
+  * Асистент: **[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}**
+
+## План и програм курса
 
   * **[Званичан план и програм курса](P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
   * **[Начин реализације курса](../predavanja/prezentacije/OOP00-Koncepcija kursa.pdf){:target="_blank"}**
 
-* Термини за консултације у академској 2018/19 години
+## Термини за консултације у академској 2018/19 години
 
-* Аутори веб страна курса
+* Биљана Стојановић: понедељком од 10 до 12 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+* Немања Мићовић: понедељком од 13 до 14 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+* Ања Букуров: понедељком и средом од 16 до 17 часова (Јагићева, кабинет поред учионице 4). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+* Иван Ристовић: петком од 13 до 14 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+* Растко Ђорђевић: понедељком од 15 до 17 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+## Аутори веб страна курса
 
   *[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}*
 
@@ -36,6 +48,8 @@
 
   *[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}*
 
-  *[Лука Живановић](http://poincare.matf.bg.ac.rs/~luka_zivanovic/){:target="_blank"}*
+  *[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}*
+
+  *[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}*
 
 [ООП](../README.md)  
