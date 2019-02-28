@@ -29,6 +29,7 @@
     *  [Математика](./primeri-java/01.uvod/src/primeri/Primer10Math.java){:target="_blank"} 
 
     *  [Пројекат са свим кодовима](./primeri-java/01.uvod.zip)
+
     *  [Домаћи](./domaci/01.txt)
 
 
@@ -79,14 +80,19 @@
        * [Поређење `String` и `StringBuilder`](./primeri-java/02.nizovi.matrice.stringovi/src/d_stringovi/Primer11StringVSStringBuilder.java){:target="_blank"}
 
     1. [Пројекат са свим кодовима](./primeri-java/02.nizovi.matrice.stringovi.zip)
+
     2. Домаћи: [низови](./domaci/02_nizovi.txt), [ниске](./domaci/02_stringovi.pdf)
+
 
 3. [Објектно-оријентисано програмирање](./prezentacije/03.oop.pdf){:target="_blank"}
    1. Класа `Student` : поља, конструктор, `get` и `set` методе, метод `toString`, `this`
+
    2. Побољшање класе `Student`: увођење валидација, приватни методи
+
    3. Класа `Tacka`: подразумевани и стандардни конструктор, поређење објеката
    
    4. [Пројекат са свим кодовима](./primeri-java/03.oop.zip)
+
    5. [Домаћи](./domaci/03_oop.pdf)
 ---
 
