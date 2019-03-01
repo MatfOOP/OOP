@@ -1,0 +1,74 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PowerCalc",
+            "request": "launch",
+            "mainClass": "v05.v06Rekurzija.PowerCalc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sketcher",
+            "request": "launch",
+            "mainClass": "v20.Sketcher.v02CuvanjeSkice.Sketcher"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sketcher",
+            "request": "launch",
+            "mainClass": "v19.Sketcher.v00Pocetak.Sketcher"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sketcher",
+            "request": "launch",
+            "mainClass": "v20.Sketcher.v03StampanjeSkice.Sketcher"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreatingShapes",
+            "request": "launch",
+            "mainClass": "rs.ac.bg.matf.oop_p.p1706.oblici.CreatingShapes"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Krug",
+            "request": "launch",
+            "mainClass": "rs.ac.bg.matf.oop_p.p1703.krug.Krug"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ponavljanje",
+            "request": "launch",
+            "mainClass": "rs.ac.bg.matf.oop_p.p1804.tekstovnoPolje.Ponavljanje"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Krug",
+            "request": "launch",
+            "mainClass": "rs.ac.bg.matf.oop_p.p1701.krug.Krug"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - V05TryInitializationNonStatic",
+            "request": "launch",
+            "mainClass": "v05.v03Initalizacija.V05TryInitializationNonStatic"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prvi",
+            "request": "launch",
+            "mainClass": "Prvi"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
