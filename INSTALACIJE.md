@@ -5,6 +5,8 @@
 Овде су постављене везе за довлачење софтвера који треба инсталирати ради успешног рада на курсу **Објектно-оријентисано програмирање**.
 
 * [Java](https://java.com/en/download/){:target="_blank"}  
+  
+  * Додатак: [Упутство за подешавање JDK-a](./Uputstvo.JDK.instalacija.pdf){:target="_blank"}
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/){:target="_blank"}
 
