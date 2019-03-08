@@ -1,7 +1,8 @@
-/**
- * Програм (у виду конзолне апликације) за одређивање највећег заједничког делиоца за три броја.
- * Програмски код је организован као монолитна целина, у духу императвног програмирања.
- * Коришћена је обележена break наредба за имитирање наредбе безусловног скока.
+/*
+  Програм (у виду конзолне апликације) за одређивање највећег заједничког 
+  делиоца за три броја.
+  Програмски код је организован као монолитна целина, у духу императвног програмирања.
+  Коришћена је обележена break наредба за имитирање наредбе безусловног скока.
  */
 package rs.math.oop1.pr.p010201.paradigme.z01.imperativnoNzd;
 
@@ -10,7 +11,7 @@ class PokreniImperativnoNzd {
     // улазна тачка програма
     public static void main(String[] args) {
         // бројеви чији се НЗД тражи
-        int prviBroj = 48;
+        int prviBroj = 48;  
         int drugiBroj = 120;
         int treciBroj = 56;
 
@@ -19,9 +20,10 @@ class PokreniImperativnoNzd {
         System.out.println("Други број је " + drugiBroj);
         System.out.println("Трећи број је " + treciBroj);
 
+        Object o;
+
         // одређивање НЗД за први и други број
-        nzdPrviDrugi:
-        for (; ; ) {
+        nzdPrviDrugi: for (;;) {
             if (prviBroj == drugiBroj)
                 break nzdPrviDrugi;
             // размени бројеве тако да други број буде већи од првог
@@ -35,8 +37,7 @@ class PokreniImperativnoNzd {
         }
 
         // одређивање НЗД за НЗД прва два броја и трећи број
-        nzdNadPrvaDvaTreci:
-        for (; ; ) {
+        nzdNadPrvaDvaTreci: for (;;) {
             // ако су бројеви исти, НЗД је ма који од њих
             if (prviBroj == treciBroj)
                 break nzdNadPrvaDvaTreci;
@@ -47,7 +48,7 @@ class PokreniImperativnoNzd {
                 treciBroj = privremeni;
             }
             // ако мањи број дели већи број, тада је мањи број НЗД
-            if( treciBroj % prviBroj == 0 )
+            if (treciBroj % prviBroj == 0)
                 break nzdNadPrvaDvaTreci;
             // "преживљавају" мањи од два броја и остатак при дељењу између већег и мењег
             treciBroj = treciBroj % prviBroj;
