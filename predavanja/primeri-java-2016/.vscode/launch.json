@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SkolstvoRun2",
+            "request": "launch",
+            "mainClass": "SkolstvoRun2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SkolstvoRun",
+            "request": "launch",
+            "mainClass": "SkolstvoRun"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Srednjoskolac",
+            "request": "launch",
+            "mainClass": "Srednjoskolac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ucenik",
+            "request": "launch",
+            "mainClass": "Ucenik"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZdravoSvete",
+            "request": "launch",
+            "mainClass": "ZdravoSvete"
+        }
+    ]
+}

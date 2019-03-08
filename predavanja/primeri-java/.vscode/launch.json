@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PokreniModularnoNzdNzs",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.pr.p010201.paradigme.z03.modularnoNzdNzs.PokreniModularnoNzdNzs"
+        }
+    ]
+}
