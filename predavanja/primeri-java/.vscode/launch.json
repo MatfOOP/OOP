@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PokretanjeZamenaParametaraPriPozivu",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p060402.pozivanjeMetoda.z02.supstitucijaNizovniTip.PokretanjeZamenaParametaraPriPozivu"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PrikazNiza",
             "request": "launch",
             "mainClass": "rs.math.oop1.zd.p050301.kolekcijskiForZaNiz.z01.prikazNiza.PrikazNiza"

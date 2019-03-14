@@ -1,24 +1,23 @@
 package rs.math.oop1.zd.p060101.definicijaKlase.z02.zaposleni;
 
-class Employee {
-    String name;
-    double salary;
+class Zaposleni {
+    String imePrezime;
+    double plata;
 }
 
 public class PokretanjeZaposleni {
     public static void main(String[] args) {
         // fill the staff array with three Employee objects
-        Employee e = new Employee();
-        e.name = "Carl Cracker";
-        e.salary = 75000;
+        Zaposleni e = new Zaposleni();
+        e.imePrezime = "Carl Cracker";
+        e.plata = 75000;
 
-        System.out.println("Initially");
-        System.out.println("name=" + e.name + ",salary=" + e.salary);
-
+        System.out.println("Inicijalno");
+        System.out.println("ime i prezime=" + e.name + ", plata=" + e.salary);
 
         e.salary += 5000;
 
-        System.out.println("After salary raise");
-        System.out.println("name=" + e.name + ",salary=" + e.salary);
+        System.out.println("Posle povisice");
+        System.out.println("ime i prezime=" + e.name + ", plata=" + e.salary);
     }
 }

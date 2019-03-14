@@ -99,6 +99,19 @@ public class RadSaMatricama {
         return b;
     }
 
+    static void transponuj2(double[][] a) {
+        for (int i = 1; i < a.length; i++)
+            if (a[i].length != a[0].length)
+                return null;
+        for (int i = 0; i < a.length; i++)
+            for (int j = 0; j < a[i].length; j++)
+            {
+                double temp = a[i][j]
+                a[i][j] = a[j][i];
+                a[j][i] = temp;
+            }
+    }
+
     static boolean jeKvadratna(double[][] a) {
         for (int i = 0; i < a.length; i++)
             if (a.length != a[i].length)

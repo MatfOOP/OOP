@@ -31,14 +31,19 @@ class Matrica {
       mat[vrsta][kolona] = vrednost;
    }
 
+   boolean jeKorektnaPomocno(double[][] m)
+   {
+      int num = m[0].length;
+      for (int i = 0; i < m.length; i++)
+         if (m[i].length != num)
+            return false;
+      return true;
+   }
+   
    boolean jeKorektna() {
       if (mat == null)
          return true;
-      int num = mat[0].length;
-      for (int i = 0; i < mat.length; i++)
-         if (mat[i].length != num)
-            return false;
-      return true;
+      return jeKorektnaPomocno(mat);
    }
 
    void init(int m, int n) {
@@ -53,11 +58,21 @@ class Matrica {
    }
 
    void init(double[][] a) {
-      mat = a;
-      if (!jeKorektna())
+      if( ! jeKorektnaPomocno(a) )
+      {
          mat = null;
+         return;
+      }
+      mat = new double[a.length][a[0].length];
+      for( int i=0; i<mat.length; i++)
+         for( int j=0; j<mat[i].length; j++)
+            mat[i][j] = a[i][j];
    }
 
+   void init(Matrica a) {
+      init( a.mat );
+   }
+ 
    void prikazi() {
       if (mat == null) {
          System.out.println("GRESKA!");

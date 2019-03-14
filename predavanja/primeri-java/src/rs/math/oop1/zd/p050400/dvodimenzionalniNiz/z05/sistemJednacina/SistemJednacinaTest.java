@@ -31,7 +31,7 @@ public class SistemJednacinaTest
 	
 	static void prikazi( double[][] a, double[] b )
 	{
-		System.out.println( "Elementi kvadratne matrice su" );
+		System.out.println( "Sistem jednacina je" );
 		for (int i = 0; i < a.length; i++)
 		{
 			for (int j = 0; j < a[i].length; j++)

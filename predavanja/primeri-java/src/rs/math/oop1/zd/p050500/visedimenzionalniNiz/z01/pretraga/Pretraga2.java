@@ -17,13 +17,16 @@ public class Pretraga2 {
                         { 45, 56 } } };
       int x = 19; // Broj koji se traži
       boolean pronadjen = false;
-      najspoljasnija: for (int[][] dvoDim : p)
+      najspoljasnija: 
+      for (int[][] dvoDim : p){
+         u_sredini:
          for (int[] jednoDim : dvoDim)
             for (int elem : jednoDim)
                if (elem == x) {
                   pronadjen = true;
                   break najspoljasnija;
                }
+      }
       if (pronadjen)
          System.out.println("Pronadjen");
       else

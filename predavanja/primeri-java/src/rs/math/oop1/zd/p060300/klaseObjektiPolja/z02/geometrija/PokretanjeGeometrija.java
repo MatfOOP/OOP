@@ -17,7 +17,7 @@ public class PokretanjeGeometrija {
    public static void main(String[] args) {
       Tacka a = new Tacka();
       a.init("A", 2, 3);
-
+   
       Tacka o = new Tacka();
       o.init("O", 0, 0);
 

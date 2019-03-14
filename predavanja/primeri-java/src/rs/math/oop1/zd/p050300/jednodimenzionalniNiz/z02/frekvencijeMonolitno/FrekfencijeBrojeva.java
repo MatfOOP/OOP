@@ -1,6 +1,7 @@
 /*
 
-Написати Јава програм који пребројава елементе у низу бројева из интервала 1-10
+Написати Јава програм који пребројава елементе у низу бројева из интервала 
+који није унапред задат
 и приказује их у бројчаном облику и у облику хистограма.
   
 Програм је реализован као један метод main.
@@ -43,13 +44,13 @@ public class FrekfencijeBrojeva {
       System.out.println(
                "\nBroj pojava (numericki prikaz):");
       for (int i = 0; i < brojPojava.length; i++)
-         System.out.printf("%d:%d %s", (i + 1),
+         System.out.printf("%d:%d %s", (i + donjaGranica),
                   brojPojava[i],
                   ((i + 1) % 8 == 0) ? "\n" : "\t");
       // histogram
       System.out.println("\nBroj pojava (histogram):");
       for (int i = 0; i < brojPojava.length; i++) {
-         System.out.printf("%3d:", i + 1);
+         System.out.printf("%3d:", i + donjaGranica);
          for (int j = 0; j < brojPojava[i]; j++)
             System.out.print("#");
          System.out.println();
