@@ -117,7 +117,7 @@
 
    3. Допуна хијерархије израза: апстрактни метод за прављење копија објеката
 
-   4. [Пројекат са свим кодовима](./primeri-java/05.polimorfizam.zip) 
+   4. [Пројекат са свим кодовима](./primeri-java/05.apstraktne.polimorfizam.zip){:target="_blank"}  
 
 
 
