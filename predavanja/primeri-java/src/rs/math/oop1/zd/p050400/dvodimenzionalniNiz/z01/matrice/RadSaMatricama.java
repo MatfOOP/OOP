@@ -38,13 +38,13 @@ public class RadSaMatricama {
     }
 
     static double[][] saberi(double[][] a, double[][] b) {
+        for (int i = 1; i < a.length; i++)
+            if (a[i].length != a[0].length)
+                return null;
         if (a.length != b.length)
             return null;
         for (int i = 0; i < a.length; i++)
             if (a[i].length != b[i].length)
-                return null;
-        for (int i = 1; i < a.length; i++)
-            if (a[i].length != a[0].length)
                 return null;
         double[][] c = new double[a.length][a[0].length];
         for (int i = 0; i < c.length; i++)
@@ -99,19 +99,6 @@ public class RadSaMatricama {
         return b;
     }
 
-    static void transponuj2(double[][] a) {
-        for (int i = 1; i < a.length; i++)
-            if (a[i].length != a[0].length)
-                return null;
-        for (int i = 0; i < a.length; i++)
-            for (int j = 0; j < a[i].length; j++)
-            {
-                double temp = a[i][j]
-                a[i][j] = a[j][i];
-                a[j][i] = temp;
-            }
-    }
-
     static boolean jeKvadratna(double[][] a) {
         for (int i = 0; i < a.length; i++)
             if (a.length != a[i].length)
@@ -119,8 +106,7 @@ public class RadSaMatricama {
         return true;
     }
 
-    static double[][] iskljuci(double[][] a, int vrsta,
-                               int kolona) {
+    static double[][] iskljuci(double[][] a, int vrsta, int kolona) {
         int n = a.length;
         double[][] mat = new double[n - 1][n - 1];
         for (int i = 0; i < vrsta; i++)
@@ -147,56 +133,44 @@ public class RadSaMatricama {
         double det = 0;
         double znak = 1;
         for (int j = 0; j < n; j++) {
-            det += znak * a[0][j]
-                    * determinanta(iskljuci(a, 0, j));
+            det += znak * a[0][j] * determinanta(iskljuci(a, 0, j));
             znak = -znak;
         }
         return det;
     }
 
     public static void main(String[] args) {
-        double[][] aaaa =
-                {
-                        {1.5, 2, 3},
-                        {4, 5, 6}};
-        prikazi2(aaaa);
-        double[][] aa = transponuj(aaaa);
-        prikazi2(aa);
-        //      double[][] a =
-        //      {
-        //               { 1.5, 2, 3 },
-        //               { 4, 5, 6 } };
-        //      System.out.println("A je: ");
-        //      prikazi2(a);
-        //      double[][] b =
-        //      {
-        //               { 2, 3, 4 },
-        //               { 5, 6.6, 7 } };
-        //      System.out.println("B je: ");
-        //      prikazi(b);
-        //      System.out.println("A+B je: ");
-        //      prikazi2(saberi(a, b));
-        //      System.out.println("A-B je: ");
-        //      prikazi2(oduzmi(a, b));
-        //      System.out.println("A je: ");
-        //      a[1][0] = 0.5;
-        //      prikazi2(a);
-        //      double[][] c =
-        //      {
-        //               { 2, 1.5 },
-        //               { 3, 0 },
-        //               { -1.5, 1 } };
-        //      System.out.println("C je: ");
-        //      prikazi(c);
-        //      System.out.println("A*C je: ");
-        //      double[][] d = pomnozi(a, c);
-        //      prikazi(d);
-        //      if (jeKvadratna(d))
-        //         System.out.println("Determinanta matrice A*C je: "
-        //                  + determinanta(d));
-        //      else
-        //         System.out.println(
-        //                  "Matrica A*C nije kvadratna, pa se ne moze odrediti njena determinanta");
-        //
+        // double[][] aaaa = { { 1.5, 2, 3 }, { 4, 5, 6 } };
+        // prikazi(aaaa);
+        // prikazi2(aaaa);
+        // double[][] aa = transponuj(aaaa);
+        // prikazi2(aa);
+        double[][] a = { { 1.5, 2, 3 }, { 4, 5, 6 } };
+        System.out.println("A je: ");
+        prikazi2(a);
+        double[][] b = { { 2, 3, 4 }, { 5, 6.6, 7 } };
+        System.out.println("B je: ");
+        prikazi(b);
+        System.out.println("A+B je: ");
+        prikazi2(saberi(a, b));
+        System.out.println("A-B je: ");
+        prikazi2(oduzmi(a, b));
+        // System.out.println("A je: ");
+        // a[1][0] = 0.5;
+        // prikazi2(a);
+        double[][] c = { { 2, 1.5 }, { 3, 0 }, { -1.5, 1 } };
+        System.out.println("C je: ");
+        prikazi(c);
+        System.out.println("A*C je: ");
+        double[][] d = pomnozi(a, c);
+        prikazi(d);
+        System.out.println("C*A je: ");
+        d = pomnozi(c, a);
+        prikazi(d);
+        if (jeKvadratna(d))
+             System.out.println("Determinanta matrice C*A je: " + determinanta(d));
+        else
+             System.out.println("Matrica C*A nije kvadratna, pa se ne moze odrediti njena determinanta");
+
     }
 }

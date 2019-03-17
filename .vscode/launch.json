@@ -6,6 +6,66 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PokretanjeFakultet",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p060303.konstantnaPolja.z01.fakultet.PokretanjeFakultet"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PokretanjeFakultet",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p060300.klaseObjektiPolja.z01.fakultet.PokretanjeFakultet"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SistemJednacinaTest",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z05.sistemJednacina.SistemJednacinaTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z04.binomniKoeficijentiDinamickoProgramiranje.RadSaPaskalovimTrouglom"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z03.binomniKoeficijentiRekurzivno.RadSaPaskalovimTrouglom"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z02.binomniKoeficijentiPoDefiniciji.RadSaPaskalovimTrouglom"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadSaMatricama",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z01.matrice.RadSaMatricama"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OkretanjeneNizaPrekoSteka",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050300.jednodimenzionalniNiz.z05.okretanjeNizaStek.OkretanjeneNizaPrekoSteka"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FrekfencijeBrojeva",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050300.jednodimenzionalniNiz.z02.frekvencijeMonolitno.FrekfencijeBrojeva"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlokacijaNiza",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050300.jednodimenzionalniNiz.z01.alokacijaNiza.AlokacijaNiza"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PowerCalc",
             "request": "launch",
             "mainClass": "v05.v06Rekurzija.PowerCalc"

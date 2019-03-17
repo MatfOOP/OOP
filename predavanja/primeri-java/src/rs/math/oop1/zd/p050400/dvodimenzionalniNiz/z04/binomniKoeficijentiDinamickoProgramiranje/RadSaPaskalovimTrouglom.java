@@ -33,7 +33,7 @@ public class RadSaPaskalovimTrouglom {
    }
 
    public static void main(String[] args) {
-      int brojVrsta = 33; // 4
+      int brojVrsta = 133; // 4
       // alociraj trougaoni niz
       koeficijenti = new int[brojVrsta + 1][];
       for (int n = 0; n <= brojVrsta; n++)

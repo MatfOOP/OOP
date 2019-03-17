@@ -20,11 +20,13 @@ package rs.math.oop1.zd.p060303.konstantnaPolja.z01.fakultet;
 public class PokretanjeFakultet {
 
    public static void main(String[] args) {
+      Smer.R = "nema smisla";
+      
       String s = "Petar \n Petrovic \n RI \n docent \n da ne da da da";
       java.util.Scanner skener = new java.util.Scanner(s);
       Profesor prof = Profesor.ucitaj(skener, false);
       prof.prikazi();
-      
+
       s = "Ivan \n Ivanovic \n R \n 112 \n 2016 \n 2 \n -1 -1 9 9 6  ";
       skener = new java.util.Scanner(s);
       Student stud = Student.ucitaj(skener, false);

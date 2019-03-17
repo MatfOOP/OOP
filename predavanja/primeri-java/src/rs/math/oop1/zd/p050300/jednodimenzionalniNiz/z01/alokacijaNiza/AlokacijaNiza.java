@@ -2,7 +2,7 @@
   
 Написати Јава програм који омогућује да се оформи низ дате димензије, 
 да сви чланови низа добију унаред задату вредност 
-и да се потом применом колекцијског for циклуса прикажу вредности свих 
+и да се потом применом бројачког for циклуса прикажу вредности свих 
 чланова низа. 
   
 */
@@ -18,12 +18,14 @@ public class AlokacijaNiza {
         double[] niz = new double[n];
         double x = -23.34e1;
         for (int i = 0; i < niz.length; i++)
-            niz[i] = x + i;
+            niz[i] = x + 10 * i;
         System.out.println();
         for (int i = 0; i < niz.length; i++)
             System.out.printf("%8.2f ", niz[i]);
+        
         System.out.println();
         for( double a: niz )
             System.out.printf("%8.2f ", a);
+        
     }
 }
