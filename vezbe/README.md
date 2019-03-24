@@ -117,7 +117,20 @@
 
    3. Допуна хијерархије израза: апстрактни метод за прављење копија објеката
 
-   4. [Пројекат са свим кодовима](./primeri-java/05.apstraktne.polimorfizam.zip){:target="_blank"}  
+   4. [Пројекат са свим кодовима](./primeri-java/05.apstraktne.polimorfizam.zip){:target="_blank"} 
+
+6. Интерфејси
+   1. Имплементација интерфејса `SrpskiJezik` и `EngleskiJezik`.
+   
+   2.  Проширивање хијерархије облика: класа `Duz`, интерфејси `Obim` и `Povrsina`.
+   
+   3. Имплементација интерфејса `Stek`.
+   
+   4. Имплементација интерфејса `Red`. 
+   
+   5. [Пројекат са свим кодовима](./primeri-java/06.interfejsi.zip){:target="_blank"} 
+
+
 
 
 
