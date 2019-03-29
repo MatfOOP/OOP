@@ -8,7 +8,7 @@ class PokreniProbaI2
         // System.out.println(y);
         // byte z = x+y;       
         // System.out.println(z);
-        float x = 3/10f;
+        //float x = 3/10f;
 
     }
 }

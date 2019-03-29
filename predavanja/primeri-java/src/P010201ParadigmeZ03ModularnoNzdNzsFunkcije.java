@@ -1,9 +1,8 @@
 /**
  * Функције за одређивање НЗД за два и за три цела броја.
  */
-package rs.math.oop1.pr.p010201.paradigme.z03.modularnoNzdNzs;
 
-class Funkcije {
+class ModularnoNzdNzsFunkcije {
     // Oдређивање НЗД за два броја
     static int NZD(int prvi, int drugi) {
         while (true)

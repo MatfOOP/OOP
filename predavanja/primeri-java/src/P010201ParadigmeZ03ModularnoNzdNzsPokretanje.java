@@ -3,9 +3,9 @@
  * Програмски код је модуларно организован - реализовано je чување Јава кода у различитим датотекама.
  * Покретање програма је могуће само из датотеке која у себи садржи методу main.
  */
-package rs.math.oop1.pr.p010201.paradigme.z03.modularnoNzdNzs;
 
-class PokreniModularnoNzdNzs {
+
+class PokretanjeModularnoNzdNzs {
 
     // улазна тачка програма
     public static void main(String[] args) {
@@ -20,10 +20,10 @@ class PokreniModularnoNzdNzs {
         System.out.println("Трећи број је " + treciBroj);
 
         // одређивање НЗД за ова три броја
-        int nzd = Funkcije.NZD(prviBroj, drugiBroj, treciBroj);
+        int nzd = ModularnoNzdNzsFunkcije.NZD(prviBroj, drugiBroj, treciBroj);
 
         // одређивање НЗС за ова три броја
-        int nzs = Funkcije.NZS(prviBroj, drugiBroj, treciBroj);
+        int nzs = ModularnoNzdNzsFunkcije.NZS(prviBroj, drugiBroj, treciBroj);
 
         // приказ резултата
         System.out.println("НЗД ова три броја је " + nzd);

@@ -4,7 +4,6 @@
   Програмски код је организован као монолитна целина, у духу императвног програмирања.
   Коришћена је обележена break наредба за имитирање наредбе безусловног скока.
  */
-package rs.math.oop1.pr.p010201.paradigme.z01.imperativnoNzd;
 
 class PokreniImperativnoNzd {
 
@@ -19,8 +18,6 @@ class PokreniImperativnoNzd {
         System.out.println("Први број је " + prviBroj);
         System.out.println("Други број је " + drugiBroj);
         System.out.println("Трећи број је " + treciBroj);
-
-        Object o;
 
         // одређивање НЗД за први и други број
         nzdPrviDrugi: for (;;) {
