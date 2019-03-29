@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p120200.ispitivanjeTipa.z06.analizaObjekta;
+package rs.math.oop1.p120200.ispitivanjeTipa.z06.analizaObjekta;
 
 public class PovezanaLista<T>
 {

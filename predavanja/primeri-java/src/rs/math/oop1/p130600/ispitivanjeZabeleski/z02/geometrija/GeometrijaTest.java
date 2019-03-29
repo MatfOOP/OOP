@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p130600.ispitivanjeZabeleski.z02.geometrija;
+package rs.math.oop1.p130600.ispitivanjeZabeleski.z02.geometrija;
 
 
 public class GeometrijaTest

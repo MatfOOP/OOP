@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p140000.koriscenje.z04.mesanje;
+package rs.math.oop1.p140000.koriscenje.z04.mesanje;
 
 import java.util.*;
 

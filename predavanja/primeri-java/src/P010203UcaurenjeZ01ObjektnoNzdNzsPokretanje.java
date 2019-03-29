@@ -58,7 +58,7 @@ class CeoBroj {
 
 }
 
-class PokreniObjektnoNzdNzs {
+class PokretanjeObjektnoNzdNzs {
 
     // улазна тачка програма
     public static void main(String[] args) {

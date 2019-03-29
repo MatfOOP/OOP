@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p110600.generickiMetod.z03.minMaxString;
+package rs.math.oop1.p110600.generickiMetod.z03.minMaxString;
 
 class ArrayAlg
 {

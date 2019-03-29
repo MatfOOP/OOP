@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p140000.koriscenje.z03.sortiranje;
+package rs.math.oop1.p140000.koriscenje.z03.sortiranje;
 
 import java.util.*;
 

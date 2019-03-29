@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p110600.generickiMetod.z06.minMaxNasledjivanje;
+package rs.math.oop1.p110600.generickiMetod.z06.minMaxNasledjivanje;
 
 public class Pair<T>
 {

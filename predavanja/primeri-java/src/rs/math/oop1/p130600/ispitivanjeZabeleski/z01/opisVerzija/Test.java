@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p130600.ispitivanjeZabeleski.z01.opisVerzija;
+package rs.math.oop1.p130600.ispitivanjeZabeleski.z01.opisVerzija;
 
 import java.lang.reflect.Method;
 

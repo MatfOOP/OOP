@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p120200.ispitivanjeTipa.z05.klasaPolje;
+package rs.math.oop1.p120200.ispitivanjeTipa.z05.klasaPolje;
 
 import java.util.*;
 import java.lang.reflect.*;

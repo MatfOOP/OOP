@@ -10,7 +10,7 @@ class PokretanjeImperativnoNzd {
     // улазна тачка програма
     public static void main(String[] args) {
         // бројеви чији се НЗД тражи
-        int prviBroj = 48;  
+        int prviBroj = 48;
         int drugiBroj = 120;
         int treciBroj = 56;
 
@@ -20,7 +20,8 @@ class PokretanjeImperativnoNzd {
         System.out.println("Трећи број је " + treciBroj);
 
         // одређивање НЗД за први и други број
-        nzdPrviDrugi: for (;;) {
+        nzdPrviDrugi:
+        for (; ; ) {
             if (prviBroj == drugiBroj)
                 break nzdPrviDrugi;
             // размени бројеве тако да други број буде већи од првог
@@ -34,7 +35,8 @@ class PokretanjeImperativnoNzd {
         }
 
         // одређивање НЗД за НЗД прва два броја и трећи број
-        nzdNadPrvaDvaTreci: for (;;) {
+        nzdNadPrvaDvaTreci:
+        for (; ; ) {
             // ако су бројеви исти, НЗД је ма који од њих
             if (prviBroj == treciBroj)
                 break nzdNadPrvaDvaTreci;

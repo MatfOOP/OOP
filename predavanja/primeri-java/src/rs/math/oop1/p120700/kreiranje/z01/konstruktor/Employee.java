@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p120700.kreiranje.z01.konstruktor;
+package rs.math.oop1.p120700.kreiranje.z01.konstruktor;
 
 public class Employee
 {

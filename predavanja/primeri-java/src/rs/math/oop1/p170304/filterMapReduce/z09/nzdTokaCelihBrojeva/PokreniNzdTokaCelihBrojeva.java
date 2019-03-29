@@ -1,4 +1,4 @@
-package rs.math.oop1.pr.p170304.filterMapReduce.z09.nzdTokaCelihBrojeva;
+package rs.math.oop1.p170304.filterMapReduce.z09.nzdTokaCelihBrojeva;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,11 +32,11 @@ public class PokreniNzdTokaCelihBrojeva {
         System.out.println();
         // претвори негативне у позитивне и прикажи резултат
         System.out.print("Колекција позитивних: ");
-        brojevi.stream().map(x -> (x>=0)?x:-x).forEach(z -> System.out.print(z + " "));
+        brojevi.stream().map(x -> (x >= 0) ? x : -x).forEach(z -> System.out.print(z + " "));
         System.out.println();
         // одреди НЗД за ток одговарајућих позитивних
-        final int nzd =  brojevi.stream().map(x -> (x>=0)?x:-x)
-                 .reduce(brojevi.get(0), (x, y) ->  NZD(x,y) );
+        final int nzd = brojevi.stream().map(x -> (x >= 0) ? x : -x)
+                .reduce(brojevi.get(0), (x, y) -> NZD(x, y));
         // прикажи израчунати НЗД
         System.out.println("НЗД колекције је: " + nzd);
     }

@@ -1,7 +1,5 @@
-class PokretanjeProbaI2
-{
-    public static void main(String[] komandnaLinija)
-    {
+class PokretanjeProbaI2 {
+    public static void main(String[] komandnaLinija) {
         // byte x = 100;
         // System.out.println(x);
         // byte y = 28;

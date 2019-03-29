@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p120600.metodPristup.z02.pokazivacNaMetod;
+package rs.math.oop1.p120600.metodPristup.z02.pokazivacNaMetod;
 
 import java.lang.reflect.*;
 

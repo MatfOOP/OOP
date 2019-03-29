@@ -1,4 +1,4 @@
-package rs.math.oop1.zd.p140000.koriscenje.z02.povezanaLista;
+package rs.math.oop1.p140000.koriscenje.z02.povezanaLista;
 
 import java.util.*;
 

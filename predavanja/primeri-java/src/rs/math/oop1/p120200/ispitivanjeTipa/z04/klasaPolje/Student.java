@@ -1,6 +1,6 @@
-package rs.math.oop1.zd.p120200.ispitivanjeTipa.z04.klasaPolje;
+package rs.math.oop1.p120200.ispitivanjeTipa.z04.klasaPolje;
 
-import rs.math.oop1.zd.p110601.genericiKloniranje.z02.kutijaMutabilnost.KloniraSe;
+import rs.math.oop1.p110601.genericiKloniranje.z02.kutijaMutabilnost.KloniraSe;
 
 public class Student implements KloniraSe<Student>
 {
