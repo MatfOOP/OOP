@@ -5,9 +5,18 @@
  * Покретање програма је могуће само из датотеке која у себи садржи методу main.
  **/
 
-package rs.math.oop1.pr.p020202.objektiKlase.z01studenti;
+class Student {
+    String ime;
+    int brojIndeksa;
+    int godinaUpisa;
 
-public class PokretanjeStudent {
+    void stampajPodatke() {
+        System.out.println("Ime studenta je: " + ime
+                + ". Broj indeksa je " + brojIndeksa + "/" + godinaUpisa + ".");
+    }
+}
+
+class PokretanjeStudent {
 
     // улазна тачка програма
     public static void main(String[] args) {

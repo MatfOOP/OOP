@@ -12,7 +12,6 @@ package rs.math.oop1.zd.p060801.modifikatoriPristupa.z05.stekPrekoJednostrukoPov
 
 public class StekNiski {
 
-
     private JednostukoPovezanaLista sadrzaj = new JednostukoPovezanaLista();
 
     public void push(String elem) {

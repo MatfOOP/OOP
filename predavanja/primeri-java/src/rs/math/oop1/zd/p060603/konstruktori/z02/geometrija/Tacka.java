@@ -18,6 +18,18 @@ public class Tacka {
       oznaka = o;
    }
 
+   public Tacka(String o) {
+      this(o, 42, 42);
+   }
+
+   public Tacka(double xKoord, double yKoord) {
+      this("X", xKoord, yKoord);
+   }
+
+   public Tacka() {
+      this("O", 0, 0);
+   }
+
    public String getOznaka() {
       return oznaka;
    }
@@ -35,8 +47,7 @@ public class Tacka {
    }
 
    public double rastojanje(Tacka t) {
-      return (Math.sqrt(Math.pow(t.x - x, 2)
-               + Math.pow(t.y - y, 2)));
+      return (Math.sqrt(Math.pow(t.x - x, 2) + Math.pow(t.y - y, 2)));
    }
 
 }

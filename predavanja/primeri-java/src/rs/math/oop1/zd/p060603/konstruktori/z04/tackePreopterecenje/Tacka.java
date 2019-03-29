@@ -1,36 +1,30 @@
 package rs.math.oop1.zd.p060603.konstruktori.z04.tackePreopterecenje;
 
-public class Tacka 
-{
+public class Tacka {
    int x;
    int y;
    String oznaka;
-   
-   Tacka(int xKoord, int yKoord, String o)
-   {
-	   x = xKoord;
-	   y = yKoord;
-	   oznaka = o;
-   }
-   
-   Tacka( String o )
-   {
-	   this(0,0,o);
+
+   Tacka(int xKoord, int yKoord, String o) {
+      x = xKoord;
+      y = yKoord;
+      oznaka = o;
    }
 
-   Tacka()
-   {
-	   this(0,0,"Ishodiste");
+   Tacka(String o) {
+      this(0, 0, o);
    }
 
-   void prikaziSe()
-   {
-	   System.out.print(oznaka + ":(" + x + "," + y + ")" ); 
+   Tacka() {
+      this(0, 0, "Ishodiste");
    }
-   
-   double rastojanje(Tacka drugaTacka)
-   {
-  	 return Math.max( Math.abs(x - drugaTacka.x), Math.abs( y - drugaTacka.y ) );
+
+   void prikaziSe() {
+      System.out.print(oznaka + ":(" + x + "," + y + ")");
+   }
+
+   double rastojanje(Tacka drugaTacka) {
+      return Math.max(Math.abs(x - drugaTacka.x), Math.abs(y - drugaTacka.y));
    }
 
 }

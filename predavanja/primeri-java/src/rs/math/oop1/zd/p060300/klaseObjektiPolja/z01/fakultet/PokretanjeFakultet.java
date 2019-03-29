@@ -37,18 +37,12 @@ public class PokretanjeFakultet {
    }
 
    static void prikazi(Student student) {
-      System.out.printf("\nStudent: %s %s, %d/%d\n",
-               student.ime, student.prezime,
-               student.brojIndeksa, student.godinaUpisa);
-      System.out.printf(
-               "Smer: %s. Godina studija: %d\nOcene:\n",
-               student.smer, student.godinaStudija);
+      System.out.printf("\nStudent: %s %s, %d/%d\n", student.ime, student.prezime, student.brojIndeksa,
+            student.godinaUpisa);
+      System.out.printf("Smer: %s. Godina studija: %d\nOcene:\n", student.smer, student.godinaStudija);
       for (int i = 0; i < brojPredmeta; i++)
-         System.out.printf("%4d:%s%s", (i + 1),
-                  (student.ocene[i] == -1) ? "<nema>"
-                           : String.valueOf(
-                                    student.ocene[i]),
-                  (i == brojPredmeta - 1) ? "\n" : " ");
+         System.out.printf("%4d:%s%s", (i + 1), (student.ocene[i] == -1) ? "<nema>" : String.valueOf(student.ocene[i]),
+               (i == brojPredmeta - 1) ? "\n" : " ");
    }
 
    static byte brojPredmetaKojePredaje(Profesor profesor) {
@@ -60,15 +54,11 @@ public class PokretanjeFakultet {
    }
 
    static void prikazi(Profesor profesor) {
-      System.out.printf("\nProfesor: %s %s\n", profesor.ime,
-               profesor.prezime);
-      System.out.printf(
-               "Katedra: %s. Zvanje: %s\nPredaje sledece predmete:\n",
-               profesor.katedra, profesor.zvanje);
+      System.out.printf("\nProfesor: %s %s\n", profesor.ime, profesor.prezime);
+      System.out.printf("Katedra: %s. Zvanje: %s\nPredaje sledece predmete:\n", profesor.katedra, profesor.zvanje);
       for (int i = 0; i < brojPredmeta; i++)
-         System.out.printf("%4d:%s%s", (i + 1),
-                  (profesor.predaje[i]) ? "da " : "ne ",
-                  (i == brojPredmeta - 1) ? "\n" : " ");
+         System.out.printf("%4d:%s%s", (i + 1), (profesor.predaje[i]) ? "da " : "ne ",
+               (i == brojPredmeta - 1) ? "\n" : " ");
    }
 
    public static void main(String[] args) {
@@ -84,13 +74,11 @@ public class PokretanjeFakultet {
          stud1.ocene[i] = -1;
       stud1.ocene[0] = 9;
       stud1.ocene[3] = 6;
-      
       prikazi(stud1);
-      System.out.printf("Broj polozenih ispita: %3d\n",
-               brojPolozenihIspita(stud1));
-      System.out.printf("Prosecna ocena: %6.2f\n",
-               prosekOcena(stud1));
-      
+
+      System.out.printf("Broj polozenih ispita: %3d\n", brojPolozenihIspita(stud1));
+      System.out.printf("Prosecna ocena: %6.2f\n", prosekOcena(stud1));
+
       Student stud2 = new Student();
       stud2.ime = "Marko";
       stud2.prezime = "Markovic";
@@ -106,11 +94,9 @@ public class PokretanjeFakultet {
       stud2.ocene[3] = 8;
       stud2.ocene[4] = 8;
       prikazi(stud2);
-      System.out.printf("Broj polozenih ispita: %3d\n",
-               brojPolozenihIspita(stud2));
-      System.out.printf("Prosecna ocena: %6.2f\n",
-               prosekOcena(stud2));
-      
+      System.out.printf("Broj polozenih ispita: %3d\n", brojPolozenihIspita(stud2));
+      System.out.printf("Prosecna ocena: %6.2f\n", prosekOcena(stud2));
+
       Profesor prof1 = new Profesor();
       prof1.ime = "Petar";
       prof1.prezime = "Petrovic";
@@ -122,8 +108,7 @@ public class PokretanjeFakultet {
       prof1.predaje[1] = true;
       prof1.predaje[3] = true;
       prikazi(prof1);
-      System.out.printf("Predaje %d predmeta.\n",
-               brojPredmetaKojePredaje(prof1));
+      System.out.printf("Predaje %d predmeta.\n", brojPredmetaKojePredaje(prof1));
    }
 
 }

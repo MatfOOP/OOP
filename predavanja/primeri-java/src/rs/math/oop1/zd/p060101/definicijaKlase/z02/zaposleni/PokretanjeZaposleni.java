@@ -13,11 +13,12 @@ public class PokretanjeZaposleni {
         e.plata = 75000;
 
         System.out.println("Inicijalno");
-        System.out.println("ime i prezime=" + e.name + ", plata=" + e.salary);
+        System.out.println("ime i prezime=" + e.imePrezime + ", plata=" + e.plata);
 
-        e.salary += 5000;
+        e.plata += 5000;
 
         System.out.println("Posle povisice");
-        System.out.println("ime i prezime=" + e.name + ", plata=" + e.salary);
+        System.out.println("ime i prezime=" + e.imePrezime + ", plata=" + e.plata);
     }
 }
+

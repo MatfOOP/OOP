@@ -18,28 +18,22 @@ class Matrica {
       return mat[0].length;
    }
 
-   int brojElemenataUVrsti(int vrsta) {
-      return mat[vrsta].length;
-   }
-
    double elemenat(int vrsta, int kolona) {
       return mat[vrsta][kolona];
    }
 
-   void postaviElemenat(int vrsta, int kolona,
-            double vrednost) {
+   void postaviElemenat(int vrsta, int kolona, double vrednost) {
       mat[vrsta][kolona] = vrednost;
    }
 
-   boolean jeKorektnaPomocno(double[][] m)
-   {
+   boolean jeKorektnaPomocno(double[][] m) {
       int num = m[0].length;
-      for (int i = 0; i < m.length; i++)
+      for (int i = 1; i < m.length; i++)
          if (m[i].length != num)
             return false;
       return true;
    }
-   
+
    boolean jeKorektna() {
       if (mat == null)
          return true;
@@ -58,21 +52,20 @@ class Matrica {
    }
 
    void init(double[][] a) {
-      if( ! jeKorektnaPomocno(a) )
-      {
+      if (!jeKorektnaPomocno(a)) {
          mat = null;
          return;
       }
       mat = new double[a.length][a[0].length];
-      for( int i=0; i<mat.length; i++)
-         for( int j=0; j<mat[i].length; j++)
+      for (int i = 0; i < mat.length; i++)
+         for (int j = 0; j < mat[i].length; j++)
             mat[i][j] = a[i][j];
    }
 
    void init(Matrica a) {
-      init( a.mat );
+      init(a.mat);
    }
- 
+
    void prikazi() {
       if (mat == null) {
          System.out.println("GRESKA!");
@@ -96,48 +89,36 @@ class Matrica {
    }
 
    Matrica saberi(Matrica b) {
-      if (brojVrsta() != b.brojVrsta())
+      if (brojVrsta() != b.brojVrsta() || brojKolona() != b.brojKolona())
          return null;
-      for (int i = 0; i < brojVrsta(); i++)
-         if (brojElemenataUVrsti(i) != b
-                  .brojElemenataUVrsti(i))
-            return null;
       Matrica c = new Matrica();
       c.init(brojVrsta(), brojKolona());
       for (int i = 0; i < c.brojVrsta(); i++)
          for (int j = 0; j < c.brojKolona(); j++)
-            c.postaviElemenat(i, j,
-                     elemenat(i, j) + b.elemenat(i, j));
+            c.postaviElemenat(i, j, elemenat(i, j) + b.elemenat(i, j));
       return c;
    }
 
    Matrica oduzmi(Matrica b) {
-      if (brojVrsta() != b.brojVrsta())
+      if (brojVrsta() != b.brojVrsta() || brojKolona() != b.brojKolona())
          return null;
-      for (int i = 0; i < brojVrsta(); i++)
-         if (brojElemenataUVrsti(i) != b
-                  .brojElemenataUVrsti(i))
-            return null;
       Matrica c = new Matrica();
       c.init(brojVrsta(), brojKolona());
       for (int i = 0; i < c.brojVrsta(); i++)
          for (int j = 0; j < c.brojKolona(); j++)
-            c.postaviElemenat(i, j,
-                     elemenat(i, j) - b.elemenat(i, j));
+            c.postaviElemenat(i, j, elemenat(i, j) - b.elemenat(i, j));
       return c;
    }
 
    Matrica pomnozi(Matrica b) {
-      for (int i = 0; i < brojVrsta(); i++)
-         if (brojElemenataUVrsti(i) != b.brojVrsta())
-            return null;
+      if (brojKolona() != b.brojVrsta())
+         return null;
       Matrica c = new Matrica();
       c.init(brojVrsta(), b.brojKolona());
       for (int i = 0; i < c.brojVrsta(); i++)
-         for (int j = 0; j < c
-                  .brojElemenataUVrsti(i); j++) {
+         for (int j = 0; j < c.brojKolona(); j++) {
             double x = 0;
-            for (int k = 0; k < brojElemenataUVrsti(i); k++)
+            for (int k = 0; k < brojKolona(); k++)
                x += elemenat(i, k) * b.elemenat(k, j);
             c.postaviElemenat(i, j, x);
          }
@@ -148,8 +129,7 @@ class Matrica {
       return (jeKorektna() && mat.length == mat[0].length);
    }
 
-   double[][] iskljuci(double[][] a, int vrsta,
-            int kolona) {
+   double[][] iskljuciPomocno(double[][] a, int vrsta, int kolona) {
       int n = a.length;
       double[][] mat = new double[n - 1][n - 1];
       for (int i = 0; i < vrsta; i++)
@@ -172,13 +152,12 @@ class Matrica {
       if (n == 1)
          return mat[0][0];
       if (n == 2)
-         return mat[0][0] * mat[1][1]
-                  - mat[1][0] * mat[0][1];
+         return mat[0][0] * mat[1][1] - mat[1][0] * mat[0][1];
       double det = 0;
       double znak = 1;
       for (int j = 0; j < n; j++) {
          Matrica m = new Matrica();
-         m.init(iskljuci(mat, 0, j));
+         m.init(iskljuciPomocno(mat, 0, j));
          det += znak * mat[0][j] * m.determinanta();
          znak = -znak;
       }

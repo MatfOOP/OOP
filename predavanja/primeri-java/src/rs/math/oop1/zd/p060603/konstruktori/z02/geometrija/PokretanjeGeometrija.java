@@ -20,7 +20,7 @@ public class PokretanjeGeometrija {
       a.prikaziSe();
       Tacka b = new Tacka("B", 10, 11.5);
       b.prikaziSe();
-      Tacka c = new Tacka("C", 10.45, 22);
+      Tacka c = new Tacka("C");
       c.prikaziSe();
       Tacka d = new Tacka("D", 22.3, 17.5);
       d.prikaziSe();
@@ -30,6 +30,10 @@ public class PokretanjeGeometrija {
 
       Duz ab = new Duz("AB", a, b);
       ab.prikaziSe();
+      System.out.println();
+
+      Duz ax = new Duz("AX", a, new Tacka("X",7,8));
+      ax.prikaziSe();
       System.out.println();
 
       Trougao bcd = new Trougao("BCD", b, c, d);

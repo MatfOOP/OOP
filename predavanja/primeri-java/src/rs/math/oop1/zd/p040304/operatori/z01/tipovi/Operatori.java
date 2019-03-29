@@ -32,11 +32,11 @@ public class Operatori {
        //relacioni operatori
        System.out.println(3>2);//true
        System.out.println(2>2);//false
-       System.out.println(3>2 == 20>-2);//true (true == true)
-       System.out.println(3>2 != 20>-2);//false (true != true)
+       //System.out.println(3>2 == 20>-2);//true (true == true)
+       //System.out.println(3>2 != 20>-2);//false (true != true)
 
        //logicki operatori
-       System.out.println(2>3 && 3<4);//false (false && true)
+       //System.out.println(2>3 && 3<4);//false (false && true)
        System.out.println(a>3 && 3<4);//true (true && true)
        System.out.println(2>3 || 3<4);//true (false || true)
        System.out.println(!(2>3) && 3<4);//true (!false && true --> true && true)

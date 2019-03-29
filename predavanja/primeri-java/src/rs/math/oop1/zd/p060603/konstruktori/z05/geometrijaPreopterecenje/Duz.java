@@ -6,18 +6,18 @@ public class Duz {
    private Tacka b;
 
    // OK
-   // public Duz(String o, Tacka t1, Tacka t2) {
-   //	   oznaka = o;
-   //	   a = new Tacka(t1.getOznaka(), t1.getX(), t1.getY());
-   //	   b = new Tacka(t2.getOznaka(), t2.getX(), t2.getY());
-   // }
+   public Duz(String o, Tacka t1, Tacka t2) {
+   	   oznaka = o;
+   	   a = new Tacka(t1.getOznaka(), t1.getX(), t1.getY());
+   	   b = new Tacka(t2.getOznaka(), t2.getX(), t2.getY());
+   }
 
    /* nije OK! */
-   public Duz(String o, Tacka t1, Tacka t2) {
-      oznaka = o;
-      a = t1;
-      b = t2;
-   }
+   // public Duz(String o, Tacka t1, Tacka t2) {
+   //    oznaka = o;
+   //    a = t1;
+   //    b = t2;
+   // }
 
    public String getOznaka() {
       return oznaka;

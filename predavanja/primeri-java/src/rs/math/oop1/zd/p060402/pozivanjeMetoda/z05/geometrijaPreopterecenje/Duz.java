@@ -5,13 +5,13 @@ class Duz {
    Tacka a;
    Tacka b;
 
-   void init(String o, Tacka t1, Tacka t2) {
+   void initNeValja(String o, Tacka t1, Tacka t2) {
       oznaka = o;
       a = t1;
       b = t2;
    }
 
-   void init2(String o, Tacka t1, Tacka t2) {
+   void init(String o, Tacka t1, Tacka t2) {
       oznaka = o;
       a = new Tacka();
       a.init(t1.oznaka, t1.x, t1.y);

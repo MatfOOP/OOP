@@ -9,7 +9,7 @@ class Trougao {
    Tacka b;
    Tacka c;
 
-    void init(String o, Tacka t1, Tacka t2, Tacka t3) {
+   void init(String o, Tacka t1, Tacka t2, Tacka t3) {
       oznaka = o;
       a = new Tacka();
       a.init(t1.getOznaka(), t1.getX(), t1.getY());
@@ -34,8 +34,7 @@ class Trougao {
    }
 
    double obim() {
-      return a.rastojanje(b) + b.rastojanje(c)
-               + c.rastojanje(a);
+      return a.rastojanje(b) + b.rastojanje(c) + c.rastojanje(a);
    }
 
    double povrsina() {

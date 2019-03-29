@@ -1,4 +1,4 @@
-class PokreniProbaI2
+class PokretanjeProbaI2
 {
     public static void main(String[] komandnaLinija)
     {

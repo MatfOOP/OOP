@@ -7,8 +7,7 @@ public class Krug {
    private Tacka o;
    private double r;
 
-   public Krug(String ozn, Tacka centar,
-            double poluprecnik) {
+   public Krug(String ozn, Tacka centar, double poluprecnik) {
       oznaka = ozn;
       o = new Tacka(centar);
       r = poluprecnik;

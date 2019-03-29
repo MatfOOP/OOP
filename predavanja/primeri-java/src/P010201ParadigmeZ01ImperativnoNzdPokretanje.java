@@ -5,7 +5,7 @@
   Коришћена је обележена break наредба за имитирање наредбе безусловног скока.
  */
 
-class PokreniImperativnoNzd {
+class PokretanjeImperativnoNzd {
 
     // улазна тачка програма
     public static void main(String[] args) {

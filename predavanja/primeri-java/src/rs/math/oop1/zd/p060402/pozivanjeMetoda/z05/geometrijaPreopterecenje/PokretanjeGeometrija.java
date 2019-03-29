@@ -26,7 +26,8 @@ public class PokretanjeGeometrija {
       System.out.println();
 
       Duz ao = new Duz();
-      ao.init("AO", a, o); //ao.init2("AO", a, o);
+      //ao.init("AO", a, o); // ovo je dobro!
+      ao.initNeValja("AO", a, o); // ovo nije dobro!
       ao.prikaziSe();
       System.out.println();
 

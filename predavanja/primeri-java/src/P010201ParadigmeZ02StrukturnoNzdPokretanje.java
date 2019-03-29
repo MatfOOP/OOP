@@ -3,7 +3,7 @@
  * Програмски код је организован сагласно концепту структурног програмирања.
  **/
 
-class PokreniStrukturnoNzd {
+class PokretanjeStrukturnoNzd {
 
     // одређивање НЗД за два броја
     static int NZD(int prvi, int drugi) {

@@ -24,13 +24,11 @@ class Tacka {
    }
 
    void prikaziSe(boolean bezOznake) {
-      System.out.print((bezOznake ? "" : oznaka) + "(" + x
-               + "," + y + ")");
+      System.out.print((bezOznake ? "" : oznaka) + "(" + x + "," + y + ")");
    }
 
    double rastojanje(Tacka t) {
-      return (Math.sqrt(Math.pow(t.x - x, 2)
-               + Math.pow(t.y - y, 2)));
+      return (Math.sqrt(Math.pow(t.x - x, 2) + Math.pow(t.y - y, 2)));
    }
 
 }

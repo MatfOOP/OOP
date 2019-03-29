@@ -10,9 +10,9 @@ class Profesor {
    String imePrezime;
    double plata;
 
-   void init(String n, double s) {
+   void init(String n, double p) {
       imePrezime = n;
-      plata = s;
+      plata = p;
    }
 
    void povecajPlatu(double zaProcenat) {

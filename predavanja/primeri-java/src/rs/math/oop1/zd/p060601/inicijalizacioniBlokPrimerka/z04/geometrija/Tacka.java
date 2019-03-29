@@ -12,8 +12,7 @@ public class Tacka {
       Tacka.brojKreiranih++;
    }
 
-   public void init(String o, double xKoord,
-            double yKoord) {
+   public void init(String o, double xKoord, double yKoord) {
       x = xKoord;
       y = yKoord;
       oznaka = o;
@@ -36,8 +35,7 @@ public class Tacka {
    }
 
    public double rastojanje(Tacka t) {
-      return (Math.sqrt(Math.pow(t.x - x, 2)
-               + Math.pow(t.y - y, 2)));
+      return (Math.sqrt(Math.pow(t.x - x, 2) + Math.pow(t.y - y, 2)));
    }
 
 }

@@ -41,18 +41,18 @@ class Profesor {
       Profesor rez = new Profesor();
       if (prikaziPitanje)
          System.out.print("Ime: ");
-      String ime = sc.nextLine();
+      String ime = sc.nextLine().trim();
       if (prikaziPitanje)
          System.out.print("Prezime: ");
-      String prezime = sc.nextLine();
+      String prezime = sc.nextLine().trim();
       if (prikaziPitanje)
          System.out.print("Katedra: ");
-      String katedra = sc.nextLine();
+      String katedra = sc.nextLine().trim();
       if (!Katedra.jeKorektna(katedra))
          katedra = Katedra.NEDEFINISANA;
       if (prikaziPitanje)
          System.out.print("Zvanje: ");
-      String zvanje = sc.nextLine();
+      String zvanje = sc.nextLine().trim();
       boolean[] predaje = new boolean[Predmet.BROJ];
       for (int i = 0; i < predaje.length; i++) {
          if (prikaziPitanje)

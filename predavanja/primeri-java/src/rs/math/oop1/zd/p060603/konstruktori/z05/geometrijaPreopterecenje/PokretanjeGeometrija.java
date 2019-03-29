@@ -42,7 +42,7 @@ public class PokretanjeGeometrija {
       d.setY(-6.6);
       d.prikaziSe();
       bd.prikaziSe();
-      System.out.println();
+      System.out.printf( "\n\nUkupno kreirano %d tacaka.\n\n", Tacka.brojKreiranih);
 
    }
 

@@ -11,6 +11,7 @@ public class PokreniJavaDokumentacija
 		
 		System.out.printf("%.3f\n",702.42345);
 		System.out.println(ProbaInterfejs.NULA);
+		System.out.println(ip.NULA);
 	}
 	
 }

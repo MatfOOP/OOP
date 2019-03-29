@@ -5,6 +5,7 @@ class Duz {
    Tacka a;
    Tacka b;
 
+   // ovako ne valja!
    void init(String o, Tacka t1, Tacka t2) {
       oznaka = o;
       a = t1;

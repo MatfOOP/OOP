@@ -51,9 +51,9 @@ public class PokretanjeGeometrija {
       Krug k1 = new Krug();
       k1.init("k1", b, 18);
       k1.prikaziSe();
+      
       System.out.println();
-      System.out.println("Ukupno je kreirano "
-               + Tacka.brojKreiranih + " tacaka.");
+      System.out.println("Ukupno je kreirano " + Tacka.brojKreiranih + " tacaka.");
    }
 
 }

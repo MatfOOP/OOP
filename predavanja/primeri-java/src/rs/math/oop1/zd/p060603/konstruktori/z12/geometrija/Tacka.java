@@ -1,5 +1,7 @@
 package rs.math.oop1.zd.p060603.konstruktori.z12.geometrija;
 
+import static java.lang.Math.*;
+
 public class Tacka {
    public static int brojKreiranih = 0;
 
@@ -59,8 +61,7 @@ public class Tacka {
    }
 
    public double rastojanje(Tacka t) {
-      return (Math.sqrt(Math.pow(t.x - x, 2)
-               + Math.pow(t.y - y, 2)));
+      return (sqrt(pow(t.x - x, 2) + pow(t.y - y, 2)));
    }
 
 }

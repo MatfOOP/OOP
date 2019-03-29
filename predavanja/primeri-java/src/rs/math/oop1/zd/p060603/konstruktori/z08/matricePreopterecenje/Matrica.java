@@ -18,27 +18,28 @@ public class Matrica {
       return mat[0].length;
    }
 
-   private int getBrojElemenataUVrsti(int vrsta) {
-      return mat[vrsta].length;
-   }
-
    public double getElemenat(int vrsta, int kolona) {
       return mat[vrsta][kolona];
    }
 
-   public void setElemenat(int vrsta, int kolona,
-            double vrednost) {
+   public void setElemenat(int vrsta, int kolona, double vrednost) {
       mat[vrsta][kolona] = vrednost;
    }
 
-   private boolean jeKorektna() {
-      if (mat == null)
-         return true;
-      int num = mat[0].length;
-      for (int i = 0; i < mat.length; i++)
-         if (mat[i].length != num)
+   private boolean jeKorektna(double[][] x) {
+      if (x == null)
+         return false;
+      if (x[0] == null)
+         return false;
+      int n = x[0].length;
+      for (double[] v : x)
+         if (v.length != n)
             return false;
       return true;
+   }
+
+   private boolean jeKorektna() {
+      return jeKorektna(mat);
    }
 
    public Matrica(int m, int n) {
@@ -47,16 +48,24 @@ public class Matrica {
          return;
       }
       mat = new double[m][n];
-      for (int i = 0; i < m; i++)
-         for (int j = 0; j < n; j++)
-            mat[i][j] = 0;
    }
 
    public Matrica(double[][] a) {
-      mat = a;
-      if (!jeKorektna())
+      if (a != null && jeKorektna(a)) {
+         mat = new double[a.length][a[0].length];
+         for (int i = 0; i < a.length; i++)
+            for (int j = 0; j < a[i].length; j++)
+               mat[i][j] = a[i][j];
+      } else
          mat = null;
    }
+
+   // Ne valja ovako!
+   // public Matrica(double[][] a) {
+   // mat = a;
+   // if (!jeKorektna())
+   // mat = null;
+   // }
 
    public void prikazi() {
       if (mat == null) {
@@ -72,49 +81,43 @@ public class Matrica {
    }
 
    public Matrica saberi(Matrica b) {
+      if (!jeKorektna() || !b.jeKorektna())
+         return null;
       if (getBrojVrsta() != b.getBrojVrsta())
          return null;
-      for (int i = 0; i < getBrojVrsta(); i++)
-         if (getBrojElemenataUVrsti(i) != b
-                  .getBrojElemenataUVrsti(i))
-            return null;
-      Matrica c = new Matrica(getBrojVrsta(),
-               getBrojKolona());
+      if (getBrojKolona() != b.getBrojKolona())
+         return null;
+      Matrica c = new Matrica(getBrojVrsta(), getBrojKolona());
       for (int i = 0; i < c.getBrojVrsta(); i++)
          for (int j = 0; j < c.getBrojKolona(); j++)
-            c.setElemenat(i, j, getElemenat(i, j)
-                     + b.getElemenat(i, j));
+            c.setElemenat(i, j, getElemenat(i, j) + b.getElemenat(i, j));
       return c;
    }
 
    public Matrica oduzmi(Matrica b) {
+      if (!jeKorektna() || !b.jeKorektna())
+         return null;
       if (getBrojVrsta() != b.getBrojVrsta())
          return null;
-      for (int i = 0; i < getBrojVrsta(); i++)
-         if (getBrojElemenataUVrsti(i) != b
-                  .getBrojElemenataUVrsti(i))
-            return null;
-      Matrica c = new Matrica(getBrojVrsta(),
-               getBrojKolona());
+      if (getBrojKolona() != b.getBrojKolona())
+         return null;
+      Matrica c = new Matrica(getBrojVrsta(), getBrojKolona());
       for (int i = 0; i < c.getBrojVrsta(); i++)
          for (int j = 0; j < c.getBrojKolona(); j++)
-            c.setElemenat(i, j, getElemenat(i, j)
-                     - b.getElemenat(i, j));
+            c.setElemenat(i, j, getElemenat(i, j) - b.getElemenat(i, j));
       return c;
    }
 
    public Matrica pomnozi(Matrica b) {
-      for (int i = 0; i < getBrojVrsta(); i++)
-         if (getBrojElemenataUVrsti(i) != b.getBrojVrsta())
-            return null;
-      Matrica c = new Matrica(getBrojVrsta(),
-               b.getBrojKolona());
+      if (!jeKorektna() || !b.jeKorektna())
+         return null;
+      if (getBrojKolona() != b.getBrojVrsta())
+         return null;
+      Matrica c = new Matrica(getBrojVrsta(), b.getBrojKolona());
       for (int i = 0; i < c.getBrojVrsta(); i++)
-         for (int j = 0; j < c
-                  .getBrojElemenataUVrsti(i); j++) {
+         for (int j = 0; j < c.getBrojKolona(); j++) {
             double x = 0;
-            for (int k = 0; k < getBrojElemenataUVrsti(
-                     i); k++)
+            for (int k = 0; k < getBrojKolona(); k++)
                x += getElemenat(i, k) * b.getElemenat(k, j);
             c.setElemenat(i, j, x);
          }
@@ -125,8 +128,7 @@ public class Matrica {
       return (jeKorektna() && mat.length == mat[0].length);
    }
 
-   private double[][] iskljuci(double[][] a, int vrsta,
-            int kolona) {
+   private double[][] iskljuci(double[][] a, int vrsta, int kolona) {
       int n = a.length;
       double[][] mat = new double[n - 1][n - 1];
       for (int i = 0; i < vrsta; i++)
@@ -149,8 +151,7 @@ public class Matrica {
       if (n == 1)
          return mat[0][0];
       if (n == 2)
-         return mat[0][0] * mat[1][1]
-                  - mat[1][0] * mat[0][1];
+         return mat[0][0] * mat[1][1] - mat[1][0] * mat[0][1];
       double det = 0;
       double znak = 1;
       for (int j = 0; j < n; j++) {

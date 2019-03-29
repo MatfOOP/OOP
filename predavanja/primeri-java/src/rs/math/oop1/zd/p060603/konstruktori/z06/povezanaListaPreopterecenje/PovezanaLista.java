@@ -14,14 +14,6 @@ public class PovezanaLista {
          tekuci = kraj = pocetak = new ElemenatListe(elem);
    }
 
-   public PovezanaLista(String[] elementi) {
-      if (elementi == null)
-         return;
-      for (int i = 0; i < elementi.length; i++)
-         dodajElemenatNaKraj(elementi[i]);
-      tekuci = pocetak;
-   }
-
    public void dodajElemenatNaKraj(String elem) {
       ElemenatListe noviKraj = new ElemenatListe(elem);
       if (pocetak == null)
@@ -72,6 +64,13 @@ public class PovezanaLista {
       return prvi.getSadrzaj();
    }
 
+   public PovezanaLista(String[] elementi) {
+      if (elementi == null)
+         return;
+      for (int i = 0; i < elementi.length; i++)
+         dodajElemenatNaKraj(elementi[i]);
+      tekuci = pocetak;
+   }
    public String getPrvi() {
       tekuci = pocetak;
       return tekuci == null ? null : tekuci.getSadrzaj();

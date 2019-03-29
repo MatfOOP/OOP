@@ -5,7 +5,6 @@ class Duz {
    Tacka a;
    Tacka b;
 
-   
    void init(String o, Tacka t1, Tacka t2) {
       oznaka = o;
       a = new Tacka();
@@ -31,16 +30,12 @@ class Duz {
    }
 
    boolean sadrzi(Tacka t) {
-      boolean kolinearne = ((t.getY() - a.getY())
-               * (b.getX() - a.getX()) == (b.getY()
-                        - a.getY())
-                        * (t.getX() - a.getX()));
-      double xMin = a.getX()<b.getX()? a.getX(): b.getX(); 
-      double xMax = a.getX()<b.getX()? b.getX(): a.getX();
-      double yMin = a.getY()<b.getY()? a.getY(): b.getY(); 
-      double yMax = a.getY()<b.getY()? b.getY(): a.getY();
-           return kolinearne 
-                    && (t.getX() >= xMin && t.getX() <= xMax) 
-                    && (t.getY() >= yMin && t.getY() <= yMax);
+      boolean kolinearne = ((t.getY() - a.getY()) * (b.getX() - a.getX()) 
+                     == (b.getY() - a.getY()) * (t.getX() - a.getX()));
+      double xMin = a.getX() < b.getX() ? a.getX() : b.getX();
+      double xMax = a.getX() < b.getX() ? b.getX() : a.getX();
+      double yMin = a.getY() < b.getY() ? a.getY() : b.getY();
+      double yMax = a.getY() < b.getY() ? b.getY() : a.getY();
+      return kolinearne && (t.getX() >= xMin && t.getX() <= xMax) && (t.getY() >= yMin && t.getY() <= yMax);
    }
 }

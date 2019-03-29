@@ -33,11 +33,8 @@ public class Duz {
    }
 
    public boolean sadrzi(Tacka t) {
-      boolean kolinearne = ((t.getY() - a.getY())
-               * (b.getX() - a.getX()) == (b.getY()
-                        - a.getY())
-                        * (t.getX() - a.getX()));
-      return kolinearne && t.getX() >= a.getX()
-               && t.getX() <= b.getX();
+      boolean kolinearne = ((t.getY() - a.getY()) * (b.getX() - a.getX()) == (b.getY() - a.getY())
+            * (t.getX() - a.getX()));
+      return kolinearne && t.getX() >= a.getX() && t.getX() <= b.getX();
    }
 }

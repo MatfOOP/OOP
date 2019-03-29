@@ -1,7 +1,6 @@
 package rs.math.oop1.zd.p150300.radSaTokovima.z01.tekstovneDatoteke;
 
 import java.io.*;
-import java.util.*;
 
 /**
  * @version 1.12 2007-06-22

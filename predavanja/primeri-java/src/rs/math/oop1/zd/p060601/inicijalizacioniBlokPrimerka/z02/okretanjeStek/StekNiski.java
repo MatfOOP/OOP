@@ -18,7 +18,7 @@ public class StekNiski {
 
    // inicijalizacioni blok primerka
    {
-      elementi = new String[8];
+      elementi = new String[78];
       vrhSteka = -1;
    }
 

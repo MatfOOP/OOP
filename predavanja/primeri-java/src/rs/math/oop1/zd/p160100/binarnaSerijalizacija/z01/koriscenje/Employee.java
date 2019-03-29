@@ -6,6 +6,7 @@ import java.util.GregorianCalendar;
 
 public class Employee implements Serializable
 {
+	private static final long serialVersionUID = 2084538915166046307L;
 	private String name;
 	private double salary;
 	private Date hireDay;
