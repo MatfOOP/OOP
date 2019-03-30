@@ -1,8 +1,6 @@
 //Примери неких валидних израза.
 
-package rs.math.oop1.p040606.izrazi.z01.primeri;
-
-public class Izraz {
+class PokretanjeIzraz {
 
     public static void main(String[] args) {
         int a = 7, b = 3, d = 2;

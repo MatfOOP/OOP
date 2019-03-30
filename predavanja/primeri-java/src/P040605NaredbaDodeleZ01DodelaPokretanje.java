@@ -1,7 +1,5 @@
 //Пример илуструје различите начине извршења наредбе доделе.
 
-package rs.math.oop1.p040605.naredbeDodele.z01.koriscenje;
-
 class PokretanjeNaredbaDodele {
 
    public static void main(String[] args) {
