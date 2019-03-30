@@ -19,7 +19,7 @@
 
     1. Фаза експлоатације
 
-1. [Објектно-оријентисано програмирање](/prezentacije/OOP03-Objektno orjentisana paradigma.pdf){:target="_blank"}  
+2. [Објектно-оријентисано програмирање](/prezentacije/OOP03-Objektno orjentisana paradigma.pdf){:target="_blank"}  
 
     1. Историјат и развој објектно-оријентисаног програмирања
 
@@ -45,7 +45,7 @@
 
     1. УМЛ дијаграми класа  
 
-1. [Карактеристике програмског језика Јава](/prezentacije/OOP01-Karakteristike jezika Java.pdf){:target="_blank"}
+3. [Карактеристике програмског језика Јава](/prezentacije/OOP01-Karakteristike jezika Java.pdf){:target="_blank"}
 
     1. Историјат и развој програмског језика и окружења Јава
 
@@ -111,7 +111,7 @@
 
         1. Хијерархија наслеђивања у Јави, класа Object
 
-1. [Граматика језика Јава](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
+4. [Граматика језика Јава](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
 
     1. Језици за опис конструкција језика Јава
 
@@ -199,7 +199,7 @@
 
             1. Наредба `continue` и циклуси
 
-1. Рад са корисничким објектним типовима испорученим уз ЈДК-а
+5. Рад са корисничким објектним типовима испорученим уз ЈДК-а
 
     1. Приступ систему, класа `System`
 
@@ -239,7 +239,7 @@
 
         1. Коришћење метода класе `Math`
 
-1. [Низови у Јави](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"}
+6. [Низови у Јави](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"}
 
     1. Декларација и иницијализација низа
 
@@ -253,7 +253,7 @@
 
     1. Вишедимензионални низ
 
-1. [Класе, поља, методи и објекти у Јави](/prezentacije/OOP09-Klase i objekti u Javi.pdf){:target="_blank"}
+7. [Класе, поља, методи и објекти у Јави](/prezentacije/OOP09-Klase i objekti u Javi.pdf){:target="_blank"}
 
     1. Класе у Јави
 
@@ -345,7 +345,7 @@
 
     1. Улазна тачка програма, метод `main`
 
-1. Структура најпопуларнијих класа ЈДК-а и превазилажење њихових особина
+8. Структура најпопуларнијих класа ЈДК-а и превазилажење њихових особина
 
     1. Објекти, kласа `Object`  
 
@@ -379,7 +379,7 @@
 
         1. Превазилажење приликом финализације објеката
 
-1. Напредни рад са класама и објектима
+9. Напредни рад са класама и објектима
 
     1. [Апстрактне класе](/prezentacije/OOP11-Apstraktne klase i interfejsi.pdf){:target="_blank"}
 
@@ -421,7 +421,7 @@
 
         1. Принципи SOLID
 
-1. [Угњеждене и унутрашње класе](/prezentacije/OOP12-Sopstveni paketi, unutrasnje klase.pdf){:target="_blank"}
+10. [Угњеждене и унутрашње класе](/prezentacije/OOP12-Sopstveni paketi, unutrasnje klase.pdf){:target="_blank"}
 
     1. Угњеждене класе
 
@@ -435,7 +435,7 @@
 
     1. Анонимне класе
 
-1. [Изузеци и тврдње](/prezentacije/OOP13-Izuzeci.pdf){:target="_blank"}
+11. [Изузеци и тврдње](/prezentacije/OOP13-Izuzeci.pdf){:target="_blank"}
 
     1. Изузеци у Јави
 
@@ -461,9 +461,9 @@
 
     1. Тврдње
 
-1. [Енумерисани типови](/prezentacije/OOP14-Enumerisani i genericki tipovi.pdf){:target="_blank"}
+12. [Енумерисани типови](/prezentacije/OOP14-Enumerisani i genericki tipovi.pdf){:target="_blank"}
 
-1. Генерички типови
+13. Генерички типови
 
     1. Појам генеричког типа
 
@@ -483,7 +483,7 @@
 
     1. Генериции и наслеђивање
 
-1. [Рефлексија](/prezentacije/OOP15-Refleksija i anotacija.pdf){:target="_blank"}
+14. [Рефлексија](/prezentacije/OOP15-Refleksija i anotacija.pdf){:target="_blank"}
 
     1. Класе за рефлексију
 
@@ -513,7 +513,7 @@
 
     1. Ограничења рефлексије
 
-1. Забелешкe
+15. Забелешкe
 
     1. Формат забелешке
 
@@ -525,7 +525,7 @@
 
     1. Испитивање забелешки помоћу рефлексије  
 
-1. [Колекције и каталози](/prezentacije/OOP16-Kolekcije.pdf){:target="_blank"}
+16. [Колекције и каталози](/prezentacije/OOP16-Kolekcije.pdf){:target="_blank"}
 
     1. Интерфејс и имплементација
 
@@ -593,7 +593,7 @@
 
         1. Аострактне колекцијске класе, креирање нових колекција
 
-1. [Улаз и излаз](/prezentacije/OOP17-Ulaz i izlaz, serijalizacija.pdf){:target="_blank"}
+17. [Улаз и излаз](/prezentacije/OOP17-Ulaz i izlaz, serijalizacija.pdf){:target="_blank"}
 
     1. Токови, читачи и писачи
 
@@ -617,7 +617,7 @@
 
     1. Класа `Scanner`
 
-1. Серијализација и десеријализација
+18. Серијализација и десеријализација
 
     1. Бинарна серијализација и десеријализација
 
@@ -629,7 +629,7 @@
 
     1. XML серијализација и десеријализација
 
-1. [Елементи функционалног програмирања у Јави](/prezentacije/OOP18-Lambda izrazi.pdf){:target="_blank"}
+19. [Елементи функционалног програмирања у Јави](/prezentacije/OOP18-Lambda izrazi.pdf){:target="_blank"}
 
     1. Ламбда изрази за функцијске објекте
 
@@ -659,7 +659,7 @@
 
     1. Разлика између тока обраде и итератора  
 
-1. Вишенитно прогамирање на ниском нивоу апстракције
+20. Вишенитно прогамирање на ниском нивоу апстракције
 
     1. Конкурентност у рачунарству
 
@@ -695,7 +695,7 @@
 
         1. Изгладњивање
 
-1. JavaFX
+21. JavaFX
 
     1. Карактеристике JavaFX
 
