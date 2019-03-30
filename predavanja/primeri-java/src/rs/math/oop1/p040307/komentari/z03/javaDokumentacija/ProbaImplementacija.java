@@ -1,11 +1,9 @@
 package rs.math.oop1.p040307.komentari.z03.javaDokumentacija;
 
 /**
- * 
  * @author vlado
- * 
- * Klasa <code> ProbaImplemenetacija </code>
- * implementira interfejs <code>ProbaInterfejs</code>
+ * <p>
+ * Класа <code> ProbaImplemenetacija </code> имплементира интерфејс <code>ProbaInterfejs</code>
  * <p>
  * @see ProbaInterfejs
  */

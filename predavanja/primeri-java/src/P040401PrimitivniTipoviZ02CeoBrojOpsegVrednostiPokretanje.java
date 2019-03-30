@@ -1,8 +1,6 @@
 // Програм илуструје употребу различитих типова целобројних података. 
 
-package rs.math.oop1.p040401.primitivniTipovi.z02.celobrojniPrekoracenjePotkoracenje;
-
-public class CelobrojniTip {
+class PokretanjeCeoBrojOpsegVrednosti {
 
    public static void main(String[] args) {
 	   byte byteBroj1 = 23;

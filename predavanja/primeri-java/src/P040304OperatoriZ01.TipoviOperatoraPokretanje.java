@@ -1,8 +1,6 @@
 // Програм илуструје неке од оператора програмског језика Јава.
 
-package rs.math.oop1.p040304.operatori.z01.tipovi;
-
-public class Operatori {
+class PokretanjeOperatori {
 
    public static void main(String[] args) {
 	   int a=10;
