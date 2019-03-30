@@ -1,8 +1,6 @@
 // Програм илуструје запис реалних бројева у две различите прецизности. 
 
-package rs.math.oop1.p040401.primitivniTipovi.z03.realniZapisKonstanti;
-
-public class RealniiTip {
+class PokretanjeRealniiTip {
 
    public static void main(String[] args) {
 	   //realni literal u dvostrukoj preciznosti, ovo je i podrazumevana preciznost za realni broj

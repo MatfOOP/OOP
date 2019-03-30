@@ -1,21 +1,28 @@
 package rs.math.oop1.p040307.komentari.z03.javaDokumentacija;
 
+/**
+ * @author vlado
+ * <p> Klasa <code> PokretanjePrimerJavaDokumentacije </code>
+ * služi za pokretanje aplikacije koja koristi interfejs <code>ProbaInterfejs</code> implementiran od strane klase
+ * <code> ProbaImplemenetacija </code>.
+ * @see ProbaInterfejs
+ * @see ProbaImplementacija
+ */
+public class PokretanjePrimerJavaDokumentacije {
 
-public class PokreniJavaDokumentacija
-{
+    /**
+     * Polazna tacka pri izvrsavanju Java programa.
+     * @param args - argumenti komandne linije
+     */
+    public static void main(String[] args) {
+        ProbaImplementacija p = new ProbaImplementacija();
+        ProbaInterfejs ip = p;
 
-	/**
-	 * Полазна тачка при извршавању Јава програма
-	 * @param args
-	 */
-	public static void main( String[] args )
-	{
-		ProbaImplemenetacija p = new ProbaImplemenetacija();
-		ProbaInterfejs ip = p;
-		
-		System.out.printf("%.3f\n",702.42345);
-		System.out.println(ProbaInterfejs.NULA);
-		System.out.println(ip.NULA);
-	}
-	
+        System.out.println(ProbaInterfejs.NULA);
+        System.out.println(ip.NULA);
+        int x = 2;
+        int y = 3;
+        System.out.println(ip.saberi(x, y));
+    }
+
 }

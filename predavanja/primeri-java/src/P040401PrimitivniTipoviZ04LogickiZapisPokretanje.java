@@ -1,8 +1,6 @@
 // Програм илуструје запис логичких литерала. 
 
-package rs.math.oop1.p040401.primitivniTipovi.z04.logicki;
-
-public class LogickiTip {
+class PokretanjeLogickiTip {
 
    public static void main(String[] args) {
 	  //dve moguće vrednosti za logički tip

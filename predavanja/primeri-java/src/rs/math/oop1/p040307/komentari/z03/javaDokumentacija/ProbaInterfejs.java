@@ -2,32 +2,27 @@ package rs.math.oop1.p040307.komentari.z03.javaDokumentacija;
 
 /**
  * @author vlado
- * <p>
- * Interfejs ProbaInterfejs sluzi za testiranje ponasanja konstanti
- * @see ProbaImplemenetacija
+ * <p> Interfejs <code>ProbaInterfejs</code> služi za operacije i za konstante
+ * @see ProbaImplementacija
  */
 public interface ProbaInterfejs {
     /**
-     * Metod <code> saberi </code> sabira dva argumenta
-     * <p>
-     *
+     * Metod <code> saberi </code> sabira dva celobrojna argumenta
      * @param a prvi sabirak
      * @param b drugi sabirak
-     * @return zbir sabiraka
+     * @return zbir dva sabirka
      */
     int saberi(int a, int b);
 
     /**
      * Konstanta <code> NULA </code> ima vrednost <code> 0 </code>
-     * <p>
-     * Ona nije deklarisana kao staticka
+     * <p> Ova konstanta <b>nije</b> definisana kao klasna.
      */
     final int NULA = 0;
 
     /**
      * Konstanta <code> NULA2 </code> ima vrednost <code> 0 </code>
-     * <p>
-     * Ona jeste deklarisana kao staticka
+     * <p> Ova konstanta <b>jeste</b> definisana kao klasna.
      */
     static final int NULA2 = 0;
 }
