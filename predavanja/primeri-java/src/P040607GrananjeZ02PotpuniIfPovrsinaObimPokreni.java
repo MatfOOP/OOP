@@ -1,8 +1,6 @@
 // Пример илуструје употребу потпуног if израза који омогућава разматрање свих могућих вредности посматраног услова.
 
-package rs.math.oop1.p040607.naredbeGrananja.z02.potpuniIf;
-
-public class PovrsinaObim {
+class PokreniPopuniIfPovrsinaObim {
 
    public static void main(String[] args) {
        double obim, povrsina;

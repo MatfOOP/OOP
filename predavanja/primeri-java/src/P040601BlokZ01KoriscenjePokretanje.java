@@ -1,8 +1,6 @@
 // Пример који илуструје различите намене блокова.
 
-package rs.math.oop1.p040601.blok.z01.koriscenje;
-
-class Blok {
+class PokretanjeBlok {
     // telo klase je blok
 
     public static void main(String[] args) {

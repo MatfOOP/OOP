@@ -1,8 +1,6 @@
 // Пример илуструје употребу витичастих заграда за дефинисање опсега важења променљиивих.
 
-package rs.math.oop1.p040503.opsegVazenjaPromenljivih.z01.ilustracija;
-
-public class PromenljiveOpsegVazenja {
+class PokretanjePromenljiveOpsegVazenja {
     int x; //promenljiva klase
 
     public static void main(String[] args) {

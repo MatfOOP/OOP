@@ -1,8 +1,6 @@
 // Пример илуструје неке употребе празне наредбе.
 
-package rs.math.oop1.p040604.praznaNaredba.z01.koriscenje;
-
-public class PraznaNaredba {
+class PokretanjePraznaNaredba {
 
     public static void main(String[] args) {
         int x = 10;

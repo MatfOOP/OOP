@@ -2,7 +2,7 @@
 
 package rs.math.oop1.p040605.naredbeDodele.z01.koriscenje;
 
-public class NaredbaDodele {
+class PokretanjeNaredbaDodele {
 
    public static void main(String[] args) {
        int m, n, k;

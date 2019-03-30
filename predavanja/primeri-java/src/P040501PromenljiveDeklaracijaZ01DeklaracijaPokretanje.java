@@ -1,8 +1,6 @@
 // Пример илуструје различите начине за декларисање променљивих.
 
-package rs.math.oop1.p040501.promenljive.z01.deklaracija;
-
-public class DeklaracijaPromenljive {
+class PokretanjePromenljive {
 
     public static void main(String[] args) {
         // deklaracija jedne promenljive
