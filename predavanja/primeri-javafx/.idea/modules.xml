@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/primeri-javafx.iml" filepath="$PROJECT_DIR$/primeri-javafx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFxApplication.iml" filepath="$PROJECT_DIR$/JavaFxApplication.iml" />
     </modules>
   </component>
 </project>
+

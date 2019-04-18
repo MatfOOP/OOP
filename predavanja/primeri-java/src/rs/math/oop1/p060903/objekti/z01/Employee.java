@@ -5,8 +5,8 @@ public class Employee {
     private String ime;
     private double plata;
 
-    public Employee(String n, int br, double s) {
-        ime = n;
+    public Employee(String i, int br, double s) {
+        ime = i;
         broj = br;
         plata = s;
     }
@@ -42,9 +42,9 @@ public class Employee {
         Employee e = (Employee) o;
         if (!(ime.equals(e.getIme())))
             return false;
-        if( broj != e.broj)
+        if (broj != e.broj)
             return false;
-        if( plata != e.plata)
+        if (plata != e.plata)
             return false;
         return true;
     }

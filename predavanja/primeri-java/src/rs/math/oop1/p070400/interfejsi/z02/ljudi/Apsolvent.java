@@ -14,7 +14,13 @@ package rs.math.oop1.p070400.interfejsi.z02.ljudi;
 class Apsolvent extends Student 
 {
   int brojRokovaDoIstekaStaza;
-  
+
+  public Apsolvent(String smer, String brojIndeksa, int godinaStudija, int dobrota, int postenje,
+  int brojRokovaDoIstekaStaza) {
+    super(smer, brojIndeksa, godinaStudija, dobrota, postenje);
+    this.brojRokovaDoIstekaStaza = brojRokovaDoIstekaStaza;
+  }
+
   /**
    * Metod predstaviSe() prikazuje na standardnom izlazu
    * 

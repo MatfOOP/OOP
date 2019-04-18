@@ -71,7 +71,7 @@ class Employee
 	
 	public Employee( double s, int year, int month, int day )
 	{
-		name = "Zaposleni br. " + getId();
+		name = "Employee br. " + getId();
 		salary = s;
 		GregorianCalendar calendar = new GregorianCalendar( year, month - 1, day );
 		// GregorianCalendar uses 0 for January

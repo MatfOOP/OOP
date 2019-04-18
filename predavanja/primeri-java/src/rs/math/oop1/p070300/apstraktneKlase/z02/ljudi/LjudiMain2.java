@@ -31,26 +31,26 @@ public class LjudiMain2
 		milica.predmet = "OOP";
 		milica.godinaStaza = 12;
 		
-		Nastavnik perica = new Nastavnik();
-		perica.ucitajSe();
+		//Nastavnik perica = new Nastavnik();
+		//perica.ucitajSe();
 		
 //		marko.predstaviSe();
 //		janko.predstaviSe();
 //		milica.predstaviSe();
 
-//		Covek c = marko;
-//		c.predstaviSe();
-//		c =janko;
-//		c.predstaviSe();
-//		c = milica;
-//		c.predstaviSe();
+		Covek c = marko;
+		c.predstaviSe();
+		c =janko;
+		c.predstaviSe();
+		c = milica;
+		c.predstaviSe();
 		
-		Covek[] niz = { perica, marko, janko, milica };
-		for (int i = 0; i < niz.length; i++)
-		{
-			niz[i].predstaviSe();
-		}
-		
+//		Covek[] niz = { marko, janko, milica };
+//		for (int i = 0; i < niz.length; i++)
+//		{
+//			niz[i].predstaviSe();
+//		}
+//
 	}
 	
 }

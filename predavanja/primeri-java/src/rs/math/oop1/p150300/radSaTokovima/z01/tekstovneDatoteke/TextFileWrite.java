@@ -23,7 +23,7 @@ public class TextFileWrite
          writeData(staff, out);
          out.close();
 
-          System.out.println("Zaposleni su upisani u datoteku employee3.dat.");
+          System.out.println("Employee su upisani u datoteku employee3.dat.");
       }
       catch (IOException exception)
       {

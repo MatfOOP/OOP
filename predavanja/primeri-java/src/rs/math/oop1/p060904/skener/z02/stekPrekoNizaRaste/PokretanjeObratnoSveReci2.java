@@ -19,11 +19,11 @@ Windows системе, односно <Ctrl>+d за Unix системе
 package rs.math.oop1.p060904.skener.z02.stekPrekoNizaRaste;
 
 
-public class PokretanjeObratnoSveReci {
+public class PokretanjeObratnoSveReci2 {
 
    public static void main(String[] args) {
       System.out.println(
-               "Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
+               "Unesi tekst(<Ctrl>+d ili <Ctrl>+z za kraj):");
       StekNiski reci = new StekNiski();
       reci.init();
       java.util.Scanner skener = new java.util.Scanner(System.in);

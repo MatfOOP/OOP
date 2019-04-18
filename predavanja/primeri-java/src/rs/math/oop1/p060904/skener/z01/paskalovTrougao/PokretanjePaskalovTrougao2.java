@@ -16,10 +16,7 @@ package rs.math.oop1.p060904.skener.z01.paskalovTrougao;
 public class PokretanjePaskalovTrougao2 {
 
    public static void main(String[] args) {
-      System.out.println(
-               "Unesi broj vrsta Paskalovog trougla: ");
-      java.util.Scanner skener = new java.util.Scanner(
-               System.in);
+      java.util.Scanner skener = new java.util.Scanner( "12");
       int brojVrsta = skener.nextInt();
       skener.close();
       PaskalovTrougао pt = new PaskalovTrougао();

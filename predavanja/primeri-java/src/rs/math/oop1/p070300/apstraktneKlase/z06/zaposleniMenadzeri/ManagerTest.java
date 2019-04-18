@@ -10,22 +10,22 @@ public class ManagerTest
 {
 	public static void main( String[] args )
 	{
-		// construct a Manager object
-		Manager boss = new Manager( "Carl Cracker", 80000, 1987, 12, 15 );
+		// construct a Direktor object
+		Direktor boss = new Direktor( "Carl Cracker", 80000, 1987, 12, 15 );
 		boss.setBonus( 5000 );
 		
-		Employee[] staff = new Employee[3];
+		Zaposleni[] staff = new Zaposleni[3];
 		
 		staff[0] = boss;
-		staff[1] = new Employee( "Harry Hacker", 50000, 1989, 10, 1 );
-		staff[2] = new Employee( "Tommy Tester", 40000, 1990, 3, 15 );
+		staff[1] = new Zaposleni( "Harry Hacker", 50000, 1989, 10, 1 );
+		staff[2] = new Zaposleni( "Tommy Tester", 40000, 1990, 3, 15 );
 		
 		Student s = new Student( "M M", "Inf.", 17, 2, 1990 );
-		Person[] p = new Person[4];
+		Osoba[] p = new Osoba[4];
 		for (int i = 0; i < 3; i++)
 			p[i] = staff[i];
 		p[3] = s;
-		for (Person per : p)
+		for (Osoba per : p)
 			System.out.println( per );
 	}
 }

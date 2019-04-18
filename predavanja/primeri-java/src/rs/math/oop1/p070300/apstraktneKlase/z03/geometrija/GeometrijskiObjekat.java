@@ -10,6 +10,7 @@ public abstract class GeometrijskiObjekat {
    }
 
    public GeometrijskiObjekat(String oznaka) {
+
       this.oznaka = oznaka;
    }
 

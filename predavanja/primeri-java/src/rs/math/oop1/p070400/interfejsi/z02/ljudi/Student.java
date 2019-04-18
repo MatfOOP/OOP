@@ -14,7 +14,15 @@ class Student extends Covek implements Deskripcija, Kvalitet
 	int godinaStudija;
 	int dobrota = 95;
 	int postenje = 90;
-	
+
+	public Student(String smer, String brojIndeksa, int godinaStudija, int dobrota, int postenje) {
+		this.smer = smer;
+		this.brojIndeksa = brojIndeksa;
+		this.godinaStudija = godinaStudija;
+		this.dobrota = dobrota;
+		this.postenje = postenje;
+	}
+
 	public void predstaviSe()
 	{
 		System.out.println( "Student: " + ime + " " + prezime + " " + smer + " "

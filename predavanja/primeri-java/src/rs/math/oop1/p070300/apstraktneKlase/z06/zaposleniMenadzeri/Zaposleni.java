@@ -3,10 +3,10 @@ package rs.math.oop1.p070300.apstraktneKlase.z06.zaposleniMenadzeri;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-class Employee extends Person
+class Zaposleni extends Osoba
 {
-	public Employee( String n, double s, int yearB, int monthB, int dayB,
-			int yearH, int monthH, int dayH )
+	public Zaposleni(String n, double s, int yearB, int monthB, int dayB,
+					 int yearH, int monthH, int dayH )
 	{
 		super( n, yearB, monthB, dayB );
 		salary = s;
@@ -14,7 +14,7 @@ class Employee extends Person
 		hireDay = calendar.getTime();
 	}
 	
-	public Employee( String n, double s, int yearH, int monthH, int dayH )
+	public Zaposleni(String n, double s, int yearH, int monthH, int dayH )
 	{
 		this( n, s, 1, 1, 1970, yearH, monthH, dayH );
 	}

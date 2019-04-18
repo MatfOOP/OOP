@@ -24,8 +24,8 @@ public class PokretanjeOkretanjeStek {
 
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-      StekNiski stek = new StekNiskiPrekoListe();
-      //Stek stek = new StekNiskiPrekoNiza();
+      //StekNiski stek = new StekNiskiPrekoListe();
+      StekNiski stek = new StekNiskiPrekoNiza();
       System.out.println(
                "Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
       while (sc.hasNext())

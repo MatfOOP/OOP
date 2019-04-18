@@ -24,7 +24,7 @@ class Employee {
 
     @Override
     public String toString() {
-        return String.format("Zaposleni - ime: %s, plata: %.2f.", name, salary);
+        return String.format("Employee - ime: %s, plata: %.2f.", name, salary);
     }
 }
 

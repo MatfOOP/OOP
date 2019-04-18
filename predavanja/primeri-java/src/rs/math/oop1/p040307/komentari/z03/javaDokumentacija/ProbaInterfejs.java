@@ -1,13 +1,14 @@
 package rs.math.oop1.p040307.komentari.z03.javaDokumentacija;
 
 /**
- * @author vlado
+ * @author Vladimir FIlipovic
  * <p> Interfejs <code>ProbaInterfejs</code> služi za operacije i za konstante
  * @see ProbaImplementacija
  */
 public interface ProbaInterfejs {
     /**
-     * Metod <code> saberi </code> sabira dva celobrojna argumenta
+     * Metod <code> saberi </code> sabira dva
+     * celobrojna argumenta
      * @param a prvi sabirak
      * @param b drugi sabirak
      * @return zbir dva sabirka

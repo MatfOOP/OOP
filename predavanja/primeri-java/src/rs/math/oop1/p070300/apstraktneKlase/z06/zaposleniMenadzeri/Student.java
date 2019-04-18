@@ -1,7 +1,9 @@
 package rs.math.oop1.p070300.apstraktneKlase.z06.zaposleniMenadzeri;
 
-class Student extends Person
+class Student extends Osoba
 {
+	private String usmerenje;
+
 	public Student( String n, String s, int year, int month, int day )
 	{
 		super( n, year, month, day );
@@ -12,6 +14,10 @@ class Student extends Person
 	{
 		return usmerenje;
 	}
+
+	public String toString()
+	{
+		return "Student: " + getIme() + ":" + getUsmerenje();
+	}
 	
-	private String usmerenje;
 }
