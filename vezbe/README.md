@@ -144,6 +144,23 @@
    
    5. [Пројекат са свим кодовима](./primeri-java/07.izuzeci.kloniranje.zip){:target="_blank"} 
 
+8. Генеричке класе
+
+   1. Генеричке функције
+   
+   2. Генеричка класа `Kutija`
+   
+   3. Генеричка класа `OpcionaVrednost`, `wildcard`
+   
+   4. Генеричка класа `UredjeniPar` - више типских параметара
+   
+   5. Генерички интерфејс `GenerickiStek` 
+   
+   6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"} 
+
+
+
+
 
 
 
