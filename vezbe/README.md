@@ -156,13 +156,19 @@
    
    5. Генерички интерфејс `GenerickiStek` 
    
-   6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"} 
+   6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"}  
 
+9.  Генеричке колекције
 
+    1.  `LinkendList<T>`
 
+    2.  `ArrayList<T>`
 
+    3.  `TreeSet<T>`
+   
+    4.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
 
-
+10. [Датотеке](./primeri-java/10.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
 
 
 
