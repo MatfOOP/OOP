@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.p1701.krug;
+package rs.ac.bg.matf.oop_i.krug;
 
 import javafx.application.Application;
 import javafx.scene.*;
