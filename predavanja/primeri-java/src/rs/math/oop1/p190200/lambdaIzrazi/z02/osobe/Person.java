@@ -1,4 +1,4 @@
-package rs.math.oop1.p170200.lambdaIzrazi.z02.osobe;
+package rs.math.oop1.p190200.lambdaIzrazi.z02.osobe;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

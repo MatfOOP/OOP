@@ -1,4 +1,4 @@
-package rs.math.oop1.p070102.prevazilazenjePredefinisanog.z03.zaposleni;
+package rs.math.oop1.p080402.prevazilazenjeJednakosti.z01.zaposleni;
 
 import java.util.*;
 

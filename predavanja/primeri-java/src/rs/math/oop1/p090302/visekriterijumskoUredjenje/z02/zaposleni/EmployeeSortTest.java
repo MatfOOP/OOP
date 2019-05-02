@@ -1,4 +1,4 @@
-package rs.math.oop1.p070602.visekriterijumskoUredjenje.z02.zaposleni;
+package rs.math.oop1.p090302.visekriterijumskoUredjenje.z02.zaposleni;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package rs.math.oop1.p080301.skenerNiska.z06.geometrija;
+package rs.math.oop1.p080601.nizoviObjekata.z02.geometrija;
 
 class Duz {
    String oznaka;

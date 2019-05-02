@@ -8,7 +8,7 @@
 // Задатак представља илустрацију мерења трајања неког временског
 // интервала
 
-package rs.math.oop1.p060908.datumVreme.z02.merenjeProteklogVremena;
+package rs.math.oop1.p050602.merenjeVremena.z01.protekloVreme;
 
 public class VremeIzvrsenjaMetoda {
 

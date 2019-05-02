@@ -1,4 +1,4 @@
-package rs.math.oop1.p170202.predefinisaniFunkcionalniInterfejsi.z04.fluentMailerConsumer;
+package rs.math.oop1.p190202.predefinisaniFunkcionalniInterfejsi.z04.fluentMailerConsumer;
 
 import java.util.function.Consumer;
 

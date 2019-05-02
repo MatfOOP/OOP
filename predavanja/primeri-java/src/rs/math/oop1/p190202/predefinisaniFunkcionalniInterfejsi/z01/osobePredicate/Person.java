@@ -1,4 +1,4 @@
-package rs.math.oop1.p170202.predefinisaniFunkcionalniInterfejsi.z01.osobePredicate;
+package rs.math.oop1.p190202.predefinisaniFunkcionalniInterfejsi.z01.osobePredicate;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

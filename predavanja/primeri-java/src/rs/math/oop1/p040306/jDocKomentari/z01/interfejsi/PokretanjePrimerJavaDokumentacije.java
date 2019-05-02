@@ -1,4 +1,4 @@
-package rs.math.oop1.p040307.komentari.z03.javaDokumentacija;
+package rs.math.oop1.p040306.jDocKomentari.z01.interfejsi;
 
 /**
  * @author vlado

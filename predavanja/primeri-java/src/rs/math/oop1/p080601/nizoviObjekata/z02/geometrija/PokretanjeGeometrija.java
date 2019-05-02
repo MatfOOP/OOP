@@ -10,7 +10,7 @@
 // Програм илуструје рад са класама и објектима, као и рад са низовима
 // објеката датог типа (PokretanjeGeometrija).
 
-package rs.math.oop1.p080301.skenerNiska.z06.geometrija;
+package rs.math.oop1.p080601.nizoviObjekata.z02.geometrija;
 
 public class PokretanjeGeometrija {
 

@@ -4,7 +4,7 @@
 
  */
 
-package rs.math.oop1.p080301.skenerNiska.z01.paskalovTrougao;
+package rs.math.oop1.p050701.skenerNiska.z01.paskalovTrougao;
 
 class PaskalovTrougао {
    // deklarisi trougaoni niz

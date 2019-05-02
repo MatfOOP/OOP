@@ -1,4 +1,4 @@
-package rs.math.oop1.p110602.strukturisanjePodataka.z05.lista;
+package rs.math.oop1.p130602.strukturisanjePodataka.z05.lista;
 
 public class LinkedListTest
 {

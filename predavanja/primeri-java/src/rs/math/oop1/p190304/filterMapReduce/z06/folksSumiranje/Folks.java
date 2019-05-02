@@ -1,4 +1,4 @@
-package rs.math.oop1.p170304.filterMapReduce.z06.folksSumiranje;
+package rs.math.oop1.p190304.filterMapReduce.z06.folksSumiranje;
 
 import java.util.List;
 import java.util.Arrays;

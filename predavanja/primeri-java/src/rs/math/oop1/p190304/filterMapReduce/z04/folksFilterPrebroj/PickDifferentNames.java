@@ -1,4 +1,4 @@
-package rs.math.oop1.p170304.filterMapReduce.z04.folksFilterPrebroj;
+package rs.math.oop1.p190304.filterMapReduce.z04.folksFilterPrebroj;
 
 import java.util.function.Predicate;
 import java.util.function.Function;

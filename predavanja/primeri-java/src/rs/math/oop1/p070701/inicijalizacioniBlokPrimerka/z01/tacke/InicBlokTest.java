@@ -1,4 +1,4 @@
-package rs.math.oop1.p060601.inicijalizacioniBlokPrimerka.z01.tacke;
+package rs.math.oop1.p070701.inicijalizacioniBlokPrimerka.z01.tacke;
 
 public class InicBlokTest {
     public static void main(String[] args) {

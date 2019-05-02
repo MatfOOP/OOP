@@ -1,4 +1,4 @@
-package rs.math.oop1.p060503.slucajniBrojevi.z01.staristikaSlucajnih;
+package rs.math.oop1.p050503.slucajniBrojevi.z01.staristikaSlucajnih;
 
 public class StatistikaPseudoSlucajni {
 

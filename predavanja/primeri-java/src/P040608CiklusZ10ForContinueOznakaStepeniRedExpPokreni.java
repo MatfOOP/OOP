@@ -14,8 +14,6 @@
 
 // Задатак представља илустрацију коришћења обележене наредбе continue.
 
-package rs.math.oop1.p040608.naredbeCiklusa.z10.stepeniRedContinueOznaka;
-
 public class P040608CiklusZ10ForContinueOznakaStepeniRedExpPokreni {
 
    public static void main(String[] args) {

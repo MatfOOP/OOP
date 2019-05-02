@@ -1,4 +1,4 @@
-package rs.math.oop1.p170201.funkcionalniInterfejsi.z05.obradaDatoteka;
+package rs.math.oop1.p190201.funkcionalniInterfejsi.z05.obradaDatoteka;
 
 import java.util.stream.Stream;
 import java.io.File;

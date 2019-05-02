@@ -1,4 +1,4 @@
-package rs.math.oop1.p060603.konstruktori.z02.geometrija;
+package rs.math.oop1.p070703.konstruktori.z02.geometrija;
 
 public class Duz {
    private String oznaka;

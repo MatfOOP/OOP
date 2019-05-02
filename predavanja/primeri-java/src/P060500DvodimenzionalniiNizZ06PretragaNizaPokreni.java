@@ -5,8 +5,6 @@
  Ова конструкција је посебно погодна ако има и више од једне угњеждене петље.
  */
 
-package rs.math.oop1.p050401.prevremeniIzlazak.z01.obelezenaNaredba;
-
 public class P060500DvodimenzionalniiNizZ06PretragaNizaPokreni {
 
     public static void main(String[] args) {

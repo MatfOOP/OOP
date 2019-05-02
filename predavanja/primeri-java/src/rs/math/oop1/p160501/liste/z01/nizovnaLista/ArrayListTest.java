@@ -1,4 +1,4 @@
-package rs.math.oop1.p140501.liste.z01.nizovnaLista;
+package rs.math.oop1.p160501.liste.z01.nizovnaLista;
 
 import java.util.ArrayList;
 import java.util.Collection;

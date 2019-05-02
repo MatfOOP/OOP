@@ -1,6 +1,4 @@
-package rs.math.oop1.p050500.visedimenzionalniNiz.z01.pretraga;
-
-public class Pretraga3 {
+public class P060600VisedimenzionalniiNizZ03PretagaNizaPokreni {
 
    public static void main(String[] komandnaLinija) {
       String text = "beograd"; 

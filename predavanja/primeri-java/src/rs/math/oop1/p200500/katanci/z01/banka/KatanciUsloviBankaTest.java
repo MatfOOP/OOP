@@ -1,4 +1,4 @@
-package rs.math.oop1.p180500.katanci.z01.banka;
+package rs.math.oop1.p200500.katanci.z01.banka;
 
 public class KatanciUsloviBankaTest
 {

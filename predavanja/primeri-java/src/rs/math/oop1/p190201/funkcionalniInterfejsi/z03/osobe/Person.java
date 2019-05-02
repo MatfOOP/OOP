@@ -1,4 +1,4 @@
-package rs.math.oop1.p170201.funkcionalniInterfejsi.z03.osobe;
+package rs.math.oop1.p190201.funkcionalniInterfejsi.z03.osobe;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

@@ -1,4 +1,4 @@
-package rs.math.oop1.p140304.operacijaPomocuIteratora.z01.spajanje;
+package rs.math.oop1.p160304.operacijaPomocuIteratora.z01.spajanje;
 
 import java.util.*;
 

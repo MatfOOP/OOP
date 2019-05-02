@@ -1,7 +1,7 @@
-package rs.math.oop1.p170304.filterMapReduce.z05.folksIzborJednog;
+package rs.math.oop1.p190304.filterMapReduce.z05.folksIzborJednog;
 
 import java.util.List;
-import static rs.math.oop1.p170304.filterMapReduce.z05.folksIzborJednog.Folks.friends;
+import static rs.math.oop1.p190304.filterMapReduce.z05.folksIzborJednog.Folks.friends;
 
 public class PickAnElement
 {

@@ -1,4 +1,4 @@
-package rs.math.oop1.p180500.katanci.z01.banka;
+package rs.math.oop1.p200500.katanci.z01.banka;
 
 /**
  * Nit koja prebacuje novac sa jednog na druge racune u banci

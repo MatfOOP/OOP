@@ -16,8 +16,6 @@
 // прошлом случају, али ипак наступа прекорачење.
 // На крају, програм илуструје како директна примена рекурзије може да успори програм.
 
-package rs.math.oop1.p050400.dvodimenzionalniNiz.z03.binomniKoeficijentiRekurzivno;
-
 public class P060500DvodimenzionalniiNizZ03BKPoRekurzivnoiPokreni {
    // deklarisi trougaoni niz
    static int[][] koeficijenti;

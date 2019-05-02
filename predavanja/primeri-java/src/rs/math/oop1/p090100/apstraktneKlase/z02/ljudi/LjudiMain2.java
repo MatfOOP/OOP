@@ -1,4 +1,4 @@
-package rs.math.oop1.p070300.apstraktneKlase.z02.ljudi;
+package rs.math.oop1.p090100.apstraktneKlase.z02.ljudi;
 
 /**
  * 

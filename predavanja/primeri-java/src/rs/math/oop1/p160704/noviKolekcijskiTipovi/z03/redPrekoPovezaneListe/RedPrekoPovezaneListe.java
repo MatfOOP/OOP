@@ -1,4 +1,4 @@
-package rs.math.oop1.p140704.noviKolekcijskiTipovi.z03.redPrekoPovezaneListe;
+package rs.math.oop1.p160704.noviKolekcijskiTipovi.z03.redPrekoPovezaneListe;
 
 import java.util.AbstractQueue;
 import java.util.ConcurrentModificationException;

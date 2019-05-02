@@ -1,4 +1,4 @@
-package rs.math.oop1.p170203.referenceNaMetode.z01iteracija;
+package rs.math.oop1.p190203.referenceNaMetode.z01iteracija;
 
 public class InferredParameterNotFinal
 {

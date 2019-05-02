@@ -1,8 +1,8 @@
-package rs.math.oop1.p170304.filterMapReduce.z03.folksLamdaReusing;
+package rs.math.oop1.p190304.filterMapReduce.z03.folksLamdaReusing;
 
-import static rs.math.oop1.p170304.filterMapReduce.z03.folksLamdaReusing.Folks.comrades;
-import static rs.math.oop1.p170304.filterMapReduce.z03.folksLamdaReusing.Folks.editors;
-import static rs.math.oop1.p170304.filterMapReduce.z03.folksLamdaReusing.Folks.friends;
+import static rs.math.oop1.p190304.filterMapReduce.z03.folksLamdaReusing.Folks.comrades;
+import static rs.math.oop1.p190304.filterMapReduce.z03.folksLamdaReusing.Folks.editors;
+import static rs.math.oop1.p190304.filterMapReduce.z03.folksLamdaReusing.Folks.friends;
 import java.util.function.Predicate;
 
 public class PickElementsMultipleCollection

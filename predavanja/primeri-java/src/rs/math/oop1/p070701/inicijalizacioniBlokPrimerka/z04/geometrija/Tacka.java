@@ -1,4 +1,4 @@
-package rs.math.oop1.p060601.inicijalizacioniBlokPrimerka.z04.geometrija;
+package rs.math.oop1.p070701.inicijalizacioniBlokPrimerka.z04.geometrija;
 
 public class Tacka {
    public static int brojKreiranih = 0;

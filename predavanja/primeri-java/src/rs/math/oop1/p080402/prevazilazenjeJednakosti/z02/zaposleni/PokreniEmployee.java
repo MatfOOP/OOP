@@ -1,4 +1,4 @@
-package rs.math.oop1.p060903.objekti.z01;
+package rs.math.oop1.p080402.prevazilazenjeJednakosti.z02.zaposleni;
 
 public class PokreniEmployee {
     public static void main(String[] args) {

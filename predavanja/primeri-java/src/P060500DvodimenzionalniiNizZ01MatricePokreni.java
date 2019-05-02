@@ -7,8 +7,6 @@
 
 // Програм илуструје рад са дводимензионалним низовима и реализацију рекурзије.
 
-package rs.math.oop1.p050400.dvodimenzionalniNiz.z01.matrice;
-
 public class P060500DvodimenzionalniiNizZ01MatricePokreni {
 
     static void prikazi(double[][] a) {

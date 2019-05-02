@@ -1,5 +1,5 @@
 
-package rs.math.oop1.p170304.filterMapReduce.z07.folksSpajanje;
+package rs.math.oop1.p190304.filterMapReduce.z07.folksSpajanje;
 
 import static java.util.stream.Collectors.joining;
 

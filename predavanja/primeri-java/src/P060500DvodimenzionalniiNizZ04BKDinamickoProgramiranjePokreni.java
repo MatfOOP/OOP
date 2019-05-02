@@ -15,8 +15,6 @@
 // На крају, програм илуструје како се динамичким програмирањем брже добија резултат
 // (при чему се користи више меморије за смештај међурезултата).
 
-package rs.math.oop1.p050400.dvodimenzionalniNiz.z04.binomniKoeficijentiDinamickoProgramiranje;
-
 public class P060500DvodimenzionalniiNizZ04BKDinamickoProgramiranjePokreni {
    // deklarisi trougaoni niz
    static int[][] koeficijenti;

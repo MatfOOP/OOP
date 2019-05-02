@@ -1,4 +1,4 @@
-package rs.math.oop1.p170200.lambdaIzrazi.z05.osobeSortiranje;
+package rs.math.oop1.p190200.lambdaIzrazi.z05.osobeSortiranje;
 
 import java.util.List;
 import java.util.Arrays;

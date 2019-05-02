@@ -1,4 +1,4 @@
-package rs.math.oop1.p070602.visekriterijumskoUredjenje.z01.niske;
+package rs.math.oop1.p090302.visekriterijumskoUredjenje.z01.niske;
 
 import java.util.Comparator;
 

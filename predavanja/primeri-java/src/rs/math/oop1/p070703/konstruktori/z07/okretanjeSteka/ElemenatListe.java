@@ -1,4 +1,4 @@
-package rs.math.oop1.p060603.konstruktori.z07.okretanjeSteka;
+package rs.math.oop1.p070703.konstruktori.z07.okretanjeSteka;
 
 public class ElemenatListe {
    private String sadrzaj;

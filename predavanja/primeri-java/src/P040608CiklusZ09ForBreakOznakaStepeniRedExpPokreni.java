@@ -13,8 +13,6 @@
 
 // Задатак представља илустрацију коришћења обележене наредбе break.
 
-package rs.math.oop1.p040608.naredbeCiklusa.z09.stepeniRedBreakOznaka;
-
 public class P040608CiklusZ09ForBreakOznakaStepeniRedExpPokreni {
 
    public static void main(String[] args) {

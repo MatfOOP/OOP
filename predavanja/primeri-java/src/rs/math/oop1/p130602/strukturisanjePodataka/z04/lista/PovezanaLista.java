@@ -1,4 +1,4 @@
-package rs.math.oop1.p110602.strukturisanjePodataka.z04.lista;
+package rs.math.oop1.p130602.strukturisanjePodataka.z04.lista;
 
 public class PovezanaLista<T>
 {

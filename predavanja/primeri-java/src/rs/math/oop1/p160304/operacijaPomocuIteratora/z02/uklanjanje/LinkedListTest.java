@@ -1,4 +1,4 @@
-package rs.math.oop1.p140304.operacijaPomocuIteratora.z02.uklanjanje;
+package rs.math.oop1.p160304.operacijaPomocuIteratora.z02.uklanjanje;
 
 import java.util.*;
 

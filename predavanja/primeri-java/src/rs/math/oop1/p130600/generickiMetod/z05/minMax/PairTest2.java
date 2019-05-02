@@ -1,4 +1,4 @@
-package rs.math.oop1.p110600.generickiMetod.z05.minMax;
+package rs.math.oop1.p130600.generickiMetod.z05.minMax;
 
 import java.util.*;
 

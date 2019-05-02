@@ -1,4 +1,4 @@
-package rs.math.oop1.p070300.apstraktneKlase.z01.fakultet;
+package rs.math.oop1.p090100.apstraktneKlase.z01.fakultet;
 
 public abstract class Covek {
 

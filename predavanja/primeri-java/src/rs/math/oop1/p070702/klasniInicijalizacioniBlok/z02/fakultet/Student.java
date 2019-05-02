@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060602.klasniInicijalizacioniBlok.z02.fakultet;
+package rs.math.oop1.p070702.klasniInicijalizacioniBlok.z02.fakultet;
 
 import java.util.Random;
 import java.util.Scanner;

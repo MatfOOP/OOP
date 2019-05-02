@@ -1,4 +1,4 @@
-package rs.math.oop1.p060201.nizovi.z02.sortiranjeInt;
+package rs.math.oop1.p060401.nizovi.z02.sortiranjeInt;
 
 import java.util.Arrays;
 

@@ -11,8 +11,6 @@
 // колекцијску петљу, обичнан и форматизован испис података на стандардни излаз
 // и коришћење излазних секвенци приликом исписа.
 
-package rs.math.oop1.p050300.jednodimenzionalniNiz.z02.frekvencijeMonolitno;
-
 public class P050300JednodimenzionalniNizZ02FrekfencijeMonolitnoPokreni {
 
    public static void main(String[] args) {

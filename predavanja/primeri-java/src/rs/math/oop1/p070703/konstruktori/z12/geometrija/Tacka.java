@@ -1,4 +1,4 @@
-package rs.math.oop1.p060603.konstruktori.z12.geometrija;
+package rs.math.oop1.p070703.konstruktori.z12.geometrija;
 
 import static java.lang.Math.*;
 

@@ -1,4 +1,4 @@
-package rs.math.oop1.p080300.lokalneUnutrasnje.z02.zaposleniSortiranje;
+package rs.math.oop1.p100300.lokalneUnutrasnje.z02.zaposleniSortiranje;
 
 public class Employee implements Comparable
 {

@@ -11,8 +11,6 @@
 // број елемената. 
 // Такође, програм илуструје последице прекорачења опсега за целобројни тип.
 
-package rs.math.oop1.p050400.dvodimenzionalniNiz.z02.binomniKoeficijentiPoDefiniciji;
-
 public class P060500DvodimenzionalniiNizZ02BKPoDefinicijiPokreni {
    // deklarisi trougaoni niz
    static int[][] koeficijenti;

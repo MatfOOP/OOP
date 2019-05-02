@@ -1,6 +1,4 @@
-package rs.math.oop1.p050500.visedimenzionalniNiz.z01.pretraga;
-
-public class Pretraga2 {
+public class P060600VisedimenzionalniiNizZ02PretagaNizaPokreni {
 
    public static void main(String[] komandnaLinija) {
       int[][][] p = { { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } }, { { 11, 12, 13, 14, 15 }, { 21, 22 } },

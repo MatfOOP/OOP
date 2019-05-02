@@ -1,9 +1,7 @@
-package rs.math.oop1.p170304.filterMapReduce.z05.folksIzborJednog;
+package rs.math.oop1.p190304.filterMapReduce.z05.folksIzborJednog;
 
 import java.util.List;
 import java.util.Optional;
-
-import static rs.math.oop1.p170304.filterMapReduce.z05.folksIzborJednog.Folks.friends;
 
 public class PickAnElementElegant
 {
@@ -22,11 +20,11 @@ public class PickAnElementElegant
 	public static void main( final String[] args )
 	{
 		System.out.println( "//" + "START:NAME_OUTPUT" );
-		pickName( friends, "N" );
-		pickName( friends, "Z" );
+		pickName( Folks.friends, "N" );
+		pickName( Folks.friends, "Z" );
 		System.out.println( "//" + "END:NAME_OUTPUT" );
 		
-		final Optional<String> foundName = friends.stream()
+		final Optional<String> foundName = Folks.friends.stream()
 				.filter( name -> name.startsWith( "N" ) ).findFirst();
 				
 		System.out.println( "//" + "START:CLOSURE_OUTPUT" );

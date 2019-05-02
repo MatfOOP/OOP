@@ -1,4 +1,4 @@
-package rs.math.oop1.p080400.anonimneUnutrasnje.z01.koriscenje;
+package rs.math.oop1.p100400.anonimneUnutrasnje.z01.koriscenje;
 
 public class AnonimnaUnutrasnja
 {

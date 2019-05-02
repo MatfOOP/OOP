@@ -1,4 +1,4 @@
-package rs.math.oop1.p070101.prevazilazenje.z03.geometrijaKonstruktori;
+package rs.math.oop1.p070502.prevazilazenje.z03.geometrijaKonstruktori;
 
 public class GeometrijskiObjekat {
    public static int brojKreiranih = 0;

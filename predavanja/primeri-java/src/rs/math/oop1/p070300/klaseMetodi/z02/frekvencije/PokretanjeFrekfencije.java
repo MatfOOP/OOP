@@ -12,7 +12,7 @@
 // Програм илуструје како се функционалности израчунавања фрекфенције и њиховог 
 // приказа могу енкапсулирати у класи.
 
-package rs.math.oop1.p060400.klaseMetodi.z02.frekvencije;
+package rs.math.oop1.p070300.klaseMetodi.z02.frekvencije;
 
 public class PokretanjeFrekfencije {
 

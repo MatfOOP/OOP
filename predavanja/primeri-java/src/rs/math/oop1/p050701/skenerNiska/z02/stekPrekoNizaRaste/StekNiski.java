@@ -8,7 +8,7 @@
  
  */
 
-package rs.math.oop1.p080301.skenerNiska.z02.stekPrekoNizaRaste;
+package rs.math.oop1.p050701.skenerNiska.z02.stekPrekoNizaRaste;
 
 class StekNiski {
 

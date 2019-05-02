@@ -14,8 +14,6 @@
 
 // Програм илуструје рад са вишедимензионалним низовима
 
-package rs.math.oop1.p050500.visedimenzionalniNiz.z02.fakultet;
-
 public class P060600VisedimenzionalniiNizZ04StudentiOcenePokreni {
 
    public static void main(String[] args) {

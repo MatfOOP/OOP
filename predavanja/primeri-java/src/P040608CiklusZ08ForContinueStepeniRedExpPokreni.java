@@ -14,8 +14,6 @@
 
 // Задатак представља илустрацију коришћења необележене наредбе continue.
 
-package rs.math.oop1.p040608.naredbeCiklusa.z08.stepeniRedBreakContinue;
-
 public class P040608CiklusZ08ForContinueStepeniRedExpPokreni {
 
    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package rs.math.oop1.p110500.generickiInterfejs.z01.kljucVrednost;
+package rs.math.oop1.p130500.generickiInterfejs.z01.kljucVrednost;
 
 public class OrderedPairTest
 {

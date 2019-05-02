@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/vsjava8 for more book information.
 ***/
-package rs.math.oop1.p150100.datotekeDirektorijumi.z01.listanje;
+package rs.math.oop1.p170100.datotekeDirektorijumi.z01.listanje;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

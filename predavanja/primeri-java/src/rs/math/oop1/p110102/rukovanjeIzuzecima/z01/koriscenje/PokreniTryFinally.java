@@ -1,4 +1,4 @@
-package rs.math.oop1.p090102.rukovanjeIzuzecima.z01.koriscenje;
+package rs.math.oop1.p110102.rukovanjeIzuzecima.z01.koriscenje;
 
 public class PokreniTryFinally {
     public static void main(String[] args) {

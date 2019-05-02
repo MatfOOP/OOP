@@ -1,4 +1,4 @@
-package rs.math.oop1.p060402.pozivanjeMetoda.z04.geometrija;
+package rs.math.oop1.p070302.pozivanjeMetoda.z04.geometrija;
 
 class Duz {
    String oznaka;

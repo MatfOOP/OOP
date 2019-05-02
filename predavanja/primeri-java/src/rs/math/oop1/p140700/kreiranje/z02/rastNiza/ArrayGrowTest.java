@@ -1,4 +1,4 @@
-package rs.math.oop1.p120700.kreiranje.z02.rastNiza;
+package rs.math.oop1.p140700.kreiranje.z02.rastNiza;
 
 import java.lang.reflect.*;
 

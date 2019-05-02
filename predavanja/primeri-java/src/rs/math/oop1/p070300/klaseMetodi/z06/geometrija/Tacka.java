@@ -1,4 +1,4 @@
-package rs.math.oop1.p060400.klaseMetodi.z06.geometrija;
+package rs.math.oop1.p070300.klaseMetodi.z06.geometrija;
 
 class Tacka {
    double x;

@@ -1,4 +1,4 @@
-package rs.math.oop1.p090102.rukovanjeIzuzecima.z05.metodiBlokovi;
+package rs.math.oop1.p110102.rukovanjeIzuzecima.z05.metodiBlokovi;
 
 import java.io.IOException;
 

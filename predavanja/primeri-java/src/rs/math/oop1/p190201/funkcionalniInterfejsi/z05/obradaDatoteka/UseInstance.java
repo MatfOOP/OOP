@@ -1,4 +1,4 @@
-package rs.math.oop1.p170201.funkcionalniInterfejsi.z05.obradaDatoteka;
+package rs.math.oop1.p190201.funkcionalniInterfejsi.z05.obradaDatoteka;
 
 @FunctionalInterface
 public interface UseInstance<T, X extends Throwable>

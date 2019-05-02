@@ -1,4 +1,4 @@
-package rs.math.oop1.p070500.polimorfizam.z03.ljudiApstraktno;
+package rs.math.oop1.p090401.polimorfizam.z03.ljudiApstraktno;
 
 public class Apsolvent extends Student 
 {

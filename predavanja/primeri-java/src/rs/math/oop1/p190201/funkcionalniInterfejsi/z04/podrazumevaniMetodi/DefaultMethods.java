@@ -1,4 +1,4 @@
-package rs.math.oop1.p170201.funkcionalniInterfejsi.z04.podrazumevaniMetodi;
+package rs.math.oop1.p190201.funkcionalniInterfejsi.z04.podrazumevaniMetodi;
 
 public class DefaultMethods
 {

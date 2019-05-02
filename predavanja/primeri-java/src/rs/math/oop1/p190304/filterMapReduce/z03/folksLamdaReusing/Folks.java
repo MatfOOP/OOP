@@ -1,4 +1,4 @@
-package rs.math.oop1.p170304.filterMapReduce.z03.folksLamdaReusing;
+package rs.math.oop1.p190304.filterMapReduce.z03.folksLamdaReusing;
 
 import java.util.List;
 import java.util.Arrays;

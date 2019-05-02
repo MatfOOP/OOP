@@ -8,8 +8,6 @@
 // Програм илуструје пренос вредности између позивајућег и позваног метода  преко
 // глобалних променљивих.
 
-package rs.math.oop1.p050300.jednodimenzionalniNiz.z04.frekvencijeGlobalnePromenljive;
-
 public class P050300JednodimenzionalniNizZ04FrekfencijeGlobalnePromenlivePokreni {
    static int[] rezultati =
    { 1, 2, 4, 0, 7, 6, 3, -4, 5, 6, 4, 3, 7, 3, 2, 5, 7, 8,

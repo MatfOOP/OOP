@@ -1,4 +1,4 @@
-package rs.math.oop1.p120600.metodPristup.z01.poziv;
+package rs.math.oop1.p140600.metodPristup.z01.poziv;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

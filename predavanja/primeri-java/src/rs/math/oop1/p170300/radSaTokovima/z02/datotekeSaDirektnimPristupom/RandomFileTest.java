@@ -1,4 +1,4 @@
-package rs.math.oop1.p150300.radSaTokovima.z02.datotekeSaDirektnimPristupom;
+package rs.math.oop1.p170300.radSaTokovima.z02.datotekeSaDirektnimPristupom;
 
 import java.io.*;
 import java.util.*;

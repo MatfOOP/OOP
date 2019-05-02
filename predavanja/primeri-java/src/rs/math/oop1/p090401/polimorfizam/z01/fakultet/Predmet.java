@@ -6,7 +6,7 @@
 
 */
 
-package rs.math.oop1.p070500.polimorfizam.z01.fakultet;
+package rs.math.oop1.p090401.polimorfizam.z01.fakultet;
 
 public class Predmet {
 

@@ -1,4 +1,4 @@
-package rs.math.oop1.p070601.uredjenje.z02.geometrija;
+package rs.math.oop1.p090301.uredjenje.z02.geometrija;
 
 public abstract class GeometrijskiObjekat {
 

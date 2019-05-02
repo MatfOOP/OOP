@@ -1,4 +1,4 @@
-package rs.math.oop1.p070602.visekriterijumskoUredjenje.z03.geometrija;
+package rs.math.oop1.p090302.visekriterijumskoUredjenje.z03.geometrija;
 
 public abstract class GeometrijskiObjekat
 {

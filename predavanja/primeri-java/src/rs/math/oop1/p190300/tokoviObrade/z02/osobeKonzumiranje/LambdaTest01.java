@@ -1,4 +1,4 @@
-package rs.math.oop1.p170300.tokoviObrade.z02.osobeKonzumiranje;
+package rs.math.oop1.p190300.tokoviObrade.z02.osobeKonzumiranje;
 
 import java.util.List;
 import java.util.function.Consumer;

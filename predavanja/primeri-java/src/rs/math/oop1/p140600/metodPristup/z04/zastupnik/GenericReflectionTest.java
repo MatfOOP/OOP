@@ -1,4 +1,4 @@
-package rs.math.oop1.p120600.metodPristup.z04.zastupnik;
+package rs.math.oop1.p140600.metodPristup.z04.zastupnik;
 
 import java.lang.reflect.*;
 import java.util.*;

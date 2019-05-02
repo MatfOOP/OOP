@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060303.konstantnaPolja.z01.fakultet;
+package rs.math.oop1.p070603.konstantnaPolja.z01.fakultet;
 
 class Student {
    String ime;

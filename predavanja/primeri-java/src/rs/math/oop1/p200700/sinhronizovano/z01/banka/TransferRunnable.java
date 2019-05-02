@@ -1,4 +1,4 @@
-package rs.math.oop1.p180700.sinhronizovano.z01.banka;
+package rs.math.oop1.p200700.sinhronizovano.z01.banka;
 
 /**
  * Nit koja prebacuje novac sa jednog na druge racune u banci

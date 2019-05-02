@@ -1,4 +1,4 @@
-package rs.math.oop1.p060402.pozivanjeMetoda.z05.geometrijaPreopterecenje;
+package rs.math.oop1.p070302.pozivanjeMetoda.z05.geometrijaPreopterecenje;
 
 class Duz {
    String oznaka;

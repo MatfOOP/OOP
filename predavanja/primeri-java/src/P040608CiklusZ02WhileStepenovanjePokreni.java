@@ -7,8 +7,6 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса while
 
-package rs.math.oop1.p040608.naredbeCiklusa.z02.stepenovanjeWhile;
-
 public class P040608CiklusZ02WhileStepenovanjePokreni {
 
    public static void main(String[] args) {

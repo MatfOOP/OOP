@@ -14,7 +14,7 @@
 // као и постављање вредности за елементе низа коришћењем метода класе Arrays.
 // У овом примеру, користи се наредба import ради краћег записа програма.
 
-package rs.math.oop1.p060906.nizovi.z01.alokacija;
+package rs.math.oop1.p060101.nizovi.z01.alokacija;
 
 // Prethodne dve naredbe si mogle zameniti sa jednom naredbom:
 // import java.util.*;

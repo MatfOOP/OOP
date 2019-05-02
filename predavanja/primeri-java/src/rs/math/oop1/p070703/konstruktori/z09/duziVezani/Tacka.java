@@ -1,4 +1,4 @@
-package rs.math.oop1.p060603.konstruktori.z09.duziVezani;
+package rs.math.oop1.p070703.konstruktori.z09.duziVezani;
 
 public class Tacka 
 {

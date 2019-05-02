@@ -1,4 +1,4 @@
-package rs.math.oop1.p070300.apstraktneKlase.z06.zaposleniMenadzeri;
+package rs.math.oop1.p090100.apstraktneKlase.z06.zaposleniMenadzeri;
 
 class Direktor extends Zaposleni
 {

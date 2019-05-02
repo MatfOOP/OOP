@@ -1,4 +1,4 @@
-package rs.math.oop1.p060201.nizovi.z03.sortiranjeDouble;
+package rs.math.oop1.p060401.nizovi.z03.sortiranjeDouble;
 
 import java.util.Arrays;
 

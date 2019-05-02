@@ -9,7 +9,7 @@
  
  */
 
-package rs.math.oop1.p060601.inicijalizacioniBlokPrimerka.z02.okretanjeStek;
+package rs.math.oop1.p070701.inicijalizacioniBlokPrimerka.z02.okretanjeStek;
 
 public class StekNiski {
 

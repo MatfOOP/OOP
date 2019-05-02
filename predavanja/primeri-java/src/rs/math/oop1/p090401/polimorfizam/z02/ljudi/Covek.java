@@ -1,4 +1,4 @@
-package rs.math.oop1.p070500.polimorfizam.z02.ljudi;
+package rs.math.oop1.p090401.polimorfizam.z02.ljudi;
 
 class Covek
 {

@@ -1,6 +1,6 @@
-package rs.math.oop1.p170304.filterMapReduce.z06.folksSumiranje;
+package rs.math.oop1.p190304.filterMapReduce.z06.folksSumiranje;
 
-import static rs.math.oop1.p170304.filterMapReduce.z06.folksSumiranje.Folks.friends;
+import static rs.math.oop1.p190304.filterMapReduce.z06.folksSumiranje.Folks.friends;
 import java.util.Optional;
 
 public class PickALongest {

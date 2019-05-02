@@ -1,4 +1,4 @@
-package rs.math.oop1.p060602.klasniInicijalizacioniBlok.z03.prazanMain;
+package rs.math.oop1.p070702.klasniInicijalizacioniBlok.z03.prazanMain;
 
 public class Prazan2
 {

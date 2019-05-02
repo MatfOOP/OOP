@@ -1,4 +1,4 @@
-package rs.math.oop1.p170304.filterMapReduce.z08.assetsSumiranje;
+package rs.math.oop1.p190304.filterMapReduce.z08.assetsSumiranje;
 
 import java.util.Arrays;
 import java.util.List;

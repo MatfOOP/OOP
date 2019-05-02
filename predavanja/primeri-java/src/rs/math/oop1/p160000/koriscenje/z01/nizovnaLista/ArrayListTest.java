@@ -1,4 +1,4 @@
-package rs.math.oop1.p140000.koriscenje.z01.nizovnaLista;
+package rs.math.oop1.p160000.koriscenje.z01.nizovnaLista;
 
 import java.util.*;
 

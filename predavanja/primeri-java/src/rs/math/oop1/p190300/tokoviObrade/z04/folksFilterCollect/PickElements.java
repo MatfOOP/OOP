@@ -1,7 +1,7 @@
-package rs.math.oop1.p170300.tokoviObrade.z04.folksFilterCollect;
+package rs.math.oop1.p190300.tokoviObrade.z04.folksFilterCollect;
 
 import java.util.List;
-import static rs.math.oop1.p170300.tokoviObrade.z04.folksFilterCollect.Folks.friends;
+import static rs.math.oop1.p190300.tokoviObrade.z04.folksFilterCollect.Folks.friends;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 

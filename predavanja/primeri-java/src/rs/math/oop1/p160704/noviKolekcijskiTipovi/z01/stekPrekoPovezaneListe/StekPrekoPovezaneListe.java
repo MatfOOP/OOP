@@ -1,4 +1,4 @@
-package rs.math.oop1.p140704.noviKolekcijskiTipovi.z01.stekPrekoPovezaneListe;
+package rs.math.oop1.p160704.noviKolekcijskiTipovi.z01.stekPrekoPovezaneListe;
 
 import java.util.*;
 

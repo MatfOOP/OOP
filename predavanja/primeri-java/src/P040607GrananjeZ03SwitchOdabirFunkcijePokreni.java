@@ -4,8 +4,6 @@
 Задатак је на основу задате целобројне променљиве извршити одговарајућу математичку функцију и исписати њену вредност.
  */
 
-package rs.math.oop1.p040607.naredbeGrananja.z03.switchIzraz;
-
 public class P040607GrananjeZ03SwitchOdabirFunkcijePokreni {
 
     public static void main(String[] args) {

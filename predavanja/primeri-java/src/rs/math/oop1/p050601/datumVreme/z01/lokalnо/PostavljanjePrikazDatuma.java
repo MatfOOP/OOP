@@ -3,7 +3,7 @@ package rs.math.oop1.p050601.datumVreme.z01.lokalnо;
 import java.util.*;
 import java.text.*;
 
-public class PrikazDatuma {
+public class PostavljanjePrikazDatuma {
    public static void main(String args[]) {
 
       // Instantiate a Date object

@@ -1,4 +1,4 @@
-package rs.math.oop1.p140704.noviKolekcijskiTipovi.z02.redPrekoKruznogNiza;
+package rs.math.oop1.p160704.noviKolekcijskiTipovi.z02.redPrekoKruznogNiza;
 
 import java.util.*;
 

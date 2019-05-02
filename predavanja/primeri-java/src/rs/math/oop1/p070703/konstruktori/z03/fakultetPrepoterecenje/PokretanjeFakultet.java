@@ -15,7 +15,7 @@
 // Задатак илуструје прeoптерећење конструктора (Profesor, Student).
 // Задатак илуструје проблем када компоненте објекта могу да мењају стање (Student).
 
-package rs.math.oop1.p060603.konstruktori.z03.fakultetPrepoterecenje;
+package rs.math.oop1.p070703.konstruktori.z03.fakultetPrepoterecenje;
 
 public class PokretanjeFakultet {
 

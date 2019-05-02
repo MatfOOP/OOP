@@ -1,4 +1,4 @@
-package rs.math.oop1.p170200.lambdaIzrazi.z04.prolazakKrozNisku;
+package rs.math.oop1.p190200.lambdaIzrazi.z04.prolazakKrozNisku;
 
 public class IterateString
 {

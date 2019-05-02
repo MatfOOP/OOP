@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060403.metodiPrimerkaKlasni.z01.fakultet;
+package rs.math.oop1.p070303.metodiPrimerkaKlasni.z01.fakultet;
 
 class Student {
    String ime;

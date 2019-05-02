@@ -1,7 +1,7 @@
-package rs.math.oop1.p170300.tokoviObrade.z03.folksTransformacija;
+package rs.math.oop1.p190300.tokoviObrade.z03.folksTransformacija;
 
 import java.util.List;
-import static rs.math.oop1.p170300.tokoviObrade.z03.folksTransformacija.Folks.friends;
+import static rs.math.oop1.p190300.tokoviObrade.z03.folksTransformacija.Folks.friends;
 import java.util.ArrayList;
 
 public class Transform {

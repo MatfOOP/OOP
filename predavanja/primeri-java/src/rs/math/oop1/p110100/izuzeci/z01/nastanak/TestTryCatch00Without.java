@@ -1,4 +1,4 @@
-package rs.math.oop1.p090101.tipoviIzuzetaka.z01.nastanak;
+package rs.math.oop1.p110100.izuzeci.z01.nastanak;
 
 public class TestTryCatch00Without {
     public static void main(String[] args) {

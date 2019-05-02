@@ -1,4 +1,4 @@
-package rs.math.oop1.p140501.liste.z02.povezanaLista;
+package rs.math.oop1.p160501.liste.z02.povezanaLista;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

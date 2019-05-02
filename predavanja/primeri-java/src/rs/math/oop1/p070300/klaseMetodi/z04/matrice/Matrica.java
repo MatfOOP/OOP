@@ -4,7 +4,7 @@
  
  */
 
-package rs.math.oop1.p060400.klaseMetodi.z04.matrice;
+package rs.math.oop1.p070300.klaseMetodi.z04.matrice;
 
 class Matrica {
 

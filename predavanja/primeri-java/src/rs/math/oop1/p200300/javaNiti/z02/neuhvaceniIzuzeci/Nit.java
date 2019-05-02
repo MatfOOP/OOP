@@ -1,4 +1,4 @@
-package rs.math.oop1.p180300.javaNiti.z02.neuhvaceniIzuzeci;
+package rs.math.oop1.p200300.javaNiti.z02.neuhvaceniIzuzeci;
 
 /**
  * korisne internet adrese:

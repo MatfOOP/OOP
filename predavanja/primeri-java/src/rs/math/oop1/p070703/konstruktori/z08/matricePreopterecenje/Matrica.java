@@ -4,7 +4,7 @@
  
  */
 
-package rs.math.oop1.p060603.konstruktori.z08.matricePreopterecenje;
+package rs.math.oop1.p070703.konstruktori.z08.matricePreopterecenje;
 
 public class Matrica {
 

@@ -14,7 +14,7 @@
 // Задатак илуструје примену наслеђивања (Profesor, Student).
 // Задатак илуструје пoлиморфизам (Covek).
 
-package rs.math.oop1.p070101.prevazilazenje.z02.fakultetKonstruktori;
+package rs.math.oop1.p070502.prevazilazenje.z02.fakultetKonstruktori;
 
 public class PokretanjeFakultet {
 

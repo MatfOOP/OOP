@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060601.inicijalizacioniBlokPrimerka.z03.fakultet;
+package rs.math.oop1.p070701.inicijalizacioniBlokPrimerka.z03.fakultet;
 
 import java.util.Random;
 import java.util.Scanner;

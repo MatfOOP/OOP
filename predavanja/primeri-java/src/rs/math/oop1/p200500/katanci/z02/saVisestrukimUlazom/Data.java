@@ -1,4 +1,4 @@
-package rs.math.oop1.p180500.katanci.z02.saVisestrukimUlazom;
+package rs.math.oop1.p200500.katanci.z02.saVisestrukimUlazom;
 
 /**
  * primer preuzet sa stranice:

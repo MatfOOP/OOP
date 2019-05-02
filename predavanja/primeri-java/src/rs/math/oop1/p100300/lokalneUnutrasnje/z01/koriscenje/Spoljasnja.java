@@ -1,4 +1,4 @@
-package rs.math.oop1.p080300.lokalneUnutrasnje.z01.koriscenje;
+package rs.math.oop1.p100300.lokalneUnutrasnje.z01.koriscenje;
 
 public class Spoljasnja
 {

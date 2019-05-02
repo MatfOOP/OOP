@@ -1,6 +1,6 @@
-package rs.math.oop1.p090100.izuzeci.z01.indeksVanGranica;
+package rs.math.oop1.p110100.izuzeci.z02.indeksVanGranica;
 
-public class IndeksVanGranica {
+public class PokretanjeIndeksVanGranica {
 
    public static void main(String[] args) {
       int x[] = {1,2,3,4,5};

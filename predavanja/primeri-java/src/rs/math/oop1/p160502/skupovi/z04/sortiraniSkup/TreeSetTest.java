@@ -1,4 +1,4 @@
-package rs.math.oop1.p140502.skupovi.z04.sortiraniSkup;
+package rs.math.oop1.p160502.skupovi.z04.sortiraniSkup;
 
 /**
  @version 1.10 2004-08-02

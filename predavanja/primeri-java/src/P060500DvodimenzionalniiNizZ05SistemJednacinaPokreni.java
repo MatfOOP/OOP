@@ -1,5 +1,3 @@
-package rs.math.oop1.p050400.dvodimenzionalniNiz.z05.sistemJednacina;
-
 import java.util.Scanner;
 
 /**

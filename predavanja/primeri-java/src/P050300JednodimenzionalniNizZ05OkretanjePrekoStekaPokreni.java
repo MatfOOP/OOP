@@ -7,8 +7,6 @@
 
 // Програм илуструје реализацију стека  преко глобалних променљивих. 
 
-package rs.math.oop1.p050300.jednodimenzionalniNiz.z05.okretanjeNizaStek;
-
 public class P050300JednodimenzionalniNizZ05OkretanjePrekoStekaPokreni {
 
    static double[] stek;

@@ -6,8 +6,6 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса for
 
-package rs.math.oop1.p040608.naredbeCiklusa.z05.faktorijelFor;
-
 public class P040608CiklusZ05ForFaktorijelPokreni {
 
    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package rs.math.oop1.p080301.skenerNiska.z07.sistemJednacina;
+package rs.math.oop1.p050701.skenerNiska.z07.sistemJednacina;
 
 import java.util.Scanner;
 

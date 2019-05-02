@@ -1,4 +1,4 @@
-package rs.math.oop1.p070203.statickiUvoz.z01.rastojanjeObim;
+package rs.math.oop1.p070403.statickiUvoz.z01.rastojanjeObim;
 
 import java.util.*;
 

@@ -15,7 +15,7 @@
 // Задатак илуструје рад са псеудослучајним бројевима, као и рад са аргументима
 // командне линије
 
-package rs.math.oop1.p060503.slucajniBrojevi.z02.zamisljeniBroj;
+package rs.math.oop1.p050503.slucajniBrojevi.z02.zamisljeniBroj;
 
 public class ZamisljeniBroj {
 

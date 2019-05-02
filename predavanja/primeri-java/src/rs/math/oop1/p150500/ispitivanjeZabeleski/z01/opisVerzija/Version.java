@@ -1,4 +1,4 @@
-package rs.math.oop1.p130600.ispitivanjeZabeleski.z01.opisVerzija;
+package rs.math.oop1.p150500.ispitivanjeZabeleski.z01.opisVerzija;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

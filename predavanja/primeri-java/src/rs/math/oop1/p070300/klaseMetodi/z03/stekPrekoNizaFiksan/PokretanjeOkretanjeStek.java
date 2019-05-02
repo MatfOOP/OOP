@@ -13,7 +13,7 @@
 // Програм илуструје реализацију стека. Стек не може да расте.
 // Стекови за разне типове података су реализовани као одвојене класе.
 
-package rs.math.oop1.p060400.klaseMetodi.z03.stekPrekoNizaFiksan;
+package rs.math.oop1.p070300.klaseMetodi.z03.stekPrekoNizaFiksan;
 
 public class PokretanjeOkretanjeStek {
 

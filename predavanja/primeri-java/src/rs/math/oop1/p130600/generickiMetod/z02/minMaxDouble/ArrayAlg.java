@@ -1,4 +1,4 @@
-package rs.math.oop1.p110600.generickiMetod.z02.minMaxDouble;
+package rs.math.oop1.p130600.generickiMetod.z02.minMaxDouble;
 
 public class ArrayAlg
 {

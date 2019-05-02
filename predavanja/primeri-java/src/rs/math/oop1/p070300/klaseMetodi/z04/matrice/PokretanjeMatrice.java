@@ -11,7 +11,7 @@
 // Програм илуструје рад са класама, креирање и позивање метода, комуникацију међу 
 // објектима, преоптерећење метода и креирање рекурзивних метода (Matrica).
 
-package rs.math.oop1.p060400.klaseMetodi.z04.matrice;
+package rs.math.oop1.p070300.klaseMetodi.z04.matrice;
 
 public class PokretanjeMatrice {
 

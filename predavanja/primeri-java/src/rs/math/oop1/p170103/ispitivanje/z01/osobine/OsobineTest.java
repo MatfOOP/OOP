@@ -1,4 +1,4 @@
-package rs.math.oop1.p150103.ispitivanje.z01.osobine;
+package rs.math.oop1.p170103.ispitivanje.z01.osobine;
 
 public class OsobineTest
 {

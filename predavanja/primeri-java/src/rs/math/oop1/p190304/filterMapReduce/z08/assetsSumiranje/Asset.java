@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/vsjava8 for more book information.
 ***/
-package rs.math.oop1.p170304.filterMapReduce.z08.assetsSumiranje;
+package rs.math.oop1.p190304.filterMapReduce.z08.assetsSumiranje;
 
 public class Asset
 {

@@ -1,4 +1,4 @@
-package rs.math.oop1.p110500.generickiInterfejs.z02.kljucVrednost;
+package rs.math.oop1.p130500.generickiInterfejs.z02.kljucVrednost;
 
 
 public class PairTest

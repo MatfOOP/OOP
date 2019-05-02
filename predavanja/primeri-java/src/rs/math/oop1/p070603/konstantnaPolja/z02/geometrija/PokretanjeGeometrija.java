@@ -10,7 +10,7 @@
 // Користи се константно поље за чување броја PI
 
 
-package rs.math.oop1.p060303.konstantnaPolja.z02.geometrija;
+package rs.math.oop1.p070603.konstantnaPolja.z02.geometrija;
 
 public class PokretanjeGeometrija {
 

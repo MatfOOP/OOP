@@ -1,4 +1,4 @@
-package rs.math.oop1.p070102.prevazilazenjePredefinisanog.z02.geometrija;
+package rs.math.oop1.p080401.prevazilazenjeNiskaReprezentacije.z02.geometrija;
 
 public class Tacka extends GeometrijskiObjekat {
 

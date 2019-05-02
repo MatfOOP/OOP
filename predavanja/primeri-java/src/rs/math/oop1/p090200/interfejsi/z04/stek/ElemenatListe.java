@@ -1,4 +1,4 @@
-package rs.math.oop1.p070400.interfejsi.z04.stek;
+package rs.math.oop1.p090200.interfejsi.z04.stek;
 
 public class ElemenatListe {
    private String sadrzaj;

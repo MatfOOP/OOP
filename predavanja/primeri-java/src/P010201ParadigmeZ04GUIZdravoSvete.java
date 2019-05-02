@@ -1,16 +1,15 @@
-/*
-import javafx.application.Application;
-import javafx.stage.Stage;
 
-public class ZdravoSvete extends Application {
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    @Override
-    public void start(Stage primaryStage) {
-
-    }
-}
-*/
+//import javafx.application.Application;
+//import javafx.stage.Stage;
+//
+//public class PokretanjePovrsine extends Application {
+//
+//    public static void main(String[] args) {
+//        launch(args);
+//    }
+//
+//    @Override
+//    public void start(Stage primaryStage) {
+//
+//    }
+//}

@@ -1,4 +1,4 @@
-package rs.math.oop1.p080101.nestatickeUgnjezdene.z01.koriscenje;
+package rs.math.oop1.p100101.nestatickeUgnjezdene.z01.koriscenje;
 
 public class Spoljasnja1
 {

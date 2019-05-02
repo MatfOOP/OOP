@@ -10,7 +10,7 @@
 // Програм илуструје рад са класама и објектима, као и рад са низовима
 // објеката датог типа (PokretanjeGeometrija).
 
-package rs.math.oop1.p060300.klaseObjektiPolja.z02.geometrija;
+package rs.math.oop1.p070200.klaseObjektiPolja.z02.geometrija;
 
 public class PokretanjeGeometrija1 {
 

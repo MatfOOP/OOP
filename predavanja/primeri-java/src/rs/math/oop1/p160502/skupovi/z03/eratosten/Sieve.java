@@ -1,4 +1,4 @@
-package rs.math.oop1.p140502.skupovi.z03.eratosten;
+package rs.math.oop1.p160502.skupovi.z03.eratosten;
 
 import java.util.*;
 

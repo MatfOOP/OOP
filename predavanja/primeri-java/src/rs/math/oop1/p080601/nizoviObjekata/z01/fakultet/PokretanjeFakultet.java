@@ -15,7 +15,7 @@
 
 // Програм илуструје учитавање објеката са улаза
 
-package rs.math.oop1.p080302.skenerUlaz.z05.fakultet;
+package rs.math.oop1.p080601.nizoviObjekata.z01.fakultet;
 
 public class PokretanjeFakultet {
 

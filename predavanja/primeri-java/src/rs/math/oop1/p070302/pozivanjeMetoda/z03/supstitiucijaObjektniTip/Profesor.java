@@ -1,4 +1,4 @@
-package rs.math.oop1.p060402.pozivanjeMetoda.z03.supstitiucijaObjektniTip;
+package rs.math.oop1.p070302.pozivanjeMetoda.z03.supstitiucijaObjektniTip;
 
 /*
 

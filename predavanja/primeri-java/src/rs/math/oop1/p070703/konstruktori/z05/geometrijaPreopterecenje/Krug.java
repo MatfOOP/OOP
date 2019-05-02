@@ -1,4 +1,4 @@
-package rs.math.oop1.p060603.konstruktori.z05.geometrijaPreopterecenje;
+package rs.math.oop1.p070703.konstruktori.z05.geometrijaPreopterecenje;
 
 import static java.lang.Math.*;
 

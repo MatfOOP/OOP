@@ -1,4 +1,4 @@
-package rs.math.oop1.p060400.klaseMetodi.z05.tacke;
+package rs.math.oop1.p070300.klaseMetodi.z05.tacke;
 
 public class GeometrijaTest
 {

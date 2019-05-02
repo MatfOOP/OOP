@@ -16,7 +16,7 @@
 // и коришење стека који може да расте по потреби у циљу чувања података чији број 
 // иницијално није познат.
 
-package rs.math.oop1.p080302.skenerUlaz.z02.frekvencijeSaUlazaPrekoSteka;
+package rs.math.oop1.p050702.skenerUlaz.z02.frekvencijeSaUlazaPrekoSteka;
 
 public class PokretanjeFrekfencijeBrojeva {
 

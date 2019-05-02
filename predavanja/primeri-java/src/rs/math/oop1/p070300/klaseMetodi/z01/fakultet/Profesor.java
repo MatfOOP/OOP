@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060400.klaseMetodi.z01.fakultet;
+package rs.math.oop1.p070300.klaseMetodi.z01.fakultet;
 
 class Profesor {
    String ime;

@@ -11,7 +11,7 @@
 // међу објектима.
 // Програм такође илуструје и преоптерећење метода (Tacka).
 
-package rs.math.oop1.p060402.pozivanjeMetoda.z05.geometrijaPreopterecenje;
+package rs.math.oop1.p070302.pozivanjeMetoda.z05.geometrijaPreopterecenje;
 
 public class PokretanjeGeometrija {
 

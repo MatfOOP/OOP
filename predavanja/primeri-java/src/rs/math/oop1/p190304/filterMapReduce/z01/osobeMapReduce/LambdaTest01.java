@@ -1,4 +1,4 @@
-package rs.math.oop1.p170304.filterMapReduce.z01.osobeMapReduce;
+package rs.math.oop1.p190304.filterMapReduce.z01.osobeMapReduce;
 
 public class LambdaTest01
 {

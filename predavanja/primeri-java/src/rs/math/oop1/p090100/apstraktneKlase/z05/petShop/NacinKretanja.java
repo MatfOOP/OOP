@@ -1,4 +1,4 @@
-package rs.math.oop1.p070300.apstraktneKlase.z05.petShop;
+package rs.math.oop1.p090100.apstraktneKlase.z05.petShop;
 
 public class NacinKretanja
 {

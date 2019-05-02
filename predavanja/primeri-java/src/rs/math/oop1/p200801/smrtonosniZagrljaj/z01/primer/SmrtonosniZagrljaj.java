@@ -1,4 +1,4 @@
-package rs.math.oop1.p180801.smrtonosniZagrljaj.z01.primer;
+package rs.math.oop1.p200801.smrtonosniZagrljaj.z01.primer;
 
 public class SmrtonosniZagrljaj
 {

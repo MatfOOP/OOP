@@ -10,8 +10,6 @@
 // Програм илуструје алокацију низа, постављање вредности за елементе низа,
 // очитавање вредности за елементе низа и колекцијску for петљу. 
 
-package rs.math.oop1.p050300.jednodimenzionalniNiz.z01.alokacijaNiza;
-
 public class P050300JednodimenzionalniNizZ01AlolkacijaNizaPokreni {
     public static void main(String[] args) {
         int n = 0b0000_1001; //binarni broj

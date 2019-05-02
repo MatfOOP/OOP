@@ -1,4 +1,4 @@
-package rs.math.oop1.p060400.klaseMetodi.z03.stekPrekoNizaFiksan;
+package rs.math.oop1.p070300.klaseMetodi.z03.stekPrekoNizaFiksan;
 
 /*
 

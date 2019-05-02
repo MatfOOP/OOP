@@ -1,4 +1,4 @@
-package rs.math.oop1.p070201.naredbaUvoza.z02.geometrija;
+package rs.math.oop1.p070402.naredbaUvoza.z02.geometrija;
 
 public class Duz {
    private String oznaka;

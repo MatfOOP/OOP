@@ -1,4 +1,4 @@
-package rs.math.oop1.p080101.nestatickeUgnjezdene.z02.koriscenje;
+package rs.math.oop1.p100101.nestatickeUgnjezdene.z02.koriscenje;
 
 public class Spoljsanja2Test2
 {

@@ -6,8 +6,6 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса do while
 
-package rs.math.oop1.p040608.naredbeCiklusa.z03.faktorijelDoWhile;
-
 public class P040608CiklusZ03DoWhileFaktorijelPokreni {
 
    public static void main(String[] args) {

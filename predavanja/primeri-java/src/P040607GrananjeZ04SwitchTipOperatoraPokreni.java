@@ -4,8 +4,6 @@
 Задатак је на основу задатог записа Јава оператора одредити којој групи оператора он припада.
 */
 
-package rs.math.oop1.p040607.naredbeGrananja.z04.switchIzraz;
-
 public class P040607GrananjeZ04SwitchTipOperatoraPokreni {
 
     public static void main(String[] args) {

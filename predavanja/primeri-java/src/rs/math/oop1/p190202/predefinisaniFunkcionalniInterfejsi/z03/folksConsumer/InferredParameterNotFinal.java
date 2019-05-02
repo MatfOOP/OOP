@@ -1,4 +1,4 @@
-package rs.math.oop1.p170202.predefinisaniFunkcionalniInterfejsi.z03.folksConsumer;
+package rs.math.oop1.p190202.predefinisaniFunkcionalniInterfejsi.z03.folksConsumer;
 
 public class InferredParameterNotFinal
 {
