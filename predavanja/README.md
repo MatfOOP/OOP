@@ -465,6 +465,12 @@
 
             1. Принципи SOLID
 
+    1. Догађаји
+
+        1. Предефинисани догађаји
+
+        1. Нови типови догађаја
+
 10. [Угњеждене и унутрашње класе](/prezentacije/OOP12-Sopstveni paketi, unutrasnje klase.pdf){:target="_blank"}
 
     1. Угњеждене класе
