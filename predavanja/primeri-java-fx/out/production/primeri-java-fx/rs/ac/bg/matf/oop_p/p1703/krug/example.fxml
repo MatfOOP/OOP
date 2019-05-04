@@ -1,0 +1,5 @@
+<BorderPane>
+  <center>
+    <Circle radius=“50” centerX=“50” centerY=“50”/>    
+  </center>
+</BorderPane>

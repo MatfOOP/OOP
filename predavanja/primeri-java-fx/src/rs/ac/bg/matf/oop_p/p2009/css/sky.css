@@ -1,0 +1,14 @@
+.label {
+-fx-text-fill: rgba(0, 0, 255);
+-fx-border-color: rgba(255, 255, 255, .80);
+-fx-border-radius: 8;
+-fx-padding: 6 6 6 6;
+-fx-font: bold 12pt "LucidaBrightDemiBold";
+}
+.button{
+-fx-text-fill: rgba(17, 145, 213);
+-fx-border-color: rgba(255, 255, 255, .80);
+-fx-border-radius: 8;
+-fx-padding: 6 6 6 6;
+-fx-font: bold 12pt "LucidaBrightDemiBold";
+}
