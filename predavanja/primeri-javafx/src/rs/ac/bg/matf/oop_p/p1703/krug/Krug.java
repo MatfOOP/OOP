@@ -9,21 +9,22 @@ import javafx.scene.*;
 import javafx.stage.*;
 
 public class Krug extends Application {
-	@Override
-	public void start(Stage stage) {
-		Parent root = null;
-		try {
-			root = FXMLLoader.load(getClass().getResource("example.fxml"), ResourceBundle.getBundle("r.fxml_example"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		stage.setScene(new Scene(root));
-		stage.show();
+    @Override
+    public void start(Stage stage) {
+        Parent root = null;
+        try {
+            root = FXMLLoader.load(getClass().getResource("example.fxml"),
+                    ResourceBundle.getBundle("r.fxml_example"));
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        stage.setScene(new Scene(root));
+        stage.show();
 
-	}
+    }
 
-	public static void main(String a[]) {
-		Application.launch(a);
-	}
+    public static void main(String a[]) {
+        Application.launch(a);
+    }
 }
