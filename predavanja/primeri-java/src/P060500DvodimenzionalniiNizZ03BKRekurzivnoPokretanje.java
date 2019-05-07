@@ -16,7 +16,7 @@
 // прошлом случају, али ипак наступа прекорачење.
 // На крају, програм илуструје како директна примена рекурзије може да успори програм.
 
-public class P060500DvodimenzionalniiNizZ03BKPoRekurzivnoiPokreni {
+class PokretanjeDvodimenzionalniiNizBKRekurzivno {
    // deklarisi trougaoni niz
    static int[][] koeficijenti;
 
