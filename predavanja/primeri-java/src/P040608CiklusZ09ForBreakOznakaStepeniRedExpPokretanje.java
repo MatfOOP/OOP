@@ -13,7 +13,7 @@
 
 // Задатак представља илустрацију коришћења обележене наредбе break.
 
-public class P040608CiklusZ09ForBreakOznakaStepeniRedExpPokreni {
+class PokretanjeForBreakOznakaStepeniRedExp {
 
    public static void main(String[] args) {
       double x = 1.00001;

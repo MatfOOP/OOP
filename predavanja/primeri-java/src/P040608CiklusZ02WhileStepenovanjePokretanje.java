@@ -7,7 +7,7 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса while
 
-public class P040608CiklusZ02WhileStepenovanjePokreni {
+class PokretanjeWhileStepenovanje {
 
    public static void main(String[] args) {
       int n = 10;

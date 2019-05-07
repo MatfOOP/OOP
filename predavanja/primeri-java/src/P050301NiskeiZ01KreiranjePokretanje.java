@@ -1,4 +1,4 @@
-class PokretanjeString {
+class PokretanjeNiskeKreiranje {
 
     public static void main(String[] args) {
         //referentni tip String

@@ -15,7 +15,7 @@
 // На крају, програм илуструје како се динамичким програмирањем брже добија резултат
 // (при чему се користи више меморије за смештај међурезултата).
 
-public class P060500DvodimenzionalniiNizZ04BKDinamickoProgramiranjePokreni {
+class PokretanjeDvodimenzionalniiNizBKDinamickoProgramiranje {
    // deklarisi trougaoni niz
    static int[][] koeficijenti;
 

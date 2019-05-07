@@ -1,6 +1,6 @@
 // Пример илуструје употребу потпуног if израза који омогућава разматрање свих могућих вредности посматраног услова.
 
-class PokreniPopuniIfPovrsinaObim {
+class PokretanjePopuniIfPovrsinaObim {
 
     public static void main(String[] args) {
         double obim, povrsina;

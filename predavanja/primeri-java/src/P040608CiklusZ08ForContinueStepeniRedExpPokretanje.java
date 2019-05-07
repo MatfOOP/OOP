@@ -14,7 +14,7 @@
 
 // Задатак представља илустрацију коришћења необележене наредбе continue.
 
-public class P040608CiklusZ08ForContinueStepeniRedExpPokreni {
+class PokretanjeForContinueStepeniRedExp {
 
    public static void main(String[] args) {
       double x = 1.00001;

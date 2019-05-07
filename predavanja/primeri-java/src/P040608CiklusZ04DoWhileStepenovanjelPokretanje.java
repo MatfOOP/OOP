@@ -7,7 +7,7 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса do while
 
-public class P040608CiklusZ04DoWhileStepenovanjelPokreni {
+class PokretanjeDoWhileStepenovanje {
 
    public static void main(String[] args) {
       int n = 10;

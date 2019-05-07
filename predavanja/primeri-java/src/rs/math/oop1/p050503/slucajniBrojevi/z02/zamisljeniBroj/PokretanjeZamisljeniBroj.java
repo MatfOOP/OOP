@@ -17,7 +17,7 @@
 
 package rs.math.oop1.p050503.slucajniBrojevi.z02.zamisljeniBroj;
 
-public class ZamisljeniBroj {
+public class PokretanjeZamisljeniBroj {
 
    static int zamisli(int a, int b, int metod) {
       switch (metod) {

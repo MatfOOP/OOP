@@ -10,7 +10,8 @@
 // Програм илуструје алокацију низа, постављање вредности за елементе низа,
 // очитавање вредности за елементе низа и колекцијску for петљу. 
 
-public class P060301KolekcijskiForiNizZ01PrikazNizaPokreni {
+class PokretanjeKolekcijskiForiNizPrikaz {
+
     public static void main(String[] args) {
         int n = 0b0000_1001; //binarni broj
         double[] niz = new double[n];

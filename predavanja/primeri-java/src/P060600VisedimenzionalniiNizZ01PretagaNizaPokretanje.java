@@ -1,4 +1,4 @@
-public class P060600VisedimenzionalniiNizZ01PretagaNizaPokreni {
+class PokretanjeVisedimenzionalniiNizPretaga {
 
    public static void main(String[] komandnaLinija) {
       int[][][] p = { { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } }, { { 11, 12, 13, 14, 15 }, { 21, 22 } },

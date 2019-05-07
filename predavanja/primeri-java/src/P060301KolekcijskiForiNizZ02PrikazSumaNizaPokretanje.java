@@ -10,7 +10,7 @@
 // Програм илуструје алокацију низа, постављање вредности за елементе низа,
 // очитавање вредности за елементе низа и колекцијску for петљу. 
 
-public class P060301KolekcijskiForiNizZ02PrikazSumaNizaPokreni {
+class PokretanjeKolekcijskiForiNizPrikazSuma {
 
     public static void main(String[] args) {
         double[] niz = {1, 2, 3.5, 4.4, -2.7};

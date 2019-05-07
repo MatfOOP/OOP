@@ -4,7 +4,7 @@
 Задатак је на основу задате целобројне променљиве извршити одговарајућу математичку функцију и исписати њену вредност.
  */
 
-public class P040607GrananjeZ03SwitchOdabirFunkcijePokreni {
+class PokretanjeSwitchOdabirFunkcije {
 
     public static void main(String[] args) {
         double f;

@@ -6,7 +6,7 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса for
 
-public class P040608CiklusZ05ForFaktorijelPokreni {
+class PokretanjeForFaktorijel {
 
    public static void main(String[] args) {
       int n = 6;

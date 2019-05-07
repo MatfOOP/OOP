@@ -13,7 +13,7 @@
 // Програм илуструје рад са низовима, статичке методе параметре и ефекте замене 
 // низовних параметара приликом позива метода.
 
-public class P050300JednodimenzionalniNizZ03FrekfencijeMetodePokreni {
+class PokretanjeJednodimenzionalniNizFrekfencijeMetode {
 
    static int odrediDonjuGranicu(int[] rezultati) {
       int ret = rezultati[0];

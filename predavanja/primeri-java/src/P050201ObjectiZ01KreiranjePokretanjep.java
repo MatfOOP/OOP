@@ -1,5 +1,5 @@
 
-class PokretanjeObjct {
+class PokretanjeObjectKreiranje {
 
     public static void main(String[] args) {
         /*osnovni referentni (objektni) tip,

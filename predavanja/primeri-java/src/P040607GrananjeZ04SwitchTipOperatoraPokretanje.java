@@ -4,7 +4,7 @@
 Задатак је на основу задатог записа Јава оператора одредити којој групи оператора он припада.
 */
 
-public class P040607GrananjeZ04SwitchTipOperatoraPokreni {
+class PokretanjeSwitchTipOperatoraNiska {
 
     public static void main(String[] args) {
         String operator = ">>";

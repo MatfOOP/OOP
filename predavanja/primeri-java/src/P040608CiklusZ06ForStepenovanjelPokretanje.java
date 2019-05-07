@@ -7,14 +7,14 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса do while
 
-public class P040608CiklusZ06ForStepenovanjelPokreni {
+class PokretanjeForStepenovanjel {
 
     public static void main(String[] args) {
-	int n = 10;
-	double x = 2;
-	double stepen = 1;
-	for( int i = 1;i <= n;i++)
-	    stepen *= x;
-	System.out.println(x + "^" + n + "=" + stepen);
+        int n = 10;
+        double x = 2;
+        double stepen = 1;
+        for (int i = 1; i <= n; i++)
+            stepen *= x;
+        System.out.println(x + "^" + n + "=" + stepen);
     }
 }

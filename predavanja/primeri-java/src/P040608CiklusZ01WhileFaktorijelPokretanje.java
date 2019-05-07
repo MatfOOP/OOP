@@ -6,7 +6,7 @@
 
 // Задатак представља илустрацију коришћења наредбе циклуса while
 
-public class P040608CiklusZ01WhileFaktorijelPokreni {
+class PokretanjeWhileFaktorijel {
 
    public static void main(String[] args) {
       int n = 6;

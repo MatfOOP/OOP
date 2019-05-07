@@ -1,25 +1,25 @@
-class ZdravoSvete1 {
+class PokretanjeZdravoSvete {
     public static void main(String[] args) {
         System.out.println("Zdravo svete!");
     }
 }
 
-class ZdravoSvete2 {
+class PokretanjeZdravoSvetePorukaCirilica {
 
     public static void main(String[] args) {
         System.out.println("Здраво свете!");
     }
 }
 
-class ZdravoSvete3 {
+class PokretanjeZdravoSvetePromenljivaCirilica {
     public static void main(String[] аргументи) {
         String порука = "Здраво свете!";
         System.out.println(порука);
     }
 }
 
-class ZdravoSvete4 {
-    public static void прикажи(String заПриказ) {
+class PokretanjeZdravoSveteFunkcijaCirilica {
+    static void прикажи(String заПриказ) {
         System.out.println(заПриказ);
     }
 
@@ -29,8 +29,8 @@ class ZdravoSvete4 {
     }
 }
 
-class ЗдравоСвете5 {
-    public static void прикажи(String заПриказ) {
+class ПокретањеЗдравоСвете {
+    static void прикажи(String заПриказ) {
 
         System.out.println(заПриказ);
     }

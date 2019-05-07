@@ -7,7 +7,7 @@
 
 // Програм илуструје рад са дводимензионалним низовима и реализацију рекурзије.
 
-public class P060500DvodimenzionalniiNizZ01MatricePokreni {
+class PokretanjeDvodimenzionalniiNizMatrice {
 
     static void prikazi(double[][] a) {
         if (a == null) {
