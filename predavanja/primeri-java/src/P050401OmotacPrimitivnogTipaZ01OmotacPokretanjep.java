@@ -1,4 +1,4 @@
-class P050401OmotacPrimitivnogTipaZ01OmotacPokretanjep {
+class PokretanjeOmotacPrimitivnogTipa {
 
     public static void main(String[] args) {
         //tzv. "omotač" referentni tipovi za primitive tipove
