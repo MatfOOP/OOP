@@ -158,6 +158,7 @@
    
    6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"}  
 
+
 9.  Генеричке колекције
 
     1.  `LinkendList<T>`
@@ -165,10 +166,23 @@
     2.  `ArrayList<T>`
 
     3.  `TreeSet<T>`
-   
-    4.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
 
-10. [Датотеке](./primeri-java/10.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
+    4.  `TreeMap<T>` 
+   
+    5.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
+
+10. Поређење објеката
+   
+    1.  Интерфејс `Comparable<T>`
+
+    2.  Интерфејс `Comparator<T>`
+    
+	3.  Поређење објеката хијерархије облика  
+   
+    4.  [Пројекат са свим кодовима](./primeri-java/10.poredjenje.objekata.zip){:target="_blank"} 
+
+
+11. [Датотеке](./primeri-java/11.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
 
 
 
