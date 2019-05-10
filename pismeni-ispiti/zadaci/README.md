@@ -10,7 +10,7 @@
 
 * 2016-2017: [Пошиљке](./rokovi/oop.2016.2017.jun1.posiljke.pdf){:target="_blank"}, [Видео игре](./rokovi/oop.2016.2017.jun1.videoIgre.pdf){:target="_blank"}, [Софтверска мрежа](./rokovi/oop.2016.2017.jun2.softverskaMreza.pdf){:target="_blank"}, [Наставни предмети](./rokovi/oop.2016.2017.sept1.nastavniPredmeti.pdf){:target="_blank"}
 
-* 2015-2016: [Паковање](./rokovi/oop.2015.2016.jun1.pakovanje.pdf){:target="_blank"}, [Преглед](./rokovi/oop.2015.2016.jun1.pregled.pdf){:target="_blank"}, [Трајект](./rokovi/oop.2015.2016.jun2.trajekt.pdf){:target="_blank"}, [Ветеринар](./rokovi/oop.2015.2016.jun2.veterinar.pdf){:target="_blank"}, [Кодирање порука](./rokovi/oop.2015.2016.sept1.porukeKodiranje.pdf){:target="_blank"}, [Декодирање порука](./rokovi/oop.2015.2016.sept2.porukeDekodiranje.pdf){:target="_blank"} 
+* 2015-2016: [Паковање](./rokovi/oop.2015.2016.jun1.pakovanje.pdf){:target="_blank"}, [Преглед](./rokovi/oop.2015.2016.jun1.pregled.pdf){:target="_blank"}, [Трајект](./rokovi/oop.2015.2016.jun2.trajekt.pdf){:target="_blank"}, [Ветеринарска амбуланта](./rokovi/oop.2015.2016.jun2.veterinar.pdf){:target="_blank"}, [Кодирање порука](./rokovi/oop.2015.2016.sept1.porukeKodiranje.pdf){:target="_blank"}, [Грешке у порукама](./rokovi/oop.2015.2016.sept2.porukeGreske.pdf){:target="_blank"} 
 
 
 ---
