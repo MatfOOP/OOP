@@ -196,7 +196,7 @@
     
 	3.  Дугмићи и акције - `Button`	
     
-	4.  Текстуална поља и области - `TextField` `TextArea`
+	4.  Текстуална поља и области - `TextField` и `TextArea`
     
 	5.  Радио дугмићи - `RadioButton`
     
