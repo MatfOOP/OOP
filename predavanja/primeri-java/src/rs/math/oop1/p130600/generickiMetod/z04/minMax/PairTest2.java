@@ -13,8 +13,7 @@ public class PairTest2
 				new GregorianCalendar( 1903, Calendar.DECEMBER, 3 ), // J. von Neumann
 				new GregorianCalendar( 1910, Calendar.JUNE, 22 ), // K. Zuse
 		};
-		ArrayAlg.Pair<GregorianCalendar> mm = ArrayAlg
-				.<GregorianCalendar> minmax( birthdays );
+		ArrayAlg.Pair<GregorianCalendar> mm = ArrayAlg.<GregorianCalendar> minmax( birthdays );
 		System.out.println( "min = " + mm.getFirst().getTime() );
 		System.out.println( "max = " + mm.getSecond().getTime() );
 		
