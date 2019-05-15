@@ -41,46 +41,46 @@ public class Test2
 	
 	public static void main( String[] args )
 	{
-		Klasa2 p2 = new Klasa2();
-		Class<?> k2 = null;
-		//k2 = p2.getClass();
-		//k2 = Klasa2.class;
+		Klasa1 p1 = new Klasa2();
+		Class<?> k1 = null;
+		k1 = p1.getClass();
+		//k1 = Klasa1.class;
 		try
 		{
-			k2 = Class.forName( "rs.ac.bg.matf.oop_p.p1215a.reflection.interfejsi.Klasa2" );
+			k1 = Class.forName( "rs.math.oop1.p140200.ispitivanjeTipa.z01.klasaPolje.Klasa2" );
 		}
 		catch (ClassNotFoundException e)
 		{
 			e.printStackTrace();
 		}
-		System.out.println( k2.getName() );
-		Class<?>[] i2 = k2.getInterfaces();
-		for( Class<?> i: i2)
+		System.out.println( k1.getName() );
+		Class<?>[] implementira1 = k1.getInterfaces();
+		for( Class<?> i: implementira1)
 			System.out.print( i.getName() + " " );
 		System.out.println();
 	
-		Field[] polja2 =  k2.getFields();
-		for( Field f: polja2)
+		Field[] polja1 =  k1.getFields();
+		for( Field f: polja1)
 			System.out.print( f.getName() + " " );
 		System.out.println();
-		Method[] metodi2 =  k2.getMethods();
-		for( Method m: metodi2)
+		Method[] metodi1 =  k1.getMethods();
+		for( Method m: metodi1)
 			System.out.print( m.getName() + " " );
 		System.out.println();
 		
 		System.out.println();
-		Class k1 = k2.getSuperclass();
-		System.out.println( k1.getName() );
-		Class[] i1 = k1.getInterfaces();
-		for( Class i: i1)
+		Class k0 = k1.getSuperclass();
+		System.out.println( k0.getName() );
+		Class[] implementira0 = k0.getInterfaces();
+		for( Class i: implementira0)
 			System.out.print( i.getName() + " " );
-		Field[] polja1 =  k1.getDeclaredFields();
+		Field[] polja0 =  k0.getDeclaredFields();
 		System.out.println();
-		for( Field f: polja1)
+		for( Field f: polja0)
 			System.out.print( f.getName() + " " );
 		System.out.println();
-		Method[] metodi1 =  k1.getDeclaredMethods();
-		for( Method m: metodi1)
+		Method[] metodi0 =  k0.getDeclaredMethods();
+		for( Method m: metodi0)
 			System.out.print( m.getName() + " " );
 		System.out.println();
 		

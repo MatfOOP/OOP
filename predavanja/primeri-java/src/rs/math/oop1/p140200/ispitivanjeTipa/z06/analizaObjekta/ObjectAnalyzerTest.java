@@ -76,19 +76,19 @@ public class ObjectAnalyzerTest
 	{
 		int x=5;
 		System.out.println( new ObjectAnalyzer().prikaz( x ) );
-		
+
 		double x1=5.6;
 		System.out.println( new ObjectAnalyzer().prikaz( x1 ) );
-		
+
 		String s = "Marko Markovic";
 		System.out.println( new ObjectAnalyzer().prikaz( s ) );
-		
+
 		Employee pera = new Employee( "Petar Petrovic", 8000 );
 		System.out.println( new ObjectAnalyzer().prikaz( pera ) );
 
 		Manager mika = new Manager( "Mika Petrovic", 8000, 4000 );
 		System.out.println( new ObjectAnalyzer().prikaz( mika ) );
-	
+
 		Pair<String> mz = new Pair<>( "mika", "zika" );
 		System.out.println( new ObjectAnalyzer().prikaz( mz ) );
 
@@ -97,26 +97,26 @@ public class ObjectAnalyzerTest
 
 		int[] niz = { 1, 2, 3, 4, 5 };
 		System.out.println( new ObjectAnalyzer().prikaz( niz ) );
-		
+
 		 Manager m = new Manager( "Petar Petrоvic", 10_100, 0 );
 		 m.setBonus( 300 );
 		 System.out.println( new ObjectAnalyzer().prikaz( m ) );
 		 m.setBonus( 700 );
 		 System.out.println( new ObjectAnalyzer().prikaz( m ) );
-		
+
 		 Employee[] osobe = {
 		 new Employee("Zarko Zarkovic", 20_100),
-		 m, 
+		 m,
 		 pera,
 		 m
 		 };
 		 System.out.println( new ObjectAnalyzer().prikaz( osobe ) );
-//				
-//		 PovezanaLista<String> ll1 = new PovezanaLista<String>( "baba" );
-//		 ll1.addItem( "zaba" );
-//		 ll1.addItem( "mika" );
-//		 ll1.addItem( "zika" );
-//		 System.out.println( new ObjectAnalyzer().prikaz( ll1 ) );
-//		
+
+		 PovezanaLista<String> ll1 = new PovezanaLista<String>( "baba" );
+		 ll1.addItem( "zaba" );
+		 ll1.addItem( "mika" );
+		 ll1.addItem( "zika" );
+		 System.out.println( new ObjectAnalyzer().prikaz( ll1 ) );
+
 	}
 }

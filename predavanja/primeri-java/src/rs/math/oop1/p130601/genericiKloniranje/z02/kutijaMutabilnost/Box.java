@@ -8,8 +8,7 @@ public class Box<T extends KloniraSe<T>>
 	{
 		try
 		{
-			Object o = ((KloniraSe<T>)t).clone();
-			uKutiji = (T) o;
+			uKutiji = t.clone();
 		}
 		catch (CloneNotSupportedException e)
 		{
@@ -19,7 +18,14 @@ public class Box<T extends KloniraSe<T>>
 	
 	public void set( T t )
 	{
-		uKutiji = t;
+		try
+		{
+			uKutiji = t.clone();
+		}
+		catch (CloneNotSupportedException e)
+		{
+			System.out.println( e );
+		}
 	}
 	
 	public T get()

@@ -17,7 +17,8 @@ public class LinkedListTest
 	{
 		PovezanaLista<String> ll1 = new PovezanaLista<String>( "baba" );
 		ll1.addItem( "zaba" );
-		PovezanaLista<Integer> ll2 = new PovezanaLista<>();
+		Integer[] niz = {1,2,3,4};
+		PovezanaLista<Integer> ll2 = new PovezanaLista<>(niz);
 		ll2.addItem( 1 );
 		ll2.addItem( 2 );
 		ll2.addItem( 3 );

@@ -5,16 +5,17 @@ public enum GodisnjeDoba {
 
     private int trajanjeDana;
 
-    GodisnjeDoba(int trajanjeDana){
+    private GodisnjeDoba(int trajanjeDana){
         this.trajanjeDana = trajanjeDana;
     }
+
     public int getTrajanjeDana() {
         return trajanjeDana;
     }
 
     @Override
     public String toString(){
-        return "" + super.toString() + "|" + ordinal()+ "|" + trajanjeDana;
+        return "[" + super.toString() + "|" + ordinal()+ "|" + trajanjeDana + "]";
     }
 
 }

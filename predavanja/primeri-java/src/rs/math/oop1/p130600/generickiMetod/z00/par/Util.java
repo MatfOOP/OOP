@@ -1,4 +1,4 @@
-package rs.math.oop1.p130600.generickiMetod.z01.par;
+package rs.math.oop1.p130600.generickiMetod.z00.par;
 
 public class Util
 {
