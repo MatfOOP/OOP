@@ -3,6 +3,10 @@
 [ООП](../README.md)
 
 ---
+ 
+**[Информације](info/README.md)**
+
+**[Задаци](zadaci/README.md)**
 
 ---
 
