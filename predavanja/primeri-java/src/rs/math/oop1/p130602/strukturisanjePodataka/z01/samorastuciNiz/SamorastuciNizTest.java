@@ -1,4 +1,4 @@
-package rs.math.oop1.p130602.strukturisanjePodataka.z01.samorastuciNiz;
+package rs.math.oop1.p140800.strukturisanje.z01.samorastuciNiz;
 
 public class SamorastuciNizTest
 {

@@ -1,11 +1,14 @@
-package rs.math.oop1.p130602.strukturisanjePodataka.z01.samorastuciNiz;
+package rs.math.oop1.p140800.strukturisanje.z01.samorastuciNiz;
+
+import java.lang.reflect.Array;
 
 public class SamorastuciNiz<E>
 {
 	private E[] elementi;
 
-	public SamorastuciNiz()
+	public SamorastuciNiz(int inicijalnaDimenzija)
 	{
-//		elementi = new E[10];
+		Object noviNiz = Array.newInstance( E.class, inicijalnaDimenzija );
+		elementi = (E[])noviNiz;
 	}
 }
