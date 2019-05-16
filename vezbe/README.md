@@ -168,8 +168,10 @@
     3.  `TreeSet<T>`
 
     4.  `TreeMap<T>` 
+
+    5. `HashMap<T>` 
    
-    5.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
+    6.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
 
 10. Поређење објеката
    
@@ -177,13 +179,30 @@
 
     2.  Интерфејс `Comparator<T>`
     
-	3.  Поређење објеката хијерархије облика  
+	1.  Поређење објеката хијерархије облика  
    
-    4.  [Пројекат са свим кодовима](./primeri-java/10.poredjenje.objekata.zip){:target="_blank"} 
+    1.  [Пројекат са свим кодовима](./primeri-java/10.poredjenje.objekata.zip){:target="_blank"} 
 
 
 11. [Датотеке](./primeri-java/11.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
 
+12. Графичко корисничко окружење
+
+    1.  Библиотека `JavaFx`
+
+    2.  Контејнер елементи - `HBox` и `VBox`
+    
+	2.  Елементи за обележавање - `Label`
+    
+	3.  Дугмићи и акције - `Button`	
+    
+	4.  Текстуална поља и области - `TextField` и `TextArea`
+    
+	5.  Радио дугмићи - `RadioButton`
+    
+	6.  Платно за цртање - `Canvas`
+    
+	7.  [Пројекат са свим кодовима](./primeri-java/12.javafx.zip){:target="_blank"} 
 
 
 ---

@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/src/primer04TreeMap/primer02MapeIListe/Ocene.java" />
         <option value="$PROJECT_DIR$/src/primer02ArrayList/Primer02.java" />
         <option value="$PROJECT_DIR$/src/primer02ArrayList/Primer01.java" />
+        <option value="$PROJECT_DIR$/src/primer05HashMap/TelefonskiImenik.java" />
       </list>
     </option>
   </component>
@@ -33,9 +34,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -43,6 +44,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Nastava\OOP\2018\OOPStranica\vezbe\primeri-java\09.kolekcije\src\primer05HashMap" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,14 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrojanjeReci">
-    <configuration name="Bodovi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primer03Map.Bodovi" />
-      <module name="09.kolekcije" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TelefonskiImenik">
     <configuration name="BrojanjeReci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primer04TreeMap.primer04BrojanjeReci.BrojanjeReci" />
       <module name="09.kolekcije" />
@@ -85,6 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TelefonskiImenik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primer05HashMap.TelefonskiImenik" />
+      <module name="09.kolekcije" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primer04TreeMap.primer03NaseKlaseUMapi.Test" />
       <module name="09.kolekcije" />
@@ -94,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TelefonskiImenik" />
         <item itemvalue="Application.BrojanjeReci" />
         <item itemvalue="Application.Primer01" />
         <item itemvalue="Application.Ocene" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Bodovi" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +200,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primer05HashMap/TelefonskiImenik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primer05HashMap/Osoba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
