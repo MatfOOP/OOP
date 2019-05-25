@@ -9,7 +9,7 @@ public class LinkedListTest {
         a.add("Amy");
         a.add("Carl");
         a.add(2, "Bob");
-        a.add(1, "Damir");
+        a.add("Damir");
         System.out.println(a);
 
         List<String> b = new ArrayList<String>();

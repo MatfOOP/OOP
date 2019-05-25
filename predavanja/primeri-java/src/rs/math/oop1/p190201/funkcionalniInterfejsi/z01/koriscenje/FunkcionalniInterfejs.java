@@ -24,9 +24,9 @@ public class FunkcionalniInterfejs
 	public static void main( final String[] args )
 	{
 		Sample1 sample1 = input -> true;
-		Sample2 sample2 = input -> false;
-		
-		System.out.println( sample1.test( 4 ) );
-		System.out.println( sample2.test( 4 ) );
+		System.out.println( sample1.test( 42 ) );
+
+		Sample2 sample2 = input -> (input<10);
+		System.out.println( sample2.test( 42 ) );
 	}
 }

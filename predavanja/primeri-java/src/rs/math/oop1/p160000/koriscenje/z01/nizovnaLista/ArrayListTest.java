@@ -56,9 +56,10 @@ public class ArrayListTest
 	
 	public static void main( String[] args )
 	{
-		// fill the staff array list with three Employee objects
+		Collection c;
+	    // fill the staff array list with three Employee objects
 		Collection<Employee> staff = new ArrayList<Employee>();
-		
+
 		staff.add( new Employee( "Carl Cracker", 75000, 1987, 12, 15 ) );
 		staff.add( new Employee( "Harry Hacker", 50000, 1989, 10, 1 ) );
 		staff.add( new Employee( "Tony Tester", 40000, 1990, 3, 15 ) );

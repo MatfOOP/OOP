@@ -72,14 +72,18 @@ public class ArrayGrowTest
 	
 	public static void main( String[] args )
 	{
+
 		int[] a = { 1, 2, 3 };
+		String[] b = { "Tom", "Dick", "Harry" };
+
+
 		a = (int[]) goodArrayGrow( a );
 		arrayPrint( a );
 		
-		String[] b = { "Tom", "Dick", "Harry" };
 		b = (String[]) goodArrayGrow( b );
 		arrayPrint( b );
-		
+
+
 		System.out.println( "The following call will generate an exception." );
 		b = (String[]) badArrayGrow( b );
 	}

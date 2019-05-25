@@ -1,55 +1,59 @@
 package rs.math.oop1.p130602.strukturisanjePodataka.z01.samorastuciNiz;
 
-public class SamorastuciNiz<E>
-{
-	private int uvecanjeDimenzije = 10;
-	private E[] elementi;
+public class SamorastuciNiz<E> {
+    private E[] elementi;
+    private int uvecanjeDimenzije = 0;
 
-	public SamorastuciNiz(int inicijalnaDimenzija, int uvecanjeDimenzije)
-	{
-		elementi = (E[])new Object[inicijalnaDimenzija];
-		this.uvecanjeDimenzije = uvecanjeDimenzije;
-	}
+    public int vratiKapacitet() {
+        return elementi.length;
+    }
 
-	public SamorastuciNiz(){
-		this(10, 10);
-	}
+    private void obezbediKapacitetPomocni(int noviKapacitet) {
+        if (noviKapacitet > vratiKapacitet()) {
+            int inkrementKapaciteta = (uvecanjeDimenzije>0)? vratiKapacitet() + uvecanjeDimenzije: 2 *vratiKapacitet();
+            noviKapacitet = (noviKapacitet>inkrementKapaciteta)? noviKapacitet:inkrementKapaciteta;
+            E[] noviNiz = (E[]) new Object[noviKapacitet];
+            // probati sa arraycopy...
+            for (int i = 0; i < elementi.length; i++)
+                noviNiz[i] = elementi[i];
+            elementi = noviNiz;
+        }
+    }
 
-	public E naPoziciji(int indeks) throws IndexOutOfBoundsException
-	{
-		if( indeks < 0 || indeks >= elementi.length)
-			throw new IndexOutOfBoundsException();
-		return elementi[indeks];
-	}
+    public SamorastuciNiz(int inicijalnaDimenzija, int uvecanjeDimenzije) {
+        elementi = (E[]) new Object[inicijalnaDimenzija];
+        this.uvecanjeDimenzije = uvecanjeDimenzije;
+    }
 
-	private void obezbediKapacitetPomocni(int noviKapacitet)
-	{
-		if(noviKapacitet > elementi.length)
-		{
-			E[] noviNiz = (E[])new Object[noviKapacitet];
-			for(int i=0;i<elementi.length; i++)
-				noviNiz[i] = elementi[i];
-			elementi = noviNiz;
-		}
-	}
+    public SamorastuciNiz(int inicijalnaDimenzija) {
+        this(inicijalnaDimenzija, 0);
+    }
 
-	public void postaviNaPoziciju(E element, int indeks) throws IndexOutOfBoundsException {
-		if (indeks < 0)
-			throw new IndexOutOfBoundsException();
-		if( indeks >= elementi.length) {
-			obezbediKapacitetPomocni(indeks+uvecanjeDimenzije);
-		}elementi[indeks] = element;
-	}
+    public SamorastuciNiz() {
+        this(10);
+    }
 
-	@Override
-	public String toString()
-	{
-		StringBuilder sb = new StringBuilder();
-		for(int i=0; i< elementi.length; i++){
-			if( i % 10 == 0)
-				sb.append("\r\n");
-			sb.append(elementi[i] + "\t" );
-		}
-		return sb.toString();
-	}
+    public E naPoziciji(int indeks) throws IndexOutOfBoundsException {
+        if (indeks < 0 || indeks >= elementi.length)
+            throw new IndexOutOfBoundsException();
+        return elementi[indeks];
+    }
+
+    public void postaviNaPoziciju(E element, int indeks) throws IndexOutOfBoundsException {
+        if (indeks < 0)
+            throw new IndexOutOfBoundsException();
+        obezbediKapacitetPomocni(indeks+1);
+        elementi[indeks] = element;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < elementi.length; i++) {
+            if (i % 10 == 0 && i!=0)
+                sb.append("\r\n");
+            sb.append(elementi[i] + "\t");
+        }
+        return sb.toString();
+    }
 }

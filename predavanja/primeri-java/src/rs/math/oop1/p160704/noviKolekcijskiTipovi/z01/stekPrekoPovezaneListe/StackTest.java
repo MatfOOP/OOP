@@ -2,6 +2,7 @@ package rs.math.oop1.p160704.noviKolekcijskiTipovi.z01.stekPrekoPovezaneListe;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class StackTest
@@ -21,7 +22,7 @@ public class StackTest
 		Stack<String> noviStek = new StekPrekoPovezaneListe<>(q);
 		for( String s : noviStek )
 			System.out.print( s + " " );
-		System.out.println();
+		System.out.println("----");
 		
 		System.out.print( "Provirio: " );
 		System.out.println( noviStek.peek() );
@@ -35,7 +36,7 @@ public class StackTest
 		System.out.println( "Velicina steka: " + noviStek.size() );
 		System.out.println();
 		
-		ArrayList<String> al = new ArrayList<>(noviStek);
+		List<String> al = new ArrayList<>(noviStek);
 		System.out.println( al );
 		
 	}

@@ -2,16 +2,11 @@ package rs.math.oop1.p160502.skupovi.z03.eratosten;
 
 import java.util.*;
 
-/**
- * This program runs the Sieve of Erathostenes benchmark. It computes all primes up to 2,000,000.
- * @version 1.21 2004-08-03
- * @author Cay Horstmann
- */
 public class Sieve
 {
    public static void main(String[] s)
    {
-      int n = 4_000_000;
+      int n = 100_000;
       long pocetak = System.nanoTime();
       BitSet b = new BitSet(n + 1);
       int count = 0;

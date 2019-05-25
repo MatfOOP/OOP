@@ -30,8 +30,8 @@ public class ReflectionTest2
 	{
 		showMethods( new Student( "Miloš", "Mitrović" ) );
 		showMethods( "miki maus" );
-		//showMethods( 12 );
-		//showMethods( 12.45 );
+		showMethods( 12 );
+		showMethods( 12.45 );
 	}
 	
 }

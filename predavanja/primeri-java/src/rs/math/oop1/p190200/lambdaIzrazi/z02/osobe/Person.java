@@ -22,7 +22,8 @@ public class Person
 	static
 	{
 		LJUDI = new ArrayList<>();
-		LJUDI.add( new Person( "Miki Maus", LocalDate.of( 1928, 5, 7 ), Sex.MALE,
+		LJUDI.add( new Person( "Miki Maus",
+				LocalDate.of( 1928, 5, 7 ), Sex.MALE,
 				"mickey.mouse@disney.com" ) );
 		LJUDI.add( new Person( "Paja Patak", LocalDate.of( 1932, 5, 17 ), Sex.MALE,
 				"donald.duck@disney.com" ) );

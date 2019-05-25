@@ -17,10 +17,9 @@ public class MapTest2 {
 
         SortedMap<String, Employee2> staff2 = new TreeMap<>(
                 new Comparator<String>() {
-
                     @Override
                     public int compare(String o1, String o2) {
-                        return o1.length();
+                        return o1.length()-o2.length();
                     }
                 }
         );

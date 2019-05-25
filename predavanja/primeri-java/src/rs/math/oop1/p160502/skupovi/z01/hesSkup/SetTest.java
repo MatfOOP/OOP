@@ -10,7 +10,7 @@ public class SetTest
       Set<String> reci = new HashSet<>(); // HashSet implements Set
       long ukupnoVreme = 0;
 
-      Scanner in = new Scanner(System.in);
+      Scanner in = new Scanner("ana voli milovana aaa bbb xxx ddd fff" );
       while (in.hasNext())
       {
          String word = in.next();

@@ -21,7 +21,8 @@ public class TreeSetTest
 		parts.add( new Item( "Widget", 4562 ) );
 		parts.add( new Item( "Modem", 9912 ) );
 		System.out.println( parts );
-		
+		System.out.println("----");
+
 		SortedSet<Item> sortByDescription = new TreeSet<Item>(
 				new Comparator<Item>()
 				{
@@ -34,12 +35,14 @@ public class TreeSetTest
 				} );		
 		sortByDescription.addAll( parts );
 		System.out.println( sortByDescription );
+		System.out.println("----");
 
-		SortedSet<Item> sortByPartNumber = new TreeSet<Item>(
+		SortedSet<Item> sortByDesc2 = new TreeSet<Item>(
      (x,y)->{return x.getDescription().compareTo( y.getDescription() );} );
-		sortByPartNumber.addAll( parts );
-		System.out.println( sortByPartNumber );
-		
+		sortByDesc2.addAll( parts );
+		System.out.println( sortByDesc2 );
+		System.out.println("----");
+
 	}
 }
 
@@ -80,12 +83,14 @@ class Item implements Comparable<Item>
 		return partNumber;
 	}
 
+	@Override
 	public String toString()
 	{
 		return "[descripion=" + description + ", partNumber=" + partNumber + "]" 
 	+"\r\n";
 	}
-	
+
+	@Override
 	public boolean equals( Object otherObject )
 	{
 		if (this == otherObject)
@@ -98,12 +103,14 @@ class Item implements Comparable<Item>
 		return description.equals( other.description )
 				&& partNumber == other.partNumber;
 	}
-	
+
+	@Override
 	public int hashCode()
 	{
 		return 13 * description.hashCode() + 17 * partNumber;
 	}
-	
+
+	@Override
 	public int compareTo( Item other )
 	{
 		return partNumber - other.partNumber;

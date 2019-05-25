@@ -12,8 +12,8 @@ public class LinkedListTest
 		ll2.addItem( 2 );
 		ll2.addItem( 3 );
 		System.out.println( ll2 );
-		System.out.println();
+		System.out.println("---");
 		System.out.println( ll1 );
-	}
+		System.out.println("---");}
 	
 }

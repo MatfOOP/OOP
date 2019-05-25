@@ -22,7 +22,7 @@ public class Cities {
   }
 
   public static void main(final String[] args) {
-    List<String> cities = Arrays.asList("Albany", "Boulder", "Chicago", "Denver", "Eugene");
+    List<String> cities = Arrays.asList("Albany", "Boulder", "Chicago", "Denver", "Eugene", "Feniks");
 	
     findChicagoImperative(cities);
     findChicagoDeclarative(cities);

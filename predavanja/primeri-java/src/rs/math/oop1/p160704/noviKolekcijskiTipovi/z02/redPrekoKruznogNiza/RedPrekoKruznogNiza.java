@@ -7,22 +7,21 @@ import java.util.*;
  */
 public class RedPrekoKruznogNiza<E> extends AbstractQueue<E>
 {
-
 	private E[] elements;
 	private int head;
 	private int tail;
 	private int count;
-	private int modcount;
+	private int indikatorPromeneStrukture;
 	
 
 	private class QueueIterator implements Iterator<E>
 	{
 		private int offset;
-		private int modcountAtConstruction;
+		private int indikatorPromene;
 
 		public QueueIterator()
 		{
-			modcountAtConstruction = modcount;
+			indikatorPromene = indikatorPromeneStrukture;
 		}
 		
 		public E next()
@@ -36,7 +35,7 @@ public class RedPrekoKruznogNiza<E> extends AbstractQueue<E>
 		
 		public boolean hasNext()
 		{
-			if (modcount != modcountAtConstruction)
+			if (indikatorPromeneStrukture != indikatorPromene)
 				throw new ConcurrentModificationException();
 			return offset < count;
 		}
@@ -65,7 +64,7 @@ public class RedPrekoKruznogNiza<E> extends AbstractQueue<E>
 			elements[tail] = newElement;
 			tail = (tail + 1) % elements.length;
 			count++;
-			modcount++;
+			indikatorPromeneStrukture++;
 			return true;
 		}
 		else
@@ -79,7 +78,7 @@ public class RedPrekoKruznogNiza<E> extends AbstractQueue<E>
 		E r = peek();
 		head = (head + 1) % elements.length;
 		count--;
-		modcount++;
+		indikatorPromeneStrukture++;
 		return r;
 	}
 	

@@ -11,10 +11,12 @@ public class SetTest
 {
    public static void main(String[] args)
    {
-      SortedSet<String> words = new TreeSet<>(); // HashSet implements Set
+      //SortedSet<String> words = new TreeSet<>();
+      SortedSet<String> words = new TreeSet<>( (s1, s2) -> s2.compareTo(s1));
+
       long ukupnoVreme = 0;
 
-      Scanner in = new Scanner(System.in);
+      Scanner in = new Scanner("ana voli milovana aaa bbb xxx ddd fff" );
       while (in.hasNext())
       {
          String word = in.next();
@@ -25,7 +27,7 @@ public class SetTest
       }
 
       Iterator<String> iter = words.iterator();
-      for (int i = 1; i <= 20 && iter.hasNext(); i++)
+      for (int i = 1; i <= 200 && iter.hasNext(); i++)
          System.out.println(iter.next());
       System.out.println(". . .");
       System.out.println(words.size() + " distinct words. " + ukupnoVreme/10e6 + " milliseconds.");

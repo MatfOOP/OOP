@@ -30,18 +30,18 @@ public class Test
 		{
 			Class<?> c = test.getClass();
 			System.out.println( "Name of the class: " + c.getName() );
-			Description annotDesc1 = c.getAnnotation( Description.class );
-			System.out.println( "Author of the class: " + annotDesc1.author() );
-			System.out.println( "Date of Writing the class: " + annotDesc1.date() );
-			Version anotVer1 = c.getAnnotation( Version.class );
-			System.out.println( "Version of the class: " + anotVer1.majorVersion()
-					+ "." + anotVer1.minorVersion() );
+			Description annotDesCl = c.getAnnotation( Description.class );
+			System.out.println( "Author of the class: " + annotDesCl.author() );
+			System.out.println( "Date of Writing the class: " + annotDesCl.date() );
+			Version anotVerCl = c.getAnnotation( Version.class );
+			System.out.println( "Version of the class: " + anotVerCl.majorVersion()
+					+ "." + anotVerCl.minorVersion() );
 			
 			Method m = c.getMethod( "testMethod" );
 			System.out.println( "Name of the method: " + m.getName() );
-			Description annotation2 = m.getAnnotation( Description.class );
-			System.out.println( "Author of the method: " + annotation2.author() );
-			System.out.println( "Date of Writing the method: " + annotation2.date() );
+			Description anotDescMet = m.getAnnotation( Description.class );
+			System.out.println( "Author of the method: " + anotDescMet.author() );
+			System.out.println( "Date of Writing the method: " + anotDescMet.date() );
 			Version anotVer2 = m.getAnnotation( Version.class );
 			System.out.println( "Version of the method: " + anotVer2.majorVersion()
 					+ "." + anotVer2.minorVersion() );

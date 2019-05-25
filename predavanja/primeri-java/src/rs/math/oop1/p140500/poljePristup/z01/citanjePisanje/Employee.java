@@ -10,7 +10,8 @@ public class Employee
 		name = n;
 		salary = s;
 	}
-	
+
+
 	public String getName()
 	{
 		return name;

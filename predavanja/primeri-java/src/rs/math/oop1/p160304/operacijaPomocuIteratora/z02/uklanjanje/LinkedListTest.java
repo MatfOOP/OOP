@@ -10,13 +10,17 @@ public class LinkedListTest {
         a.add("Carl");
         a.add(2, "Bob");
         a.add(1, "Damir");
-        // sortiranje kolekcije
+        // sortiranje kolekcije, anonimna klasa
         Collections.sort(a, new Comparator<String>() {
             @Override
             public int compare(String s1, String s2) {
                 return s2.compareTo(s1);
             }
         });
+        System.out.println(a);
+
+        // sortiranje kolekcije, lambda izraz
+        Collections.sort(a, (s1, s2) -> s1.compareTo(s2));
         System.out.println(a);
 
         List<String> b = new ArrayList<String>();
