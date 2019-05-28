@@ -6,7 +6,7 @@
 
 * [Java](https://java.com/en/download/){:target="_blank"}  
   
-  * Додатак: [Упутство за подешавање JDK-a](./Uputstvo.JDK.instalacija.pdf){:target="_blank"}
+  * Додатак: [Упутство за подешавање JDK-a](./vezbe/literatura/Uputstvo.JDK.instalacija.pdf){:target="_blank"}
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/){:target="_blank"}
 
