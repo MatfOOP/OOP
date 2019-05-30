@@ -11,7 +11,7 @@ public class TransferRunnable implements Runnable
 	private Banka banka;
 	private int saRacun;
 	private double maxIznos;
-	private int DELAY = 80;
+	private int DELAY = 600;
 	
 	/**
 	 * konstruise nit za prenos novca

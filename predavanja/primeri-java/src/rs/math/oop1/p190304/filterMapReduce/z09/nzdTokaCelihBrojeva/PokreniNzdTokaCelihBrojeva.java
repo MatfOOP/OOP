@@ -1,6 +1,6 @@
 package rs.math.oop1.p190304.filterMapReduce.z09.nzdTokaCelihBrojeva;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PokreniNzdTokaCelihBrojeva {
@@ -22,10 +22,11 @@ public class PokreniNzdTokaCelihBrojeva {
 
     public static void main(String[] args) {
         // креирај низовну листу
-        int[] niz = {24, 48, -96, 192, 36, 72, 144};
-        List<Integer> brojevi = new ArrayList<>();
-        for (int broj : niz)
-            brojevi.add(broj);
+        Integer[] niz = {24, 48, -96, 192, 36, 72, 144};
+        //List<Integer> brojevi = new ArrayList<>();
+        //for (int broj : niz)
+        //    brojevi.add(broj);
+        List<Integer> brojevi = Arrays.asList(niz);
         // прикажи креирану листу
         System.out.print("Колекција: ");
         brojevi.stream().forEach(z -> System.out.print(z + " "));
