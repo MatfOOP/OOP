@@ -30,7 +30,9 @@ public class PokretanjeAterirajuciIterabilni {
         Iterator<String> prolazak = alternator.iterator();
         while( prolazak.hasNext())
             System.out.print(prolazak.next() + " ");
-        System.out.println("\r\n-----------------------------");
+        System.out.println(System.lineSeparator() + "-----------------------------");
+        List<String> g4 = Arrays.asList("Crna", "Bela", "Plava", "Zelena");
+        alternator = new AlterirajuciIterabilni<>(g1, g2, g3, g4);
         for (String s : alternator) {
             System.out.print(s + " ");
         }

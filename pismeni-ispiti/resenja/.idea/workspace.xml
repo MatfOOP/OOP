@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6ce55a-41bb-42c3-ad0d-b2f07616d5d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../predavanja/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z01/samorastuciNiz/SamorastuciNiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z01/samorastuciNiz/SamorastuciNiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z01/samorastuciNiz/SamorastuciNizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z01/samorastuciNiz/SamorastuciNizTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z05/lista/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p130602/strukturisanjePodataka/z05/lista/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140200/ispitivanjeTipa/z04/klasaPolje/ReflectionTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140200/ispitivanjeTipa/z04/klasaPolje/ReflectionTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140500/poljePristup/z01/citanjePisanje/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140500/poljePristup/z01/citanjePisanje/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140600/metodPristup/z01/poziv/MethodInvokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140600/metodPristup/z01/poziv/MethodInvokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140600/metodPristup/z02/pokazivacNaMetod/MethodPointerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140600/metodPristup/z02/pokazivacNaMetod/MethodPointerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140700/kreiranje/z02/rastNiza/ArrayGrowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140700/kreiranje/z02/rastNiza/ArrayGrowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140900/ogranicenja/z01/performanse/ArraySimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p140900/ogranicenja/z01/performanse/ArraySimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p150500/ispitivanjeZabeleski/z01/opisVerzija/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p150500/ispitivanjeZabeleski/z01/opisVerzija/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p150500/ispitivanjeZabeleski/z02/geometrija/PreambulaKlase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p150500/ispitivanjeZabeleski/z02/geometrija/PreambulaKlase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160000/koriscenje/z01/nizovnaLista/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160000/koriscenje/z01/nizovnaLista/ArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160304/operacijaPomocuIteratora/z02/uklanjanje/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160304/operacijaPomocuIteratora/z02/uklanjanje/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z01/hesSkup/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z01/hesSkup/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z02/drvoSkup/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z02/drvoSkup/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z03/eratosten/Sieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z03/eratosten/Sieve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z04/sortiraniSkup/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160502/skupovi/z04/sortiraniSkup/TreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160602/katalozi/z02/drvoKatalog/MapTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160602/katalozi/z02/drvoKatalog/MapTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160703/generickiMetodi/z01/sadrzavanje/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160703/generickiMetodi/z01/sadrzavanje/Generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z01/stekPrekoPovezaneListe/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z01/stekPrekoPovezaneListe/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z01/stekPrekoPovezaneListe/StekPrekoPovezaneListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z01/stekPrekoPovezaneListe/StekPrekoPovezaneListe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z02/redPrekoKruznogNiza/RedPrekoKruznogNiza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p160704/noviKolekcijskiTipovi/z02/redPrekoKruznogNiza/RedPrekoKruznogNiza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z01/gradovi/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z01/gradovi/Cities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z02/osobe/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z02/osobe/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z04/prolazakKrozNisku/IterateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z04/prolazakKrozNisku/IterateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z05/osobeSortiranje/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z05/osobeSortiranje/Compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z01/koriscenje/FunkcionalniInterfejs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z01/koriscenje/FunkcionalniInterfejs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z02/osobe/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z02/osobe/LambdaTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/LambdaTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z04/podrazumevaniMetodi/DefaultMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z04/podrazumevaniMetodi/DefaultMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190202/predefinisaniFunkcionalniInterfejsi/z01/osobePredicate/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../predavanja/primeri-java/src/rs/math/oop1/p190202/predefinisaniFunkcionalniInterfejsi/z01/osobePredicate/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resenja/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni$AlternirajuciIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resenja/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resenja/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,13 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="36" selection-start-line="33" selection-start-column="5" selection-end-line="36" />
+            <state relative-caret-position="250">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
-                <element signature="e#0#1794#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -63,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Appl/Java/jdk1.8.0.201/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="3805" column="36" lean-forward="true" selection-start-line="3805" selection-start-column="35" selection-end-line="3805" selection-end-column="36" />
+            <state relative-caret-position="63444">
+              <caret line="3805" column="36" selection-start-line="3805" selection-start-column="35" selection-end-line="3805" selection-end-column="36" />
               <folding>
                 <element signature="e#177013#177014#0" expanded="true" />
                 <element signature="e#177054#177055#0" expanded="true" />
@@ -75,15 +47,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AterirajuciIterabilni.java" />
         <option value="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AterirajuciIterabilniPokretanje.java" />
-        <option value="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java" />
         <option value="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java" />
+        <option value="$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java" />
       </list>
     </option>
   </component>
@@ -131,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,9 +128,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +182,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06609808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -220,7 +196,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.40953413" />
@@ -234,23 +210,11 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/Appl/Java/jdk1.8.0.201/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="3805" column="36" lean-forward="true" selection-start-line="3805" selection-start-column="35" selection-end-line="3805" selection-end-column="36" />
+        <state relative-caret-position="63444">
+          <caret line="3805" column="36" selection-start-line="3805" selection-start-column="35" selection-end-line="3805" selection-end-column="36" />
           <folding>
             <element signature="e#177013#177014#0" expanded="true" />
             <element signature="e#177054#177055#0" expanded="true" />
@@ -260,25 +224,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java">
+    <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        <state relative-caret-position="250">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/PokretanjeAterirajuciIterabilni.java">
+    <entry file="file://$PROJECT_DIR$/src/rs/math/ispit201905/zadatak1/AlterirajuciIterabilni.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="36" selection-start-line="33" selection-start-column="5" selection-end-line="36" />
+        <state relative-caret-position="221">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#1794#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
           </folding>
         </state>
       </provider>

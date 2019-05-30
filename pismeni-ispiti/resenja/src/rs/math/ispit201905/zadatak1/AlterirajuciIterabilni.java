@@ -1,14 +1,16 @@
 package rs.math.ispit201905.zadatak1;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 public class AlterirajuciIterabilni<T> implements Iterable<T> {
 
     private List<Iterable<T>> sadrzaj;
 
+    public AlterirajuciIterabilni(Iterable<T>... grupe) {
+        sadrzaj = Arrays.asList(grupe);
+    }
+
+    /*
     public AlterirajuciIterabilni(Iterable<T> grupa1, Iterable<T> grupa2, Iterable<T> grupa3) {
         this.sadrzaj = new ArrayList<Iterable<T>>(3);
         this.sadrzaj.add(grupa1);
@@ -26,6 +28,7 @@ public class AlterirajuciIterabilni<T> implements Iterable<T> {
         this.sadrzaj = new ArrayList<Iterable<T>>(3);
         this.sadrzaj.add(grupa1);
     }
+     */
 
     @Override
     public Iterator<T> iterator() {
@@ -33,7 +36,7 @@ public class AlterirajuciIterabilni<T> implements Iterable<T> {
     }
 
     private class AlternirajuciIterator implements Iterator<T> {
-        private int aktuelniListIterator = -1;
+        private int indeksListeIteratora = -1;
         private List<Iterator<T>> listaIteratora;
 
         public AlternirajuciIterator() {
@@ -58,9 +61,9 @@ public class AlterirajuciIterabilni<T> implements Iterable<T> {
             if (hasNext()) {
                 T result;
                 while (true) {
-                    aktuelniListIterator = (aktuelniListIterator + 1) % listaIteratora.size();
-                    if (listaIteratora.get(aktuelniListIterator).hasNext()) {
-                        result = listaIteratora.get(aktuelniListIterator).next();
+                    indeksListeIteratora = (indeksListeIteratora + 1) % listaIteratora.size();
+                    if (listaIteratora.get(indeksListeIteratora).hasNext()) {
+                        result = listaIteratora.get(indeksListeIteratora).next();
                         break;
                     }
                 }
