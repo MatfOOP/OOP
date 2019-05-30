@@ -8,7 +8,7 @@ public class UnsyncBankaTest
 {
 	
 	public static final int BROJ_RACUNA = 5;
-	public static final double INICIJALNO_STANJE = 1000;
+	public static final double INICIJALNO_STANJE = 20;
 	
 	public static void main( String[] args )
 	{
