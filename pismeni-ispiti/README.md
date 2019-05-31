@@ -8,6 +8,8 @@
 
 **[Задаци](zadaci/README.md)**
 
+**[Решења](resenja/README.md)**
+
 ---
 
 [ООП](../README.md)  
