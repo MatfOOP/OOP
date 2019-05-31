@@ -13,6 +13,7 @@ public class LambdaTest01 {
     }
 
     public static void main(String[] args) {
+        System.out.println(System.lineSeparator() + "1.---");
         printPersons(Person.LJUDI, (Person p) ->
                 {
                     if (p.getAge() >= 79)
@@ -21,16 +22,21 @@ public class LambdaTest01 {
                         return false;
                 }
         );
-        System.out.println();
 
+        System.out.println(System.lineSeparator() + "2.---");
         printPersons(Person.LJUDI, p -> {
             return (p.getAge() >= 80 && p.getAge() <= 85);
         });
-        System.out.println();
 
-
+        System.out.println(System.lineSeparator() + "3.---");
         printPersons(Person.LJUDI, p -> p.emailAddress.indexOf("disney") >= 0);
 
+        System.out.println(System.lineSeparator() + "4.---");
+        Predicate<Person> uslov = (x -> x.getAge() >= 81);
+        uslov = uslov.and(p -> p.emailAddress.indexOf("disney") >= 0);
+        uslov = uslov.or( p -> p.emailAddress.indexOf("wb") >= 0 );
+        uslov = uslov.negate();
+        printPersons(Person.LJUDI, uslov);
     }
 
 }

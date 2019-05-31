@@ -2,7 +2,7 @@ package rs.math.oop1.p060401.nizovi.z04.sortiranjeString;
 
 import java.util.Arrays;
 
-public class PokreniSortString2 {
+public class PokretanjeSortString2 {
 
     public static void main(String[] args) {
         String[] niz = {"Miki", "Paja", "Mini", "Silja", "Mirko", "Slavko"};

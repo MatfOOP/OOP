@@ -10,7 +10,7 @@
 
 package rs.math.oop1.p050602.merenjeVremena.z02.protekloVremeBK;
 
-public class ProteklVremePritisakTastera {
+public class ProtekoVremePritisakTastera {
 
    static int[][] koeficijenti;
 

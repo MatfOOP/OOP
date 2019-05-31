@@ -2,7 +2,7 @@ package rs.math.oop1.p060401.nizovi.z04.sortiranjeString;
 
 import java.util.Arrays;
 
-public class PokreniSortString {
+public class PokretanjeSortString {
 
     public static void main(String[] args) {
         String[] niz2 = {"23", "-7", "5", "54", "6", "4", "34", "-23"};

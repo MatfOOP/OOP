@@ -1,4 +1,4 @@
-package rs.math.oop1.p200500.katanci.z02.banka;
+package rs.math.oop1.p200500.katanci.z03.banka;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

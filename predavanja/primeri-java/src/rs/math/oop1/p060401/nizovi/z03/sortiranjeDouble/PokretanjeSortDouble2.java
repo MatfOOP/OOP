@@ -2,7 +2,7 @@ package rs.math.oop1.p060401.nizovi.z03.sortiranjeDouble;
 
 import java.util.Arrays;
 
-public class PokreniSortDouble2
+public class PokretanjeSortDouble2
 {
 	
 	public static void main( String[] args )

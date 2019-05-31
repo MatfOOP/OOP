@@ -5,7 +5,7 @@ public class TestJamajkaFidzi
 {
 	public static void main(String[] args)
 	{
-		new ProstaNit("Jamajka").start();
-		new ProstaNit("Fidzi").start();
+		new ProstaNit("OOP").start();
+		new ProstaNit("UVIT").start();
 	}
 }

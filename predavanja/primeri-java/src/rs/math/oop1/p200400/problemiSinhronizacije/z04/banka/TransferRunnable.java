@@ -1,4 +1,4 @@
-package rs.math.oop1.p200400.problemiSinhronizacije.z03.banka;
+package rs.math.oop1.p200400.problemiSinhronizacije.z04.banka;
 
 /**
  * Nit koja prebacuje novac sa jednog na druge racune u banci

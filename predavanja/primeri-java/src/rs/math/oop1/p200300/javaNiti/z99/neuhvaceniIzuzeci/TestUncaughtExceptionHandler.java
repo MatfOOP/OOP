@@ -1,4 +1,4 @@
-package rs.math.oop1.p200300.javaNiti.z02.neuhvaceniIzuzeci;
+package rs.math.oop1.p200300.javaNiti.z99.neuhvaceniIzuzeci;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 

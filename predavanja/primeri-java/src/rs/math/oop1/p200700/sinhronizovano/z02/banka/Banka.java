@@ -1,4 +1,4 @@
-package rs.math.oop1.p200700.sinhronizovano.z01.banka;
+package rs.math.oop1.p200700.sinhronizovano.z02.banka;
 
 /**
  * Banka sa odredjenim brojem racuna koja koristi synchronized

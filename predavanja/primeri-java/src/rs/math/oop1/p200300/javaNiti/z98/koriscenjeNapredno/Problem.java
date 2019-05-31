@@ -1,4 +1,4 @@
-package rs.math.oop1.p200300.javaNiti.z01.koriscenje;
+package rs.math.oop1.p200300.javaNiti.z98.koriscenjeNapredno;
 
 import java.util.Random;
 

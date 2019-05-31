@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Program realizuje računanje determinante za kvadratnu matricu.
  * 
  */
-public class SistemJednacinaTest
+public class PokretanjeSistemJednacina
 {
 	
 	static double[][] ucitajMatricuSistema( Scanner ulaz, int n )

@@ -2,199 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e0ad1f-ec69-429c-b5f0-16c5a9f768aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../primeri-java-horstman/src/gutenberg/alice30.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../primeri-java-horstman/src/gutenberg/crsto10.txt" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../primeri-java-horstman/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/AppletApplication/CalculatorAppletApplication.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/Bookmark/Bookmark.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/Bookmark/Left.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/Bookmark/Right.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/CalculatorApplet/CalculatorApplet.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/Chart/Chart.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/CustomWorld/CustomWorld.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/NotHelloWorldApplet/NotHelloWorldApplet.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/PopupCalculatorApplet/PopupCalculatorApplet.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/ResourceTest/ResourceTest.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/ResourceTest/ResourceTest.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch10/ResourceTest/about.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch2/ImageViewer/Cay.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch2/ImageViewer/Tower.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch2/ImageViewer/mug.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch2/WelcomeApplet/WelcomeApplet.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch7/CenteredFrameTest/icon.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch7/ImageTest/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch8/ActionTest/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch8/ActionTest/red-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch8/ActionTest/yellow-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/FileChooserTest/palette.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/MenuTest/copy.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/MenuTest/cut.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/MenuTest/paste.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/OptionDialogTest/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/OptionDialogTest/red-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/OptionDialogTest/yellow-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/ace.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/jack.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/king.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/nine.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/queen.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/SliderTest/ten.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/ToolBarTest/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/ToolBarTest/exit.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/ToolBarTest/red-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v01ch9/ToolBarTest/yellow-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch10/Retire/Retire.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch10/Retire/RetireStrings.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch10/Retire/RetireStrings_de.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch10/Retire/RetireStrings_zh.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/EmployeeTest/Employee.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/HelloNativeTest/HelloNative.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/HelloNativeTest/HelloNative.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/InvocationTest/InvocationTest.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/Printf1Test/Printf1.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/Printf2Test/Printf2.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/Printf3Test/Printf3.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/Printf4Test/Printf4.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch11/Win32RegKeyTest/Win32RegKey.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/DOMTreeTest/server.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/GridBagTest/fontdialog-schema.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/GridBagTest/fontdialog.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/GridBagTest/gridbag.dtd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/GridBagTest/gridbag.xsd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/TransformTest/employee.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/TransformTest/makehtml.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/TransformTest/makeprop.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/XPathTest/fontdialog.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch12/XPathTest/gridbag.dtd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch2/Sieve/Sieve.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch2/Sieve/Sieve2.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch3/PostTest/PostTest.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/Authors.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/Books.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/BooksAuthors.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/Publishers.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/mckoi.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ExecSQL/postgresql.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/LDAPTest/sample.ldif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/QueryDB/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/TestDB/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch4/ViewDB/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Activation/client.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Activation/rmid.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Activation/server.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Env/Env.idl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Env/Env.mak" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Env/EnvServer.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Product/client.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SOAPTest/config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SOAPTest/run.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SOAPTest/run.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SysProp/SysProp.idl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SysProp/SysProp.mak" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/SysProp/SysPropClient.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Warehouse/WarehouseClient.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch5/Warehouse/client.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/ClassTree/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/ClassTree/red-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/ClassTree/yellow-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Earth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Jupiter.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Mars.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Mercury.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Neptune.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Pluto.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Saturn.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Uranus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/Venus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/InternalFrameTest/document.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/ResultSetTable/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Earth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Jupiter.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Mars.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Mercury.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Neptune.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Pluto.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Saturn.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Uranus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/SplitPaneTest/Venus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Earth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Jupiter.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Mars.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Mercury.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Neptune.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Pluto.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Saturn.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Uranus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/Venus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/red-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TabbedPaneTest/yellow-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Earth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Jupiter.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Mars.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Mercury.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Moons.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Neptune.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Pluto.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Saturn.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Uranus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch6/TableCellRenderTest/Venus.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch7/ImageIOTest/e-mail.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch7/ImageProcessingTest/cj2v1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch7/ImageTransferTest/cj2v1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch7/PaintTest/blue-ball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch7/RenderQualityTest/clouds.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch8/ChartBean/C0hartBean.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch8/CustomizerTest/com/horstmann/corejava/ChartBean2_COLOR_16x16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch8/CustomizerTest/com/horstmann/corejava/ChartBean2_COLOR_32x32.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch8/CustomizerTest/com/horstmann/corejava/ChartBean2_MONO_16x16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch8/CustomizerTest/com/horstmann/corejava/ChartBean2_MONO_32x32.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/AuthTest/AuthTest.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/AuthTest/jaas.config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/Calculator.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/CalculatorFrame.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/CalculatorPanel$1.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/CalculatorPanel$CommandAction.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/CalculatorPanel$InsertAction.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/ClassLoaderTest/CalculatorPanel.caesar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/FileReadApplet/FileReadApplet.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/FileReadApplet/applet.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/JAASTest/JAASTest.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/JAASTest/jaas.config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/PermissionTest/PermissionTest.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/SecurityManagerTest/WordCheck.policy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v02ch9/VerifierTest/VerifierTest.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v2ch8/CustomizerTest/ChartBean2.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v2ch8/FileNameBean/FileNameBean.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v2ch8/ImageViewerBean/ImageViewerBean.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../primeri-java-horstman/out/production/primeri-java-horstman/v2ch8/ImageViewerBean/clouds.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v15/v01JamajkaFidzi/TestJamajkaFidzi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v15/v01JamajkaFidzi/TestJamajkaFidzi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p050602/merenjeVremena/z02/protekloVremeBK/ProteklVremePritisakTastera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p050602/merenjeVremena/z02/protekloVremeBK/ProtekoVremePritisakTastera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p050701/skenerNiska/z07/sistemJednacina/SistemJednacinaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p050701/skenerNiska/z07/sistemJednacina/PokretanjeSistemJednacina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z02/sortiranjeInt/PokreniSortInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z02/sortiranjeInt/PokretanjeSortInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z03/sortiranjeDouble/PokreniSortDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z03/sortiranjeDouble/PokretanjeSortDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z03/sortiranjeDouble/PokreniSortDouble2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z03/sortiranjeDouble/PokretanjeSortDouble2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z04/sortiranjeString/PokreniSortString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z04/sortiranjeString/PokretanjeSortString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z04/sortiranjeString/PokreniSortString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p060401/nizovi/z04/sortiranjeString/PokretanjeSortString2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z02/osobe/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190200/lambdaIzrazi/z02/osobe/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/CheckPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/CheckPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190201/funkcionalniInterfejsi/z03/osobe/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190202/predefinisaniFunkcionalniInterfejsi/z01/osobePredicate/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190202/predefinisaniFunkcionalniInterfejsi/z01/osobePredicate/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190300/tokoviObrade/z02/osobeKonzumiranje/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190300/tokoviObrade/z02/osobeKonzumiranje/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190304/filterMapReduce/z01/osobeMapReduce/LambdaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p190304/filterMapReduce/z01/osobeMapReduce/LambdaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z01/koriscenje/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z98/koriscenjeNapredno/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z01/koriscenje/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z98/koriscenjeNapredno/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z01/koriscenje/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z98/koriscenjeNapredno/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z02/neuhvaceniIzuzeci/Nit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z99/neuhvaceniIzuzeci/Nit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z02/neuhvaceniIzuzeci/TestUncaughtExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200300/javaNiti/z99/neuhvaceniIzuzeci/TestUncaughtExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z01/banka/Banka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z04/banka/Banka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z01/banka/TransferRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z04/banka/TransferRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z01/banka/UnsyncBankaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200400/problemiSinhronizacije/z04/banka/UnsyncBankaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z01/banka/Banka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z03/banka/Banka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z01/banka/KatanciUsloviBankaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z03/banka/KatanciUsloviBankaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z01/banka/TransferRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z03/banka/TransferRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z02/saVisestrukimUlazom/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z04/saVisestrukimUlazom/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z02/saVisestrukimUlazom/ListReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z04/saVisestrukimUlazom/ListReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z02/saVisestrukimUlazom/ListWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z04/saVisestrukimUlazom/ListWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z02/saVisestrukimUlazom/ReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200500/katanci/z04/saVisestrukimUlazom/ReadWriteLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z01/banka/Banka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z02/banka/Banka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z01/banka/SynchronizedBankaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z02/banka/SynchronizedBankaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z01/banka/TransferRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeri-java/src/rs/math/oop1/p200700/sinhronizovano/z02/banka/TransferRunnable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="V05TryInitializationNonStatic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/v05/v03Initalizacija/V05TryInitializationNonStatic.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="850">
+              <caret line="50" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Setajuca.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/v15a/v01/Setajuca.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v01JamajkaFidzi/ProstaNit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="21" column="9" selection-start-line="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/Banka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v04BankaSinhronizovano/Banka1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v06BankaPrioriteti/Racun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/BankarskeOperacije1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Appl/Java/jdk1.8.0.201/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4403">
+              <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v01JamajkaFidzi/TestJamajkaFidzi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="60" column="49" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="60" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,9 +147,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/v15/v01JamajkaFidzi/TestJamajkaFidzi.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -216,55 +161,123 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="primeri-java-horton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeri-java-horton" type="462c0819:PsiDirectoryNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeri-java-horton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeri-java-horton" type="462c0819:PsiDirectoryNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeri-java-horton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeri-java-horton" type="462c0819:PsiDirectoryNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="v05" type="462c0819:PsiDirectoryNode" />
+              <item name="v13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeri-java-horton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeri-java-horton" type="462c0819:PsiDirectoryNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="v05" type="462c0819:PsiDirectoryNode" />
-              <item name="v03Initalizacija" type="462c0819:PsiDirectoryNode" />
+              <item name="v14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v01Imena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v01JamajkaFidzi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v02Banka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v03BankaViseRacuna" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v04BankaSinhronizovano" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v05BankaSinhronizovanBlok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v15" type="462c0819:PsiDirectoryNode" />
+              <item name="v06BankaPrioriteti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="primeri-java-knjiga-horton-j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="primeri-java-knjiga-horton-j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v22" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -279,91 +292,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunManager" selected="Application.TestJamajkaFidzi">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestImena1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v15.v01Imena.TestImena1" />
+      <module name="primeri-java-horton" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v15.v01Imena.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJamajkaFidzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v15.v01JamajkaFidzi.TestJamajkaFidzi" />
+      <module name="primeri-java-horton" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v15.v01JamajkaFidzi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestJamajkaFidzi" />
+        <item itemvalue="Application.TestImena1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -379,71 +379,139 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41928494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32930845" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/v05/v03Initalizacija/V05TryInitializationNonStatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/v15a/v01/Setajuca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/v05/v03Initalizacija/V05TryInitializationNonStatic.java">
+    <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/Racun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/v15a/v01/Setajuca.java">
+    <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/Transakcija.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/Banka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v04BankaSinhronizovano/Banka1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v03BankaViseRacuna/BankarskeOperacije1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Appl/Java/jdk1.8.0.201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v06BankaPrioriteti/Racun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v01JamajkaFidzi/ProstaNit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v01JamajkaFidzi/TestJamajkaFidzi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v15/v01Imena/TestImena3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="60" selection-end-column="49" />
         </state>
       </provider>
     </entry>
