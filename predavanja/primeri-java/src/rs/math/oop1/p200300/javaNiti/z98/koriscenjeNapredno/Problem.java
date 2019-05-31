@@ -19,7 +19,7 @@ import java.util.Random;
 
 public class Problem {
 
-	private final int[] list = new int[2000000];
+	private final int[] list = new int[2_000_000];
 
 	public Problem() {
 		Random generator = new Random(19580427);

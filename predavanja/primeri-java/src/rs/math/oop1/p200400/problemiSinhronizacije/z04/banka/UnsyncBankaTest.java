@@ -1,4 +1,4 @@
-package rs.math.oop1.p200400.problemiSinhronizacije.z01.banka;
+package rs.math.oop1.p200400.problemiSinhronizacije.z03.banka;
 
 /**
  * program ilustruje "kvarenje" podataka kada im pristupa veci broj niti

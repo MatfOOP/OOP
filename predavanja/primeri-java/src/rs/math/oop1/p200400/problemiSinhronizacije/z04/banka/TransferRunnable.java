@@ -1,4 +1,4 @@
-package rs.math.oop1.p200500.katanci.z01.banka;
+package rs.math.oop1.p200400.problemiSinhronizacije.z03.banka;
 
 /**
  * Nit koja prebacuje novac sa jednog na druge racune u banci
@@ -11,7 +11,7 @@ public class TransferRunnable implements Runnable
 	private Banka banka;
 	private int saRacun;
 	private double maxIznos;
-	private int DELAY = 10;
+	private int DELAY = 600;
 	
 	/**
 	 * konstruise nit za prenos novca
