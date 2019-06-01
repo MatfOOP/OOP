@@ -10,7 +10,7 @@ public class ProstaNit extends Thread
 
     public void run()
     {
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 15; i++)
         {
             System.out.println(i + " " + getName());
             try

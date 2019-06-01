@@ -10,7 +10,7 @@ public class PokretanjeRunnable {
                 () -> {
                     String ime = "Novak";
                     String prezime = "Djokovic";
-                    long kasnjenje = (long) (Math.random() * 1000);
+                    long kasnjenje = (long) (200 + Math.random() * 800);
                     try {
                         for (; ; ) {
                             System.out.print(ime + " ");
