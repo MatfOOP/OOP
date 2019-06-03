@@ -5,6 +5,7 @@ public class PokretanjeNiti {
     public static void main(String[] args)
     {
         new ProstaNit("NEMA").start();
+        new ProstaNit("NIKAKVIH").start();
         new ProstaNit("PROBELMA").start();
     }
 }

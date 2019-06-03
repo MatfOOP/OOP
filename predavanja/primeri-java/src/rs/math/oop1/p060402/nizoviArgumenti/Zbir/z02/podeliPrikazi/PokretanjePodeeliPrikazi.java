@@ -2,7 +2,7 @@ package rs.math.oop1.p060402.nizoviArgumenti.Zbir.z02.podeliPrikazi;
 
 public class PokretanjePodeeliPrikazi {
 
-    static void prikaziPodeljene(int delilac, int... a) {
+    static void prikaziPodeljene( int delilac, int... a) {
         for(int x: a)
             System.out.print( (double)x/delilac + " " );
         System.out.println();

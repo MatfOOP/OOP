@@ -1,4 +1,4 @@
-package rs.math.oop1.p190201.funkcionalniInterfejsi.z03.osobe;
+package rs.math.oop1.p190201.funkcionalniInterfejsi.z03a.osobe.osobe;
 
 import java.util.List;
 
@@ -12,7 +12,6 @@ public class LambdaTest01 {
     }
 
     public static void main(String[] args) {
-        System.out.println("1.---");
         printPersons(Person.LJUDI, (Person p) ->
                 {
                     if (p.getAge() >= 80)
@@ -33,7 +32,13 @@ public class LambdaTest01 {
 
         printPersons(Person.LJUDI, p -> p.gender == Person.Sex.FEMALE
                 && p.emailAddress.indexOf("disney") >= 0);
+        System.out.println("---");
 
+        CheckPerson cp = (p -> p.gender == Person.Sex.MALE);
+        Person prvi = Person.LJUDI.get(0);
+        cp.prikaziSe(prvi);
+        System.out.println(cp.test(prvi));
+        System.out.println("---");
     }
 
 }

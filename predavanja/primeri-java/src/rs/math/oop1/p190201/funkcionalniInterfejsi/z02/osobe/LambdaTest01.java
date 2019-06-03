@@ -12,6 +12,15 @@ public class LambdaTest01 {
     }
 
     public static void main(String[] args) {
+        System.out.println(System.lineSeparator() + "1.---");
+        printPersons(Person.LJUDI, new CheckPerson() {
+            @Override
+            public boolean test(Person p) {
+                return true;
+            }
+        });
+
+        System.out.println(System.lineSeparator() + "2.---");
         printPersons(Person.LJUDI, new CheckPerson() {
             @Override
             public boolean test(Person p) {
@@ -21,16 +30,16 @@ public class LambdaTest01 {
                     return false;
             }
         });
-        System.out.println();
 
+        System.out.println(System.lineSeparator() + "3.---");
         printPersons(Person.LJUDI, new CheckPerson() {
             @Override
             public boolean test(Person p) {
                 return (p.getAge() >= 80 && p.getAge() <= 85);
             }
         });
-        System.out.println();
 
+        System.out.println(System.lineSeparator() + "4.---");
         printPersons(Person.LJUDI, new CheckPerson() {
             @Override
             public boolean test(Person p) {
