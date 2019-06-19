@@ -14,7 +14,7 @@ list-iterabilna objekta razlicite duzine, a potom ce koriscenjem iteratora nad b
 
  */
 
-package rs.math.ispit201905.zadatak1;
+package rs.math.ispit201905.zadatakDodatni;
 
 import java.util.Arrays;
 import java.util.Iterator;

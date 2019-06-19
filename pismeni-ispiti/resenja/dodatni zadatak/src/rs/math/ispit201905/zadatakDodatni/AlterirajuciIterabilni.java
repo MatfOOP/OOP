@@ -1,4 +1,4 @@
-package rs.math.ispit201905.zadatak1;
+package rs.math.ispit201905.zadatakDodatni;
 
 import java.util.*;
 
