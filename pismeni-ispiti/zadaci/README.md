@@ -6,6 +6,8 @@
 
 Задаци из претходних година:
 
+* 2018-2019: [Тиг](./rokovi/oop.2018.2019.jun1.tig.pdf){:target="_blank"}, [Поруке](./rokovi/oop.2018.2019.jun1.poruke.pdf){:target="_blank"}
+
 * 2017-2018: [Покемони](./rokovi/oop.2017.2018.jun1.pokemoni.pdf){:target="_blank"}, [Сакупљање драгуља](./rokovi/oop.2017.2018.jun1.sakupljanjeDragulja.pdf){:target="_blank"}, [Препоруке](./rokovi/oop.2017.2018.jun2.preporuke.pdf){:target="_blank"}, [Рачунари](./rokovi/oop.2017.2018.jun2.racunari.pdf){:target="_blank"}, [Класификација](./rokovi/oop.2017.2018.sept1.klasifikacija.pdf){:target="_blank"}, [Подморнице](./rokovi/oop.2017.2018.sept2.podmornice.pdf){:target="_blank"}
 
 * 2016-2017: [Пошиљке](./rokovi/oop.2016.2017.jun1.posiljke.pdf){:target="_blank"}, [Видео игре](./rokovi/oop.2016.2017.jun1.videoIgre.pdf){:target="_blank"}, [Софтверска мрежа](./rokovi/oop.2016.2017.jun2.softverskaMreza.pdf){:target="_blank"}, [Наставни предмети](./rokovi/oop.2016.2017.sept1.nastavniPredmeti.pdf){:target="_blank"}
