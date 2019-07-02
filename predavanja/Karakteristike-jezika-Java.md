@@ -67,7 +67,7 @@
 
 ### Захтеви за Јаву
 
-Приликом дизајнирања Јаве, утврђени су следећи [захтеви]:(http://www.oracle.com/technetwork/java/intro-141325.html)
+Приликом дизајнирања Јаве, утврђени су следећи [захтеви:](http://www.oracle.com/technetwork/java/intro-141325.html){: target="_blank"}
 
 ![фотографија Гослинг](slike/slika-gosling.jpg){: width=50% height=50% style="float:right; padding:16px"}
 
