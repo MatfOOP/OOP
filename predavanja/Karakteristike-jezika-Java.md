@@ -1,51 +1,11 @@
-# Објектно орјентисано
 
-# програмирање
+# Карактеристике програмског језика Јава
 
-## Владимир Филиповић
-
-## vladaf@matf.bg.ac.rs
-
-## Александар Картељ
-
-## kartelj@matf.bg.ac.rs
-
-
-```
-2 / 41
-vladaf@matf.bg.ac.rs
-```
-```
-{vladaf,kartelj}@matf.bg.ac.rs
-```
-Математички факултет
-
-# Карактеристике
-
-# програмског језика Јава
-
-## Владимир Филиповић
-
-## vladaf@matf.bg.ac.rs
-
-## Александар Картељ
-
-## kartelj@matf.bg.ac.rs
-
-
-```
-3 / 41
-vladaf@matf.bg.ac.rs
-```
-```
-{vladaf,kartelj}@matf.bg.ac.rs
-```
-```
-Математички факултет
-```
 ### Настанак и развој
 
-#### Производ компаније Sun Microsystems
+* **Производ компаније Sun Microsystems**
+
+![Јава logo](slike/logo-java.png){: width=150 height=100 style="float:right; padding:16px"}
 
 1991. Претеча Јаве намењена мрежном кућном окружењу (J. Gosling)
 1994. Усмерење према Интернету (*)
