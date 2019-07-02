@@ -27,50 +27,47 @@ Posle kreiranja steka i posle svakog ubacivanja i izbacivanja elementa na standa
 
 package rs.math.ispit201907.zadatakDodatni.zadatakDodatni;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class PokretanjeSkupPrekoNizovneListe {
+public class PokretanjeStekPrekoNizovneListe {
     public static void main(String[] args) {
-        List<String> g10 = Arrays.asList("Ana", "Ivana", "Marija", "Ana");
-        SkupPrekoNizovneListe<String> s1 = new SkupPrekoNizovneListe<>(g10);
-        System.out.println(System.lineSeparator() + "1. -----------------------------");
+        List<String> g1 = Arrays.asList("Biljana", "Anja");
+        List<String> g2 = Arrays.asList("Nemanja", "Rastko", "Ivan");
+        List<String> g3 = Arrays.asList("Aleksandar", "Vladimir");
+        StekPrekoNizovneListe<String> s1 = new StekPrekoNizovneListe<>(g1, g2, g3);
+        System.out.println(System.lineSeparator() + "1. Kreiran stek -----------------");
         System.out.println(s1);
 
-        List<String> g11 = Arrays.asList("Mitar", "Ana", "Zoran", "Petar", "Denis", "Petar");
-        for( String s: g11 )
-            s1.add(s);
-        System.out.println(System.lineSeparator() + "2. -----------------------------");
+        s1.push("Petar");
+        System.out.println(System.lineSeparator() + "2. Dodat 'Petar' ---------------");
         System.out.println(s1);
 
-        s1 = new SkupPrekoNizovneListe<String>(g10, g11);
-        System.out.println(System.lineSeparator() + "3. -----------------------------");
+        String uklonjen = s1.pop();
+        System.out.println(System.lineSeparator() + "3. Uklonjen vrh ----------------");
         System.out.println(s1);
 
-        s1.remove("Mitar");
-        s1.remove( "Ana");
-        System.out.println(System.lineSeparator() + "4. -----------------------------");
+        s1.pop();
+        System.out.println(System.lineSeparator() + "4. Uklonjen vrh ----------------");
         System.out.println(s1);
 
-        List<Integer> g2 = Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3);
-        SkupPrekoNizovneListe<Integer> s2 = new SkupPrekoNizovneListe<>(g2);
-        System.out.println(System.lineSeparator() + "5. -----------------------------");
-        System.out.println(s2);
+        s1 = new StekPrekoNizovneListe<>(new ArrayList<>());
+        System.out.println(System.lineSeparator() + "5. Kreiran stek -----------------");
+        System.out.println(s1);
 
-        Random generator = new Random();
-        System.out.println(System.lineSeparator() + "6. -----------------------------");
-        for( int i =0; i<10; i++) {
-            int broj = generator.nextInt(20);
-            s2.add(broj);
-            System.out.println(broj + "\t " + s2);
-        }
+        s1.push("Petar");
+        System.out.println(System.lineSeparator() + "6. Dodat 'Petar' ---------------");
+        System.out.println(s1);
 
-        System.out.println(System.lineSeparator() + "7. -----------------------------");
-        for( int i =0; i<10; i++) {
-            int broj = generator.nextInt(20);
-            s2.remove(broj);
-            System.out.println(broj + "\t " + s2);
-        }
+        s1.pop();
+        System.out.println(System.lineSeparator() + "7. Uklonjen vrh ----------------");
+        System.out.println(s1);
+
+        s1.pop();
+        System.out.println(System.lineSeparator() + "8. Uklonjen vrh ----------------");
+        System.out.println(s1);
     }
+
 }

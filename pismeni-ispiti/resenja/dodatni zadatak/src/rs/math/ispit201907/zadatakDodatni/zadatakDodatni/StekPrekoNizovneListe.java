@@ -2,9 +2,24 @@ package rs.math.ispit201907.zadatakDodatni.zadatakDodatni;
 
 import java.util.*;
 
-public class StekPrekoNizovneListe<E> extends AbstractCollection<E> {
+public class StekPrekoNizovneListe<E> extends AbstractCollection<E>
+        implements Stek<E> {
     private ArrayList<E> sadrzina = new ArrayList<E>();
     private long indikatorPromeneStrukture = 0;
+
+    @Override
+    public void push(E elemenat) {
+        indikatorPromeneStrukture++;
+        sadrzina.add(elemenat);
+    }
+
+    @Override
+    public E pop() {
+        if( isEmpty())
+            throw new EmptyStackException();
+        indikatorPromeneStrukture++;
+        return sadrzina.remove(0);
+    }
 
     private class StekPrekoNizovneListeIterator implements Iterator<E> {
         int indeks = 0;
@@ -27,31 +42,23 @@ public class StekPrekoNizovneListe<E> extends AbstractCollection<E> {
                 throw new ConcurrentModificationException();
             return sadrzina.get(indeks++);
         }
- }
-
-    public SkupPrekoNizovneListe(Collection<E> kolekcija) {
-        for (E elem : kolekcija)
-            this.add(elem);
     }
 
-    public SkupPrekoNizovneListe(Collection<E>... kolekcije) {
+    public StekPrekoNizovneListe(Collection<E>... kolekcije) {
         for (Collection<E> kolekcija : kolekcije)
             for (E elem : kolekcija)
-                this.add(elem);
+                this.push(elem);
     }
 
     @Override
     public boolean add(E elemenat) {
-        if (sadrzina.contains(elemenat))
-            return false;
-        sadrzina.add(elemenat);
-        indikatorPromeneStrukture++;
+        push(elemenat);
         return true;
     }
 
     @Override
     public Iterator<E> iterator() {
-        return new SkupPrekoNizovneListeiterator(indikatorPromeneStrukture);
+        return new StekPrekoNizovneListeIterator(indikatorPromeneStrukture);
     }
 
     @Override
@@ -59,12 +66,5 @@ public class StekPrekoNizovneListe<E> extends AbstractCollection<E> {
         return sadrzina.size();
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder("{");
-        for (E x : sadrzina)
-            sb.append(x + ", ");
-        String ret = sb.toString();
-        return ret.substring(0, ret.length() - 2) + "}";
-    }
+
 }
