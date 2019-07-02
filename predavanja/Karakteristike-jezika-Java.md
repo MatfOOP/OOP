@@ -7,7 +7,7 @@
 
 * Производ компаније Sun Microsystems
 
-![Јава лого](slike/logo-java.png){: width=150 height=100 style="float:right; padding:16px"}
+![Јава лого](slike/logo-java.png){: style="float:right; padding:16px"}
 
 * `1991.` Претеча Јаве намењена мрежном кућном окружењу (J. Gosling)
 
@@ -69,7 +69,7 @@
 
 Приликом дизајнирања Јаве, утврђени су следећи [захтеви:](http://www.oracle.com/technetwork/java/intro-141325.html){: target="_blank"}
 
-![фотографија Гослинг](slike/slika-gosling.jpg){: width=50% height=50% style="float:right; padding:16px"}
+![фотографија Гослинг](slike/slika-gosling.jpg){: width=300 height=300 style="float:right; padding:16px"}
 
 1. Једноставан, објектно орјентисан и фамилијаран
 
