@@ -952,7 +952,7 @@ tri reda */
 ##### коментара.
 
 ```
-< dokumentacioni > ::= /** {{< unicode znak različit od * > } *
+< dokumentacioni > ::= /** {{< unicode znak različit od * > }} *
 < unicode znak različit od / > } */
 ```
 - Документациони коментар се може користити за аутоматско
