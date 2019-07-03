@@ -26,7 +26,7 @@
 
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 9 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 9 / 23
 
 - Јава допушта да се дефинише класа унутар неке друге класе.
 
@@ -50,7 +50,7 @@ class InnerClass **{
 ## Угнеждене класе
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 10 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 10 / 23
 
 #### Постоји неколико разлога за коришћење угнеждених класа:
 
@@ -75,12 +75,12 @@ class InnerClass **{
 ## Угнеждене класе (2)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 11 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 11 / 23
 
 ## Угнеждене класе (3)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 12 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 12 / 23
 
 ## Угнеждене класе (4)
 
@@ -115,7 +115,7 @@ Spoljasnja**.** sm **();
 }**
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 13 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 13 / 23
 class Unutrasnja **{**
 //unutrasnja klasa ne moze imati staticke promenljive i metode
 //private static int sp;
@@ -150,7 +150,7 @@ StatickaUgnjezdena su **=new** StatickaUgnjezdena **();
 ## Угнеждене класе ( 5 )
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 14 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 14 / 23
 
 ####  Унутрашња класа придружује примерку класе која је обухвата,
 
@@ -171,7 +171,7 @@ StatickaUgnjezdena su **=new** StatickaUgnjezdena **();
 ## Унутрашње класе
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 15 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 15 / 23
 
 ####  Када се дефинише унутрашња класа, она је члан спољашње
 
@@ -194,7 +194,7 @@ StatickaUgnjezdena su **=new** StatickaUgnjezdena **();
 ## Унутрашње класе (2)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 16 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 16 / 23
 
 ####  Последом наредбом је креиран објекат типа Spoljasnja.
 
@@ -211,7 +211,7 @@ Spoljasnja sp = new Spoljasnja ();
 ## Пример унутрашње класе
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 17 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 17 / 23
 
 ####  Последњом наредбом на претходном слајду није креиран
 
@@ -234,7 +234,7 @@ Spoljasnja**.** Unutrasnja unut **=** sp **.new** Unutrasnja **();**
 ## Пример унутрашње класе (2)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 18 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 18 / 23
 
 ####  Унутар нестатичких метода класе Spoljasnja, може се
 
@@ -253,7 +253,7 @@ Unutrasnja unut **= new** Unutrasnja **();**
 ## Пример унутрашње класе (3)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 19 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 19 / 23
 
 ####  Класа се може дефинисати унутар метода, и то је тзв.
 
@@ -280,7 +280,7 @@ Unutrasnja unut **= new** Unutrasnja **();**
 ## Локалне унутрашње класе
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 20 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 20 / 23
 public class PrimerLokalneKlase **{**
 static String reg **=** "[^0-9]" **;**
 public static void validirajBrojTelefona **(** String broj **) {**
@@ -312,7 +312,7 @@ validirajBrojTelefona **(** "123- 456 - 7890" **);
 ## Локалне унутрашње класе (2)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 21 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 21 / 23
 
 ####  Анонимне класе омогућују програмеру да пише концизан код.
 
@@ -329,7 +329,7 @@ validirajBrojTelefona **(** "123- 456 - 7890" **);
 ## Анонимне класе
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 22 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 22 / 23
 public class Student **{**
 private int godinaRodjenja **;**
 private String ime, prezime **;**
@@ -359,7 +359,7 @@ return** s1**.** godinaRodjenja **-** s2**.** godinaRodjenja **;
 ## Анонимне класе (2)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 23 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 23 / 23
 
 ## Захвалница
 
