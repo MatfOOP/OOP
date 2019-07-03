@@ -932,7 +932,7 @@ s **=** 0 **;** // pocetna vrednost sume
 
 ##### симболима '*/'.
 
-**<** višelinijski **> ::=** /* **{{<** unicode znak različit od * **> }**
+**<** višelinijski **> ::=** /* **{{<** unicode znak različit od * **> }}**
 * **<** uncode znak različit od / **> }** */
 
 ### Коментари (2)
