@@ -1,28 +1,32 @@
-# Информације о курсу -- Објектно-оријентисано програмирање @ Математички факултет 
+# Информације о курсу -- Објектно-оријентисано програмирање @ Математички факултет
 
 [ООП](../README.md)
 
 ## Наставници и асистенти  
 
-  * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
+* Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
 
-  * Наставник: **[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}**
+* Наставник: **[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}**
 
-  * Асистент: **[Биљана Стојановић](http://poincare.matf.bg.ac.rs/~biljana/){:target="_blank"}**
+* Асистент: **[Биљана Стојановић](http://poincare.matf.bg.ac.rs/~biljana/){:target="_blank"}**
 
-  * Асистент: **[Немања Мићовић](http://poincare.matf.bg.ac.rs/~nemanja_micovic/){:target="_blank"}**
+* Асистент: **[Немања Мићовић](http://poincare.matf.bg.ac.rs/~nemanja_micovic/){:target="_blank"}**
 
-  * Асистент: **[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}**
+* Асистент: **[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}**
 
-  * Асистент: **[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}**
+* Асистент: **[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}**
 
-  * Асистент: **[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}**
+* Асистент: **[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}**
+
+---
 
 ## План и програм курса
 
-  * **[Званичан план и програм курса](P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
+* **[Званичан план и програм курса](P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
-  * **[Начин реализације курса](../predavanja/prezentacije/OOP00-Koncepcija kursa.pdf){:target="_blank"}**
+* **[Начин реализације курса у академској 2018/2019 години](Nacin-realizacije-kursa.md)**
+
+---
 
 ## Термини за консултације у академској 2018/19 години
 
@@ -37,6 +41,8 @@
 * Иван Ристовић: петком од 13 до 14 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
 
 * Растко Ђорђевић: понедељком од 15 до 17 часова (716). Обавезно се јавити путем e-поште барем 24 сата раније.
+
+---
 
 ## Аутори веб страна курса
 
@@ -54,4 +60,6 @@
 
   *[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}*
 
-[ООП](../README.md)  
+---
+
+[ООП](../README.md)
