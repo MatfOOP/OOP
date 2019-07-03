@@ -4,6 +4,7 @@
 
 **[Важно! Резултати практичног дела испита у року Јун 2](./pismeni-ispiti/info/README.md)**
 
+
 [comment]: # (* **[Важно! Распоред студената по групама и учионицама у року Јун 2](./pismeni-ispiti/info/README.md)**)
 
 [comment]: # (* **[Важно! Пријава за полагање испита у року Јун 2](./pismeni-ispiti/info/README.md)**)
