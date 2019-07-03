@@ -24,7 +24,7 @@
 ## kartelj@matf.bg.ac.rs
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 3 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 3 / 23
 
 ## Пакети
 
