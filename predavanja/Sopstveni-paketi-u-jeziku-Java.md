@@ -24,7 +24,7 @@
 ## kartelj@matf.bg.ac.rs
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 3 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 3 / 23
 
 ## Пакети
 
@@ -39,7 +39,7 @@
 #### заштита при приступу и управљање простором имена.
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 4 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 4 / 23
 
 ## Пакети (2)
 
@@ -58,7 +58,7 @@
 #### приступ један другом.
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 5 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 5 / 23
 
 - Процес креирања сопствених пакета се може описати у три
 
@@ -79,7 +79,7 @@
 ## Пакети (3)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 6 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 6 / 23
 
 - **Други корак** је креирање структуре директоријума
 
@@ -106,7 +106,7 @@
 ## Пакети (4)
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 7 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 7 / 23
 
 - **Трећи корак** је додавање package наредбе
 - Ово треба да буде прва наредба Јава програма, дакле, пре
@@ -122,7 +122,7 @@
 ## Пакети ( 5 )
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 8 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 8 / 23
 
 - Да би могло да се рукује уграђеним Јава класама, мора се знати
 
@@ -147,7 +147,7 @@
 ## Пакети ( 6 )
 
 
-Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}@matf.bg.ac.rs rs 9 / 23
+Математички факултет (^) {vladafVl{{Ш, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rs rs 9 / 23
 
 
 

@@ -24,7 +24,7 @@
 ## kartelj@matf.bg.ac.rs
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 3 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 3 / 35
 
 - Наредбе гранања омогућавајуда се одабере извршавање
 
@@ -45,7 +45,7 @@
 ### Наредбе гранања
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 4 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 4 / 35
 
 - За условно извршење наредбе или за избор између извршења
 
@@ -63,7 +63,7 @@
 ### Наредба if
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 5 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 5 / 35
 
 - Наредба if у непотпуном облику извршава се на следећи
 
@@ -87,7 +87,7 @@ Nar1 ;
 Nar2 ;
 ```
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 6 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 6 / 35
 
 - Наредба if у потпуном облику се извршава на следећи начин:
 
@@ -110,7 +110,7 @@ else
 Nar2 ;
 ```
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 7 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 7 / 35
 
 - У случају када се појављује наредба if унутар наредбе if, са
 
@@ -134,7 +134,7 @@ if ( U1 ) if ( U2 ) Nar1 else Nar
 ### Наредба if ( 4 )
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 8 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 8 / 35
 
 ##### Пример.
 
@@ -160,7 +160,7 @@ min = ( x < y )? x : y ;
 ### Наредба if ( 5 )
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 9 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 9 / 35
 
 - Наредба switchслужи за избор једне наредбе из скупа од
 
@@ -169,7 +169,7 @@ min = ( x < y )? x : y ;
 ### Наредба switch
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 10 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 10 / 35
 
 - Резервисана реч defaultможе се појавити само једнапут, што
 
@@ -194,7 +194,7 @@ min = ( x < y )? x : y ;
 ### Наредба switch (2)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 11 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 11 / 35
 
 - Наредба switchсе извршава на следећи начин:
 
@@ -221,7 +221,7 @@ min = ( x < y )? x : y ;
 ### Наредба switch (3)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 12 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 12 / 35
 
 - У уској вези са наредбом switchје наредба break.
 - Следећим дијаграмом описана је синтакса наредбе break:
@@ -234,7 +234,7 @@ min = ( x < y )? x : y ;
 ### Наредба switch (4)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 13 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 13 / 35
 
 ##### Пример. Уместо:
 
@@ -265,7 +265,7 @@ PodrazumevaniRezultat ; // opciono
 ### Наредба switch (5)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 14 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 14 / 35
 
 ##### Пример.
 
@@ -290,7 +290,7 @@ System. out. println ( “Greska” );
 ### Наредба switch (6)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 15 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 15 / 35
 
 ##### Пример.
 
@@ -313,7 +313,7 @@ break;
 ### Наредба switch (7)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 16 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 16 / 35
 
 ##### Пример.
 
@@ -330,7 +330,7 @@ f = broj ;
 ### Наредба switch (7)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 17 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 17 / 35
 
 - Наредба whileсе још назива наредба циклуса са предусловом.
 - У њој се најпре проверава да ли је испуњен услов и ако јесте
@@ -357,7 +357,7 @@ f = broj ;
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 18 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 18 / 35
 ```
 ##### Наредба while се извршава на следећи начин:
 
@@ -377,7 +377,7 @@ System. out. println ( "x=" + x );
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 19 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 19 / 35
 ```
 - Наредба do-whileсе још назива наредба циклуса са постусловом.
 
@@ -397,7 +397,7 @@ System. out. println ( "x=" + x );
 ### Наредба do-while
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 20 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 20 / 35
 
 ##### Наредба do while се извршава на следећи начин:
 
@@ -415,7 +415,7 @@ while ( x < 0.9 );
 ### Наредба do while (2)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 21 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 21 / 35
 
 - Наредба forјемоћна наредба за опис циклуса.
 - Најчешће се користи за опис циклуса код којих је број
@@ -427,7 +427,7 @@ while ( x < 0.9 );
 ### Наредба for
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 22 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 22 / 35
 
 - Свака од секција наредбе for може бити изостављена, али знак
 
@@ -440,7 +440,7 @@ while ( x < 0.9 );
 ### Наредба for (2)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 23 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 23 / 35
 
 ##### Наредба forсе извршава на следећи начин:
 
@@ -469,7 +469,7 @@ while ( x < 0.9 );
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 24 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 24 / 35
 ```
 - Извршавање наредбе for показује и следећи дијаграм:
 
@@ -486,7 +486,7 @@ System**.** out**.** println **(** ”Ana voli programiranje” **);**
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 25 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 25 / 35
 ```
 - Колекцијска наредба forслужи за пролазак кроз колекцију/низ.
 - Притом променљива у наредби for не представља бројач,
@@ -499,7 +499,7 @@ System**.** out**.** println **(** ”Ana voli programiranje” **);**
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 26 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 26 / 35
 ```
 ##### Oвде важи следеће:
 
@@ -526,7 +526,7 @@ najveci = elem ;
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 27 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 27 / 35
 ```
 - Наредба у програмском језику Јава може имати једно или више
 
@@ -542,7 +542,7 @@ najveci = elem ;
 ### Обележена наредба
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 28 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 28 / 35
 
 - Наредба break је у уској вези не само са наредбом switch,
 
@@ -564,7 +564,7 @@ najveci = elem ;
 ### Наредба break
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 29 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 29 / 35
 
 ##### Пример.
 
@@ -583,7 +583,7 @@ break;
 ### Наредба break (2)
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 30 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 30 / 35
 
 ##### Пример.
 
@@ -605,7 +605,7 @@ break izlaz ;
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 31 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 31 / 35
 ```
 - Наредба continueје по синтакси слична наредби break.
 - Она се може користити само у наредбама за опис циклуса.
@@ -622,7 +622,7 @@ break izlaz ;
 ### Наредба continue
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 32 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 32 / 35
 
 ##### Пример.
 
@@ -645,7 +645,7 @@ vektor [ br2 ++]= niz [ br1 ++];
 ### Наредба continue ( 2 )
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 33 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 33 / 35
 
 ##### Пример.
 
@@ -674,7 +674,7 @@ System. out. println ( "Formiran je binarni string: " + s );
 ### Наредба continue ( 3 )
 
 
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 34 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 34 / 35
 
 ##### Пример.
 
@@ -708,7 +708,7 @@ System. out. println ( pronadjen? "Pronadjen" : "Nije pronadjen" );
 
 
 ```
-Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}@matf.bg.ac.rsrs 35 / 35
+Математички факултет {vvlŠladaf{{авы, karteljadaf@matf.bg.ac.}}@matf.bg.ac.rsrs 35 / 35
 ```
 ## Захвалница
 

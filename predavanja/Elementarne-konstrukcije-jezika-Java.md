@@ -932,7 +932,7 @@ s **=** 0 **;** // pocetna vrednost sume
 
 ##### симболима '*/'.
 
-**<** višelinijski **> ::=** /* **{{<** unicode znak različit od * **> }**
+**<** višelinijski **> ::=** /* **{{<** unicode znak različit od * **> }}**
 * **<** uncode znak različit od / **> }** */
 
 ### Коментари (2)
@@ -952,7 +952,7 @@ tri reda */
 ##### коментара.
 
 ```
-< dokumentacioni > ::= /** {{< unicode znak različit od * > } *
+< dokumentacioni > ::= /** {{< unicode znak različit od * > }} *
 < unicode znak različit od / > } */
 ```
 - Документациони коментар се може користити за аутоматско
