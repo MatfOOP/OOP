@@ -4,7 +4,7 @@
 
 **[Важно! Коначни резултати испита у року Јун 2 за И смер](./usmeni-ispiti/info/2019.07.04-OOP U VF.pdf){:target="_blank"}**
 
-**[Важно! Коначни резултати испита у року Јун 1 за И смер](./pismeni-ispiti/info/2019.06.25-OOP U VF.pdf){:target="_blank"}**
+**[Важно! Коначни резултати испита у року Јун 1 за И смер](./usmeni-ispiti/info/2019.06.25-OOP U VF.pdf){:target="_blank"}**
 
 [comment]: # (* **[Важно! Резултати практичног дела испита у року Јун 2 за МНВБ](./pismeni-ispiti/info/README.md)**)
 
