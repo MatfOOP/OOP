@@ -14,9 +14,7 @@
 
 * Асистент: **[Ања Букуров](http://poincare.matf.bg.ac.rs/~anja_bukurov/){:target="_blank"}**
 
-* Асистент: **[Иван Ристовић](http://poincare.matf.bg.ac.rs/~ivan_ristovic/){:target="_blank"}**
-
-* Асистент: **[Растко Ђорђевић](http://www.matf.bg.ac.rs/p/rastko-djordjevic/pocetna/){:target="_blank"}**
+* Асистент: **[Денис Аличић](http://poincare.matf.bg.ac.rs/~denis_alicic/){:target="_blank"}**
 
 ---
 
