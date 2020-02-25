@@ -6,15 +6,33 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - PokretanjeFakultet",
+            "name": "CodeLens (Launch) - PokretanjeStudent",
             "request": "launch",
-            "mainClass": "rs.math.oop1.zd.p060303.konstantnaPolja.z01.fakultet.PokretanjeFakultet"
+            "mainClass": "PokretanjeStudent"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - PokretanjeFakultet",
+            "name": "CodeLens (Launch) - PokretanjeModularnoNzdNzs",
             "request": "launch",
-            "mainClass": "rs.math.oop1.zd.p060300.klaseObjektiPolja.z01.fakultet.PokretanjeFakultet"
+            "mainClass": "PokretanjeModularnoNzdNzs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
+            "request": "launch",
+            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z02.binomniKoeficijentiPoDefiniciji.RadSaPaskalovimTrouglom"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PokretanjeVisedimenzionalniiNizStudentiOcene",
+            "request": "launch",
+            "mainClass": "PokretanjeVisedimenzionalniiNizStudentiOcene"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PokretanjeProbaI1",
+            "request": "launch",
+            "mainClass": "PokretanjeProbaI1"
         },
         {
             "type": "java",
@@ -33,12 +51,6 @@
             "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
             "request": "launch",
             "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z03.binomniKoeficijentiRekurzivno.RadSaPaskalovimTrouglom"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RadSaPaskalovimTrouglom",
-            "request": "launch",
-            "mainClass": "rs.math.oop1.zd.p050400.dvodimenzionalniNiz.z02.binomniKoeficijentiPoDefiniciji.RadSaPaskalovimTrouglom"
         },
         {
             "type": "java",
