@@ -20,7 +20,7 @@
 
 ## План и програм курса
 
-* **[Званичан план и програм курса](P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
+* **[Званичан план и програм курса](http://www.math.rs/files/P102_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
 * **[Начин реализације курса у академској 2018/2019 години](Nacin-realizacije-kursa.md)**
 
