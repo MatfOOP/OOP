@@ -16,7 +16,7 @@ public class Srednjoskolac2 extends Ucenik2 {
     }
 
     public static void main(String args[]) {
-        Srednjoskolac sred1 = new Srednjoskolac();
+        Srednjoskolac2 sred1 = new Srednjoskolac2();
         sred1.ime = "Ana Markovic";
         sred1.vrstaSkole = "Gimnazija";
         sred1.uzrast = 16;
@@ -24,7 +24,7 @@ public class Srednjoskolac2 extends Ucenik2 {
         System.out.println("Ime skole je: " + sred1.uzetiVrstuSkole());
         System.out.print("Ucenik je: ");
         sred1.prepoznaje();
-        Srednjoskolac sred2 = new Srednjoskolac();
+        Srednjoskolac2 sred2 = new Srednjoskolac2();
         sred2.ime = "Marko Rodic";
         sred2.uzrast = 22;
         sred2.stampajIme();

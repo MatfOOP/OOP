@@ -16,7 +16,7 @@ public class Ucenik2 {
 
     public static void main(String[] komandnaLinija) {
 
-        Ucenik prvi = new Ucenik();
+        Ucenik2 prvi = new Ucenik2();
         prvi.ime = "Petar Peric";
         prvi.stampajIme();
         System.out.println("Ucenik se bavi sportom:" + prvi.baviSeSportom("kosarka"));
