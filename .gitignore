@@ -13378,3 +13378,5 @@ predavanja/primeri-java/out/production/primeri-java/rs/math/oop1/p190201/funkcio
 /predavanja/primeri-java-selenium/Primer02TestNG/.classpath
 /predavanja/primeri-java-selenium/Primer02TestNG/.gitignore
 /predavanja/primeri-java-selenium/Primer02TestNG/.project
+.idea
+.settings
