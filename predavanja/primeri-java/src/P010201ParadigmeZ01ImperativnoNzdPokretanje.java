@@ -31,7 +31,7 @@ class PokretanjeImperativnoNzd {
                 drugiBroj = privremeni;
             }
             // нови пар бројева су дотадашњи мањи и разлика између већег и мањег
-            drugiBroj = drugiBroj - prviBroj;
+            drugiBroj = drugiBroj % prviBroj;
         }
 
         // одређивање НЗД за НЗД прва два броја и трећи број

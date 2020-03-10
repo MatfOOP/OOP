@@ -19,5 +19,6 @@ class PokretanjeIdentifikatori {
         int jestePreporucljiviIdentifikator; //zbog čitljivosti koda
         int xyz123; //nije preporučljivo ovako imenovati identikator, jer ne govori ništa o njegovoj upotrebi
         int precnik, obim; //ovako je bolje
+
     }
 }

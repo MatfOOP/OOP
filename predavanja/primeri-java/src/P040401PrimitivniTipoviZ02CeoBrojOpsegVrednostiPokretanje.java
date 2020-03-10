@@ -9,8 +9,9 @@ class PokretanjeCeoBrojOpsegVrednosti {
 	   
 	   short shortBroj = 32333;
 	   int intBroj1 = -2000000000; //-2 milijarde
-	   int intBroj2 = intBroj1 - 500000000; //ako oduzmemo jos 500 miliona, desiće se potkoračenje
-	   System.out.println(intBroj2); //ispisuje neki pozitivan broj, dakle, potkoračenje
+	   //int intBroj2 = -2500000000; //-2 milijarde
+	   int intBroj3 = intBroj1 - 500000000; //ako oduzmemo jos 500 miliona, desiće se potkoračenje
+	   System.out.println(intBroj3); //ispisuje neki pozitivan broj, dakle, potkoračenje
 	   
 	   long longBroj1 = intBroj1 - 500000000;
 	   //i dalje potkoračenje, jer je rezultat oduzimanja najpre prebačen u tip int, pa potom u long
@@ -18,11 +19,12 @@ class PokretanjeCeoBrojOpsegVrednosti {
 	   //kvalifikator L forsira oduzimanje u aritmetici duple preciznosti (long)
 	   long longBroj2 = intBroj1 - 500000000L; 
 	   System.out.println(longBroj2); //sada je u redu
-	   
+
 	   //char tip podataka je specifičan, jer ima dvostruku reprezentaciju
-	   char charBroj1 = 35; //inicijalizacija brojem
+	   char charBroj1 = 97; //inicijalizacija brojem
 	   char charBroj2 = 'b'; //inicijalizacija karakterom
 	   System.out.println(charBroj1); //podrazumevani ispis je u karakterskoj reprezentaciji
 	   System.out.println(charBroj2);
+
    }
 }

@@ -24,6 +24,7 @@ class PokretanjeStrukturnoNzd {
 
     // одређивање НЗД за три броја
     static int NZD(int prvi, int drugi, int treci) {
+
         return NZD(NZD(prvi, drugi), treci);
     }
 

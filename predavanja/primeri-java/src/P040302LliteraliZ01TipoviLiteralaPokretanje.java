@@ -20,6 +20,6 @@ class PokretanjeLiterali {
         char znak2 = '\n';
 
         // stringovni literali
-        String string = "Ovo je niska-literal.";
+        String niska = "Ovo je niska-literal.";
     }
 }

@@ -18,5 +18,12 @@ class PokretanjeRealniiTip {
 	   System.out.println(d4); //ispisuje 3.553535300003E7, što je tačan broj
 	   double d5 = 35535353.0000000003;
 	   System.out.println(d5); //ispisuje 3.5535353E7, jer ni dvostruka preciznost više nije dovoljna
+
+	   double inf1 = 7.0/(3-3);
+	   System.out.println(inf1);
+	   double inf2 = 8- inf1;
+	   System.out.println(inf2);
+	   System.out.println(inf1+inf2);
+
    }
 }
