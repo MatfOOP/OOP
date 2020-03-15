@@ -19,12 +19,12 @@
 постављају питања. Након тога ће видео снимак часа бити објављен на платформи
 [YouTube](http://youtube.com/), а линк за час ће бити окачен заједно са материјалима као до сада.
 
-Уколико желите да пратите часове уживо, молимо вас да инсталирате Зоом на вашем рачунару или
+Уколико желите да пратите часове уживо, молимо вас да инсталирате *Zoom* на вашем рачунару или
 мобилном уређају:
-- Инсталација на *Windows* и *Mac OS* системима: [ovde](https://zoom.us/support/download)
-- Подршка за *GNU/Linux* систем: [ovde](https://support.zoom.us/hc/en-us/articles/204206269-Installing-Zoom-on-Linux)
+- Инсталација на *Windows* и *Mac OS* системима: [овде](https://zoom.us/support/download)
+- Подршка за *GNU/Linux* систем: [овде](https://support.zoom.us/hc/en-us/articles/204206269-Installing-Zoom-on-Linux)
 - Приступ путем веб прегледача (не захтева инсталацију додатног софтвера):
-	[ovde](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-Web-Client)
+	[овде](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-Web-Client)
 
 Термини за часове (биће ажурирано ускоро за остале асистенте):
 - Биљана Стојановић - ?
