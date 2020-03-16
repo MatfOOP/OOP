@@ -10,7 +10,7 @@
 
 [Типови података у Јави](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be){:target="_blank"}
 
-[Цложене конструкције програмског језика Јава](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"}
+[Сложене конструкције програмског језика Јава](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"}
 
 ## Додатни материјали
 
