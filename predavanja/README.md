@@ -45,7 +45,7 @@
 
     1. УМЛ дијаграми класа  
 
-3. Карактеристике програмског језика Јава [презентација](tekstovi/Karakteristike-jezika-Java.md){:target="_blank"}
+3. Карактеристике програмског језика Јава [презентација](/prezentacije/OOP01-Karakteristike jezika Java.pdf){:target="_blank"}
 
     1. Историјат и развој програмског језика и окружења Јава [текст](tekstovi/Karakteristike-jezika-Java.md#настанак-и-развој){:target="_blank"}
 
@@ -83,7 +83,7 @@
 
         1. Библиотеке класа
 
-    1. Процес извршавања Јава програма
+    1. Процес извршавања Јава програма [презентација](/prezentacije/OOP02-Dizajn jezika Java.pdf){:target="_blank"}
 
         1. Превођење и интерпретација Јава програма
 
