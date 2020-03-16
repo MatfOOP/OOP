@@ -111,7 +111,7 @@
 
         1. Хијерархија наслеђивања у Јави, класа Object
 
-4. Структура Јава програма [презентација](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
+4. Структура Јава програма [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"} [презентација](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
 
     1. Језици за опис конструкција језика Јава
 
@@ -137,7 +137,7 @@
 
         1. Белине
 
-    1. Типови података у Јави [презентација](/prezentacije/OOP05-Tipovi podataka u Javi.pdf){:target="_blank"}
+    1. Типови података у Јави [филм](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be){:target="_blank"} [презентација](/prezentacije/OOP05-Tipovi podataka u Javi.pdf){:target="_blank"}
 
         1. Примитивни тип
 
@@ -157,7 +157,7 @@
 
             1. Енумерисани тип
 
-    1. Променљиве [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  
+    1. Променљиве [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"} [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  
 
         1. Декларација и иницјализација вредности променљиве
 
