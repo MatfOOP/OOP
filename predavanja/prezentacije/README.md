@@ -1,8 +1,10 @@
-# ООП - Снимљени филмови 
+# ООП - Презентације
 
 [ООП](../../README.md) [Предавања](../README.md)
 
 ## Предавања
+
+[Концепција курса](OOP00-Koncepcija kursa.pdf){:target="_blank"}
 
 [Елементарне конструкције у Јави](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"}
 
@@ -12,6 +14,5 @@
 
 ## Додатни материјали
 
-[Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}
 
 [ООП](../../README.md) [Предавања](../README.md)
