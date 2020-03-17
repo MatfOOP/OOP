@@ -1,4 +1,4 @@
-public class P040902Z04StatickaFunkcijaUzajamnaRekurzijaPokretanje {
+class PokretanjeUzajamnaRekurzijaParNepar {
 
     static boolean paran(int n) {
         if (n < 0)
