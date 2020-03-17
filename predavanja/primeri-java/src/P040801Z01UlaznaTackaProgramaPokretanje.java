@@ -1,4 +1,4 @@
-public class P040801UlaznaTackaProgramaPokretanje {
+public class P040801Z01UlaznaTackaProgramaPokretanje {
 
     public static void main(String[] komandnaLinija)
     {
