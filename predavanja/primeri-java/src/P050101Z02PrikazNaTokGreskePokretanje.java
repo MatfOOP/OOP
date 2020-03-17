@@ -3,14 +3,14 @@ public class P050101Z02PrikazNaTokGreskePokretanje {
     public static void main(String[] komandnaLinija)
     {
         double x  = zbir(40, 2.0);
-        System.out.print(x);
-        System.out.println();
-        System.out.println( x );
-        System.out.printf( "%6.0f\n", x );
-        System.out.printf( "%6.2f\n", x );
+        System.err.print(x);
+        System.err.println();
+        System.err.println( x );
+        System.err.printf( "%6.0f\n", x );
+        System.err.printf( "%6.2f\n", x );
 
-        System.out.println( "Suma je " + x + "!" );
-        System.out.printf( "Suma je %8.0f!\n", x );
+        System.err.println( "Suma je " + x + "!" );
+        System.err.printf( "Suma je %8.0f!\n", x );
 
     }
 
