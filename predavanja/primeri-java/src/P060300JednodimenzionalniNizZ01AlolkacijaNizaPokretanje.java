@@ -20,10 +20,10 @@ class PokretanjeAlolkacijaJednodimenzionalnogNiza {
         System.out.println();
         for (int i = 0; i < niz.length; i++)
             System.out.printf("%8.2f ", niz[i]);
-        
+
         System.out.println();
-        for( double a: niz )
+        for (double a : niz)
             System.out.printf("%8.2f ", a);
-        
+
     }
 }

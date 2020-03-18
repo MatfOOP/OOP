@@ -1,4 +1,4 @@
-public class P040901Z01StatickaFunkcijaTeloPokretanje {
+public class P040901StatickaFunkcijaZ01TeloPokretanje {
 
     public static void main(String[] komandnaLinija)
     {

@@ -1,4 +1,4 @@
-public class P040901Z02StatickaFunkcijaPovratnaVrednostPokretanje {
+public class P040901StatickaFunkcijaZ02PovratnaVrednostPokretanje {
 
     public static void main(String[] komandnaLinija)
     {

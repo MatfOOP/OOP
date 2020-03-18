@@ -1,4 +1,4 @@
-public class P040902Z02StatickaFunkcijaRekurzijaPokretanje {
+public class P040902StatickaFunkcijaZ02RekurzijaPokretanje {
 
     static int faktorijel(int n) {
         if(n==0 || n==1)

@@ -1,4 +1,4 @@
-public class P040901Z03StatickaFunkcijaParametriPokretanje {
+public class P040901StatickaFunkcijaZ03ParametriPokretanje {
 
     public static void main(String[] komandnaLinija)
     {

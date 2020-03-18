@@ -1,4 +1,4 @@
-public class P040902Z01StatickaFunkcijaPoziviPokretanje {
+public class P040902StatickaFunkcijaZ01PoziviPokretanje {
 
     static void utrostruci(double x) {
         System.out.println("\tUnutar metoda, na pocetku izvrsavanja: x=" + x);

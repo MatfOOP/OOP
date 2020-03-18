@@ -1,4 +1,4 @@
-public class P050101Z01PrikazNaIzlazniTokiPokretanje {
+public class P050101PrikazZ01NaIzlazniTokiPokretanje {
 
     public static void main(String[] komandnaLinija)
     {

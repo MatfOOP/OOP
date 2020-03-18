@@ -1,4 +1,4 @@
-public class P050102Z01PrikazNaTokGreskePokretanje {
+public class P050101PrikazZ02NaTokGreskePokretanje {
 
     public static void main(String[] komandnaLinija)
     {

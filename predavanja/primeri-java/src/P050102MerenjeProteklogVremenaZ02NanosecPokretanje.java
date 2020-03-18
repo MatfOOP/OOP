@@ -1,4 +1,4 @@
-class PokretanjeMerenjeProteklogVremena {
+class PokretanjeMerenjeProteklogVremenananoSec {
 
     public static void main(String[] komandnaLinija) {
 
