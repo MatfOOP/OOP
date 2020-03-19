@@ -15,15 +15,14 @@ public class VremeIzvrsenjaMetoda {
    public static void main(String[] args) {
       java.util.Scanner skener = new java.util.Scanner(System.in);
       System.out.println(
-               "Pritisni dva puta taster <Enter>!");
+            "Pritisni dva puta taster <Enter>!");
       skener.nextLine();
       long vremePocetka = System.nanoTime();
       skener.nextLine();
-      double trajanje = (System.nanoTime() - vremePocetka)
-               / 1e9;
+      double trajanje = (System.nanoTime() - vremePocetka) / 1e9;
       System.out.printf(
-               "Izmedju dva pritiska je proteklo %f sekundi!",
-               trajanje);
+            "Izmedju dva pritiska je proteklo %f sekundi!",
+            trajanje);
       skener.close();
    }
 
