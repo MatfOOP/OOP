@@ -6,7 +6,14 @@ class PokretanjeOmotacIntegerMetodi {
 
       System.out.printf("ceoBroj1: %s\n", ceoBroj1);
       System.out.printf("ceoBroj2: %s\n", ceoBroj2);
-      System.out.printf("ceoBroj3: %s\n\n", ceoBroj3);
+      System.out.printf("ceoBroj3: %s\n", ceoBroj3);
+
+      System.out.printf("\nheskod (hex) za ceoBroj1: %08x\n", ceoBroj1.hashCode());
+      System.out.printf("heskod (dec) za ceoBroj1: %d\n", ceoBroj1.hashCode());
+      System.out.printf("heskod (hex) za ceoBroj2: %08x\n", ceoBroj2.hashCode());
+      System.out.printf("heskod (dec) za ceoBroj2: %d\n", ceoBroj2.hashCode());
+      System.out.printf("heskod (hex) za ceoBroj3: %08x\n", ceoBroj3.hashCode());
+      System.out.printf("heskod (dec) za ceoBroj3: %d\n\n", ceoBroj3.hashCode());
 
       int poredjenje = ceoBroj1.compareTo(ceoBroj2);
       if (poredjenje > 0)

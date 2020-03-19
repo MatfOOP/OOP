@@ -8,6 +8,14 @@ public class P050403OmotacPokrenitZarezZ01FloatPokretanje {
       System.out.printf("brojPokretniZarez2: %s\n", brojPokretniZarez2);
       System.out.printf("brojPokretniZarez3: %s\n", brojPokretniZarez3);
 
+      System.out.printf("\nbrojPokretniZarez1 hashCode() - dec: %d\n", brojPokretniZarez1.hashCode());
+      System.out.printf("brojPokretniZarez1 hashCode() - hex: %x\n", brojPokretniZarez1.hashCode());
+      System.out.printf("brojPokretniZarez2 hashCode() - dec: %d\n", brojPokretniZarez2.hashCode());
+      System.out.printf("brojPokretniZarez2 hashCode() - hex: %x\n", brojPokretniZarez2.hashCode());
+      System.out.printf("brojPokretniZarez3 hashCode() - dec: %d\n", brojPokretniZarez3.hashCode());
+      System.out.printf("brojPokretniZarez2 hashCode() - hex: %x\n\n", brojPokretniZarez3.hashCode());
+
+
       if (brojPokretniZarez1.equals(brojPokretniZarez2))
          System.out.printf("prva dva broja su jednaki (equals)\n");
       else
@@ -47,11 +55,6 @@ public class P050403OmotacPokrenitZarezZ01FloatPokretanje {
       else
          System.out.printf("brojPokretniZarez2('%s') == brojPokretniZarez3('%s')\n", 
                brojPokretniZarez2, brojPokretniZarez3);
-
-      System.out.printf("\nbrojPokretniZarez1 hashCode(): %d\n", brojPokretniZarez1.hashCode());
-      System.out.printf("brojPokretniZarez2 hashCode(): %d\n", brojPokretniZarez2.hashCode());
-      System.out.printf("brojPokretniZarez3 hashCode(): %d\n", brojPokretniZarez3.hashCode());
-
 
       System.out.printf("\n%s.intValue(): %d\n", brojPokretniZarez1, brojPokretniZarez1.intValue());
       System.out.printf("%s.intValue(): %d\n", brojPokretniZarez2, brojPokretniZarez2.intValue());

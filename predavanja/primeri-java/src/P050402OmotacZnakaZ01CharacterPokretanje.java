@@ -6,7 +6,14 @@ public class P050402OmotacZnakaZ01CharacterPokretanje {
 
       System.out.printf("znak1: %s\n", znak1);
       System.out.printf("znak2: %s\n", znak2);
-      System.out.printf("znak3: %s\n\n", znak3);
+      System.out.printf("znak3: %s\n", znak3);
+
+      System.out.printf("\nznak1 hashCode() - dec: %d\n", znak1.hashCode());
+      System.out.printf("znak2 hashCode() - hex: %x\n", znak1.hashCode());
+      System.out.printf("znak2 hashCode() - char: %c\n", znak1.hashCode());
+      System.out.printf("znak2 hashCode(): %d\n", znak2.hashCode());
+      System.out.printf("znak3 hashCode(): %d\n\n", znak3.hashCode());
+
 
       if (znak1.equals(znak2))
          System.out.printf("prva dva znaka su jednaki (equals)\n");
@@ -42,10 +49,6 @@ public class P050402OmotacZnakaZ01CharacterPokretanje {
          System.out.printf("znak2('%s') < znak3('%s')\n", znak2, znak3);
       else
          System.out.printf("znak2('%s') == znak3('%s')\n", znak2, znak3);
-
-      System.out.printf("\nznak1 hashCode(): %d\n", znak1.hashCode());
-      System.out.printf("znak2 hashCode(): %d\n", znak2.hashCode());
-      System.out.printf("znak3 hashCode(): %d\n", znak3.hashCode());
 
       char ch1 = '7';
       char ch2 = 'a';

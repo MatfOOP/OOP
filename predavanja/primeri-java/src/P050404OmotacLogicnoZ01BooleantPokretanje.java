@@ -48,9 +48,9 @@ public class P050404OmotacLogicnoZ01BooleantPokretanje {
          System.out.printf("logickaVrednost2('%s') == logickaVrednost3('%s')\n",
                logickaVrednost2, logickaVrednost3);
 
-      System.out.printf("\nlogickaVrednost1 hashCode(): %d\n", logickaVrednost1.hashCode());
-      System.out.printf("logickaVrednost2 hashCode(): %d\n", logickaVrednost2.hashCode());
-      System.out.printf("logickaVrednost3 hashCode(): %d\n", logickaVrednost3.hashCode());
+      System.out.printf("\nlogickaVrednost1 hashCode(): %x\n", logickaVrednost1.hashCode());
+      System.out.printf("logickaVrednost2 hashCode(): %x\n", logickaVrednost2.hashCode());
+      System.out.printf("logickaVrednost3 hashCode(): %x\n", logickaVrednost3.hashCode());
 
       System.out.printf("\n%s.booleanValue(): %b\n", logickaVrednost1, logickaVrednost1.booleanValue());
       System.out.printf("%s.booleanValue(): %b\n", logickaVrednost2, logickaVrednost2.booleanValue());

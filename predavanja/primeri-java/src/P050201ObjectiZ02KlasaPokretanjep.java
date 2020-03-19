@@ -47,13 +47,13 @@ public class P050201ObjectiZ02KlasaPokretanjep {
       else
          System.out.printf("poslednja dva auta nisu jednaki (equals)\n");
 
-      System.out.printf("heskod za auto 1: %d\n", auto1.hashCode());
-      System.out.printf("heskod za auto 2: %d\n", auto2.hashCode());
-      System.out.printf("heskod za auto 3: %d\n", auto3.hashCode());
+      System.out.printf("\nheskod (hex) za auto 1: %x\n", auto1.hashCode());
+      System.out.printf("heskod (hex) za auto 2: %x\n", auto2.hashCode());
+      System.out.printf("heskod (hex) za auto 3: %x\n", auto3.hashCode());
 
-      System.out.printf("runtime klasa za auto 1: %s\n", auto1.getClass());
+      System.out.printf("\nruntime klasa za auto 1: %s\n", auto1.getClass());
       System.out.printf("runtime klasa za auto 2: %s\n", auto2.getClass());
-      System.out.printf("runtime klasa za auto 3: %s\n", auto3.getClass());
+      System.out.printf("runtime klasa za auto 3: %s\n\n", auto3.getClass());
 
       if (auto1 instanceof Auto)
          System.out.printf("auto 1 je primerak klase Auto\n");
