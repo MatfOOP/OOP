@@ -5,7 +5,7 @@
  
  */
 
-public class P050602SkenerUlazZ02UzastopniPritisakProtekloVremei {
+public class P050702SkenerUlazZ04UzastopniPritisakProtekloVremei {
 
    public static void main(String[] args) {
       java.util.Scanner skener = new java.util.Scanner(System.in);

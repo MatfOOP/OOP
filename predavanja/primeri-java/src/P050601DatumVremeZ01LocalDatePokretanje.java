@@ -1,3 +1,5 @@
+import java.time.format.DateTimeFormatter;
+
 public class P050601DatumVremeZ01LocalDatePokretanje {
    public static void main(String[] args) {
       java.time.LocalDate datum1 = java.time.LocalDate.now();
@@ -9,9 +11,14 @@ public class P050601DatumVremeZ01LocalDatePokretanje {
       System.out.println("datum3: " + datum3);
 
       java.time.format.DateTimeFormatter formater = java.time.format.DateTimeFormatter.ofPattern("dd.MM.YYYY.");
-      System.out.printf("\ndatum1: %s\n", datum1.format(formater));
-      System.out.printf("datum2: %s\n", datum2.format(formater));
-      System.out.printf("datum3: %s\n\n", datum3.format(formater));
+      System.out.printf("\ndatum1 (custom format): %s\n", datum1.format(formater));
+      System.out.printf("datum2 (custom format): %s\n", datum2.format(formater));
+      System.out.printf("datum3 (custom format): %s\n\n", datum3.format(formater));
+
+      java.time.format.DateTimeFormatter formater2 = DateTimeFormatter.ISO_DATE;
+      System.out.printf("\ndatum1 (ISO format): %s\n", datum1.format(formater2));
+      System.out.printf("datum2 (ISO format): %s\n", datum2.format(formater2));
+      System.out.printf("datum3 (ISO format): %s\n\n", datum3.format(formater2));
 
       if (datum1.equals(datum2))
          System.out.println("prva dva datuma su jednaki (equals)");
@@ -78,12 +85,13 @@ public class P050601DatumVremeZ01LocalDatePokretanje {
       System.out.println("datum1 mesec u godini (vrednost): " + datum1.getMonth().getValue());
       System.out.println("datum1 mesec u godini (vrednost2): " + datum1.getMonthValue());
       System.out.println("datum1 godina: " + datum1.getYear());
-      System.out.println("datum1 era: " + datum1.getEra());
-      System.out.println("datum1 era (vrednost): " + datum1.getEra().getValue());
+      System.out.println("datum1 epoha: " + datum1.getEra());
+      System.out.println("datum1 epoha (vrednost): " + datum1.getEra().getValue());
 
       System.out.println("\ndatum1 broj dana u mesecu: " + datum1.lengthOfMonth());
       System.out.println("datum1 broj dana u godini: " + datum1.lengthOfYear());
       System.out.println("datum1 godina je prestupna: " + datum1.isLeapYear());
+      System.out.println("datum1 broj dana u epohi: " + datum1.toEpochDay());
 
       System.out.println("\nbroj dana od datum2 do datum1: "
             + datum2.until(datum1, java.time.temporal.ChronoUnit.DAYS));
