@@ -1,7 +1,6 @@
 public class P050101PrikazZ01NaIzlazniTokiPokretanje {
 
-    public static void main(String[] komandnaLinija)
-    {
+    public static void main(String[] komandnaLinija) {
         double x  = zbir(40, 2.0);
         System.out.print(x);
         System.out.println();
@@ -14,8 +13,8 @@ public class P050101PrikazZ01NaIzlazniTokiPokretanje {
 
     }
 
-    static double zbir(int x, double y)
-    {
+    static double zbir(int x, double y) {
+
         return x+y;
     }
 }

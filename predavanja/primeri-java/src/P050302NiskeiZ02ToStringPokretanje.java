@@ -16,9 +16,11 @@ public class P050302NiskeiZ02ToStringPokretanje {
       a.zapreminaMotora = 2000;
       s = a.toString();
       System.out.printf("niska reprezentacija automobila (podrazumevana):\t%s\n", s);
+
       String niskaAutmobil = String.format("Automobil(putnika:%d,tockova:%d,zapremina:%f)",
             a.brojPutnika, a.brojTockova, a.zapreminaMotora);
       System.out.printf("niska reprezentacija automobila (nova):\t%s\n", niskaAutmobil);
+
    }
 
 }

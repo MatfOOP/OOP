@@ -12,6 +12,8 @@
 
 [Улазна тачка програма. Функционална декомпозиција. Рекурзија.](https://youtu.be/Wh9S8oQ7O6U){:target="_blank"}
 
+[Класа System. Објекти. Ниске.](https://youtu.be/d5-U_Ds7Qy8){:target="_blank"}
+
 ## Додатни материјали
 
 [Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}

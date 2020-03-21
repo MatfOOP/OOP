@@ -37,7 +37,7 @@ class PokretanjeNiskeKreiranjePoredjenje {
          System.out.printf("poslednje dve niske nisu jednake (equals)\n");
 
       System.out.printf("heskod za niska 1: %d\n", niska1.hashCode());
-      System.out.printf("heskod za niska 2: &d\n", niska2.hashCode());
+      System.out.printf("heskod za niska 2: %d\n", niska2.hashCode());
       System.out.printf("heskod za niska 3: %d\n", niska3.hashCode());
 
       System.out.printf("runtime klasa za niska 1: %s\n", niska1.getClass());

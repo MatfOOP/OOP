@@ -2,7 +2,7 @@ class PokretanjeMerenjeProteklogVremenaMiliSec {
 
     public static void main(String[] komandnaLinija) {
 
-        int n = 100_000;
+        int n = 10_000;
         long vremePocetka = System.currentTimeMillis();
         double s = 0;
         for (int i = 0; i < n; i++) {

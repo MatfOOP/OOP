@@ -1,6 +1,6 @@
 public class P050304NiskeiZ01ImutabilnostiPokretanje {
    public static void main(String[] args) {
-      int duzina = 2000;
+      int duzina = 20_000;
 
       long pocetak = System.nanoTime();
       String velikaNiska = "";

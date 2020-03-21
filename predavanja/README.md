@@ -223,7 +223,7 @@
 
 5. Рад са корисничким објектним типовима испорученим уз ЈДК-а [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
 
-    1. Приступ систему, класа `System`
+    1. Приступ систему, класа `System` [филм](https://youtu.be/d5-U_Ds7Qy8){:target="_blank"}
 
         1. Приказ текста
 
