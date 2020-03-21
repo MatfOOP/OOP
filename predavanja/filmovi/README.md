@@ -4,11 +4,13 @@
 
 ## Предавања
 
-[Елементарне конструкције у Јави](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"}
+[Елементарне конструкције у Јави.](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"}
 
-[Типови података у Јави](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be){:target="_blank"}
+[Типови података у Јави.](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be){:target="_blank"}
 
-[Сложене конструкције програмског језика Јава](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"}
+[Сложене конструкције програмског језика Јава.](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"}
+
+[Улазна тачка програма. Функционална декомпозиција. Рекурзија.](https://youtu.be/Wh9S8oQ7O6U){:target="_blank"}
 
 ## Додатни материјали
 

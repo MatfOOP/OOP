@@ -8,7 +8,7 @@ public class P040902StatickaFunkcijaZ02RekurzijaPokretanje {
     }
 
      public static void main(String[] args) {
-        int n = 4;
+        int n = 15;
         int fakt = faktorijel(n);
         System.out.println("faktorijel broja " + n + " je " + fakt);
     }

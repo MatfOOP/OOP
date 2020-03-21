@@ -21,7 +21,7 @@ class PokretanjeUzajamnaRekurzijaParNepar {
     }
 
     public static void main(String[] args) {
-        int n = 43;
+        int n = 7;
         if (paran(n))
             System.out.println("broj " + n + " je paran.");
         else
