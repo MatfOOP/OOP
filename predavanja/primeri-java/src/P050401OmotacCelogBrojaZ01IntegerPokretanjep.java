@@ -20,7 +20,7 @@ class PokretanjeOmotacIntegerKreiranjePoredjenje {
       System.out.printf("\nheskod (hex) za ceoBroj1: %x\n", ceoBroj1.hashCode());
       System.out.printf("heskod (dec) za ceoBroj1: %d\n", ceoBroj1.hashCode());
       System.out.printf("heskod (hex) za ceoBroj2: %x\n", ceoBroj2.hashCode());
-      System.out.printf("heskod (dec) za ceoBroj2: %x\n", ceoBroj2.hashCode());
+      System.out.printf("heskod (dec) za ceoBroj2: %d\n", ceoBroj2.hashCode());
 
       System.out.printf("\nruntime klasa za niska 1: %s\n", ceoBroj1.getClass());
 
