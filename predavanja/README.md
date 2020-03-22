@@ -157,13 +157,13 @@
 
             1. Енумерисани тип
 
-    1. Променљиве [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"} [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  
+    1. Променљиве [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=0m0s){:target="_blank"} [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  
 
         1. Декларација и иницјализација вредности променљиве
 
         1. Опсег важења променљиве
 
-    1. Наредбе
+    1. Наредбе [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=16m25s){:target="_blank"}
 
         1. Блок
 
