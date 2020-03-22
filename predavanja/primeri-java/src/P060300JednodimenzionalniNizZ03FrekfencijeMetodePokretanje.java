@@ -31,24 +31,21 @@ class PokretanjeJednodimenzionalniNizFrekfencijeMetode {
       return ret;
    }
 
-   static void izracunajFrekfencije(int[] rezultati,
-            int[] frekfencije, int donjaGranica) {
+   static void izracunajFrekfencije(int[] rezultati, int[] frekfencije, int donjaGranica) {
       for (int i = 0; i < frekfencije.length; i++)
          frekfencije[i] = 0;
       for (int x : rezultati)
          frekfencije[x - donjaGranica]++;
    }
 
-   static void prikaziFrekfencijeNumericki(
-            int[] frekfencije, int dg) {
+   static void prikaziFrekfencijeNumericki(int[] frekfencije, int dg) {
       for (int i = 0; i < frekfencije.length; i++)
          System.out.printf("%d:%d %s", (i + dg),
-                  frekfencije[i],
-                  ((i + 1) % 8 == 0) ? "\n" : "\t");
+               frekfencije[i],
+               ((i + 1) % 8 == 0) ? "\n" : "\t");
    }
 
-   static void prikaziFrekfencijeGraficki(int[] frekfencije,
-            int dg) {
+   static void prikaziFrekfencijeGraficki(int[] frekfencije, int dg) {
       for (int i = 0; i < frekfencije.length; i++) {
          System.out.printf("%3d:", i + dg);
          for (int j = 0; j < frekfencije[i]; j++)
@@ -59,19 +56,16 @@ class PokretanjeJednodimenzionalniNizFrekfencijeMetode {
 
    public static void main(String[] args) {
       int[] rezultati =
-      { 7, -3, 3, 3, 3, 4, 9, 7, 6, 3, 4, 5, 10, 4, 3, 5, 3,
-               4, 5, 3, 3, 2, 5, 7, 9, 1 };
+            {7, -3, 3, 3, 3, 4, 9, 7, 6, 3, 4, 5, 10, 4, 3, 5, 3,
+                  4, 5, 3, 3, 2, 5, 7, 9, 1};
       System.out.println("Niz brojeva:");
       for (int x : rezultati)
          System.out.printf("%4d", x);
       int donjaGranica = odrediDonjuGranicu(rezultati);
       int gornjaGranica = odrediGornjuGranicu(rezultati);
-      int[] brojPojava = new int[gornjaGranica
-               - donjaGranica + 1];
-      izracunajFrekfencije(rezultati, brojPojava,
-               donjaGranica);
-      System.out.println(
-               "\nBroj pojava (numericki prikaz):");
+      int[] brojPojava = new int[gornjaGranica - donjaGranica + 1];
+      izracunajFrekfencije(rezultati, brojPojava, donjaGranica);
+      System.out.println("\nBroj pojava (numericki prikaz):");
       prikaziFrekfencijeNumericki(brojPojava, donjaGranica);
       System.out.println("\nBroj pojava (histogram):");
       prikaziFrekfencijeGraficki(brojPojava, donjaGranica);
