@@ -201,7 +201,7 @@
 
                 1. Наредба `continue` и циклуси
 
-        1. Улазна тачка програма, `static` метода `main` [филм](https://youtu.be/Wh9S8oQ7O6U){:target="_blank"}
+        1. Улазна тачка програма, `static` метода `main` [филм](https://youtu.be/Wh9S8oQ7O6U&t=0m0s){:target="_blank"}
 
         1. Функционална декомпозиција програма
 
@@ -223,7 +223,7 @@
 
 5. Рад са корисничким објектним типовима испорученим уз ЈДК-а [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
 
-    1. Приступ систему, класа `System` [филм](https://youtu.be/d5-U_Ds7Qy8){:target="_blank"}
+    1. Приступ систему, класа `System` [филм](https://youtu.be/d5-U_Ds7Qy8&t=0m0s){:target="_blank"}
 
         1. Приказ текста
 
