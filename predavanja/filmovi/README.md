@@ -16,7 +16,9 @@
 
 [Класе-омотачи за примитивне типове](https://www.youtube.com/watch?7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
 
-[Математичке функције. Датуми и времена. Читање са улаза](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
+[Математичке функције. Датуми и времена. Читање са улаза.](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
+
+[Низови у Јави.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
 ## Додатни материјали
 
