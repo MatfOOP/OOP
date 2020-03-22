@@ -201,7 +201,7 @@
 
                 1. Наредба `continue` и циклуси
 
-        1. Улазна тачка програма, `static` метода `main` [филм](https://youtu.be/Wh9S8oQ7O6U&t=0m0s){:target="_blank"}
+        1. Улазна тачка програма, `static` метода `main` [филм]((https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Функционална декомпозиција програма
 
