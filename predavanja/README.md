@@ -269,7 +269,7 @@
 
         1. Коришћење осталих метода класе `String` и `StringBuilder`
 
-    1. Класе-омотачи за примитивне типове [филм](https://www.youtube.com/watch?7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
+    1. Класе-омотачи за примитивне типове [филм](https://www.youtube.com/watch?v=7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Карактеристике класа-омотача за примитивне типове
 
@@ -281,7 +281,7 @@
 
         1. Рад са објектима типа `Boolean`
 
-    1. Класа за математичке функције, класа `Math`
+    1. Класа за математичке функције, класа `Math` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Приспуп пољима класе `Math`
 
@@ -289,7 +289,7 @@
 
         1. Коришћење метода класе `Math` за рад са псеудо-случајним бројевима
 
-    1. Рад са датумима и временима
+    1. Рад са датумима и временима [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=11m52s){:target="_blank"}
 
         1. Коришћење метода класе `LocalDate` из пакета `java.time`
 
@@ -299,7 +299,7 @@
 
         1. Формати датума и времена помоћу `DateTimeFormatter` из пакета `java.time.format`
 
-    1. Скенери, класа `Scanner` из пакета `java.util`
+    1. Скенери, класа `Scanner` из пакета `java.util` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=23m24s){:target="_blank"}
 
         1. Скенирање података из ниске  
 

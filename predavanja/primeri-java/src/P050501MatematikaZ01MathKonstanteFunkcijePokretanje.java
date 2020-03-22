@@ -1,5 +1,7 @@
 public class P050501MatematikaZ01MathKonstanteFunkcijePokretanje {
    public static void main(String[] args) {
+
+
       System.out.printf("Math.E: %f\n", Math.E);
       System.out.printf("Math.PI: %f\n", Math.PI);
 
@@ -18,7 +20,6 @@ public class P050501MatematikaZ01MathKonstanteFunkcijePokretanje {
 
       double z = 6.25;
       System.out.printf("\nMath.sqrt(%f): %f\n", z, Math.sqrt(z));
-
       double izlozilac = 2;
       System.out.printf("\nMath.pow(%f,%f): %f\n", z, izlozilac, Math.pow(z, izlozilac));
       izlozilac = 0.5;

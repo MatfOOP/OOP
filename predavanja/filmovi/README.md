@@ -16,6 +16,8 @@
 
 [Класе-омотачи за примитивне типове](https://www.youtube.com/watch?7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
 
+[Математичке функције. Датуми и времена. Читање са улаза](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
+
 ## Додатни материјали
 
 [Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}

@@ -1,4 +1,6 @@
 public class P050603DatumVremeZ01LocalDateTimePokretanje {
+
+
    public static void main(String[] args) {
       java.time.LocalDateTime datumVreme1 = java.time.LocalDateTime.now();
       java.time.LocalDateTime datumVreme2 = java.time.LocalDateTime.parse("2019-02-03T23:15:45");

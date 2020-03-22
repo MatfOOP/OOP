@@ -1,6 +1,9 @@
 public class P050501MatematikaZ02MathSlucajnoPokretanje {
+
+
    public static void main(String[] args) {
-      int brojPonavljanja = 9;
+      int brojPonavljanja = 9999;
+
       double sumaSlucajnih = 0;
       for (int i = 1; i <= brojPonavljanja; i++) {
          double slucajan = Math.random();
@@ -18,7 +21,6 @@ public class P050501MatematikaZ02MathSlucajnoPokretanje {
          System.out.printf("%d. slucajan iz [%d,%d]: %d\n", i, pocetak, kraj, slucajan);
       }
       System.out.printf("Prosek slucajnih: %f\n\n", sumaSlucajnih / brojPonavljanja);
-
    }
 
    static int slucajaCeoIzIntervala(int intervalOd, int intervalDo) {
