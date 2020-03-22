@@ -201,9 +201,9 @@
 
                 1. Наредба `continue` и циклуси
 
-        1. Улазна тачка програма, `static` метода `main` [филм]((https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
+        1. Улазна тачка програма, `static` метода `main` [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
 
-        1. Функционална декомпозиција програма
+        1. Функционална декомпозиција програма [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=6m50s)
 
             1. Дефиниција `static` метода
 
@@ -223,8 +223,8 @@
 
 5. Рад са корисничким објектним типовима испорученим уз ЈДК-а [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
 
-    1. Приступ систему, класа `System` [филм](https://youtu.be/d5-U_Ds7Qy8&t=0m0s){:target="_blank"}
-
+    1. Приступ систему, класа `System` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=0m0s){:target="_blank"}
+  
         1. Приказ текста
 
             1. Приказ на излазни ток, објекат `System.out`
@@ -251,7 +251,7 @@
 
         1. Излазак из апликације, метод `System.exit()`
 
-    1. Објекти, примерци класе `Object`  
+    1. Објекти, примерци класе `Object` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=26m16s){:target="_blank"}
 
         1. Креирање објекта, оператор `new`
 
@@ -259,7 +259,7 @@
 
         1. Одређивање да ли објекат припада класи
 
-    1. Ниске, примерци класе `String`
+    1. Ниске, примерци класе `String` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=35m51s){:target="_blank"}
 
         1. Каракеристике ниски, имутабилност  
 
