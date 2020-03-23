@@ -10,6 +10,8 @@
 
 [Сложене конструкције програмског језика Јава.](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be){:target="_blank"}
 
+[Управљачке структуре у Јави.](https://www.youtube.com/watch?v=CeXqaMvtQFE&feature=youtu.be&t=0m0s){:target="_blank"}
+
 [Улазна тачка програма. Функционална декомпозиција. Рекурзија.](https://youtu.be/Wh9S8oQ7O6U){:target="_blank"}
 
 [Класа System. Објекти. Ниске.](https://youtu.be/d5-U_Ds7Qy8){:target="_blank"}
@@ -18,7 +20,7 @@
 
 [Математичке функције. Датуми и времена. Читање са улаза.](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
-[Низови у Јави.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
+[Једнодимензионални низови у Јави.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
 ## Додатни материјали
 

@@ -179,7 +179,7 @@
 
             1. Оператори: арност, асоцијативност, приоритет
 
-        1. Наредбе гранања и наредбе циклуса [презентација](/prezentacije/OOP07-Upravljacke stukture u Javi.pdf){:target="_blank"}
+        1. Наредбе гранања и наредбе циклуса [презентација](/prezentacije/OOP07-Upravljacke stukture u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=CeXqaMvtQFE&feature=youtu.be&t=0m0s){:target="_blank"}
 
             1. Наредбе гранања
 
