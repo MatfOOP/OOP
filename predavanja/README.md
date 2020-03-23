@@ -119,9 +119,9 @@
 
         1. Синтаксни дијаграми
 
-    1. Азбука језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=14m23s)
+    1. Азбука језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=14m23s){:target="_blank"}
 
-    1. Елементарне конструкције језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=16m30s)
+    1. Елементарне конструкције језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=16m30s){:target="_blank"}
 
         1. Идентификатори
 
@@ -203,7 +203,7 @@
 
     1. Улазна тачка програма, `static` метода `main` [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
 
-    1. Функционална декомпозиција програма [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=6m50s)
+    1. Функционална декомпозиција програма [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=6m50s){:target="_blank"}
 
         1. Дефиниција `static` метода
 
