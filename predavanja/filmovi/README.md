@@ -14,7 +14,7 @@
 
 [Класа System. Објекти. Ниске.](https://youtu.be/d5-U_Ds7Qy8){:target="_blank"}
 
-[Класе-омотачи за примитивне типове](https://www.youtube.com/watch?7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
+[Класе-омотачи за примитивне типове](https://www.youtube.com/watch?v=7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
 
 [Математичке функције. Датуми и времена. Читање са улаза.](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
