@@ -1,6 +1,6 @@
 import java.time.format.DateTimeFormatter;
 
-public class P050601DatumVremeZ01LocalDatePokretanje {
+public class P050701DatumVremeZ01LocalDatePokretanje {
    public static void main(String[] args) {
       java.time.LocalDate datum1 = java.time.LocalDate.now();
       java.time.LocalDate datum2 = java.time.LocalDate.parse("2019-02-03");

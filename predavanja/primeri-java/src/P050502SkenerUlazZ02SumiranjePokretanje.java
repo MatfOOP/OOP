@@ -1,5 +1,5 @@
 
-public class P050702SkenerUlazZ02SumiranjePokretanje {
+public class P050502SkenerUlazZ02SumiranjePokretanje {
 
 
    public static void main(String[] args) {

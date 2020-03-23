@@ -1,4 +1,4 @@
-public class P050501MatematikaZ02MathSlucajnoPokretanje {
+public class P050601MatematikaZ02MathSlucajnoPokretanje {
 
 
    public static void main(String[] args) {

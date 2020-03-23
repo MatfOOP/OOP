@@ -8,7 +8,7 @@
 
 // Задатак представља илустрацију мерења времена
 
-public class P050702SkenerUlazZ03BinomniKoeficijentProtekloVremei {
+public class P050502SkenerUlazZ03BinomniKoeficijentProtekloVremei {
 
    static int bkRekurzija(int n, int k) {
       if (n == 0 || n == 1)

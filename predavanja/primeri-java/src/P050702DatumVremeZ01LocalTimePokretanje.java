@@ -1,4 +1,4 @@
-public class P050602DatumVremeZ01LocalTimePokretanje {
+public class P050702DatumVremeZ01LocalTimePokretanje {
    public static void main(String[] args) {
       java.time.LocalTime vreme1 = java.time.LocalTime.now();
       java.time.LocalTime vreme2 = java.time.LocalTime.parse("23:15:45");

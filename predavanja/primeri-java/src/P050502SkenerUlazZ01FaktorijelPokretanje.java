@@ -1,4 +1,4 @@
-public class P050702SkenerUlazZ01FaktorijelPokretanje {
+public class P050502SkenerUlazZ01FaktorijelPokretanje {
 
    static long faktorijel(int n) {
       if (n == 0 || n == 1)

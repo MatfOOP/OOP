@@ -1,4 +1,4 @@
-public class P050501MatematikaZ01MathKonstanteFunkcijePokretanje {
+public class P050601MatematikaZ01MathKonstanteFunkcijePokretanje {
    public static void main(String[] args) {
 
 

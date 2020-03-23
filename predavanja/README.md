@@ -281,6 +281,12 @@
 
         1. Рад са објектима типа `Boolean`
 
+    1. Скенери, класа `Scanner` из пакета `java.util` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=23m24s){:target="_blank"}
+
+        1. Скенирање података из ниске  
+
+        1. Скенирање података са стандардног улаза
+
     1. Класа за математичке функције, класа `Math` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Приспуп пољима класе `Math`
@@ -298,12 +304,6 @@
         1. Коришћење метода класе `LocalDateTime` из пакета `java.time`
 
         1. Формати датума и времена помоћу `DateTimeFormatter` из пакета `java.time.format`
-
-    1. Скенери, класа `Scanner` из пакета `java.util` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=23m24s){:target="_blank"}
-
-        1. Скенирање података из ниске  
-
-        1. Скенирање података са стандардног улаза
 
 6. Низови у Јави [презентација](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
