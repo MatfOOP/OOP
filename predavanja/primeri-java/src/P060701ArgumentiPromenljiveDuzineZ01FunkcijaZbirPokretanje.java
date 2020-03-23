@@ -1,6 +1,4 @@
-package rs.math.oop1.p060402.nizoviArgumenti.Zbir.z01.zbir;
-
-public class PokretanjeZbir {
+public class P060701ArgumentiPromenljiveDuzineZ01FunkcijaZbirPokretanje {
 
     /*
     static int zbir(int a1, int a2)

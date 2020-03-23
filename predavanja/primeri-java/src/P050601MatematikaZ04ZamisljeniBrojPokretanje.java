@@ -15,9 +15,7 @@
 // Задатак илуструје рад са псеудослучајним бројевима, као и рад са аргументима
 // командне линије
 
-package rs.math.oop1.p050503.slucajniBrojevi.z02.zamisljeniBroj;
-
-public class PokretanjeZamisljeniBroj {
+public class P050601MatematikaZ04ZamisljeniBrojPokretanje {
 
    static int zamisli(int a, int b, int metod) {
       switch (metod) {

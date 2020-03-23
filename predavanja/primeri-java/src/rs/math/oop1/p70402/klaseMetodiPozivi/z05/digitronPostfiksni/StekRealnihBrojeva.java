@@ -9,7 +9,7 @@
  
  */
 
-package rs.math.oop1.p050702.skenerUlaz.z04.digitronPostfiksni;
+package rs.math.oop1.p70402.klaseMetodiPozivi.z05.digitronPostfiksni;
 
 class StekRealnihBrojeva {
 

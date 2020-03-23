@@ -4,7 +4,7 @@
 
  */
 
-package rs.math.oop1.p70402.z01.paskalovTrougao.z01.paskalovTrougao;
+package rs.math.oop1.p70402.klaseMetodiPozivi.z01.paskalovTrougao;
 
 class PaskalovTrougао {
    // deklarisi trougaoni niz

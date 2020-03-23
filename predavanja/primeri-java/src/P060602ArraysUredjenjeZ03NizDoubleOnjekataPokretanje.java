@@ -1,8 +1,6 @@
-package rs.math.oop1.p060401.nizovi.z03.sortiranjeDouble;
-
 import java.util.Arrays;
 
-public class PokretanjeSortDouble2
+public class P060602ArraysUredjenjeZ03NizDoubleOnjekataPokretanje
 {
 	
 	public static void main( String[] args )

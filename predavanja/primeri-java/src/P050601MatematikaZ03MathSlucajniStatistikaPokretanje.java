@@ -1,6 +1,4 @@
-package rs.math.oop1.p050503.slucajniBrojevi.z01.staristikaSlucajnih;
-
-public class PokretanjeStatistikaPseudoSlucajni {
+public class P050601MatematikaZ03MathSlucajniStatistikaPokretanje {
 
    public static void main(String[] args) {
       System.out.println("Broj izvlacenja:");

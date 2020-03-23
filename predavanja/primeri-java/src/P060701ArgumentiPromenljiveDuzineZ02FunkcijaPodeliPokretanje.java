@@ -1,6 +1,4 @@
-package rs.math.oop1.p060402.nizoviArgumenti.Zbir.z02.podeliPrikazi;
-
-public class PokretanjePodeeliPrikazi {
+public class P060701ArgumentiPromenljiveDuzineZ02FunkcijaPodeliPokretanje {
 
     static void prikaziPodeljene( int delilac, int... a) {
         for(int x: a)

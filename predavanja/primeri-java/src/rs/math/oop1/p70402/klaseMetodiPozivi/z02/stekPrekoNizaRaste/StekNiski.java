@@ -8,7 +8,7 @@
  
  */
 
-package rs.math.oop1.p70402.z01.paskalovTrougao.z02.stekPrekoNizaRaste;
+package rs.math.oop1.p70402.klaseMetodiPozivi.z02.stekPrekoNizaRaste;
 
 class StekNiski {
 

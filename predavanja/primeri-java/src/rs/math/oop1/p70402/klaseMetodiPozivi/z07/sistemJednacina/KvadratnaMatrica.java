@@ -1,4 +1,4 @@
-package rs.math.oop1.p70402.z01.paskalovTrougao.z07.sistemJednacina;
+package rs.math.oop1.p70402.klaseMetodiPozivi.z07.sistemJednacina;
 
 import java.util.Scanner;
 

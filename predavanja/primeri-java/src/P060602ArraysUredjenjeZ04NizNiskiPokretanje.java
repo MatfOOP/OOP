@@ -1,8 +1,6 @@
-package rs.math.oop1.p060401.nizovi.z04.sortiranjeString;
-
 import java.util.Arrays;
 
-public class PokretanjeSortString {
+public class P060602ArraysUredjenjeZ04NizNiskiPokretanje {
 
     public static void main(String[] args) {
         String[] niz = {"23", "-7", "5", "54", "6", "4", "34", "-23"};

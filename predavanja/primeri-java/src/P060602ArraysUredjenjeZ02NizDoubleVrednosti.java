@@ -1,8 +1,6 @@
-package rs.math.oop1.p060401.nizovi.z03.sortiranjeDouble;
-
 import java.util.Arrays;
 
-public class PokretanjeSortDouble {
+public class P060602ArraysUredjenjeZ02NizDoubleVrednosti {
 
     public static void main(String[] args) {
         double[] niz = {23.5, -7.6, 5.0, 6, 4, 34.34, -23};
