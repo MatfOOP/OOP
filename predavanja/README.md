@@ -111,17 +111,17 @@
 
         1. Хијерархија наслеђивања у Јави, класа Object
 
-4. Структура Јава програма [презентација](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"}
+4. Структура Јава програма [презентација](/prezentacije/OOP04-Elementarne konstrukcije u Javi.pdf){:target="_blank"}
 
-    1. Језици за опис конструкција језика Јава
+    1. Језици за опис конструкција језика Јава [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Бекусова нотација
 
         1. Синтаксни дијаграми
 
-    1. Азбука језика Јава
+    1. Азбука језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=14m23s)
 
-    1. Елементарне конструкције језика Јава
+    1. Елементарне конструкције језика Јава  [филм](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be&t=16m30s)
 
         1. Идентификатори
 
@@ -137,7 +137,7 @@
 
         1. Белине
 
-    1. Типови података у Јави [презентација](/prezentacije/OOP05-Tipovi podataka u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be){:target="_blank"} 
+    1. Типови података у Јави [презентација](/prezentacije/OOP05-Tipovi podataka u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=0SSqu04BJqU&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Примитивни тип
 
@@ -157,13 +157,13 @@
 
             1. Енумерисани тип
 
-    1. Променљиве [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=0m0s){:target="_blank"} 
+    1. Променљиве [презентација](/prezentacije/OOP06-Slozene konstrukcije u Javi.pdf){:target="_blank"}  [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Декларација и иницјализација вредности променљиве
 
         1. Опсег важења променљиве
 
-    1. Наредбе [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=16m25s){:target="_blank"}
+    1. Једноставне наредбе [филм](https://www.youtube.com/watch?v=H_Um2iYeNqc&feature=youtu.be&t=16m25s){:target="_blank"}
 
         1. Блок
 
@@ -179,47 +179,47 @@
 
             1. Оператори: арност, асоцијативност, приоритет
 
-        1. Наредбе гранања и наредбе циклуса [презентација](/prezentacije/OOP07-Upravljacke stukture u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=CeXqaMvtQFE&feature=youtu.be&t=0m0s){:target="_blank"}
+    1. Наредбе гранања и наредбе циклуса [презентација](/prezentacije/OOP07-Upravljacke stukture u Javi.pdf){:target="_blank"} [филм](https://www.youtube.com/watch?v=CeXqaMvtQFE&feature=youtu.be&t=0m0s){:target="_blank"}
 
-            1. Наредбе гранања
+        1. Наредбе гранања
 
-                1. Непотпуна наредба `if`
+            1. Непотпуна наредба `if`
 
-                1. Потпуна наредба `if`
+            1. Потпуна наредба `if`
 
-                1. Наредба `switch` и наредбa `break`
+            1. Наредба `switch` и наредбa `break`
 
-            1. Наредбе циклуса
+        1. Наредбе циклуса
 
-                1. Наредба `while`
+            1. Наредба `while`
 
-                1. Наредба `do`-`while`
+            1. Наредба `do`-`while`
 
-                1. Наредба `for` (бројачки циклус)
+            1. Наредба `for` (бројачки циклус)
 
-                1. Наредба `break` и циклуси
+            1. Наредба `break` и циклуси
 
-                1. Наредба `continue` и циклуси
+            1. Наредба `continue` и циклуси
 
-        1. Улазна тачка програма, `static` метода `main` [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
+    1. Улазна тачка програма, `static` метода `main` [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=0m0s){:target="_blank"}
 
-        1. Функционална декомпозиција програма [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=6m50s)
+    1. Функционална декомпозиција програма [филм](https://www.youtube.com/watch?v=Wh9S8oQ7O6U&feature=youtu.be&t=6m50s)
 
-            1. Дефиниција `static` метода
+        1. Дефиниција `static` метода
 
-                1. Параметри
+            1. Параметри
 
-                1. Тело
+            1. Тело
 
-                1. Повратна вредност
+            1. Повратна вредност
 
-            1. Позив `static` метода
+        1. Позив `static` метода
 
-                1. Аргументи
+            1. Аргументи
 
-                1. Супституција параметара при позиву
+            1. Супституција параметара при позиву
 
-                1. Рекурзиja код `static` метода
+            1. Рекурзиja код `static` метода
 
 5. Рад са корисничким објектним типовима испорученим уз ЈДК-а [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
 
