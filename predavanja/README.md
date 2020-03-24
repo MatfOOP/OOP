@@ -221,7 +221,7 @@
 
             1. Рекурзиja код `static` метода
 
-5. Рад са корисничким објектним типовима испорученим уз ЈДК-а [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
+5. Коришћење популарних класа и објеката испоручених уз ЈДК [презентација](/prezentacije/OOP07-1-Predefinisani tipovi u Javi.pdf){:target="_blank"}
 
     1. Приступ систему, класа `System` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=0m0s){:target="_blank"}
   
@@ -251,7 +251,7 @@
 
         1. Излазак из апликације, метод `System.exit()`
 
-    1. Објекти, примерци класе `Object` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=26m16s){:target="_blank"}
+    1. Рад са објектима, примерцима класе `Object` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=26m16s){:target="_blank"}
 
         1. Креирање објекта, оператор `new`
 
@@ -259,7 +259,7 @@
 
         1. Одређивање да ли објекат припада класи
 
-    1. Ниске, примерци класе `String` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=35m51s){:target="_blank"}
+    1. Рад са нискама, примерцима класе `String` [филм](https://www.youtube.com/watch?v=d5-U_Ds7Qy8&feature=youtu.be&t=35m51s){:target="_blank"}
 
         1. Каракеристике ниски, имутабилност  
 
@@ -269,7 +269,7 @@
 
         1. Коришћење осталих метода класе `String` и `StringBuilder`
 
-    1. Класе-омотачи за примитивне типове [филм](https://www.youtube.com/watch?v=7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
+    1. Рад са објектима омотачима података примитивног типа [филм](https://www.youtube.com/watch?v=7aen-NVmfUs&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Карактеристике класа-омотача за примитивне типове
 
@@ -287,7 +287,7 @@
 
         1. Скенирање података са стандардног улаза
 
-    1. Класа за математичке функције, класа `Math` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
+    1. Рад са математичким функцијама, класа `Math` [филм](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Приспуп пољима класе `Math`
 
@@ -429,7 +429,7 @@
 
             1. Позив конструктора надкласе, референца `super`
 
-    1. Структура најпопуларнијих класа ЈДК-а и превазилажење њихових особина
+    1. Структура најпопуларнијих класа ЈДК-а
 
         1. Објекти, kласа `Object`  
 
