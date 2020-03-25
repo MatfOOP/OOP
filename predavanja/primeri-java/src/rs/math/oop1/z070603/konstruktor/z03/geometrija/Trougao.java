@@ -1,4 +1,4 @@
-package rs.math.oop1.p070302.klaseObjektiPolja.z02.geometrija;
+package rs.math.oop1.z070603.konstruktor.z03.geometrija;
 
 class Trougao {
    String oznaka;

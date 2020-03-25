@@ -1,4 +1,4 @@
-package rs.math.oop1.p070603.konstantnaPolja.z01.fakultet;
+package rs.math.oop1.z070801.konstantnaPolja.z01.fakultet;
 
 class Smer {
 

@@ -1,4 +1,4 @@
-package rs.math.oop1.p060801.modifikatoriPristupa.z02.zaposleni;
+package rs.math.oop1.z070702.modifikatoriPristupa.z02.zaposleni;
 
 import java.util.Date;
 import java.util.GregorianCalendar;

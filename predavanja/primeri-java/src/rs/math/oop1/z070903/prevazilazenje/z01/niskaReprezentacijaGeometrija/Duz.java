@@ -1,4 +1,4 @@
-package rs.math.oop1.p080401.prevazilazenjeNiskaReprezentacije.z02.geometrija;
+package rs.math.oop1.z070903.prevazilazenje.z01.niskaReprezentacijaGeometrija;
 
 public class Duz extends GeometrijskiObjekat {
    private Tacka a;

@@ -1,4 +1,4 @@
-package rs.math.oop1.p070703.konstruktori.z13.geometrija;
+package rs.math.oop1.z070603.konstruktori.z13.geometrija;
 
 public class Cetvorougao extends GeometrijskiObjekat
 {

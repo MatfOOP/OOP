@@ -1,4 +1,4 @@
-package rs.math.oop1.p060901.objekti.z01.radSaObjektima;
+package rs.math.oop1.z070902.niske.z01.radSaObjektima;
 
 class Employee {
     private String name;

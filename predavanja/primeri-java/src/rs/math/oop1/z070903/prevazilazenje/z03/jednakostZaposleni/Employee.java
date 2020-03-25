@@ -1,4 +1,4 @@
-package rs.math.oop1.p080402.prevazilazenjeJednakosti.z02.zaposleni;
+package rs.math.oop1.z070903.prevazilazenje.z03.jednakostZaposleni;
 
 public class Employee {
     private int broj;

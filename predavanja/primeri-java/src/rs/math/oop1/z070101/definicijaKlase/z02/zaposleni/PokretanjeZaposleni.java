@@ -1,4 +1,4 @@
-package rs.math.oop1.p070101.definicijaKlase.z02.zaposleni;
+package rs.math.oop1.z070101.definicijaKlase.z02.zaposleni;
 
 class Zaposleni {
     String imePrezime;

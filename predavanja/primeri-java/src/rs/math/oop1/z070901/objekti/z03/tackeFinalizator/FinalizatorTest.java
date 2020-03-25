@@ -1,4 +1,4 @@
-package rs.math.oop1.p060901.objekti.z03.tackeFinalizator;
+package rs.math.oop1.z070901.objekti.z03.tackeFinalizator;
 
 public class FinalizatorTest
 {

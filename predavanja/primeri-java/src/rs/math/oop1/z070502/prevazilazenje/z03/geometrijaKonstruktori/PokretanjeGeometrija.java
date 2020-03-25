@@ -10,7 +10,7 @@
 // Задатак илуструје коришћење наслеђивања.
 // Задатак илуструје коришћење кључне речи super.
 
-package rs.math.oop1.p070502.prevazilazenje.z03.geometrijaKonstruktori;
+package rs.math.oop1.z070502.prevazilazenje.z03.geometrijaKonstruktori;
 
 public class PokretanjeGeometrija {
 

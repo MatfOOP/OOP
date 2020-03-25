@@ -1,4 +1,4 @@
-package rs.math.oop1.p080401.prevazilazenjeNiskaReprezentacije.z04.zaposleniMenadzeri;
+package rs.math.oop1.z070903.prevazilazenje.z02.niskaReprezentacijaZaposleniMenadzeri;
 
 import java.util.*;
 

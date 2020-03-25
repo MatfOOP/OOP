@@ -13,7 +13,7 @@
 // Задатак илуструје коришћење кључне речи this (Tacka).
 // Задатак илуструје проблем када компоненте објекта могу да мењају стање (Duz).
 
-package rs.math.oop1.p070703.konstruktori.z05.geometrijaPreopterecenje;
+package rs.math.oop1.z070603.konstruktori.z05.geometrijaPreopterecenje;
 
 public class PokretanjeGeometrija {
 

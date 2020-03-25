@@ -15,7 +15,7 @@
 // Програм илуструје издвајање функционалности у посебну целину, и коришење стека који 
 // може да расте по потреби у циљу чувања оператора и операнада.
 
-package rs.math.oop1.p70402.klaseMetodiPozivi.z05.digitronPostfiksni;
+package rs.math.oop1.z70401.definicjeMetoda.z05.digitronPostfiksni;
 
 public class PokretanjeDigitronPostfiksni {
 

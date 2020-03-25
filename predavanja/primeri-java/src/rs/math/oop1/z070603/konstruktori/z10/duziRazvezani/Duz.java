@@ -1,4 +1,4 @@
-package rs.math.oop1.p070703.konstruktori.z10.duziRazvezani;
+package rs.math.oop1.z070603.konstruktori.z10.duziRazvezani;
 
 public class Duz {
   String oznaka;

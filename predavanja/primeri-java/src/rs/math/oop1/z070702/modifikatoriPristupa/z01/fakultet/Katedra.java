@@ -1,4 +1,4 @@
-package rs.math.oop1.z070602.modifikatoriPristupa.z01.fakultet;
+package rs.math.oop1.z070702.modifikatoriPristupa.z01.fakultet;
 
 public class Katedra {
 

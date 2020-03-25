@@ -1,4 +1,4 @@
-package rs.math.oop1.p070703.konstruktori.z06.povezanaListaPreopterecenje;
+package rs.math.oop1.z070603.konstruktori.z06.povezanaListaPreopterecenje;
 
 /*
  

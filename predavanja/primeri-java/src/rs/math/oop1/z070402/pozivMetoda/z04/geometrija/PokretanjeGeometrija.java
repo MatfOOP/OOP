@@ -10,7 +10,7 @@
 // Програм илуструје проблем са класом која садржи мутабилно поље (овде Duz
 // садржи мутабилно поље Tacka).
 
-package rs.math.oop1.p070302.pozivanjeMetoda.z04.geometrija;
+package rs.math.oop1.z070402.pozivMetoda.z04.geometrija;
 
 public class PokretanjeGeometrija {
 

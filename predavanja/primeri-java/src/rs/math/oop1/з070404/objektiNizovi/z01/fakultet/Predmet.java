@@ -6,7 +6,7 @@
 
 */
 
-package rs.math.oop1.p080601.nizoviObjekata.z01.fakultet;
+package rs.math.oop1.з070404.objektiNizovi.z01.fakultet;
 
 class Predmet {
 

@@ -19,7 +19,7 @@ Windows системе, односно <Ctrl>+d за Unix системе
 // Код стека су иѕложене сао оне методе које су неопходне за његов рад.
 
 
-package rs.math.oop1.p060801.modifikatoriPristupa.z05.stekPrekoJednostrukoPovezaneListe;
+package rs.math.oop1.z070702.modifikatoriPristupa.z05.stekPrekoJednostrukoPovezaneListe;
 
 
 public class PokretanjeObratnoSveReci {

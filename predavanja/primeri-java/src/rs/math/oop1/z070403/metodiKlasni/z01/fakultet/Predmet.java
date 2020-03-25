@@ -6,7 +6,7 @@
 
 */
 
-package rs.math.oop1.p070303.metodiPrimerkaKlasni.z01.fakultet;
+package rs.math.oop1.z070403.metodiKlasni.z01.fakultet;
 
 class Predmet {
 

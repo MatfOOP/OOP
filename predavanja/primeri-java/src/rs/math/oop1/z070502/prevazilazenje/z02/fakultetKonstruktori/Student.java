@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p070502.prevazilazenje.z02.fakultetKonstruktori;
+package rs.math.oop1.z070502.prevazilazenje.z02.fakultetKonstruktori;
 
 import java.util.*;
 

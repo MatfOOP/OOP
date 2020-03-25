@@ -10,7 +10,7 @@
 // Програм илуструје рад са класама када се у класама налазе само подаци - не 
 // препоручује се да се тако ради
 
-package rs.math.oop1.p070200.klaseObjektiPolja.z01.fakultet;
+package rs.math.oop1.z070302.klaseObjektiPolja.z01.fakultet;
 
 public class PokretanjeFakultet {
 

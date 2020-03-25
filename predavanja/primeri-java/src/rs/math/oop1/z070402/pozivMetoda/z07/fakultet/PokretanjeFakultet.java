@@ -14,7 +14,7 @@
 // Програм илуструје рад са класама када су у класама учаурени и подаци и 
 // методи - препоручује се да се тако ради.
 
-package rs.math.oop1.z070402.klaseMetodi.z01.fakultet;
+package rs.math.oop1.z070402.pozivMetoda.z07.fakultet;
 
 public class PokretanjeFakultet {
 

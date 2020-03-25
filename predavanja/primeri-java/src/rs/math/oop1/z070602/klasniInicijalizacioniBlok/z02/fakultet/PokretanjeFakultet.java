@@ -14,7 +14,7 @@
 // Задатак илуструје примену иницијализационих блокова примерка и
 // статичких иницијализационих блокова.
 
-package rs.math.oop1.p070702.klasniInicijalizacioniBlok.z02.fakultet;
+package rs.math.oop1.z070602.klasniInicijalizacioniBlok.z02.fakultet;
 
 public class PokretanjeFakultet {
 

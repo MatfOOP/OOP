@@ -11,7 +11,7 @@
 // Програм илуструје ефекте супституције параметра по вредности, која  
 // се дешава у Јави приликом позива датог метода
 
-package rs.math.oop1.p070302.pozivanjeMetoda.z02.supstitucijaNizovniTip;
+package rs.math.oop1.z070402.pozivMetoda.z02.supstitucijaNizovniTip;
 
 public class PokretanjeZamenaParametaraPriPozivu {
 

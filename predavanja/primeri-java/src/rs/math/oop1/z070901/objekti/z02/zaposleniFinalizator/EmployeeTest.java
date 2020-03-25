@@ -1,4 +1,4 @@
-package rs.math.oop1.p060901.objekti.z02.zaposleniFinalizator;
+package rs.math.oop1.z070901.objekti.z02.zaposleniFinalizator;
 
 class Employee {
     private int broj;

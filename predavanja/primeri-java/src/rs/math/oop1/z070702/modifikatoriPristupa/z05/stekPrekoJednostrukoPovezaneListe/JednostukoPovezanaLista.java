@@ -1,4 +1,4 @@
-package rs.math.oop1.p060801.modifikatoriPristupa.z05.stekPrekoJednostrukoPovezaneListe;
+package rs.math.oop1.z070702.modifikatoriPristupa.z05.stekPrekoJednostrukoPovezaneListe;
 
 public class JednostukoPovezanaLista {
 

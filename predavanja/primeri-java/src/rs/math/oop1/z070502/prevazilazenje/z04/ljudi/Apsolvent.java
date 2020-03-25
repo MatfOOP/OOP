@@ -1,4 +1,4 @@
-package rs.math.oop1.p070502.prevazilazenje.z04.ljudi;
+package rs.math.oop1.z070502.prevazilazenje.z04.ljudi;
 
 public class Apsolvent
 {

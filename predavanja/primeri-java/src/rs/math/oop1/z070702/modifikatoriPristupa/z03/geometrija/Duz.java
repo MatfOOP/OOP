@@ -1,4 +1,4 @@
-package rs.math.oop1.p060801.modifikatoriPristupa.z03.geometrija;
+package rs.math.oop1.z070702.modifikatoriPristupa.z03.geometrija;
 
 public class Duz {
    private String oznaka;

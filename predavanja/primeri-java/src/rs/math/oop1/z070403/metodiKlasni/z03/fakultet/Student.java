@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p070402.naredbaUvoza.z01.fakultet;
+package rs.math.oop1.z070403.metodiKlasni.z03.fakultet;
 
 import java.util.Scanner;
 

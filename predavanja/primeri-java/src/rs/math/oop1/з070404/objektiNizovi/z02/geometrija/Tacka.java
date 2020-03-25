@@ -1,4 +1,4 @@
-package rs.math.oop1.p080601.nizoviObjekata.z02.geometrija;
+package rs.math.oop1.з070404.objektiNizovi.z02.geometrija;
 
 class Tacka {
    double x;

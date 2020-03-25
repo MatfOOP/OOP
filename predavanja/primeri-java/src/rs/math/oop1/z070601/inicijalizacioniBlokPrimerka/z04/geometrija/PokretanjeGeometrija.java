@@ -11,7 +11,7 @@
 
 // Задатак илуструје примену иницијализационих блокова примерка.
 
-package rs.math.oop1.p070701.inicijalizacioniBlokPrimerka.z04.geometrija;
+package rs.math.oop1.z070601.inicijalizacioniBlokPrimerka.z04.geometrija;
 
 public class PokretanjeGeometrija {
 

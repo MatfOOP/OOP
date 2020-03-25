@@ -8,7 +8,7 @@
  
  */
 
-package rs.math.oop1.p70402.klaseMetodiPozivi.z05.digitronPostfiksni;
+package rs.math.oop1.z70401.definicjeMetoda.z05.digitronPostfiksni;
 
 class StekNiski {
 

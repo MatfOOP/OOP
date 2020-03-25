@@ -1,4 +1,4 @@
-package rs.math.oop1.p070703.konstruktori.z11.duziKopirajuci;
+package rs.math.oop1.z070603.konstruktori.z11.duziKopirajuci;
 
 public class Duz {
   String oznaka;

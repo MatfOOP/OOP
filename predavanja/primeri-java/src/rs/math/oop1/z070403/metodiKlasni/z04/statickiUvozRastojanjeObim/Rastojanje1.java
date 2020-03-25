@@ -1,4 +1,4 @@
-package rs.math.oop1.z070403.statickiUvoz.z01.rastojanjeObim;
+package rs.math.oop1.z070403.metodiKlasni.z04.statickiUvozRastojanjeObim;
 
 public class Rastojanje1
 {

@@ -5,7 +5,7 @@ class Auto {
    float zapreminaMotora;
 }
 
-public class P050201ObjectiZ02KlasaPokretanjep {
+public class P050201ObjectiZ03KlasaPokretanjep {
    public static void main(String[] args) {
       Auto auto1 = new Auto();
       auto1.brojTockova = 4;

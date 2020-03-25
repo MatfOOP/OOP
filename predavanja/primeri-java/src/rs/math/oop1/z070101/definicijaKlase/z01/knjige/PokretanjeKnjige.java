@@ -1,6 +1,6 @@
 // Пример илуструје различите начине за декларисање променљивих.
 
-package rs.math.oop1.p070101.definicijaKlase.z01.knjige;
+package rs.math.oop1.z070101.definicijaKlase.z01.knjige;
 
 public class PokretanjeKnjige {
 

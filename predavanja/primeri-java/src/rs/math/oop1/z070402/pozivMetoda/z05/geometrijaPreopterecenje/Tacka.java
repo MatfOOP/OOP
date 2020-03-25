@@ -1,4 +1,4 @@
-package rs.math.oop1.p070302.pozivanjeMetoda.z05.geometrijaPreopterecenje;
+package rs.math.oop1.z070402.pozivMetoda.z05.geometrijaPreopterecenje;
 
 class Tacka {
    double x;

@@ -10,7 +10,7 @@
 // Задатак представља илустрацију примене метода и поља класе Math,
 // као и коришћење наредбе import static при раду са класом Math.
 
-package rs.math.oop1.p070703.konstruktori.z01.geometrija;
+package rs.math.oop1.z070603.konstruktori.z01.geometrija;
 
 public class PokretanjeGeometrija {
 

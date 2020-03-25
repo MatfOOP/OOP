@@ -1,4 +1,4 @@
-package rs.math.oop1.p070702.klasniInicijalizacioniBlok.z01.tacke;
+package rs.math.oop1.z070602.klasniInicijalizacioniBlok.z01.tacke;
 
 public class Tacka {
    int x;

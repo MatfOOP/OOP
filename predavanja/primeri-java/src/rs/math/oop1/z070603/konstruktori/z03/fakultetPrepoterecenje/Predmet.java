@@ -6,7 +6,7 @@
 
 */
 
-package rs.math.oop1.p070703.konstruktori.z03.fakultetPrepoterecenje;
+package rs.math.oop1.z070603.konstruktori.z03.fakultetPrepoterecenje;
 
 public class Predmet {
 

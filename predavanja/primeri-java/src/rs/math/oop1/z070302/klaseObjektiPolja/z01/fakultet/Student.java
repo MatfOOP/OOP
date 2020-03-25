@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p070200.klaseObjektiPolja.z01.fakultet;
+package rs.math.oop1.z070302.klaseObjektiPolja.z01.fakultet;
 
 class Student {
    String ime;

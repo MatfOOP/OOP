@@ -10,7 +10,7 @@
 // Користе се статичка поља за чување броја извршених иницијализација
 
 
-package rs.math.oop1.p070303.metodiPrimerkaKlasni.z02.geometrija;
+package rs.math.oop1.z070403.metodiKlasni.z02.geometrija;
 
 public class PokretanjeGeometrija {
 

@@ -16,7 +16,7 @@
 // и коришење стека који може да расте по потреби у циљу чувања података чији број 
 // иницијално није познат.
 
-package rs.math.oop1.p70402.klaseMetodiPozivi.z03.frekvencijeSaUlazaPrekoSteka;
+package rs.math.oop1.z70401.definicjeMetoda.z03.frekvencijeSaUlazaPrekoSteka;
 
 public class PokretanjeFrekfencijeBrojeva {
 

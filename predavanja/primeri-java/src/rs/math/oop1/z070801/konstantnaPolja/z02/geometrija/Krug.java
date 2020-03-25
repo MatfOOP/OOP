@@ -1,4 +1,4 @@
-package rs.math.oop1.p070603.konstantnaPolja.z02.geometrija;
+package rs.math.oop1.z070801.konstantnaPolja.z02.geometrija;
 
 class Krug {
    String oznaka;

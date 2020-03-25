@@ -1,4 +1,4 @@
-package rs.math.oop1.p070703.konstruktori.z05.geometrijaPreopterecenje;
+package rs.math.oop1.z070603.konstruktori.z05.geometrijaPreopterecenje;
 
 public class Duz {
    private String oznaka;

@@ -8,7 +8,7 @@
  
  */
 
-package rs.math.oop1.p70402.klaseMetodiPozivi.z04.stekPrekoNizaRaste;
+package rs.math.oop1.z70401.definicjeMetoda.z04.stekPrekoNizaRaste;
 
 class StekNiski {
 
