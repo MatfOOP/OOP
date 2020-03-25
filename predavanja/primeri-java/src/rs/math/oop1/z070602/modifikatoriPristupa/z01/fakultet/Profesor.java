@@ -4,7 +4,7 @@
 
 */
 
-package rs.math.oop1.p060801.modifikatoriPristupa.z01.fakultet;
+package rs.math.oop1.z070602.modifikatoriPristupa.z01.fakultet;
 
 public class Profesor {
    private String ime;
