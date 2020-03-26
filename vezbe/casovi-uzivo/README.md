@@ -24,7 +24,8 @@
 ## Снимци одржаних часова
 
 - #### Тема: Интерфејси
-  - Денис - [линк](https://youtu.be/yJid-lC8RUw) 
+  - [Денис](https://youtu.be/yJid-lC8RUw) 
+  - [Ања](https://youtu.be/rVcXIdKxfyo) 
 
 ---
 
