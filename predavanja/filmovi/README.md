@@ -1,8 +1,16 @@
-# ООП - Снимљени филмови
+# ООП - Информације које се односе на часове предавања уживо
 
 [ООП](../../README.md) [Предавања](../README.md)
 
-## Предавања
+## Консултације са наставником
+
+У терминима предавања за **смер 2И** наставник **Владимир Филиповић** ће држати консултације преко Skype-a, и то:
+
+- За групу **2И1** понедељком у 18:15 - пријава за консултације је на [следећем линку](https://join.skype.com/jzmnNFQGTg7o)
+
+- За групу **2И2** понедељком у 13:15 - пријава за консултације је на [следећем линку](https://join.skype.com/hyMt7Yy4cCQC)
+
+## Снимци предавања
 
 [Елементарне конструкције у Јави.](https://www.youtube.com/watch?v=pIK0e6B3UHw&feature=youtu.be){:target="_blank"}
 
@@ -20,9 +28,9 @@
 
 [Математичке функције. Датуми и времена. Читање са улаза.](https://www.youtube.com/watch?v=LCBrzO7oxzw&feature=youtu.be&t=0m0s){:target="_blank"}
 
-[Једнодимензионални низови у Јави.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
+[Низови у Јави. Једнодимензионални низови.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
-## Додатни материјали
+## Додатни снимци
 
 [Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}
 
