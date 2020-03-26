@@ -15,8 +15,8 @@
     
   - Биљана: 27.03. у 12:00 
   - Немања: 26.03. (четвртак) у 17:00 
-    - први час (ускоро линк), Meeting ID: ускоро
-    - други час (ускоро линк), Meeting ID: ускоро
+    - [први час](https://us04web.zoom.us/j/193365110?pwd=QnZ3Rlpnd1ovd1hHSkVZeElmMVhuQT09), Meeting ID: 193-365-110
+    - [други час](https://us04web.zoom.us/j/480606883?pwd=dDkvSGNPMHQ1OFh6M3lpbDBneFNydz09), Meeting ID: 480-606-883
     - лозинка за све: `matfoop`
 
 ---
