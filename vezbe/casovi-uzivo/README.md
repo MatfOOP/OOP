@@ -5,6 +5,13 @@
 ---
 
 ## Приступ часу вежби уживо
+- Тема: Изузеци и клонирање
+- Термини:
+  - Денис: 30.03. у 11:10 
+    - [први час](https://us04web.zoom.us/j/219537916?pwd=ZC9SWXNtaWFUcDI1U2ZZK0FQYlpCZz09), Meeting ID: 219-537-916
+    - [други час](https://us04web.zoom.us/j/179427819?pwd=RDBDQkpOUVlVZXBaQzFTM2NRd0lpQT09), Meeting ID: 179-427-819
+    - лозинка за све: `hvatanje`
+
 
 - Тема: Интерфејси
 - Термини:
