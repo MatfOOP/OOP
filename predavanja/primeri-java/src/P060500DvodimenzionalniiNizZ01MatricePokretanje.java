@@ -7,11 +7,12 @@
 
 // Програм илуструје рад са дводимензионалним низовима и реализацију рекурзије.
 
+
 class PokretanjeDvodimenzionalniiNizMatrice {
 
    static void prikazi(double[][] a) {
       if (a == null) {
-         System.out.println("GRESKA!");
+         System.err.println("GRESKA!");
          return;
       }
       System.out.println("Elementi matrice su");
@@ -24,7 +25,7 @@ class PokretanjeDvodimenzionalniiNizMatrice {
 
    static void prikazi2(double[][] a) {
       if (a == null) {
-         System.out.println("GRESKA!");
+         System.err.println("GRESKA!");
          return;
       }
       System.out.println("Elementi matrice su");
@@ -35,11 +36,21 @@ class PokretanjeDvodimenzionalniiNizMatrice {
       }
    }
 
+   static boolean nijeMatrica(double[][] mat) {
+      for (int i = 1; i < mat.length; i++)
+         if (mat[i].length != mat[0].length)
+            return true;
+      return false;
+   }
+
    static double[][] saberi(double[][] a, double[][] b) {
-      for (int i = 1; i < a.length; i++)
-         if (a[i].length != a[0].length)
-            return null;
+      if (a == null || b == null)
+         return null;
       if (a.length != b.length)
+         return null;
+      if (nijeMatrica(a))
+         return null;
+      if (nijeMatrica(b))
          return null;
       for (int i = 0; i < a.length; i++)
          if (a[i].length != b[i].length)
@@ -52,14 +63,20 @@ class PokretanjeDvodimenzionalniiNizMatrice {
    }
 
    static double[][] oduzmi(double[][] a, double[][] b) {
+      if (a == null || b == null)
+         return null;
+      if (a.length != b.length)
+         return null;
+      if (nijeMatrica(a))
+         return null;
+      if (nijeMatrica(b))
+         return null;
       if (a.length != b.length)
          return null;
       for (int i = 0; i < a.length; i++)
          if (a[i].length != b[i].length)
             return null;
-      for (int i = 1; i < a.length; i++)
-         if (a[i].length != a[0].length)
-            return null;
+      if (nijeMatrica(a)) return null;
       double[][] c = new double[a.length][a[0].length];
       for (int i = 0; i < c.length; i++)
          for (int j = 0; j < c[i].length; j++)
@@ -68,14 +85,18 @@ class PokretanjeDvodimenzionalniiNizMatrice {
    }
 
    static double[][] pomnozi(double[][] a, double[][] b) {
+      if (a == null || b == null)
+         return null;
+      if (nijeMatrica(a))
+         return null;
+      if (nijeMatrica(b))
+         return null;
       if (a[0].length != b.length)
          return null;
       for (int i = 1; i < a.length; i++)
          if (a[i].length != a[i].length)
             return null;
-      for (int i = 1; i < a.length; i++)
-         if (a[i].length != a[0].length)
-            return null;
+      if (nijeMatrica(a)) return null;
       double[][] c = new double[a.length][b[0].length];
       for (int i = 0; i < c.length; i++)
          for (int j = 0; j < c[i].length; j++) {
@@ -87,9 +108,10 @@ class PokretanjeDvodimenzionalniiNizMatrice {
    }
 
    static double[][] transponuj(double[][] a) {
-      for (int i = 1; i < a.length; i++)
-         if (a[i].length != a[0].length)
-            return null;
+      if( a== null)
+         return null;
+      if (nijeMatrica(a))
+         return null;
       double[][] b = new double[a[0].length][a.length];
       for (int i = 0; i < b.length; i++)
          for (int j = 0; j < b[i].length; j++)
@@ -98,6 +120,8 @@ class PokretanjeDvodimenzionalniiNizMatrice {
    }
 
    static boolean jeKvadratna(double[][] a) {
+      if(nijeMatrica(a))
+         return false;
       for (int i = 0; i < a.length; i++)
          if (a.length != a[i].length)
             return false;

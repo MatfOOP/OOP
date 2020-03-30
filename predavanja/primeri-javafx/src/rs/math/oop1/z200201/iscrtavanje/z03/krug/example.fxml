@@ -2,6 +2,6 @@
 <?import javafx.scene.shape.Circle?>
 <BorderPane>
   <center>
-    <Circle radius="50" centerX="50" centerY="50"/>
+    <Circle radius="50" centerX="50" centerY="50" fill="red"/>
   </center>
 </BorderPane>

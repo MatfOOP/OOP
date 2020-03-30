@@ -1,25 +1,26 @@
-package rs.ac.bg.matf.oop_p.z200201.iscrtavanje.z01.krug;
+package rs.math.oop1.z200201.iscrtavanje.z01.krug;
 
 import javafx.application.Application;
-import javafx.scene.*;
-import javafx.scene.paint.*;
-import javafx.scene.shape.*;
-import javafx.stage.*;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.stage.Stage;
 
 public class Krug extends Application {
-	@Override
-	public void start(Stage stage) {
-		Group root = new Group();
-		Scene scene = new Scene(root, 100, 100);
+   @Override
+   public void start(Stage etapa) {
+      Group koren = new Group();
+      Scene scena = new Scene(koren, 100, 100);
 
-		Circle c1 = new Circle(50.0f, 50.0f, 50.0f, Color.RED);
+      Circle krug = new Circle(50.0f, 50.0f, 50.0f, Color.RED);
 
-		root.getChildren().add(c1);
-		stage.setScene(scene);
-		stage.show();
-	}
+      koren.getChildren().add(krug);
+      etapa.setScene(scena);
+      etapa.show();
+   }
 
-	public static void main(String a[]) {
-		Application.launch(a);
-	}
+   public static void main(String a[]) {
+      Application.launch(a);
+   }
 }

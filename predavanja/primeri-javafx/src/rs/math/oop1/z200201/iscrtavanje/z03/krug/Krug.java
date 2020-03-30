@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.z200201.iscrtavanje.z03.krug;
+package rs.math.oop1.z200201.iscrtavanje.z03.krug;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,21 +7,18 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.ResourceBundle;
 
 public class Krug extends Application {
    @Override
-   public void start(Stage stage) {
-      Parent root = null;
+   public void start(Stage etapa) {
+      Parent koren = null;
       try {
-         root = FXMLLoader.load(getClass().getResource("example.fxml"),
-               ResourceBundle.getBundle("rs.ac.bg.matf.oop_p.z200201.iscrtavanje.z03.krug.Krug"));
+         koren = FXMLLoader.load(getClass().getResource("example.fxml"));
       } catch (IOException e) {
          e.printStackTrace();
       }
-      stage.setScene(new Scene(root));
-      stage.show();
-
+      etapa.setScene(new Scene(koren));
+      etapa.show();
    }
 
    public static void main(String a[]) {

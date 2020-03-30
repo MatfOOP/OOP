@@ -12,14 +12,34 @@
 
 class PokretanjeKolekcijskiForiNizPrikaz {
 
+
+
     public static void main(String[] args) {
-        int n = 0b0000_1001; //binarni broj
+        int n = 0b0000_1101; //binarni broj
         double[] niz = new double[n];
-        double x = -23.34e1;
-        for (int i = 0; i < niz.length; i++)
-            niz[i] = x + i;
-        System.out.println();
+        double x = 23.34e1;
+        int znak = 1;
+        for (int i = 0; i < niz.length; i++) {
+            niz[i] = x + znak * i;
+            znak = -znak;
+        }
+        System.out.printf("Svi elementi niza:\n");
         for (double d : niz)
             System.out.printf("%8.2f ", d);
+        System.out.printf("\n");
+        System.out.printf("Svi elementi niza manji od 237:\n");
+        for (double d : niz) {
+            if (d >= 237)
+                continue;
+            System.out.printf("%8.2f ", d);
+        }
+        System.out.printf("\n");
+        System.out.printf("Elementi niza do pojave veceg od 237:\n");
+        for (double d : niz) {
+            if (d > 237)
+                break;
+            System.out.printf("%8.2f ", d);
+        }
+        System.out.printf("\n");
     }
 }

@@ -10,10 +10,12 @@
 // Програм илуструје алокацију низа, постављање вредности за елементе низа,
 // очитавање вредности за елементе низа и колекцијску for петљу. 
 
+
+
 class PokretanjeKolekcijskiForiNizPrikazSuma {
 
     public static void main(String[] args) {
-        double[] niz = {1, 2, 3.5, 4.4, -2.7};
+        double[] niz = {1, 2, 3.5, 4.4, -2.7, 1.53e1};
         double s = 0;
         for (double d : niz) {
             System.out.printf("%8.2f ", d);
