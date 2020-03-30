@@ -5,6 +5,13 @@
 ---
 
 ## Приступ часу вежби уживо
+- Тема: Изузеци и клонирање
+- Термини:
+  - Денис: 30.03. у 11:10 
+    - [први час](https://us04web.zoom.us/j/219537916?pwd=ZC9SWXNtaWFUcDI1U2ZZK0FQYlpCZz09), Meeting ID: 219-537-916
+    - [други час](https://us04web.zoom.us/j/179427819?pwd=RDBDQkpOUVlVZXBaQzFTM2NRd0lpQT09), Meeting ID: 179-427-819
+    - лозинка за све: `hvatanje`
+
 
 - Тема: Интерфејси
 - Термини:
@@ -14,6 +21,9 @@
     - лозинка за све: `interfejs`
     
   - Биљана: 27.03. у 12:00 
+    - Отказују се заказани часови уживо из техничких разлога. Студенти су добили обавештење и путем е-поште.
+    - Све даље информације биће благовремено доступне на овој страни. 
+  
   - Немања: 26.03. (четвртак) у 17:00 
     - [први час](https://us04web.zoom.us/j/193365110?pwd=QnZ3Rlpnd1ovd1hHSkVZeElmMVhuQT09), Meeting ID: 193-365-110
     - [други час](https://us04web.zoom.us/j/480606883?pwd=dDkvSGNPMHQ1OFh6M3lpbDBneFNydz09), Meeting ID: 480-606-883
@@ -26,6 +36,7 @@
 - #### Тема: Интерфејси
   - [Денис](https://youtu.be/yJid-lC8RUw) 
   - [Ања](https://youtu.be/rVcXIdKxfyo) 
+  - [Немања](https://youtu.be/eEBMNy6TeQ0)
 
 ---
 
