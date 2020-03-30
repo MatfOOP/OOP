@@ -16,28 +16,25 @@ Windows системе, односно <Ctrl>+d за Unix системе
 // Програм илуструје коришење стека који може да расте по потреби у циљу
 // чувања и преписа података.
 
-package rs.math.oop1.z70401.definicjeMetoda.z05.stekPrekoNizaRaste;
+package rs.math.oop1.z70401.definicjeMetoda.z07.stekPrekoNizaRaste;
 
 
 public class PokretanjeObratnoSveReci {
 
-    public static void main(String[] args) {
-        String tekst = new StringBuilder()
-                .append("Ovo je priča koju vrlo rado pričam \n")
-                .append("Priča o Boži zvanom PUB \n")
-                .append("Jedni ga hvale, drugi žale... \n")
-                .toString();
-        System.out.println("Tekst:\n" + tekst);
-        StekNiski reci = new StekNiski();
-        reci.init();
-        java.util.Scanner skener = new java.util.Scanner(tekst);
-        while (skener.hasNext()) {
-            String rec = skener.next();
-            reci.push(rec);
-        }
-        skener.close();
-        System.out.println("\nReci teksta u obratnom redosledu:\n");
-        while (reci.brojElemenata() > 0)
-            System.out.print(reci.pop() + " ");
-    }
+   public static void main(String[] args) {
+      System.out.println(
+               "Unesi tekst(<Ctrl>+d ili <Ctrl>+z za kraj):");
+      StekNiski reci = new StekNiski();
+      reci.init();
+      java.util.Scanner skener = new java.util.Scanner(System.in);
+      while (skener.hasNext()) {
+         String rec = skener.next();
+         reci.push(rec);
+      }
+      skener.close();
+      System.out.println(
+               "\nReci teksta u obratnom redosledu su:");
+      while (reci.brojElemenata() > 0)
+         System.out.print(reci.pop() + " ");
+   }
 }
