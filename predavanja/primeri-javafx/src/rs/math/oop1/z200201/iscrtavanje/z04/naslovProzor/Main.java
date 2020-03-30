@@ -1,4 +1,4 @@
-package sample;
+package rs.math.oop1.z200201.iscrtavanje.sample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
