@@ -1,10 +1,12 @@
-package rs.math.oop1.z070201.paketi.z02.zaposleni;
+package rs.math.oop1.z070202.paketiiUvoz.z02.zaposleni;
+
+import java.util.Scanner;
 
 public class PokretanjeZaposleni {
 
 
     public static void main(String[] args) {
-        java.util.Scanner sc = new java.util.Scanner("Pripravnik Peca/300/Talicni Tom/500");
+        Scanner sc = new Scanner("Pripravnik Peca/300/Talicni Tom/500");
         sc.useDelimiter("/");
         Zaposleni z1 = new Zaposleni();
         z1.imePrezime = sc.next();

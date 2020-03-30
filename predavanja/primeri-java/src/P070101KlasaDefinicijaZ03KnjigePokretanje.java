@@ -1,12 +1,15 @@
-// Пример илуструје различите начине за декларисање променљивих.
+class Knjiga2 {
+   int godinaIzdavanja;
+   String naslov;
+   String autor;
+   int brojStranica;
+}
 
-package rs.math.oop1.z070201.paketi.z01.knjige;
-
-public class PokretanjeKnjige {
+public class P070101KlasaDefinicijaZ03KnjigePokretanje {
 
    public static void main(String[] args) {
-      Knjiga k2;
-      k2 = new Knjiga();
+      Knjiga2 k2;
+      k2 = new Knjiga2();
       java.util.Scanner sc = new java.util.Scanner(System.in);
       System.out.print("Unesite naslov knjige: ");
       k2.naslov = sc.next();

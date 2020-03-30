@@ -1,4 +1,4 @@
-package rs.math.oop1.z70401.definicjeMetoda.z09.sistemJednacina;
+package rs.math.oop1.z70401.definicjeMetoda.z08.sistemJednacina;
 
 import java.util.Scanner;
 

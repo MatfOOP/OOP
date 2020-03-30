@@ -52,7 +52,7 @@ class PokretanjeDvodimenzionalniiNizBKDinamickoProgramiranje {
    }
 
    public static void main(String[] args) {
-      System.out.println("Unesi dimenziju Paskalovog trougla");
+      System.out.println("Unesi dimenziju Paskalovog trougla: "); //15 30
       java.util.Scanner skener = new java.util.Scanner(System.in);
       int brojVrsta = skener.nextInt();
       skener.close();
@@ -91,22 +91,22 @@ class PokretanjeDvodimenzionalniiNizBKDinamickoProgramiranje {
 
 
       // racunanje dinamicki
-//      vremePocetka = System.nanoTime();
-//      koeficijenti = new long[brojVrsta + 1][];
-//      for (int n = 0; n <= brojVrsta; n++)
-//         koeficijenti[n] = new long[n + 1];
-//      for (int i = 0; i < koeficijenti.length; i++)
-//         for (int j = 0; j < koeficijenti[i].length; j++)
-//            koeficijenti[i][j] = -1;
-//      for (int n = 0; n < koeficijenti.length; n++)
-//         for (int k = 0; k < koeficijenti[n].length; k++)
-//            koeficijenti[n][k] = bkDimanicko(n, k);
-//      for (long[] vrsta : koeficijenti) {
-//         for (long elem : vrsta)
-//            System.out.printf("%15d", elem);
-//         System.out.println();
-//      }
-//      trajanje = (System.nanoTime()-vremePocetka)/1e9;
-//      System.out.println("Izracunavanje dinamickom programiranjem je trajalo " + trajanje + " sekundi.");
+      vremePocetka = System.nanoTime();
+      koeficijenti = new long[brojVrsta + 1][];
+      for (int n = 0; n <= brojVrsta; n++)
+         koeficijenti[n] = new long[n + 1];
+      for (int i = 0; i < koeficijenti.length; i++)
+         for (int j = 0; j < koeficijenti[i].length; j++)
+            koeficijenti[i][j] = -1;
+      for (int n = 0; n < koeficijenti.length; n++)
+         for (int k = 0; k < koeficijenti[n].length; k++)
+            koeficijenti[n][k] = bkDimanicko(n, k);
+      for (long[] vrsta : koeficijenti) {
+         for (long elem : vrsta)
+            System.out.printf("%15d", elem);
+         System.out.println();
+      }
+      trajanje = (System.nanoTime()-vremePocetka)/1e9;
+      System.out.println("Izracunavanje dinamickom programiranjem je trajalo " + trajanje + " sekundi.");
    }
 }
