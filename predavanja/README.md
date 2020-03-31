@@ -305,7 +305,7 @@
 
         1. Формати датума и времена помоћу `DateTimeFormatter` из пакета `java.time.format`
 
-6. Низови у Јави [презентација](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"} 
+6. Низови у Јави [презентација](/prezentacije/OOP08-Nizovi u Javi.pdf){:target="_blank"}
 
     1. Декларација и иницијализација низа [филм](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
