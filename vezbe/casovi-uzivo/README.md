@@ -32,8 +32,10 @@
 ---
 
 ## Снимци одржаних часова вежби
+- Тема: Изузеци и клонирање
+  - [Денис](https://youtu.be/NeNkABXWxfY)
 
-- #### Тема: Интерфејси
+- Тема: Интерфејси
   - [Денис](https://youtu.be/yJid-lC8RUw) 
   - [Ања](https://youtu.be/rVcXIdKxfyo) 
   - [Немања](https://youtu.be/eEBMNy6TeQ0)
