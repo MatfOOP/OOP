@@ -11,6 +11,10 @@
     - [први час](https://us04web.zoom.us/j/219537916?pwd=ZC9SWXNtaWFUcDI1U2ZZK0FQYlpCZz09), Meeting ID: 219-537-916
     - [други час](https://us04web.zoom.us/j/179427819?pwd=RDBDQkpOUVlVZXBaQzFTM2NRd0lpQT09), Meeting ID: 179-427-819
     - лозинка за све: `hvatanje`
+  - Ања: 01.04. у 11:00 
+    - [први час](https://us04web.zoom.us/j/675993984?pwd=YmhvTzJCMGxBdTZOK2pwQXhKRW44dz09), Meeting ID: 675-993-984
+    - [други час](https://us04web.zoom.us/j/458315776?pwd=UG5VejZFcWRiakRyOGVuNU4zaDVpUT09), Meeting ID: 458-315-776
+    - лозинка за све: `izuzetak`
 
 
 - Тема: Интерфејси
