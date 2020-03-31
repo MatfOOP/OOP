@@ -1,4 +1,4 @@
-package rs.math.oop1.z080402.solid.z02.dobarS;
+package rs.math.oop1.z080402.solid.z02.dobarSServisi;
 
 public class SigurnostServis {
 

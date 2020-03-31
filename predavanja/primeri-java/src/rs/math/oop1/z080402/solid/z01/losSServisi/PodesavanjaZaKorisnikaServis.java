@@ -1,4 +1,4 @@
-package rs.math.oop1.z080402.solid.z01.losS;
+package rs.math.oop1.z080402.solid.z01.losSServisi;
 
 public class PodesavanjaZaKorisnikaServis {
 
