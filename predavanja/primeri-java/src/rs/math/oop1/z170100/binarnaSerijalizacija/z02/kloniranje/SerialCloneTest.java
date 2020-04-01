@@ -48,10 +48,10 @@ class SerialCloneable implements Cloneable, Serializable {
  * SerialCloneable class.
  */
 class Employee extends SerialCloneable {
-    public Employee(String n, double s, int year, int month, int day) {
+    public Employee(String n, double s, int godina, int mesec, int dan) {
         name = n;
         salary = s;
-        GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+        GregorianCalendar calendar = new GregorianCalendar(godina, mesec - 1, dan);
         hireDay = calendar.getTime();
     }
 

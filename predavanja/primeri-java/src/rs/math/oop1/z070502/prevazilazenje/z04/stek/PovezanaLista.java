@@ -1,4 +1,4 @@
-package rs.math.oop1.z070502.prevazilazenje.z01.stek;
+package rs.math.oop1.z070502.prevazilazenje.z04.stek;
 
 public class PovezanaLista {
 

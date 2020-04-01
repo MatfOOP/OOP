@@ -5,7 +5,7 @@ package rs.math.oop1.z080201.interfejsi.z02.ljudi;
  * Program ilustruje primenu operatora instanceof.
  * 
  */
-public class LjudiMain4
+public class PokretanjeLjudi4
 {
 	
 	public static void main( String[] args )

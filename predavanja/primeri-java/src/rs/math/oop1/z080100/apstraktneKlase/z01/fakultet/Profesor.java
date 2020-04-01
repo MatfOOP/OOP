@@ -71,7 +71,7 @@ public class Profesor extends Covek {
 
    @Override
    public void prikazi() {
-      System.out.printf("Profesor: " + vratiIme() + " " + vratiPrezime());
+      System.out.printf("Profesor: " + getIme() + " " + getPrezime());
       System.out.printf(
                "\nKatedra: %s. Zvanje: %s\nPredaje sledece predmete:\n",
                katedra, zvanje);

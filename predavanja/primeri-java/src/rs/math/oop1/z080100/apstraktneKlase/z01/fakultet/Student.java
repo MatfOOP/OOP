@@ -114,7 +114,7 @@ public class Student extends Covek {
 
     @Override
     public void prikazi() {
-        System.out.printf("Student: " + vratiIme() + " " + vratiPrezime());
+        System.out.printf("Student: " + getIme() + " " + getPrezime());
         System.out.printf("%d/%d\n", brojIndeksa,
                 godinaUpisa);
         System.out.printf(

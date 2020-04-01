@@ -39,11 +39,11 @@ class Employee
 	private double salary;
 	private Date hireDay;
 
-	public Employee( String n, double s, int year, int month, int day )
+	public Employee( String n, double s, int godina, int mesec, int dan )
 	{
 		name = n;
 		salary = s;
-		GregorianCalendar calendar = new GregorianCalendar( year, month - 1, day );
+		GregorianCalendar calendar = new GregorianCalendar( godina, mesec - 1, dan );
 		hireDay = calendar.getTime();
 	}
 	
@@ -107,9 +107,9 @@ class Manager extends Employee
 {
 	private double bonus;
 
-	public Manager( String n, double s, int year, int month, int day )
+	public Manager( String n, double s, int godina, int mesec, int dan )
 	{
-		super( n, s, year, month, day );
+		super( n, s, godina, mesec, dan );
 		bonus = 0;
 	}
 	

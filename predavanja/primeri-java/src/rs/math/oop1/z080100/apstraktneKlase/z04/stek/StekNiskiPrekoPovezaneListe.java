@@ -11,7 +11,7 @@
 
 package rs.math.oop1.z080100.apstraktneKlase.z04.stek;
 
-public class StekNiskiPrekoListe extends StekNiski {
+public class StekNiskiPrekoPovezaneListe extends StekNiski {
 
    private PovezanaListaNiski elementi = new PovezanaListaNiski();
 

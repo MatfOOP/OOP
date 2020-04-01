@@ -1,56 +1,42 @@
 package rs.math.oop1.z080100.apstraktneKlase.z02.ljudi;
 
+import java.util.Scanner;
+
 /**
  * 
  * Program ilustruje koncept polimorfizma i apstraktnih klasa.
  *
  */
-public class LjudiMain2
+public class PokretanjeLjudi2
 {
 	
 	public static void main( String[] args )
 	{
-		Apsolvent marko = new Apsolvent();
-		marko.ime = "Marko";
-		marko.prezime = "Markovic";
-		marko.smer = "R smer";
-		marko.brojIndeksa = "12/2008";
-		marko.godinaStudija = 4;
-		marko.brojRokovaDoIstekaStaza = 5;
+		Student marko = new Student("Marko", "Markovic", "I smer", "12/2009",
+				3);
+		Apsolvent janko = new Apsolvent("Janko", "Jankovic", "I smer", "12/2010",
+				3, 10);
+		Nastavnik milica = new Nastavnik("Milica", "Jankovic", "OOP", 12);
+
+		Scanner sc = new Scanner(System.in);
+		Nastavnik perica = new Nastavnik();
+		perica.ucitajSe(sc);
+		sc.close();
 		
-		Student janko = new Student();
-		janko.ime = "Janko";
-		janko.prezime = "Jankovic";
-		janko.smer = "I smer";
-		janko.brojIndeksa = "12/2012";
-		janko.godinaStudija = 3;
-		
-		Nastavnik milica = new Nastavnik();
-		milica.ime = "Milica";
-		milica.prezime = "Jankovic";
-		milica.predmet = "OOP";
-		milica.godinaStaza = 12;
-		
-		//Nastavnik perica = new Nastavnik();
-		//perica.ucitajSe();
-		
-//		marko.predstaviSe();
-//		janko.predstaviSe();
-//		milica.predstaviSe();
+		marko.predstaviSe();
+		janko.predstaviSe();
 
 		Covek c = marko;
 		c.predstaviSe();
 		c =janko;
 		c.predstaviSe();
-		c = milica;
-		c.predstaviSe();
-		
-//		Covek[] niz = { marko, janko, milica };
-//		for (int i = 0; i < niz.length; i++)
-//		{
-//			niz[i].predstaviSe();
-//		}
-//
+
+		Covek[] niz = { marko, janko, milica, perica };
+		for (int i = 0; i < niz.length; i++)
+		{
+			niz[i].predstaviSe();
+		}
+
 	}
 	
 }

@@ -1,29 +1,29 @@
 package rs.math.oop1.z080100.apstraktneKlase.z06.zaposleniMenadzeri;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.time.LocalDate;
 
-public abstract class Osoba
-{
-    private String ime;
-    private Date rodjen;
+public abstract class Osoba {
+   private String ime;
+   private LocalDate datumRodjenja;
 
-  public Osoba(String n, int year, int month, int day)
-  {
-     ime = n;
-     GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
-     rodjen = calendar.getTime();
-  }
+   public Osoba(String ime, int godina, int mesec, int dan) {
+      this.ime = ime;
+      datumRodjenja = LocalDate.of(godina, mesec, dan);
+   }
 
-  public String getIme()
-  {
-     return ime;
-  }
+   public String getIme() {
+      return ime;
+   }
 
-  public Date getRodjen()
-  {
-     return rodjen;
-  }
+   public LocalDate getDatumRodjenja() {
+      return datumRodjenja;
+   }
 
-
+   @Override
+   public String toString() {
+      return "Osoba{" +
+            "ime='" + ime + '\'' +
+            ", datumRodjenja=" + datumRodjenja +
+            '}';
+   }
 }

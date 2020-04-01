@@ -5,7 +5,7 @@ package rs.math.oop1.z080201.interfejsi.z02.ljudi;
  * Program ilustruje koncept nasleđivanja i interfejsa.
  *
  */
-public class LjudiMain
+public class PokretanjeLjudi
 {
 	
 	public static void main( String[] args )

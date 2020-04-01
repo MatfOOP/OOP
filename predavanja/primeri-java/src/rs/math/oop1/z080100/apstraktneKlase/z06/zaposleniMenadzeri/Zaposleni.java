@@ -1,40 +1,42 @@
 package rs.math.oop1.z080100.apstraktneKlase.z06.zaposleniMenadzeri;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
 
-class Zaposleni extends Osoba
-{
-	public Zaposleni(String n, double s, int yearB, int monthB, int dayB,
-					 int yearH, int monthH, int dayH )
-	{
-		super( n, yearB, monthB, dayB );
-		salary = s;
-		GregorianCalendar calendar = new GregorianCalendar( yearH, monthH - 1, dayH );
-		hireDay = calendar.getTime();
-	}
-	
-	public Zaposleni(String n, double s, int yearH, int monthH, int dayH )
-	{
-		this( n, s, 1, 1, 1970, yearH, monthH, dayH );
-	}
-	
-	public double getSalary()
-	{
-		return salary;
-	}
-	
-	public Date getHireDay()
-	{
-		return hireDay;
-	}
-	
-	public void raiseSalary( double byPercent )
-	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
-	}
-	
-	private double salary;
-	private Date hireDay;
+import java.time.LocalDate;
+
+class Zaposleni extends Osoba {
+   private double plata;
+   private LocalDate datumZaposlenja;
+
+   public Zaposleni(String ime, double plata, int godinaRodjenja, int mesecRodjenja, int danRodjenja,
+                    int godinaZaposlenja, int mesecZaposlenja, int danZaposlenja) {
+      super(ime, godinaRodjenja, mesecRodjenja, danRodjenja);
+      this.plata = plata;
+      datumZaposlenja = LocalDate.of(godinaZaposlenja, mesecZaposlenja, danZaposlenja);
+   }
+
+   public Zaposleni(String ime, double plata, int godinaZaposlenja, int mesecZaposlenja, int danZaposlenja) {
+      this(ime, plata, 1970, 1, 1, godinaZaposlenja, mesecZaposlenja, danZaposlenja);
+   }
+
+   public double getPlata() {
+      return plata;
+   }
+
+   public LocalDate getDatumZaposlenja() {
+      return datumZaposlenja;
+   }
+
+   public void povisica(double procenat) {
+      double iznosPovisice = plata * procenat / 100;
+      plata += iznosPovisice;
+   }
+
+   @Override
+   public String toString() {
+      return "Zaposleni{" +
+            super.toString() +
+            "plata=" + plata +
+            ", datumZaposlenja=" + datumZaposlenja +
+            '}';
+   }
 }

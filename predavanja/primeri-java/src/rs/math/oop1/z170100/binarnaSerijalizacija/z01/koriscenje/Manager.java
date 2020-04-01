@@ -2,9 +2,9 @@ package rs.math.oop1.z170100.binarnaSerijalizacija.z01.koriscenje;
 
 public class Manager extends Employee
 {
-	public Manager( String n, double s, int year, int month, int day )
+	public Manager( String n, double s, int godina, int mesec, int dan )
 	{
-		super( n, s, year, month, day );
+		super( n, s, godina, mesec, dan );
 		secretary = null;
 	}
 	

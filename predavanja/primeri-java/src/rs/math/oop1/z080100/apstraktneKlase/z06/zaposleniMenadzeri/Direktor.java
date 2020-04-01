@@ -1,41 +1,32 @@
 package rs.math.oop1.z080100.apstraktneKlase.z06.zaposleniMenadzeri;
 
-class Direktor extends Zaposleni
-{
-	/**
-	 * @param n
-	 *          the employee's name
-	 * @param s
-	 *          the salary
-	 * @param year
-	 *          the hire year
-	 * @param month
-	 *          the hire month
-	 * @param day
-	 *          the hire day
-	 */
-	public Direktor(String n, double s, int yearB, int monthB, int dayB,
-					int yearH, int monthH, int dayH )
-	{
-		super( n, s, yearB, monthB, dayB, yearH, monthH, dayH );
-		bonus = 0;
-	}
-	
-	public Direktor(String n, double s, int yearH, int monthH, int dayH )
-	{
-		this( n, s, 1, 1, 1970, yearH, monthH, dayH );
-	}
-	
-	public double getSalary()
-	{
-		double baseSalary = super.getSalary();
-		return baseSalary + bonus;
-	}
-	
-	public void setBonus( double b )
-	{
-		bonus = b;
-	}
-	
-	private double bonus;
+class Direktor extends Zaposleni {
+   private double bonus;
+
+   public Direktor(String ime, double plata, int godinaRodjenja, int mesecRodjenja, int danRodjenja,
+                   int godinaZaposlenja, int mesecZaposlenja, int danZaposlenja) {
+      super(ime, plata, godinaRodjenja, mesecRodjenja, danRodjenja, godinaZaposlenja, mesecZaposlenja, danZaposlenja);
+      bonus = 0;
+   }
+
+   public Direktor(String ime, double plata, int godinaZaposlenja, int mesecZaposlenja, int danZaposlenja) {
+      this(ime, plata, 1970, 1, 1, godinaZaposlenja, mesecZaposlenja, danZaposlenja);
+   }
+
+   public double getPlata() {
+      double osnovnaPlata = super.getPlata();
+      return osnovnaPlata + bonus;
+   }
+
+   public void setBonus(double b) {
+      bonus = b;
+   }
+
+   @Override
+   public String toString() {
+      return "Direktor{" +
+            super.toString() +
+            "bonus=" + bonus +
+            '}';
+   }
 }

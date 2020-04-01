@@ -4,7 +4,7 @@ public abstract class Covek {
 
     private String ime = "";
     private String prezime = "";
-    private String nadimak;
+    private String nadimak = "";
 
     public Covek(String ime, String prezime, String nadimak) {
         this.ime = ime;
@@ -13,36 +13,35 @@ public abstract class Covek {
     }
 
     public Covek(String ime, String prezime) {
-        this.ime = ime;
-        this.prezime = prezime;
+        this(ime, prezime, "");
     }
 
-    public String vratiIme() {
+    public String getIme() {
 
         return ime;
     }
 
-    public void postaviIme(String ime) {
+    public void setIme(String ime) {
 
         this.ime = ime;
     }
 
-    public String vratiPrezime() {
+    public String getPrezime() {
 
         return prezime;
     }
 
-    public void postaviPrezime(String prezime) {
+    public void setPrezime(String prezime) {
 
         this.prezime = prezime;
     }
 
-    public String vratiNadimak() {
+    public String getNadimak() {
 
         return nadimak;
     }
 
-    public void postaviNadimak(String nadimak) {
+    public void setNadimak(String nadimak) {
 
         this.nadimak = nadimak;
     }

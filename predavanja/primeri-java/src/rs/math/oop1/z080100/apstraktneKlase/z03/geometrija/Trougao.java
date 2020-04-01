@@ -1,6 +1,8 @@
 package rs.math.oop1.z080100.apstraktneKlase.z03.geometrija;
 
-import static java.lang.Math.*;
+import java.util.Objects;
+
+import static java.lang.Math.sqrt;
 
 public class Trougao extends GeometrijskiObjekat {
    private Tacka a;
@@ -20,30 +22,6 @@ public class Trougao extends GeometrijskiObjekat {
 
    public Trougao(final Trougao tr) {
       this(tr.getOznaka(), tr.a, tr.b, tr.c);
-   }
-
-   @Override
-   public void prikaziSe() {
-      System.out.print(getOznaka() + ":[");
-      a.prikaziSe();
-      System.out.print(";");
-      b.prikaziSe();
-      System.out.print(";");
-      c.prikaziSe();
-      System.out.print("]");
-   }
-
-   public double obim() {
-      return a.rastojanje(b) + b.rastojanje(c)
-               + c.rastojanje(a);
-   }
-
-   public double povrsina() {
-      double ab = a.rastojanje(b);
-      double bc = b.rastojanje(c);
-      double ca = c.rastojanje(a);
-      double s = (ab + bc + ca) / 2;
-      return sqrt(s * (s - ab) * (s - bc) * (s - ca));
    }
 
    public boolean sadrzi(Tacka t) {
@@ -68,7 +46,38 @@ public class Trougao extends GeometrijskiObjekat {
       return true;
    }
 
-   
+   @Override
+   public boolean equals(Object o) {
+      if (this == o) return true;
+      if (o == null || getClass() != o.getClass()) return false;
+      Trougao trougao = (Trougao) o;
+      return (a.equals(trougao.a) &&
+            b.equals(trougao.b) &&
+            c.equals(trougao.c))
+            || (a.equals(trougao.b) &&
+            b.equals(trougao.c) &&
+            c.equals(trougao.a))
+            || (a.equals(trougao.c) &&
+            b.equals(trougao.a) &&
+            c.equals(trougao.b));
+   }
+
+   @Override
+   public int hashCode() {
+      Tacka o = new Tacka(0, 0);
+      return Objects.hash(a, b, c);
+   }
+
+   @Override
+   public String toString() {
+      return getOznaka() + ":[" + a + ";" + b + ";" + c + "]";
+   }
+
+   @Override
+   public void prikaziSe() {
+      System.out.printf("%s", this);
+   }
+
    @Override
    public boolean jeKonveksan() {
       return true;
@@ -77,6 +86,20 @@ public class Trougao extends GeometrijskiObjekat {
    @Override
    public boolean jeOgranicen() {
       return true;
+   }
+
+   @Override
+   public double obim() {
+      return a.rastojanje(b) + b.rastojanje(c) + c.rastojanje(a);
+   }
+
+   @Override
+   public double povrsina() {
+      double ab = a.rastojanje(b);
+      double bc = b.rastojanje(c);
+      double ca = c.rastojanje(a);
+      double s = (ab + bc + ca) / 2;
+      return sqrt(s * (s - ab) * (s - bc) * (s - ca));
    }
 
 }

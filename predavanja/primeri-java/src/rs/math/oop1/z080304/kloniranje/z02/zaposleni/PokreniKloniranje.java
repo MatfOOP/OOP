@@ -48,14 +48,14 @@ class Employee implements Cloneable {
     }
 
     /**
-     * Set the hire day to a given date.
+     * Set the hire dan to a given date.
      *
-     * @param year  the year of the hire day
-     * @param month the month of the hire day
-     * @param day   the day of the hire day
+     * @param godina  the godina of the hire dan
+     * @param mesec the mesec of the hire dan
+     * @param dan   the dan of the hire dan
      */
-    public void setHireDay(int year, int month, int day) {
-        Date newHireDay = new GregorianCalendar(year, month - 1, day).getTime();
+    public void setHireDay(int godina, int mesec, int dan) {
+        Date newHireDay = new GregorianCalendar(godina, mesec - 1, dan).getTime();
 
         // Example of instance field mutation
         hireDay.setTime(newHireDay.getTime());

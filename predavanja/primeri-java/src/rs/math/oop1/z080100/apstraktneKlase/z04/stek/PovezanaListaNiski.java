@@ -1,19 +1,19 @@
 package rs.math.oop1.z080100.apstraktneKlase.z04.stek;
 
-public class PovezanaLista {
+public class PovezanaListaNiski {
 
    private ElemenatListe pocetak = null;
    private ElemenatListe kraj = null;
 
-   public PovezanaLista() {
+   public PovezanaListaNiski() {
    }
 
-   public PovezanaLista(String elem) {
+   public PovezanaListaNiski(String elem) {
       if (elem != null)
          kraj = pocetak = new ElemenatListe(elem);
    }
 
-   public PovezanaLista(String[] elementi) {
+   public PovezanaListaNiski(String[] elementi) {
       if (elementi == null)
          return;
       for (int i = 0; i < elementi.length; i++)

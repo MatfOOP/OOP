@@ -1,5 +1,7 @@
 package rs.math.oop1.z080100.apstraktneKlase.z03.geometrija;
 
+import java.util.Objects;
+
 public class Tacka extends GeometrijskiObjekat {
 
    private double x;
@@ -43,13 +45,34 @@ public class Tacka extends GeometrijskiObjekat {
       this.y = y;
    }
 
-   public void prikaziSe() {
-      System.out.printf(getOznaka()+ "(" + x + "," + y + ")");
-   }
 
    public double rastojanje(Tacka t) {
       return (Math.sqrt(Math.pow(t.x - x, 2)
-               + Math.pow(t.y - y, 2)));
+            + Math.pow(t.y - y, 2)));
+   }
+
+   @Override
+   public boolean equals(Object o) {
+      if (this == o) return true;
+      if (o == null || getClass() != o.getClass()) return false;
+      Tacka tacka = (Tacka) o;
+      return Double.compare(tacka.getX(), getX()) == 0 &&
+            Double.compare(tacka.getY(), getY()) == 0;
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(getX(), getY());
+   }
+
+   @Override
+   public String toString() {
+      return getOznaka() + "(" + x + "," + y + ")";
+   }
+
+   @Override
+   public void prikaziSe() {
+      System.out.printf("%s", this);
    }
 
    @Override
@@ -60,6 +83,16 @@ public class Tacka extends GeometrijskiObjekat {
    @Override
    public boolean jeOgranicen() {
       return true;
+   }
+
+   @Override
+   public double obim() {
+      return 0;
+   }
+
+   @Override
+   public double povrsina() {
+      return 0;
    }
 
 }

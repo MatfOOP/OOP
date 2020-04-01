@@ -1,6 +1,6 @@
 package rs.math.oop1.z080100.apstraktneKlase.z04.stek;
 
-public class ElemenatListe {
+class ElemenatListe {
    private String sadrzaj;
    private ElemenatListe sledeci;
 

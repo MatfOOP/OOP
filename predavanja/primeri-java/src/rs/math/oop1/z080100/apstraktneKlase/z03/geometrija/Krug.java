@@ -1,5 +1,7 @@
 package rs.math.oop1.z080100.apstraktneKlase.z03.geometrija;
 
+import java.util.Objects;
+
 import static java.lang.Math.*;
 
 public class Krug extends GeometrijskiObjekat {
@@ -20,23 +22,32 @@ public class Krug extends GeometrijskiObjekat {
       this(kr.getOznaka(), kr.o, kr.r);
    }
 
-   @Override
-   public void prikaziSe() {
-      System.out.print(getOznaka() +":[");
-      o.prikaziSe();
-      System.out.print(";" + r + "]");
-   }
-
-   public double obim() {
-      return 2 * r * PI;
-   }
-
-   public double povrsina() {
-      return pow(r, 2) * PI;
-   }
-
    public boolean sadrzi(Tacka t) {
       return t.rastojanje(o) <= r;
+   }
+
+   @Override
+   public boolean equals(Object o1) {
+      if (this == o1) return true;
+      if (o1 == null || getClass() != o1.getClass()) return false;
+      Krug krug = (Krug) o1;
+      return Double.compare(krug.r, r) == 0 &&
+            o.equals(krug.o);
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(o, r);
+   }
+
+   @Override
+   public String toString() {
+      return getOznaka() + ":[" + o + ";" + r + "]";
+   }
+
+   @Override
+   public void prikaziSe() {
+      System.out.printf("%s", this);
    }
 
    @Override
@@ -47,6 +58,16 @@ public class Krug extends GeometrijskiObjekat {
    @Override
    public boolean jeOgranicen() {
       return true;
+   }
+
+   @Override
+   public double obim() {
+      return 2 * r * PI;
+   }
+
+   @Override
+   public double povrsina() {
+      return pow(r, 2) * PI;
    }
 
 }

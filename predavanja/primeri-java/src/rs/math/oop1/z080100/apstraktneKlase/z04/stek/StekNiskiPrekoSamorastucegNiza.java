@@ -11,33 +11,27 @@
 
 package rs.math.oop1.z080100.apstraktneKlase.z04.stek;
 
-public class StekNiskiPrekoNiza extends StekNiski {
+public class StekNiskiPrekoSamorastucegNiza extends StekNiski {
 
-   private String[] elementi;
+   private SamorastuciNizNiski elementi;
    private int vrhSteka;
 
    // inicijalizacioni blok primerka
    {
-      elementi = new String[18];
+      elementi = new SamorastuciNizNiski();
       vrhSteka = -1;
    }
 
    public void push(String elem) {
-      if (vrhSteka == elementi.length - 1) {
-         String[] temp = elementi;
-         elementi = new String[2 * temp.length];
-         for (int i = 0; i < temp.length; i++)
-            elementi[i] = temp[i];
-      }
-      elementi[++vrhSteka] = elem;
+      elementi.postavi(elem, ++vrhSteka);
    }
 
    public String pop() {
       if (vrhSteka == -1) {
-         System.out.println("Greska POP: Stek je prazan!");
-         return "<nema>";
+         System.err.println("Greska POP: Stek je prazan!");
+         return null;
       }
-      return elementi[vrhSteka--];
+      return elementi.vrati(vrhSteka--);
    }
 
    public int brojElemenata() {

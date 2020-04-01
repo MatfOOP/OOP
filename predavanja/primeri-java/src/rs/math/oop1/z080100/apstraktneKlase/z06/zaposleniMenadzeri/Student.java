@@ -4,20 +4,20 @@ class Student extends Osoba
 {
 	private String usmerenje;
 
-	public Student( String n, String s, int year, int month, int day )
-	{
-		super( n, year, month, day );
-		usmerenje = s;
+	public Student( String ime, String usmerenje, int godina, int mesec, int dan ) {
+		super( ime, godina, mesec, dan );
+		this.usmerenje = usmerenje;
 	}
 	
-	public String getUsmerenje()
-	{
+	public String getUsmerenje() {
 		return usmerenje;
 	}
 
-	public String toString()
-	{
-		return "Student: " + getIme() + ":" + getUsmerenje();
+	@Override
+	public String toString() {
+		return "Student{" +
+				super.toString() +
+				"usmerenje='" + usmerenje + '\'' +
+				'}';
 	}
-	
 }

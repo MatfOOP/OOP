@@ -1,4 +1,4 @@
-package rs.math.oop1.z070502.prevazilazenje.z02.fakultetKonstruktori;
+package rs.math.oop1.z070502.prevazilazenje.z01.fakultet;
 
 public class Covek {
 

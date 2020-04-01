@@ -31,7 +31,7 @@ public class PokretanjeGeometrija {
       ab.prikaziSe();
       System.out.println("l=" + ab.duzina());
 
-      Prava p = new Prava(a, d);
+      Prava p = new Prava("p", a, d);
       p.prikaziSe();
 
       Trougao bcd = new Trougao(b, c, d);

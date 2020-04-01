@@ -5,7 +5,7 @@ package rs.math.oop1.z080201.interfejsi.z02.ljudi;
  * Program ilustruje koncept polimorfizma i interfejsa.
  *
  */
-public class LjudiMain2
+public class PokretanjeLjudi2
 {
 	
 	public static void main( String[] args )

@@ -24,8 +24,12 @@ public abstract class GeometrijskiObjekat {
 
    public abstract void prikaziSe();
 
-   public abstract boolean jeKonveksan(); 
+   public abstract boolean jeKonveksan();
 
    public abstract boolean jeOgranicen();
+
+   public abstract double obim();
+
+   public abstract double povrsina();
 
 }

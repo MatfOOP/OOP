@@ -1,4 +1,4 @@
-package rs.math.oop1.z070502.prevazilazenje.z03.geometrijaKonstruktori;
+package rs.math.oop1.z070502.prevazilazenje.z03.geometrija;
 
 import static java.lang.Math.*;
 
