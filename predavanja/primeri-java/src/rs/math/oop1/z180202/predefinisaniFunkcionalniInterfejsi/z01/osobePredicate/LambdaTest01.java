@@ -55,7 +55,7 @@ public class LambdaTest01 {
 
         System.out.println(System.lineSeparator() + "9.---");
         Predicate<Person>  uslov2 = (x -> x.getAge() >= 81);
-        uslov2 = uslov2.and( x-> x.name.startsWith("M"))
+        uslov2 = uslov2.and( x-> x.ime.startsWith("M"))
                 .or(y->y.emailAddress.endsWith("wb.com"))
                 .negate();
         printPersons(Person.LJUDI, uslov);

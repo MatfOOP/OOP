@@ -99,9 +99,9 @@ class Item implements Comparable<Item>
 			return false;
 		if (getClass() != otherObject.getClass())
 			return false;
-		Item other = (Item) otherObject;
-		return description.equals( other.description )
-				&& partNumber == other.partNumber;
+		Item drugi = (Item) otherObject;
+		return description.equals( drugi.description )
+				&& partNumber == drugi.partNumber;
 	}
 
 	@Override
@@ -111,9 +111,9 @@ class Item implements Comparable<Item>
 	}
 
 	@Override
-	public int compareTo( Item other )
+	public int compareTo( Item drugi )
 	{
-		return partNumber - other.partNumber;
+		return partNumber - drugi.partNumber;
 	}
 	
 }

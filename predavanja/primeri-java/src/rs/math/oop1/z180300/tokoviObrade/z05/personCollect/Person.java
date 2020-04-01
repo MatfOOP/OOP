@@ -2,18 +2,18 @@ package rs.math.oop1.z180300.tokoviObrade.z05.personCollect;
 
 public class Person
 {
-	private final String name;
+	private final String ime;
 	private final int age;
 	
 	public Person( final String theName, final int theAge )
 	{
-		name = theName;
+		ime = theName;
 		age = theAge;
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
 	public int getAge()
@@ -21,13 +21,13 @@ public class Person
 		return age;
 	}
 	
-	public int ageDifference( final Person other )
+	public int ageDifference( final Person drugi )
 	{
-		return age - other.age;
+		return age - drugi.age;
 	}
 	
 	public String toString()
 	{
-		return String.format( "%s - %d", name, age );
+		return String.format( "%s - %d", ime, age );
 	}
 }

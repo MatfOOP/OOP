@@ -33,10 +33,10 @@ public class PairTest2
 		System.out.println( "min = " + mm4.getFirst() );
 		System.out.println( "max = " + mm4.getSecond() );
 		
-		Employee[] ljudi = {new Employee( "pera", 100 ), 
-				new Employee( "zika", 200 ),
-				new Employee( "lika", 30 )};
-		//ArrayAlg.Pair<Employee> =  ArrayAlg.minmax( ljudi );
+		Zaposleni[] ljudi = {new Zaposleni( "pera", 100 ),
+				new Zaposleni( "zika", 200 ),
+				new Zaposleni( "lika", 30 )};
+		//ArrayAlg.Pair<Zaposleni> =  ArrayAlg.minmax( ljudi );
 		
 	}
 }

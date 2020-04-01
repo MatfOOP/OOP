@@ -14,9 +14,9 @@ public class ListSelectFiles
 			final String[] files = new File( "fpij" )
 					.list( new java.io.FilenameFilter()
 					{
-						public boolean accept( final File dir, final String name )
+						public boolean accept( final File dir, final String ime )
 						{
-							return name.endsWith( ".java" );
+							return ime.endsWith( ".java" );
 						}
 					} );
 					

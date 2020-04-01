@@ -57,7 +57,7 @@ public class OlderThan20
 		{
 			System.out.println( "//" + "START:GROUP_BY_AGE_NAME_OUTPUT" );
 			Map<Integer, List<String>> nameOfPeopleByAge = people.stream().collect(
-					groupingBy( Person::getAge, mapping( Person::getName, toList() ) ) );
+					groupingBy( Person::getAge, mapping( Person::getIme, toList() ) ) );
 			System.out.println( "People grouped by age: " + nameOfPeopleByAge );
 			System.out.println( "//" + "END:GROUP_BY_AGE_NAME_OUTPUT" );
 		}
@@ -66,7 +66,7 @@ public class OlderThan20
 			System.out.println( "//" + "START:OLDEST_IN_EACH_LETTER_OUTPUT" );
 			Comparator<Person> byAge = Comparator.comparing( Person::getAge );
 			Map<Character, Optional<Person>> oldestPersonOfEachLetter = people
-					.stream().collect( groupingBy( person -> person.getName().charAt( 0 ),
+					.stream().collect( groupingBy( person -> person.getIme().charAt( 0 ),
 							reducing( BinaryOperator.maxBy( byAge ) ) ) );
 			System.out.println( "Oldest person of each letter:" );
 			System.out.println( oldestPersonOfEachLetter );

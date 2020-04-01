@@ -16,14 +16,14 @@ class ObjectStreamReadTest
 			// retrieve all records into a new array
 			ObjectInputStream in = new ObjectInputStream(
 					new FileInputStream( "employee1.dat" ) );
-			Employee[] newStaff = (Employee[]) in.readObject();
+			Zaposleni[] newStaff = (Zaposleni[]) in.readObject();
 			in.close();
 			
-			// raise secretary's salary
-			newStaff[1].raiseSalary( 10 );
+			// iznosPovisice secretary's plata
+			newStaff[1].povecajPlatu( 10 );
 			
 			// print the newly read employee records
-			for( Employee e : newStaff )
+			for( Zaposleni e : newStaff )
 				System.out.println( e );
 		}
 		catch (Exception e)

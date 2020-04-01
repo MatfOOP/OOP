@@ -10,7 +10,7 @@
 // Задатак илуструје коришћење наслеђивања.
 // Задатак илуструје коришћење кључне речи super.
 
-package rs.math.oop1.z080201.interfejsi.z03.geometrija;
+package rs.math.oop1.z080204.interfejsi.z03.geometrija;
 
 import java.util.Scanner;
 

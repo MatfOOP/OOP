@@ -8,7 +8,7 @@ import java.util.*;
  * @version 1.01 2004-05-10
  * @author Cay Horstmann
  */
-public class StackTraceTest
+public class PokretanjeStackTrace
 {
 	/**
 	 * Computes the factorial of a number

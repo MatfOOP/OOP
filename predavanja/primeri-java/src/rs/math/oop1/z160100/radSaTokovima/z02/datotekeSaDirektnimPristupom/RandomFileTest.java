@@ -11,37 +11,37 @@ public class RandomFileTest
 {  
    public static void main(String[] args)
    {
-      Employee[] staff = new Employee[3];
+      Zaposleni[] osoblje = new Zaposleni[3];
 
-      staff[0] = new Employee("Carl Cracker", 75000, 1987, 12, 15);
-      staff[1] = new Employee("Harry Hacker", 50000, 1989, 10, 1);
-      staff[2] = new Employee("Tony Tester", 40000, 1990, 3, 15);
+      osoblje[0] = new Zaposleni("Carl Cracker", 75000, 1987, 12, 15);
+      osoblje[1] = new Zaposleni("Harry Hacker", 50000, 1989, 10, 1);
+      osoblje[2] = new Zaposleni("Tony Tester", 40000, 1990, 3, 15);
 
       try
       {  
          // save all employee records to the file employee.dat
          DataOutputStream out = new DataOutputStream(new FileOutputStream("employee.dat"));
-         for (Employee e : staff)
+         for (Zaposleni e : osoblje)
             e.writeData(out);
          out.close();
       
          // retrieve all records into a new array
          RandomAccessFile in = new RandomAccessFile("employee.dat", "r");   
          // compute the array size
-         int n = (int)(in.length() / Employee.RECORD_SIZE);
-         Employee[] newStaff = new Employee[n];
+         int n = (int)(in.length() / Zaposleni.RECORD_SIZE);
+         Zaposleni[] newStaff = new Zaposleni[n];
 
          // read employees in reverse order
          for (int i = n - 1; i >= 0; i--)
          {  
-            newStaff[i] = new Employee();
-            in.seek(i * Employee.RECORD_SIZE);
+            newStaff[i] = new Zaposleni();
+            in.seek(i * Zaposleni.RECORD_SIZE);
             newStaff[i].readData(in);
          }
          in.close();
          
          // print the newly read employee records
-         for (Employee e : newStaff) 
+         for (Zaposleni e : newStaff)
             System.out.println(e);
       }
       catch (IOException e)
@@ -51,26 +51,26 @@ public class RandomFileTest
    }
 }
 
-class Employee
+class Zaposleni
 {
-   public Employee() {}
+   public Zaposleni() {}
 
-   public Employee(String n, double s, int godina, int mesec, int dan)
+   public Zaposleni(String n, double s, int godina, int mesec, int dan)
    {  
-      name = n;
-      salary = s;
+      ime = n;
+      plata = s;
       GregorianCalendar calendar = new GregorianCalendar(godina, mesec - 1, dan);
       hireDay = calendar.getTime();
    }
 
-   public String getName()
+   public String getIme()
    {
-      return name;
+      return ime;
    }
 
-   public double getSalary()
+   public double getPlata()
    {
-      return salary;
+      return plata;
    }
 
    public Date getHireDay()
@@ -79,20 +79,20 @@ class Employee
    }
 
    /**
-      Raises the salary of this employee.
-      @byPercent the percentage of the raise
+      Raises the plata of this employee.
+      @zaProcenat the percentage of the iznosPovisice
    */
-   public void raiseSalary(double byPercent)
+   public void povecajPlatu(double zaProcenat)
    {  
-      double raise = salary * byPercent / 100;
-      salary += raise;
+      double iznosPovisice = plata * zaProcenat / 100;
+      plata += iznosPovisice;
    }
 
    public String toString()
    {  
       return getClass().getName()
-         + "[name=" + name
-         + ",salary=" + salary
+         + "[ime=" + ime
+         + ",plata=" + plata
          + ",hireDay=" + hireDay
          + "]";
    }
@@ -103,8 +103,8 @@ class Employee
    */
    public void writeData(DataOutput out) throws IOException
    {
-      DataIO.writeFixedString(name, NAME_SIZE, out);
-      out.writeDouble(salary);
+      DataIO.writeFixedString(ime, NAME_SIZE, out);
+      out.writeDouble(plata);
 
       GregorianCalendar calendar = new GregorianCalendar();
       calendar.setTime(hireDay);
@@ -119,8 +119,8 @@ class Employee
    */
    public void readData(DataInput in) throws IOException
    {
-      name = DataIO.readFixedString(NAME_SIZE, in);
-      salary = in.readDouble();
+      ime = DataIO.readFixedString(NAME_SIZE, in);
+      plata = in.readDouble();
       int y = in.readInt();
       int m = in.readInt();
       int d = in.readInt();
@@ -131,8 +131,8 @@ class Employee
    public static final int NAME_SIZE = 40;
    public static final int RECORD_SIZE = 2 * NAME_SIZE + 8 + 4 + 4 + 4;
 
-   private String name;
-   private double salary;
+   private String ime;
+   private double plata;
    private Date hireDay;
 }
 

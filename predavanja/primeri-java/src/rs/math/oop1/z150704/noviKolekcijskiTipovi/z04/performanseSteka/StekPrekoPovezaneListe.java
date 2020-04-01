@@ -17,7 +17,7 @@ public class StekPrekoPovezaneListe<E> extends AbstractCollection<E>
             sledeci = null; // Set next as end point
         }
 
-        // Return class name & object
+        // Return class ime & object
         public String toString() {
             return "Elemenat liste: " + vrednost;
         }

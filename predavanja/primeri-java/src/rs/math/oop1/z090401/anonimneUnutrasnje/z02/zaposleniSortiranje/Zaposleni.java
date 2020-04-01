@@ -1,30 +1,30 @@
 package rs.math.oop1.z090401.anonimneUnutrasnje.z02.zaposleniSortiranje;
 
 public class Zaposleni implements Comparable {
-    private String name;
-    private double salary;
+    private String ime;
+    private double plata;
 
     public Zaposleni(String n, double s) {
-        name = n;
-        salary = s;
+        ime = n;
+        plata = s;
     }
 
-    public String getName() {
-        return name;
+    public String getIme() {
+        return ime;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getPlata() {
+        return plata;
     }
 
-    public void raiseSalary(double byPercent) {
-        double raise = salary * byPercent / 100;
-        salary += raise;
+    public void povecajPlatu(double zaProcenat) {
+        double iznosPovisice = plata * zaProcenat / 100;
+        plata += iznosPovisice;
     }
 
     @Override
     public String toString() {
-        return "name=" + getName() + ",salary=" + getSalary();
+        return "ime=" + getIme() + ",plata=" + getPlata();
     }
 
     @Override
@@ -32,8 +32,8 @@ public class Zaposleni implements Comparable {
         if (!(o instanceof Zaposleni))
             return -1;
         Zaposleni e = (Zaposleni) o;
-        if (salary - e.getSalary() != 0)
-            return -(int) (salary - e.getSalary());
-        return name.compareTo(e.getName());
+        if (plata - e.getPlata() != 0)
+            return -(int) (plata - e.getPlata());
+        return ime.compareTo(e.getIme());
     }
 }

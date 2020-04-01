@@ -8,9 +8,9 @@ public class PrintList
 	public static void main( final String[] args )
 	{
 		System.out.println( "//" + "START:FOREACH_OUTPUT" );
-		for( String name : Folks.friends )
+		for( String ime : Folks.friends )
 		{
-			System.out.print( name + ", " );
+			System.out.print( ime + ", " );
 		}
 		System.out.println();
 		System.out.println( "//" + "END:FOREACH_OUTPUT" );

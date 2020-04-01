@@ -17,7 +17,7 @@ public class StringCustomSort
 			System.out.println( niz[i] );
 		
 		System.out.println( "-Po broju samoglasnika-" );
-		Comparator c = new NumOfVowelsComparator();
+		Comparator c = new BrojSamoglasnikaComparator();
 		Arrays.sort( niz, c );
 		for (int i = 0; i < niz.length; i++)
 			System.out.println( niz[i] );

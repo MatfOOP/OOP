@@ -19,7 +19,7 @@ class PokretanjeJednodimenzionalniNizOkretanjePrekoSteka {
 
    static void push(double elem) {
       if (vrhSteka == stek.length - 1) {
-         System.err.println("Greska PUSH: Stek je pun!");
+         System.err.println("Greska PUSH: StekNiski je pun!");
          return;
       }
       stek[++vrhSteka] = elem;
@@ -27,7 +27,7 @@ class PokretanjeJednodimenzionalniNizOkretanjePrekoSteka {
 
    static double pop() {
       if (vrhSteka == -1) {
-         System.err.println("Greska POP: Stek je prazan!");
+         System.err.println("Greska POP: StekNiski je prazan!");
          return -1;
       }
       return stek[vrhSteka--];

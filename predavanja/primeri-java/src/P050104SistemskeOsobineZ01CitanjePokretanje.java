@@ -3,7 +3,7 @@ public class P050104SistemskeOsobineZ01CitanjePokretanje {
 
         System.out.println("korisnicki direktorijum: " + System.getProperty("user.dir"));
 
-        System.out.println("operativni sistem: " + System.getProperty("os.name"));
+        System.out.println("operativni sistem: " + System.getProperty("os.ime"));
 
         System.out.println("verzija jave: " + System.getProperty("java.runtime.version"));
 

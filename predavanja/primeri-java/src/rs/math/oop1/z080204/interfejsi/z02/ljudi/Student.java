@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z02.ljudi;
+package rs.math.oop1.z080204.interfejsi.z02.ljudi;
 
 class Student extends Covek implements Deskripcija, Kvalitet {
    private String smer;
@@ -59,9 +59,9 @@ class Student extends Covek implements Deskripcija, Kvalitet {
    public String toString() {
       return "" +
             super.toString() +
-            "smer='" + smer + '\'' +
-            ", brojIndeksa='" + brojIndeksa + '\'' +
-            ", godinaStudija=" + godinaStudija +
+            "smer: '" + smer + '\'' +
+            ", broj indeksa: '" + brojIndeksa + '\'' +
+            ", godina studija: " + godinaStudija +
             "";
    }
 

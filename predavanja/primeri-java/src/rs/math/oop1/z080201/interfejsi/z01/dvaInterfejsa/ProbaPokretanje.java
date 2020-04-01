@@ -1,4 +1,4 @@
-package rs.math.oop1.z080301.uredjenje.z00.dvaInterfejsa;
+package rs.math.oop1.z080201.interfejsi.z01.dvaInterfejsa;
 
 public class ProbaPokretanje {
 

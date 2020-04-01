@@ -24,7 +24,7 @@ public class StekNiskiPrekoListe extends Stek {
    public String pop() {
       String elem = elementi.ukloniElemenatSaPocetka();
       if (elem == null) {
-         System.out.println("Greska POP: Stek je prazan!");
+         System.out.println("Greska POP: StekNiski je prazan!");
          return "<nema>";
       }
       return elem;

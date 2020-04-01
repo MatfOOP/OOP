@@ -7,12 +7,12 @@ public class EmployeeNameComparator implements Comparator
 	@Override
 	public int compare( Object o1, Object o2 )
 	{
-		if( !(o1 instanceof Employee) )
+		if( !(o1 instanceof Zaposleni) )
 			return 1;
-		if( !(o2 instanceof Employee) )
+		if( !(o2 instanceof Zaposleni) )
 			return -1;
-		Employee e1 = (Employee) o1;
-		Employee e2 = (Employee) o2;
-		return e1.getName().compareTo( e2.getName() );
+		Zaposleni e1 = (Zaposleni) o1;
+		Zaposleni e2 = (Zaposleni) o2;
+		return e1.getIme().compareTo( e2.getIme() );
 	}
 }

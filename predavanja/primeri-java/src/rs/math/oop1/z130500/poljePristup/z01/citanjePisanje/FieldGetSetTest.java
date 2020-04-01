@@ -6,8 +6,8 @@ public class FieldGetSetTest
 {
 	public static void main( String[] argumenti )
 	{
-		Employee prvi = new Employee( "Miki Maus", 15 );
-		Employee drugi = new Employee( "Paja Patak", 16 );
+		Zaposleni prvi = new Zaposleni( "Miki Maus", 15 );
+		Zaposleni drugi = new Zaposleni( "Paja Patak", 16 );
 		
 		Class<?> klasa = prvi.getClass();
 		Field prvoDeklarisanoPolje = klasa.getDeclaredFields()[0];

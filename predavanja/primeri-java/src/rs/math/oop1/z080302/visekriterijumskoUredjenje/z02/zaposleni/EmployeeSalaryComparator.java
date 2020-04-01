@@ -7,13 +7,13 @@ public class EmployeeSalaryComparator implements Comparator
 	@Override
 	public int compare( Object o1, Object o2 )
 	{
-		if( !(o1 instanceof Employee) )
+		if( !(o1 instanceof Zaposleni) )
 			return 1;
-		if( !(o2 instanceof Employee) )
+		if( !(o2 instanceof Zaposleni) )
 			return -1;
-		Employee e1 = (Employee) o1;
-		Employee e2 = (Employee) o2;
-		double d = e2.getSalary() - e1.getSalary();
+		Zaposleni e1 = (Zaposleni) o1;
+		Zaposleni e2 = (Zaposleni) o2;
+		double d = e2.getPlata() - e1.getPlata();
 		if (d > 0)
 			return 1;
 		if (d < 0)

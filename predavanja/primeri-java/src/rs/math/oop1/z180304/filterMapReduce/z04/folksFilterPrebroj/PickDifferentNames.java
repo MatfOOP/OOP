@@ -7,14 +7,14 @@ public class PickDifferentNames
 {
 	public static Predicate<String> checkIfStartsWith( final String letter )
 	{
-		return name -> name.startsWith( letter );
+		return ime -> ime.startsWith( letter );
 	}
 	
 	public static void main( final String[] args )
 	{
 		{
-			final Predicate<String> startsWithN = name -> name.startsWith( "N" );
-			final Predicate<String> startsWithB = name -> name.startsWith( "B" );
+			final Predicate<String> startsWithN = ime -> ime.startsWith( "N" );
+			final Predicate<String> startsWithB = ime -> ime.startsWith( "B" );
 			
 			final long countFriendsStartN = Folks.friends.stream().filter( startsWithN )
 					.count();
@@ -38,7 +38,7 @@ public class PickDifferentNames
 		{
 			final Function<String, Predicate<String>> startsWithLetter = (
 					String letter ) -> {
-				Predicate<String> checkStarts = ( String name ) -> name
+				Predicate<String> checkStarts = ( String ime ) -> ime
 						.startsWith( letter );
 				return checkStarts;
 			};
@@ -55,7 +55,7 @@ public class PickDifferentNames
 		
 		{
 			final Function<String, Predicate<String>> startsWithLetter = (
-					String letter ) -> ( String name ) -> name.startsWith( letter );
+					String letter ) -> ( String ime ) -> ime.startsWith( letter );
 					
 			final long countFriendsStartN = Folks.friends.stream()
 					.filter( startsWithLetter.apply( "N" ) ).count();
@@ -68,7 +68,7 @@ public class PickDifferentNames
 		}
 		
 		{
-			final Function<String, Predicate<String>> startsWithLetter = letter -> name -> name
+			final Function<String, Predicate<String>> startsWithLetter = letter -> ime -> ime
 					.startsWith( letter );
 					
 			final long countFriendsStartN = Folks.friends.stream()

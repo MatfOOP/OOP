@@ -7,8 +7,8 @@ import java.util.GregorianCalendar;
 public class Zaposleni implements Serializable
 {
 	private static final long serialVersionUID = 2084538915166046307L;
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	private Date hireDay;
 
 	public Zaposleni()
@@ -17,20 +17,20 @@ public class Zaposleni implements Serializable
 	
 	public Zaposleni( String n, double s, int godina, int mesec, int dan )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 		GregorianCalendar calendar = new GregorianCalendar( godina, mesec - 1, dan );
 		hireDay = calendar.getTime();
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
 	public Date getHireDay()
@@ -38,15 +38,15 @@ public class Zaposleni implements Serializable
 		return hireDay;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 	public String toString()
 	{
-		return getClass().getName() + "[name=" + name + ",salary=" + salary
+		return getClass().getName() + "[ime=" + ime + ",plata=" + plata
 				+ ",hireDay=" + hireDay + "]";
 	}	
 }

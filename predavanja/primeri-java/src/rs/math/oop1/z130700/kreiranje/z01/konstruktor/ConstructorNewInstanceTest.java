@@ -8,13 +8,13 @@ public class ConstructorNewInstanceTest
 {
 	public static void main( String[] argumenti )
 	{
-		Class<?> klasa = Employee.class;
+		Class<?> klasa = Zaposleni.class;
 		try
 		{
 			Constructor<?> c = klasa.getDeclaredConstructors()[0];
 			Object dule = c.newInstance( "Dusko Dugousko", 100 );
 			System.out.println( dule );
-			Field ime = klasa.getDeclaredField( "name" );
+			Field ime = klasa.getDeclaredField( "ime" );
 			ime.setAccessible( true );
 			System.out.println( ime.get( dule ) );
 			ime.set( dule, "Patak Daca" );

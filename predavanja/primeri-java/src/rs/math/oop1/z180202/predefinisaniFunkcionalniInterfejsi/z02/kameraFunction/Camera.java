@@ -17,7 +17,7 @@ public class Camera
 		return processedColor;
 	}
 	
-	// ... other functions that use the filter ...
+	// ... drugi functions that use the filter ...
 	
 	public void setFilters( final Function<Color, Color>... filters )
 	{

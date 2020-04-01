@@ -9,7 +9,7 @@ public class PickALongest {
 System.out.println("//" + "START:SUM_OUTPUT");
       System.out.println("Total number of characters in all names: " +
         friends.stream()
-               .mapToInt(name -> name.length())
+               .mapToInt(ime -> ime.length())
                .sum());
     }
 System.out.println("//" + "END:SUM_OUTPUT");
@@ -20,8 +20,8 @@ System.out.println("//" + "START:REDUCE_OUTPUT");
       friends.stream()
              .reduce((name1, name2) -> 
                 name1.length() >= name2.length() ? name1 : name2);
-    aLongName.ifPresent(name ->
-      System.out.println(String.format("A longest name: %s", name)));
+    aLongName.ifPresent(ime ->
+      System.out.println(String.format("A longest ime: %s", ime)));
 System.out.println("//" + "END:REDUCE_OUTPUT");
 
     final String steveOrLonger = 

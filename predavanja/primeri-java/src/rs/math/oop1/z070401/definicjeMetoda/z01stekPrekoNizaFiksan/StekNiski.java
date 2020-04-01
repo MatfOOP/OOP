@@ -1,4 +1,4 @@
-package rs.math.oop1.z070402.pozivMetoda.z08.stekPrekoNizaFiksan;
+package rs.math.oop1.z070401.definicjeMetoda.z01stekPrekoNizaFiksan;
 
 /*
 

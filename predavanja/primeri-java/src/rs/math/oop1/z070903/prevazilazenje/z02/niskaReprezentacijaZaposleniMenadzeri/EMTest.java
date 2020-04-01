@@ -6,10 +6,10 @@ public class EMTest
 {
 	public static void main( String[] args )
 	{
-		Employee alice1 = new Employee( "Alice Adams", 75000, 1987, 12, 15 );
-		Employee alice2 = alice1;
-		Employee alice3 = new Employee( "Alice Adams", 75000, 1987, 12, 15 );
-		Employee bob = new Employee( "Bob Brandson", 50000, 1989, 10, 1 );
+		Zaposleni alice1 = new Zaposleni( "Alice Adams", 75000, 1987, 12, 15 );
+		Zaposleni alice2 = alice1;
+		Zaposleni alice3 = new Zaposleni( "Alice Adams", 75000, 1987, 12, 15 );
+		Zaposleni bob = new Zaposleni( "Bob Brandson", 50000, 1989, 10, 1 );
 		
 		System.out.println( "alice1 == alice2: " + (alice1 == alice2) );
 		
@@ -33,28 +33,28 @@ public class EMTest
 	}
 }
 
-class Employee
+class Zaposleni
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	private Date hireDay;
 
-	public Employee( String n, double s, int godina, int mesec, int dan )
+	public Zaposleni( String n, double s, int godina, int mesec, int dan )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 		GregorianCalendar calendar = new GregorianCalendar( godina, mesec - 1, dan );
 		hireDay = calendar.getTime();
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
 	public Date getHireDay()
@@ -62,10 +62,10 @@ class Employee
 		return hireDay;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 	@Override
@@ -80,30 +80,30 @@ class Employee
 		// if the classes don't match, they can't be equal
 		if (getClass() != otherObject.getClass())
 			return false;
-		// now we know otherObject is a non-null Employee
-		Employee other = (Employee) otherObject;		
+		// now we know otherObject is a non-null Zaposleni
+		Zaposleni drugi = (Zaposleni) otherObject;
 		// test whether the fields have identical values
-		return name.equals( other.name ) && salary == other.salary
-				&& hireDay.equals( other.hireDay );
+		return ime.equals( drugi.ime ) && plata == drugi.plata
+				&& hireDay.equals( drugi.hireDay );
 	}
 	
 	@Override
 	public int hashCode()
 	{
-		return 7 * name.hashCode() + 11 * new Double( salary ).hashCode() + 13
+		return 7 * ime.hashCode() + 11 * new Double( plata ).hashCode() + 13
 				* hireDay.hashCode();
 	}
 	
 	@Override
 	public String toString()
 	{
-		return getClass().getName() + "[name=" + name + ",salary=" + salary
+		return getClass().getName() + "[ime=" + ime + ",plata=" + plata
 				+ ",hireDay=" + hireDay + "]";
 	}
 	
 }
 
-class Manager extends Employee
+class Manager extends Zaposleni
 {
 	private double bonus;
 
@@ -114,9 +114,9 @@ class Manager extends Employee
 	}
 	
 	@Override
-	public double getSalary()
+	public double getPlata()
 	{
-		double baseSalary = super.getSalary();
+		double baseSalary = super.getPlata();
 		return baseSalary + bonus;
 	}
 	
@@ -132,9 +132,9 @@ class Manager extends Employee
 			return false;
 		if (!(otherObject instanceof Manager))
 			return false;
-		Manager other = (Manager) otherObject;
-		// super.equals checked that this and other belong to the same class
-		return (bonus == other.bonus);
+		Manager drugi = (Manager) otherObject;
+		// super.equals checked that this and drugi belong to the same class
+		return (bonus == drugi.bonus);
 	}
 	
 	@Override

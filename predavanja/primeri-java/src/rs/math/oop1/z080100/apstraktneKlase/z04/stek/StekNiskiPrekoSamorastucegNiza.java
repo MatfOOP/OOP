@@ -22,18 +22,21 @@ public class StekNiskiPrekoSamorastucegNiza extends StekNiski {
       vrhSteka = -1;
    }
 
+   @Override
    public void push(String elem) {
       elementi.postavi(elem, ++vrhSteka);
    }
 
+   @Override
    public String pop() {
       if (vrhSteka == -1) {
-         System.err.println("Greska POP: Stek je prazan!");
+         System.err.println("Greska POP: StekNiski je prazan!");
          return null;
       }
       return elementi.vrati(vrhSteka--);
    }
 
+   @Override
    public int brojElemenata() {
       return (vrhSteka + 1);
    }

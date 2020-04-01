@@ -6,16 +6,16 @@ import java.lang.reflect.Method;
 public class MethodInvokeTest {
 
     public static void main(String[] args) {
-        Employee zap1 = new Employee("Mika", 1000);
+        Zaposleni zap1 = new Zaposleni("Mika", 1000);
 
         Class<?> emp = zap1.getClass();
         try {
             Method[] metodi = emp.getDeclaredMethods();
             Method povisica = null;
             for (Method m : metodi)
-                if (m.getName().equals("raiseSalary"))
+                if (m.getName().equals("povecajPlatu"))
                     povisica = m;
-            Employee zap2 = new Employee("Pera", 500);
+            Zaposleni zap2 = new Zaposleni("Pera", 500);
             System.out.println(zap1 + ",\r\n" + zap2);
             Object[] argumentiPoziva = {200.0};
             povisica.invoke(zap2, argumentiPoziva);

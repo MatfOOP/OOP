@@ -9,32 +9,32 @@ public class Transform {
 	{
 	    final List<String> uppercaseNames = new ArrayList<String>();
 
-	    for (String name : friends) {
-		uppercaseNames.add(name.toUpperCase());
+	    for (String ime : friends) {
+		uppercaseNames.add(ime.toUpperCase());
 	    }
 
 	    System.out.println(uppercaseNames);
 	}
 	{
 	    final List<String> uppercaseNames = new ArrayList<String>();
-	    friends.forEach(name -> uppercaseNames.add(name.toUpperCase()));
+	    friends.forEach(ime -> uppercaseNames.add(ime.toUpperCase()));
 	    System.out.println(uppercaseNames);
 	}
 
 	/*
-	 * friends.stream() .map(name -> name.toUpperCase());
+	 * friends.stream() .map(ime -> ime.toUpperCase());
 	 */
 
 	System.out.println("//" + "START:TRANSFORM_OUTPUT");
 
-	friends.stream().map(name -> name.toUpperCase()).forEach(name -> System.out.print(name + " "));
+	friends.stream().map(ime -> ime.toUpperCase()).forEach(ime -> System.out.print(ime + " "));
 	System.out.println();
 
 	System.out.println("//" + "END:TRANSFORM_OUTPUT");
 
 	System.out.println("//" + "START:NUMBER_OUTPUT");
 
-	friends.stream().map(name -> name.length()).forEach(count -> System.out.print(count + " "));
+	friends.stream().map(ime -> ime.length()).forEach(count -> System.out.print(count + " "));
 
 	System.out.println();
 	System.out.println("//" + "END:NUMBER_OUTPUT");
@@ -43,6 +43,6 @@ public class Transform {
 	 * friends.stream() .map(String::toUpperCase);
 	 */
 
-	friends.stream().map(String::toUpperCase).forEach(name -> System.out.println(name));
+	friends.stream().map(String::toUpperCase).forEach(ime -> System.out.println(ime));
     }
 }

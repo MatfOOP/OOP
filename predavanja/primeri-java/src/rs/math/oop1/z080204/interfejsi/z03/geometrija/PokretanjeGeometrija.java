@@ -10,7 +10,7 @@
 // Задатак илуструје коришћење наслеђивања.
 // Задатак илуструје коришћење кључне речи super.
 
-package rs.math.oop1.z080201.interfejsi.z03.geometrija;
+package rs.math.oop1.z080204.interfejsi.z03.geometrija;
 
 public class PokretanjeGeometrija {
 
@@ -48,7 +48,7 @@ public class PokretanjeGeometrija {
 
       double ukupanObim = 0;
       double ukupnaPovrsina = 0;
-      System.out.println("Geometrijski objekti:");
+      System.out.println("Geometrijski objektiJDK:");
       GeometrijskiObjekat[] svi = {a, b, c, d, e, ab, p, bcd, bcde, k1};
       for (GeometrijskiObjekat go : svi) {
          if (go instanceof Prikaz)

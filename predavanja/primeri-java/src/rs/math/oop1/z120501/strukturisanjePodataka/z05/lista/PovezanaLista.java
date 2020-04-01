@@ -14,7 +14,7 @@ public class PovezanaLista<T>
 			next = null; // Set next as end point
 		}
 		
-		// Return class name & object
+		// Return class ime & object
 		public String toString()
 		{
 			return "Elemenat liste: " + item;

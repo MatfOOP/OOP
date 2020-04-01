@@ -2,28 +2,28 @@ package rs.math.oop1.z110600.generickiMetod.z06.minMaxNasledjivanje;
 
 import java.util.*;
 
-class Employee
+class Zaposleni
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	private Date hireDay;
 
-	public Employee( String n, double s, int godina, int mesec, int dan )
+	public Zaposleni( String n, double s, int godina, int mesec, int dan )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 		GregorianCalendar calendar = new GregorianCalendar( godina, mesec - 1, dan );
 		hireDay = calendar.getTime();
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
 	public Date getHireDay()
@@ -31,14 +31,14 @@ class Employee
 		return hireDay;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 }
 
-class Manager extends Employee
+class Manager extends Zaposleni
 {
 	private double bonus;
 
@@ -49,9 +49,9 @@ class Manager extends Employee
 	}
 	
 	@Override
-	public double getSalary()
+	public double getPlata()
 	{
-		double baseSalary = super.getSalary();
+		double baseSalary = super.getPlata();
 		return baseSalary + bonus;
 	}
 	
@@ -90,11 +90,11 @@ class PairAlg
 
 public class PairTest3
 {
-	public static void printBuddies( Pair<? extends Employee> p )
+	public static void printBuddies( Pair<? extends Zaposleni> p )
 	{
-		Employee first = p.getFirst();
-		Employee second = p.getSecond();
-		System.out.println( first.getName() + " i " + second.getName()
+		Zaposleni first = p.getFirst();
+		Zaposleni second = p.getSecond();
+		System.out.println( first.getIme() + " i " + second.getIme()
 				+ " su drugari." );
 	}
 	
@@ -138,13 +138,13 @@ public class PairTest3
 		vlasnikovSin.setBonus( 450_000 );
 		Manager[] managers = { ceo, cfo, vlasnikovSin };
 		
-		Pair<Employee> result = new Pair<>();
+		Pair<Zaposleni> result = new Pair<>();
 		minmaxBonus( managers, result );
-		System.out.println( "first: " + result.getFirst().getName() + ", second: "
-				+ result.getSecond().getName() );
+		System.out.println( "first: " + result.getFirst().getIme() + ", second: "
+				+ result.getSecond().getIme() );
 		maxminBonus( managers, result );
-		System.out.println( "first: " + result.getFirst().getName() + ", second: "
-				+ result.getSecond().getName() );
+		System.out.println( "first: " + result.getFirst().getIme() + ", second: "
+				+ result.getSecond().getIme() );
 	}
 	
 }

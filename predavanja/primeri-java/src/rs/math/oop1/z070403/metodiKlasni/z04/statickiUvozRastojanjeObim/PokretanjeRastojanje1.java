@@ -1,6 +1,6 @@
 package rs.math.oop1.z070403.metodiKlasni.z04.statickiUvozRastojanjeObim;
 
-public class Rastojanje1 {
+public class PokretanjeRastojanje1 {
 
    static double rastojanje(double x1, double y1, double x2, double y2) {
       return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));

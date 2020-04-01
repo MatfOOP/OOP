@@ -32,7 +32,7 @@ class StekCelihBrojeva {
 
    int pop() {
       if (vrhSteka == -1) {
-         System.out.println("Greska POP: Stek je prazan!");
+         System.out.println("Greska POP: StekNiski je prazan!");
          return 0;
       }
       return elementi[vrhSteka--];

@@ -6,7 +6,7 @@ import static java.lang.Math.*;
 
 import static java.lang.System.*;
 
-public class Rastojanje2 {
+public class PokretanjeRastojanje2 {
 
     static double rastojanje(double x1, double y1, double x2, double y2) {
         return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));

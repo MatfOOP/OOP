@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z02.ljudi;
+package rs.math.oop1.z080204.interfejsi.z02.ljudi;
 
 public class Covek {
    private String ime = "";
@@ -31,7 +31,7 @@ public class Covek {
    @Override
    public String toString() {
       return "" +
-            "ime='" + ime + '\'' +
-            ", prezime='" + prezime + '\'';
+            "ime: '" + ime + '\'' +
+            ", prezime: '" + prezime + '\'';
    }
 }

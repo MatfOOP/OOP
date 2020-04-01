@@ -9,16 +9,16 @@ public class PickAnElement
 			final String startingLetter )
 	{
 		String foundName = null;
-		for( String name : names )
+		for( String ime : names )
 		{
-			if( name.startsWith( startingLetter ) )
+			if( ime.startsWith( startingLetter ) )
 			{
-				foundName = name;
+				foundName = ime;
 				break;
 			}
 		}
 		System.out
-				.print( String.format( "A name starting with %s: ", startingLetter ) );
+				.print( String.format( "A ime starting with %s: ", startingLetter ) );
 				
 		if( foundName != null )
 		{
@@ -26,7 +26,7 @@ public class PickAnElement
 		}
 		else
 		{
-			System.out.println( "No name found" );
+			System.out.println( "No ime found" );
 		}
 	}
 	

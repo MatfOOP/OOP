@@ -7,23 +7,23 @@ class ObjectStreamWriteTest
 {
 	public static void main( String[] args )
 	{
-		Employee harry = new Employee( "Harry Hacker", 50000, 1989, 10, 1 );
+		Zaposleni harry = new Zaposleni( "Harry Hacker", 50000, 1989, 10, 1 );
 		Manager carl = new Manager( "Carl Cracker", 80000, 1987, 12, 15 );
 		carl.setSecretary( harry );
 		Manager tony = new Manager( "Tony Tester", 40000, 1990, 3, 15 );
 		tony.setSecretary( harry );
 		
-		Employee[] staff = new Employee[3];
+		Zaposleni[] osoblje = new Zaposleni[3];
 		
-		staff[0] = carl;
-		staff[1] = harry;
-		staff[2] = tony;
+		osoblje[0] = carl;
+		osoblje[1] = harry;
+		osoblje[2] = tony;
 		
 		try
 		{
 			ObjectOutputStream out = new ObjectOutputStream(
 					new FileOutputStream( "employee1.dat" ) );
-			out.writeObject( staff );
+			out.writeObject( osoblje );
 			out.close();			
 		}
 		catch (Exception e)

@@ -6,38 +6,38 @@ public class MapTest
 {
    public static void main(String[] args)
    {
-      Map<String, Employee> staff = new HashMap<>();
-      staff.put("144-25-5464", new Employee("Amy Lee", 10));
-      staff.put("567-24-2546", new Employee("Harry Hacker", 20));
-      staff.put("157-62-7935", new Employee("Gary Cooper", 100));
-      staff.put("456-62-5527", new Employee("Francesca Cruz"));
+      Map<String, Zaposleni> osoblje = new HashMap<>();
+      osoblje.put("144-25-5464", new Zaposleni("Amy Lee", 10));
+      osoblje.put("567-24-2546", new Zaposleni("Harry Hacker", 20));
+      osoblje.put("157-62-7935", new Zaposleni("Gary Cooper", 100));
+      osoblje.put("456-62-5527", new Zaposleni("Francesca Cruz"));
 
       // print all entries
 
-      System.out.println(staff);
+      System.out.println(osoblje);
 
       // remove an entry
 
-      staff.remove("567-24-2546");
+      osoblje.remove("567-24-2546");
       System.out.println("Uklonjen " + "567-24-2546");
-      System.out.println(staff);
+      System.out.println(osoblje);
 
       // replace an entry
 
-      staff.put("456-62-5527", new Employee("Francesca Miller", 3));
+      osoblje.put("456-62-5527", new Zaposleni("Francesca Miller", 3));
       System.out.println("Francesca Miller" + "sa sifrom " +"456-62-5527");
-      System.out.println(staff);
+      System.out.println(osoblje);
 
       // look up a value
 
-      System.out.println(staff.get("157-62-7935"));
+      System.out.println(osoblje.get("157-62-7935"));
 
       // iterate through all entries
 
-      for (Map.Entry<String, Employee> entry : staff.entrySet())
+      for (Map.Entry<String, Zaposleni> entry : osoblje.entrySet())
       {
          String key = entry.getKey();
-         Employee value = entry.getValue();
+         Zaposleni value = entry.getValue();
          System.out.println("key=" + key + ", value=" + value);
       }
    }
@@ -46,25 +46,25 @@ public class MapTest
 /**
  * A minimalist employee class for testing purposes.
  */
-class Employee
+class Zaposleni
 {
   
-  public Employee(String n, double salary)
+  public Zaposleni(String n, double plata)
   {
-     name = n;
-     this.salary = salary;
+     ime = n;
+     this.plata = plata;
   }
 
-   public Employee(String n)
+   public Zaposleni(String n)
    {
       this( n, 0);
    }
 
    public String toString()
    {
-      return "[name=" + name + ", salary=" + salary + "]";
+      return "[ime=" + ime + ", plata=" + plata + "]";
    }
 
-   private String name;
-   private double salary;
+   private String ime;
+   private double plata;
 }

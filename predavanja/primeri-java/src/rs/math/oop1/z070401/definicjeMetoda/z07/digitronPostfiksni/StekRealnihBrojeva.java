@@ -33,7 +33,7 @@ class StekRealnihBrojeva {
 
    double pop() {
       if (vrhSteka == -1) {
-         System.out.println("Greska POP: Stek je prazan!");
+         System.out.println("Greska POP: StekNiski je prazan!");
          return -1;
       }
       return elementi[vrhSteka--];

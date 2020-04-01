@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>primeri-java</name>
+	<ime>primeri-java</ime>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
+			<ime>org.eclipse.jdt.core.javabuilder</ime>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<ime>org.eclipse.m2e.core.maven2Builder</ime>
 			<arguments>
 			</arguments>
 		</buildCommand>

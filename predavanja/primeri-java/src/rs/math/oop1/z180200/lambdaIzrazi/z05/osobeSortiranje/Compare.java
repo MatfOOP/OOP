@@ -61,9 +61,9 @@ public class Compare {
             System.out.println("//" + "END:REVERSE_ORDER_OUTPUT");
 
             System.out.println("//" + "START:NAME_ASCEND_OUTPUT");
-            printPeople("Sorted in ascending order by name: ",
-                    people.stream().sorted((person1, person2) -> person1.getName()
-                            .compareTo(person2.getName())).collect(toList()));
+            printPeople("Sorted in ascending order by ime: ",
+                    people.stream().sorted((person1, person2) -> person1.getIme()
+                            .compareTo(person2.getIme())).collect(toList()));
             System.out.println("//" + "END:NAME_ASCEND_OUTPUT");
         }
 
@@ -82,15 +82,15 @@ public class Compare {
         }
 
         {
-            people.stream().sorted((person1, person2) -> person1.getName()
-                    .compareTo(person2.getName()));
+            people.stream().sorted((person1, person2) -> person1.getIme()
+                    .compareTo(person2.getIme()));
 
-            printPeople("Sorted in ascending order by name: ",
+            printPeople("Sorted in ascending order by ime: ",
                     people.stream()
-                            .sorted(comparing((Person person) -> person.getName()))
+                            .sorted(comparing((Person person) -> person.getIme()))
                             .collect(toList()));
 
-            final Function<Person, String> byName = person -> person.getName();
+            final Function<Person, String> byName = person -> person.getIme();
             people.stream().sorted(comparing(byName));
         }
 
@@ -98,9 +98,9 @@ public class Compare {
             System.out.println("//" + "START:SORT_NAME_AND_AGE_OUTPUT");
 
             final Function<Person, Integer> byAge = person -> person.getAge();
-            final Function<Person, String> byTheirName = person -> person.getName();
+            final Function<Person, String> byTheirName = person -> person.getIme();
 
-            printPeople("Sorted in ascending order by age and name: ",
+            printPeople("Sorted in ascending order by age and ime: ",
                     people.stream()
                             .sorted(comparing(byAge).thenComparing(byTheirName))
                             .collect(toList()));

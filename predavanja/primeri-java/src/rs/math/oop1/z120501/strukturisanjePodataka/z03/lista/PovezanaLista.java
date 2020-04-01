@@ -14,7 +14,7 @@ public class PovezanaLista
 			sledeci = null; // Set next as end point
 		}
 		
-		// Return class name & object
+		// Return class ime & object
 		@Override
 		public String toString()
 		{

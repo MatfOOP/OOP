@@ -6,7 +6,7 @@
 
 */
 
-package rs.math.oop1.z080201.interfejsi.z01.fakultet;
+package rs.math.oop1.z080204.interfejsi.z01.fakultet;
 
 public class Predmet {
 

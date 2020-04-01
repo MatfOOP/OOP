@@ -46,7 +46,7 @@ public class PokretanjeGeometrija {
       k1.prikaziSe();
       System.out.println("P=" + k1.povrsina());
 
-      System.out.println("Geometrijski objekti:");
+      System.out.println("Geometrijski objektiJDK:");
       GeometrijskiObjekat[] svi =
       { a, b, c, d, e, ab, p, bcd, bcde, k1 };
       for (GeometrijskiObjekat go : svi) {

@@ -24,13 +24,12 @@ public class PokretanjeOkretanjeStek {
 
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
+      System.out.println("Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
       StekNiski stek = new StekNiskiPrekoPovezaneListe();
-      System.out.println(
-               "Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
       while (sc.hasNext())
          stek.push(sc.next());
       System.out.println("Broj pročitanih reči: "
-               + stek.brojElemenata());
+            + stek.brojElemenata());
       System.out.println("Reči u obratnom redosledu: ");
       while (stek.brojElemenata() > 0)
          System.out.printf("%s\t", stek.pop());

@@ -2,7 +2,7 @@ package rs.math.oop1.z080301.uredjenje.z01.zaposleni;
 
 import java.util.*;
 
-public class PokreniUredjenjeZaposlenih
+public class PokretanjeUredjenjeZaposlenih
 {
 	public static void main( String[] args )
 	{

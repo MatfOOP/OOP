@@ -5,12 +5,12 @@ import java.util.*;
 
 public class SerialCloneTest {
     public static void main(String[] args) {
-        Employee harry = new Employee("Harry Hacker", 35000, 1989, 10, 1);
+        Zaposleni harry = new Zaposleni("Harry Hacker", 35000, 1989, 10, 1);
         // clone harry
-        Employee harry2 = (Employee) harry.clone();
+        Zaposleni harry2 = (Zaposleni) harry.clone();
 
         // mutate harry
-        harry.raiseSalary(10);
+        harry.povecajPlatu(10);
 
         // now harry and the clone are different
         System.out.println(harry);
@@ -44,44 +44,44 @@ class SerialCloneable implements Cloneable, Serializable {
 }
 
 /**
- * The familiar Employee class, redefined to extend the
+ * The familiar Zaposleni class, redefined to extend the
  * SerialCloneable class.
  */
-class Employee extends SerialCloneable {
-    public Employee(String n, double s, int godina, int mesec, int dan) {
-        name = n;
-        salary = s;
+class Zaposleni extends SerialCloneable {
+    public Zaposleni(String n, double s, int godina, int mesec, int dan) {
+        ime = n;
+        plata = s;
         GregorianCalendar calendar = new GregorianCalendar(godina, mesec - 1, dan);
         hireDay = calendar.getTime();
     }
 
-    public String getName() {
-        return name;
+    public String getIme() {
+        return ime;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getPlata() {
+        return plata;
     }
 
     public Date getHireDay() {
         return hireDay;
     }
 
-    public void raiseSalary(double byPercent) {
-        double raise = salary * byPercent / 100;
-        salary += raise;
+    public void povecajPlatu(double zaProcenat) {
+        double iznosPovisice = plata * zaProcenat / 100;
+        plata += iznosPovisice;
     }
 
     public String toString() {
         return getClass().getName()
-                + "[name=" + name
-                + ",salary=" + salary
+                + "[ime=" + ime
+                + ",plata=" + plata
                 + ",hireDay=" + hireDay
                 + "]";
     }
 
-    private String name;
-    private double salary;
+    private String ime;
+    private double plata;
     private Date hireDay;
 }
  

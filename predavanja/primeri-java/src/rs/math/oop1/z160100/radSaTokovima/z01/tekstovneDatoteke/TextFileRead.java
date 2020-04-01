@@ -14,10 +14,10 @@ public class TextFileRead
       try
       {
          Scanner in = new Scanner(new FileReader("employee3.dat"));
-         Employee[] newStaff = readData(in);
+         Zaposleni[] newStaff = readData(in);
          in.close();
 
-          for (Employee e : newStaff)
+          for (Zaposleni e : newStaff)
             System.out.println(e);
       }
       catch (IOException exception)
@@ -26,16 +26,16 @@ public class TextFileRead
       }
    }
 
-   private static Employee[] readData(Scanner in)
+   private static Zaposleni[] readData(Scanner in)
    {
       // retrieve the array size
       int n = in.nextInt();
       in.nextLine(); // consume newline
 
-      Employee[] employees = new Employee[n];
+      Zaposleni[] employees = new Zaposleni[n];
       for (int i = 0; i < n; i++)
       {
-         employees[i] = new Employee();
+         employees[i] = new Zaposleni();
          employees[i].readData(in);
       }
       return employees;

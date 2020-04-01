@@ -11,11 +11,11 @@ public class PickElements
 	{
 		{
 			final List<String> startsWithN = new ArrayList<String>();
-			for( String name : friends )
+			for( String ime : friends )
 			{
-				if( name.startsWith( "N" ) )
+				if( ime.startsWith( "N" ) )
 				{
-					startsWithN.add( name );
+					startsWithN.add( ime );
 				}
 			}
 			
@@ -25,7 +25,7 @@ public class PickElements
 		
 		System.out.println( "//" + "START:FILTER_OUTPUT" );
 		final List<String> startsWithN = friends.stream()
-				.filter( name -> name.startsWith( "N" ) )
+				.filter( ime -> ime.startsWith( "N" ) )
 				.collect( Collectors.toList() );
 				
 		System.out.println( String.format( "Found %d names", startsWithN.size() ) );

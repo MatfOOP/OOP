@@ -10,11 +10,11 @@ public class PickAnElementElegant
 	{
 		
 		final Optional<String> foundName = names.stream()
-				.filter( name -> name.startsWith( startingLetter ) ).findFirst();
+				.filter( ime -> ime.startsWith( startingLetter ) ).findFirst();
 				
-		System.out.println( String.format( "A name starting with %s: %s",
+		System.out.println( String.format( "A ime starting with %s: %s",
 				startingLetter,
-				foundName.orElse( "No name found" ) ) );
+				foundName.orElse( "No ime found" ) ) );
 	}
 	
 	public static void main( final String[] args )
@@ -25,10 +25,10 @@ public class PickAnElementElegant
 		System.out.println( "//" + "END:NAME_OUTPUT" );
 		
 		final Optional<String> foundName = Folks.friends.stream()
-				.filter( name -> name.startsWith( "N" ) ).findFirst();
+				.filter( ime -> ime.startsWith( "N" ) ).findFirst();
 				
 		System.out.println( "//" + "START:CLOSURE_OUTPUT" );
-		foundName.ifPresent( name -> System.out.println( "Hello " + name ) );
+		foundName.ifPresent( ime -> System.out.println( "Hello " + ime ) );
 		System.out.println( "//" + "END:CLOSURE_OUTPUT" );
 	}
 }

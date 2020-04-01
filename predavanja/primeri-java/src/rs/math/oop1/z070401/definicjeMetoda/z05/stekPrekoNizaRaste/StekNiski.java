@@ -32,7 +32,7 @@ class StekNiski {
 
    String pop() {
       if (vrhSteka == -1) {
-         System.out.println("Greska POP: Stek je prazan!");
+         System.out.println("Greska POP: StekNiski je prazan!");
          return "<nema>";
       }
       return elementi[vrhSteka--];

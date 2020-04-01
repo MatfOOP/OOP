@@ -8,13 +8,13 @@ public class PokreniKloniranje
 	{
 		try
 		{
-			Employee original = new Employee( "Jovan Petović", 50000 );
+			Zaposleni original = new Zaposleni( "Jovan Petović", 50000 );
 			original.setHireDay( 2000, 1, 1 );
-			Employee copy = original.clone();
+			Zaposleni copy = original.clone();
 			System.out.println( "Before changes" );
 			System.out.println( "original=" + original );
 			System.out.println( "copy=" + copy );
-			copy.raiseSalary( 10 );
+			copy.povecajPlatu( 10 );
 			copy.setHireDay( 2012, 12, 31 );
 			System.out.println( "After changes" );
 			System.out.println( "original=" + original );
@@ -27,23 +27,23 @@ public class PokreniKloniranje
 	}
 }
 
-class Employee implements Cloneable
+class Zaposleni implements Cloneable
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	private Date hireDay;
 
-	public Employee( String n, double s )
+	public Zaposleni( String n, double s )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 		hireDay = new Date();
 	}
 	
 	@Override
-	public Employee clone() throws CloneNotSupportedException
+	public Zaposleni clone() throws CloneNotSupportedException
 	{
-		Employee cloned = (Employee) super.clone();
+		Zaposleni cloned = (Zaposleni) super.clone();
 		return cloned;
 	}
 	
@@ -54,15 +54,15 @@ class Employee implements Cloneable
 		hireDay.setTime( newHireDay.getTime() );
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 	public String toString()
 	{
-		return "Employee[name=" + name + ",salary=" + salary + ",hireDay="
+		return "Zaposleni[ime=" + ime + ",plata=" + plata + ",hireDay="
 				+ hireDay + "]";
 	}
 	

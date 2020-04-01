@@ -4,31 +4,31 @@ public class SmrtonosniZagrljaj
 {
 	static class Japanac
 	{
-		private final String name;
+		private final String ime;
 		
-		public Japanac( String name )
+		public Japanac( String ime )
 		{
-			this.name = name;
+			this.ime = ime;
 		}
 		
-		public String getName()
+		public String getIme()
 		{
-			return this.name;
+			return this.ime;
 		}
 		
 		public synchronized void nakloniSe( Japanac kolega )
 		{
 			System.out.format( "%s: %s" + "  se naklonio!%n",
-					this.name,
-					kolega.getName() );
+					this.ime,
+					kolega.getIme() );
 			kolega.uzvratiNaklon( this );
 		}
 		
 		public synchronized void uzvratiNaklon( Japanac kolega )
 		{
 			System.out.format( "%s: %s" + " je uzvratio naklon!%n",
-					this.name,
-					kolega.getName() );
+					this.ime,
+					kolega.getIme() );
 		}
 	}
 	

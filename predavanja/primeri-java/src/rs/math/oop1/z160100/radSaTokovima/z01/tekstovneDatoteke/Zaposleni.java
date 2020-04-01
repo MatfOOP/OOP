@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Zaposleni
 {
-  private String name;
-  private double salary;
+  private String ime;
+  private double plata;
   private Date hireDay;
 
   public Zaposleni()
@@ -18,20 +18,20 @@ public class Zaposleni
 
   public Zaposleni(String n, double s, int godina, int mesec, int dan)
   {
-     name = n;
-     salary = s;
+     ime = n;
+     plata = s;
      GregorianCalendar calendar = new GregorianCalendar(godina, mesec - 1, dan);
      hireDay = calendar.getTime();
   }
 
-  public String getName()
+  public String getIme()
   {
-     return name;
+     return ime;
   }
 
-  public double getSalary()
+  public double getPlata()
   {
-     return salary;
+     return plata;
   }
 
   public Date getHireDay()
@@ -39,15 +39,15 @@ public class Zaposleni
      return hireDay;
   }
 
-  public void raiseSalary(double byPercent)
+  public void povecajPlatu(double zaProcenat)
   {
-     double raise = salary * byPercent / 100;
-     salary += raise;
+     double iznosPovisice = plata * zaProcenat / 100;
+     plata += iznosPovisice;
   }
 
   public String toString()
   {
-     return getClass().getName() + "[name=" + name + ",salary=" + salary + ",hireDay=" + hireDay
+     return getClass().getName() + "[ime=" + ime + ",plata=" + plata + ",hireDay=" + hireDay
            + "]";
   }
 
@@ -56,7 +56,7 @@ public class Zaposleni
   {
      GregorianCalendar calendar = new GregorianCalendar();
      calendar.setTime(hireDay);
-     out.println(name + "|" + salary + "|" + calendar.get(Calendar.YEAR) + "|"
+     out.println(ime + "|" + plata + "|" + calendar.get(Calendar.YEAR) + "|"
            + (calendar.get(Calendar.MONTH) + 1) + "|" + calendar.get(Calendar.DAY_OF_MONTH));
   }
 
@@ -64,8 +64,8 @@ public class Zaposleni
   {
      String line = in.nextLine();
      String[] tokens = line.split("\\|");
-     name = tokens[0];
-     salary = Double.parseDouble(tokens[1]);
+     ime = tokens[0];
+     plata = Double.parseDouble(tokens[1]);
      int y = Integer.parseInt(tokens[2]);
      int m = Integer.parseInt(tokens[3]);
      int d = Integer.parseInt(tokens[4]);

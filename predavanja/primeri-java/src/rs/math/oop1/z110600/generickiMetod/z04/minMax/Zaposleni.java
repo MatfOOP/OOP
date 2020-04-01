@@ -2,29 +2,29 @@ package rs.math.oop1.z110600.generickiMetod.z04.minMax;
 
 public class Zaposleni
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	
 	public Zaposleni( String n, double s )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 }

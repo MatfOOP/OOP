@@ -3,39 +3,39 @@ package rs.math.oop1.z080302.visekriterijumskoUredjenje.z02.zaposleni;
 
 public class Zaposleni implements Comparable
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	
 	public Zaposleni( String n, double s )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 	public int compareTo( Object o )
 	{
 		if (!(o instanceof Zaposleni))
 			return -1;
-		Zaposleni other = (Zaposleni) o;
-		if (salary < other.salary)
+		Zaposleni drugi = (Zaposleni) o;
+		if (plata < drugi.plata)
 			return 1;
-		if (salary > other.salary)
+		if (plata > drugi.plata)
 			return -1;
 		return 0;
 	}

@@ -5,28 +5,28 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-class Employee
+class Zaposleni
 {
-	private String name;
-	private double salary;
+	private String ime;
+	private double plata;
 	private Date hireDay;
 	
-	public Employee( String n, double s, int godina, int mesec, int dan )
+	public Zaposleni( String n, double s, int godina, int mesec, int dan )
 	{
-		name = n;
-		salary = s;
+		ime = n;
+		plata = s;
 		GregorianCalendar calendar = new GregorianCalendar( godina, mesec - 1, dan );
 		hireDay = calendar.getTime();
 	}
 	
-	public String getName()
+	public String getIme()
 	{
-		return name;
+		return ime;
 	}
 	
-	public double getSalary()
+	public double getPlata()
 	{
-		return salary;
+		return plata;
 	}
 	
 	public Date getHireDay()
@@ -34,23 +34,23 @@ class Employee
 		return hireDay;
 	}
 	
-	public void raiseSalary( double byPercent )
+	public void povecajPlatu( double zaProcenat )
 	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
+		double iznosPovisice = plata * zaProcenat / 100;
+		plata += iznosPovisice;
 	}
 	
 	@Override
 	public String toString()
 	{
-		return "(" + name + ":" + hireDay + ":" + salary + ")";
+		return "(" + ime + ":" + hireDay + ":" + plata + ")";
 	}
 	
 	@Override 
 	public int hashCode()
 	{
-		return 3 * name.hashCode()+ 5 * hireDay.hashCode() 
-				+ 7 *  new Double( salary).hashCode();				
+		return 3 * ime.hashCode()+ 5 * hireDay.hashCode()
+				+ 7 *  new Double( plata).hashCode();
 	}
 }
 
@@ -59,23 +59,23 @@ public class ArrayListTest
 	
 	public static void main( String[] args )
 	{
-		// fill the staff array list with three Employee objects
-		Collection<Employee> staff = new ArrayList<Employee>();
+		// fill the osoblje array list with three Zaposleni objects
+		Collection<Zaposleni> osoblje = new ArrayList<Zaposleni>();
 		
-		staff.add( new Employee( "Carl Cracker", 75000, 1987, 12, 15 ) );
-		staff.add( new Employee( "Harry Hacker", 50000, 1989, 10, 1 ) );
-		staff.add( new Employee( "Tony Tester", 40000, 1990, 3, 15 ) );
+		osoblje.add( new Zaposleni( "Carl Cracker", 75000, 1987, 12, 15 ) );
+		osoblje.add( new Zaposleni( "Harry Hacker", 50000, 1989, 10, 1 ) );
+		osoblje.add( new Zaposleni( "Tony Tester", 40000, 1990, 3, 15 ) );
 		
-		// raise everyone's salary by 5%
-		for (Employee e : staff)
-			e.raiseSalary( 5 );
+		// iznosPovisice everyone's plata by 5%
+		for (Zaposleni e : osoblje)
+			e.povecajPlatu( 5 );
 		
-		// print out information about all Employee objects
-//		for (Employee e : staff)
-//			System.out.println( "name=" + e.getIme() + ",salary=" + e.getPlata()
+		// print out information about all Zaposleni objects
+//		for (Zaposleni e : osoblje)
+//			System.out.println( "ime=" + e.getIme() + ",plata=" + e.getPlata()
 //					+ ",hireDay=" + e.getHireDay() );
 		
-		System.out.println(staff);
+		System.out.println(osoblje);
     
 //		ArrayList<Integer> a = new ArrayList<>();
 //		for( int i=0; i <1_000; i++)

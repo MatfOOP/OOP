@@ -1,6 +1,6 @@
 package rs.math.oop1.z170100.binarnaSerijalizacija.z01.koriscenje;
 
-public class Manager extends Employee
+public class Manager extends Zaposleni
 {
 	public Manager( String n, double s, int godina, int mesec, int dan )
 	{
@@ -8,7 +8,7 @@ public class Manager extends Employee
 		secretary = null;
 	}
 	
-	public void setSecretary( Employee s )
+	public void setSecretary( Zaposleni s )
 	{
 		secretary = s;
 	}
@@ -18,6 +18,6 @@ public class Manager extends Employee
 		return super.toString() + "[secretary=" + secretary + "]";
 	}
 	
-	private Employee secretary;
+	private Zaposleni secretary;
 }
 

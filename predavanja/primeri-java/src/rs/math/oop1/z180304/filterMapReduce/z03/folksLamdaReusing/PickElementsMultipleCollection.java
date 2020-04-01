@@ -11,13 +11,13 @@ public class PickElementsMultipleCollection
 	{
 		{
 			final long countFriendsStartN = friends.stream()
-					.filter( name -> name.startsWith( "N" ) ).count();
+					.filter( ime -> ime.startsWith( "N" ) ).count();
 					
 			final long countEditorsStartN = editors.stream()
-					.filter( name -> name.startsWith( "N" ) ).count();
+					.filter( ime -> ime.startsWith( "N" ) ).count();
 					
 			final long countComradesStartN = comrades.stream()
-					.filter( name -> name.startsWith( "N" ) ).count();
+					.filter( ime -> ime.startsWith( "N" ) ).count();
 					
 			System.out.println( countFriendsStartN );
 			System.out.println( countComradesStartN );
@@ -25,7 +25,7 @@ public class PickElementsMultipleCollection
 		}
 		
 		{
-			final Predicate<String> startsWithN = name -> name.startsWith( "N" );
+			final Predicate<String> startsWithN = ime -> ime.startsWith( "N" );
 			
 			final long countFriendsStartN = friends.stream().filter( startsWithN )
 					.count();

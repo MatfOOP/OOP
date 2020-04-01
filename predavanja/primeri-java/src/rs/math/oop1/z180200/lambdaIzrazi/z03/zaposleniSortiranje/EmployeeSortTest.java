@@ -4,25 +4,25 @@ import java.util.*;
 
 public class EmployeeSortTest {
     public static void main(String[] args) {
-        Employee[] staff = new Employee[4];
+        Zaposleni[] osoblje = new Zaposleni[4];
 
-        staff[0] = new Employee("Harry Hacker", 35000);
-        staff[1] = new Employee("Carl Cracker", 75000);
-        staff[2] = new Employee("Tony Tester", 38000);
-        staff[3] = new Employee("Johnny Bravo", 18000);
+        osoblje[0] = new Zaposleni("Harry Hacker", 35000);
+        osoblje[1] = new Zaposleni("Carl Cracker", 75000);
+        osoblje[2] = new Zaposleni("Tony Tester", 38000);
+        osoblje[3] = new Zaposleni("Johnny Bravo", 18000);
 
         System.out.println("-Pre sortiranja-");
-        for (Employee e : staff)
-            System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+        for (Zaposleni e : osoblje)
+            System.out.println("ime=" + e.getIme() + ",plata=" + e.getPlata());
 
         System.out.println("-Po imenu-");
-        Arrays.sort(staff, (x, y) -> x.getName().compareTo(y.getName()));
-        for (Employee e : staff)
-            System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+        Arrays.sort(osoblje, (x, y) -> x.getIme().compareTo(y.getIme()));
+        for (Zaposleni e : osoblje)
+            System.out.println("ime=" + e.getIme() + ",plata=" + e.getPlata());
 
         System.out.println("-Po plati-");
-        Arrays.sort(staff, (x, y) -> (int) (x.getSalary() - y.getSalary()));
-        for (Employee e : staff)
-            System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+        Arrays.sort(osoblje, (x, y) -> (int) (x.getPlata() - y.getPlata()));
+        for (Zaposleni e : osoblje)
+            System.out.println("ime=" + e.getIme() + ",plata=" + e.getPlata());
     }
 }

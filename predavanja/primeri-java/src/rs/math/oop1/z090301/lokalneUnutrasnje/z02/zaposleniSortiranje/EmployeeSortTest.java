@@ -6,20 +6,20 @@ public class EmployeeSortTest
 {
 	public static void main( String[] args )
 	{
-		Employee[] staff = new Employee[4];
+		Zaposleni[] osoblje = new Zaposleni[4];
 		
-		staff[0] = new Employee( "Harry Hacker", 35000 );
-		staff[1] = new Employee( "Carl Cracker", 75000 );
-		staff[2] = new Employee( "Tony Tester", 38000 );
-		staff[3] = new Employee( "Johnny Bravo", 35000 );
+		osoblje[0] = new Zaposleni( "Harry Hacker", 35000 );
+		osoblje[1] = new Zaposleni( "Carl Cracker", 75000 );
+		osoblje[2] = new Zaposleni( "Tony Tester", 38000 );
+		osoblje[3] = new Zaposleni( "Johnny Bravo", 35000 );
 		
 		System.out.println( "-Pre sortiranja-" );
-		for (Employee e : staff)
+		for (Zaposleni e : osoblje)
 			System.out.println( e );
 
 		System.out.println( "-Podrazumevano-" );
-		Arrays.sort( staff );
-		for (Employee e : staff)
+		Arrays.sort( osoblje );
+		for (Zaposleni e : osoblje)
 			System.out.println( e );
 
 		System.out.println( "-Po imenu-" );		
@@ -28,17 +28,17 @@ public class EmployeeSortTest
 			@Override
 			public int compare( Object o1, Object o2 )
 			{
-				if( !(o1 instanceof Employee) )
+				if( !(o1 instanceof Zaposleni) )
 					return 1;
-				if( !(o2 instanceof Employee) )
+				if( !(o2 instanceof Zaposleni) )
 					return -1;
-				Employee e1 = (Employee) o1;
-				Employee e2 = (Employee) o2;
-				return e1.getName().compareTo( e2.getName() );
+				Zaposleni e1 = (Zaposleni) o1;
+				Zaposleni e2 = (Zaposleni) o2;
+				return e1.getIme().compareTo( e2.getIme() );
 			}
 		}
-		Arrays.sort( staff, new EmployeeNameComparator() );
-		for (Employee e : staff)
+		Arrays.sort( osoblje, new EmployeeNameComparator() );
+		for (Zaposleni e : osoblje)
 			System.out.println( e );
 		
 		System.out.println( "-Po imenu obratno-" );
@@ -47,17 +47,17 @@ public class EmployeeSortTest
 			@Override
 			public int compare( Object o1, Object o2 )
 			{
-				if( !(o1 instanceof Employee) )
+				if( !(o1 instanceof Zaposleni) )
 					return 1;
-				if( !(o2 instanceof Employee) )
+				if( !(o2 instanceof Zaposleni) )
 					return -1;
-				Employee e1 = (Employee) o1;
-				Employee e2 = (Employee) o2;
-				return e2.getName().compareTo( e1.getName() );
+				Zaposleni e1 = (Zaposleni) o1;
+				Zaposleni e2 = (Zaposleni) o2;
+				return e2.getIme().compareTo( e1.getIme() );
 			}
 		}
-		Arrays.sort( staff, new EmployeeNameReverseComparator() );
-		for (Employee e : staff)
+		Arrays.sort( osoblje, new EmployeeNameReverseComparator() );
+		for (Zaposleni e : osoblje)
 			System.out.println( e );
 		
 	}

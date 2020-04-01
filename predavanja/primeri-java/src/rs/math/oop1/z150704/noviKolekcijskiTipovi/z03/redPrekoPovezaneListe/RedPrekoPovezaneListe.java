@@ -17,7 +17,7 @@ public class RedPrekoPovezaneListe<T> extends AbstractQueue<T> {
 	    sledeci = null; // Set next as end point
 	}
 
-	// Return class name & object
+	// Return class ime & object
 	public String toString() {
 	    return "Elemenat liste: " + vrednost;
 	}

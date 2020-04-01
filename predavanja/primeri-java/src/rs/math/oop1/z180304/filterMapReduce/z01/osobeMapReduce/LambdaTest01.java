@@ -13,7 +13,7 @@ public class LambdaTest01 {
 
         System.out.println(System.lineSeparator() + "2.---");
         Person.LJUDI.stream().filter(x -> (x.gender == Person.Sex.MALE))
-                .map(y -> y.name.length())
+                .map(y -> y.ime.length())
                 .forEach(i -> System.out.print(i + " "));
 
         System.out.println(System.lineSeparator() + "3.---");

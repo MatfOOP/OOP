@@ -9,7 +9,7 @@
  
  */
 
-package rs.math.oop1.z080201.interfejsi.z04.stek;
+package rs.math.oop1.z080204.interfejsi.z04.stek;
 
 public class StekNiskiPrekoNizaSamorastuci implements StekNiski {
 

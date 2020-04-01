@@ -37,6 +37,7 @@ class Student extends Covek
     this.godinaStudija = godinaStudija;
   }
 
+  @Override
   public void predstaviSe()
   {
     System.out.println("Student: " 

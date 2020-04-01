@@ -15,19 +15,22 @@ public class StekNiskiPrekoPovezaneListe extends StekNiski {
 
    private PovezanaListaNiski elementi = new PovezanaListaNiski();
 
+   @Override
    public void push(String elem) {
       elementi.dodajElemenatNaPocetak(elem);
    }
 
+   @Override
    public String pop() {
       String elem = elementi.ukloniElemenatSaPocetka();
       if (elem == null) {
-         System.out.println("Greska POP: Stek je prazan!");
+         System.out.println("Greska POP: StekNiski je prazan!");
          return "<nema>";
       }
       return elem;
    }
 
+   @Override
    public int brojElemenata() {
       return elementi.broj();
    }

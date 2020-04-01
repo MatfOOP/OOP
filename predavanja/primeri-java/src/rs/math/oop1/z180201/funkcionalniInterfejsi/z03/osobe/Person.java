@@ -27,11 +27,11 @@ public class Person
 				"duffy.duck@wb.com" ) );
 	}
 	
-	public Person( String name, LocalDate birthday, Sex gender,
+	public Person( String ime, LocalDate birthday, Sex gender,
 			String emailAddress )
 	{
 		super();
-		this.name = name;
+		this.ime = ime;
 		this.birthday = birthday;
 		this.gender = gender;
 		this.emailAddress = emailAddress;
@@ -42,7 +42,7 @@ public class Person
 		MALE, FEMALE
 	}
 	
-	String name;
+	String ime;
 	LocalDate birthday;
 	Sex gender;
 	String emailAddress;
@@ -55,7 +55,7 @@ public class Person
 	@Override
 	public String toString()
 	{
-		return name + " " + gender + " " + birthday + " " +  getAge() + " "  + emailAddress;
+		return ime + " " + gender + " " + birthday + " " +  getAge() + " "  + emailAddress;
 	}
 	
 	public void printPerson()

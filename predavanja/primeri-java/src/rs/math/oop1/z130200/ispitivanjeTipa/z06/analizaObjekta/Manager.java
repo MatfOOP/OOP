@@ -1,6 +1,6 @@
 package rs.math.oop1.z130200.ispitivanjeTipa.z06.analizaObjekta;
 
-public class Manager extends Employee
+public class Manager extends Zaposleni
 {
   double bonus;
 	

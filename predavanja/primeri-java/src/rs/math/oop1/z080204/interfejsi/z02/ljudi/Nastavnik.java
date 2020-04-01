@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z02.ljudi;
+package rs.math.oop1.z080204.interfejsi.z02.ljudi;
 
 class Nastavnik extends Covek implements Deskripcija, Kvalitet {
    private String predmet;
@@ -14,8 +14,8 @@ class Nastavnik extends Covek implements Deskripcija, Kvalitet {
    public String toString() {
       return "" +
             super.toString() +
-            ", predmet='" + predmet + '\'' +
-            ", godinaStaza=" + godinaStaza +
+            ", predmet: '" + predmet + '\'' +
+            ", godina staza: " + godinaStaza +
             "";
    }
 

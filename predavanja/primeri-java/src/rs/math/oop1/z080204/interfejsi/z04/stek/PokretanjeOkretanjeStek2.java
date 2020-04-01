@@ -14,24 +14,22 @@
  
  */
 
-// Задатак илуструје превазилажење метода toString.
-// Задатак илуструје коришћење анотације @Override.
+// Задатак илуструје наслеђивање, полиморфизам и концепт сакривања информација.
 
-package rs.math.oop1.z070502.prevazilazenje.z04.stek;
+package rs.math.oop1.z080204.interfejsi.z04.stek;
 
-public class PokretanjeOkretanjeStek {
+import java.util.Scanner;
+
+public class PokretanjeOkretanjeStek2 {
 
    public static void main(String[] args) {
-      String[] sekvenca =
-      { "jedan", "2", "tri", "4", "pet" };
-      for (String s : sekvenca)
-         System.out.printf("%s\t", s);
-      System.out.println();
-      //StekNiski stek = new StekNiskiPrekoPovezaneListe();
-      Stek stek = new StekNiskiPrekoNiza();
-      for (String s : sekvenca)
-         stek.push(s);
-      System.out.println("StekNiski: " + stek);
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
+      StekNiski stek = new StekNiskiPrekoNizaSamorastuci();
+      while (sc.hasNext())
+         stek.push(sc.next());
+      System.out.println("Broj elemenata na steku: "
+               + stek.brojElemenata());
       while (stek.brojElemenata() > 0)
          System.out.printf("%s\t", stek.pop());
       System.out.println();

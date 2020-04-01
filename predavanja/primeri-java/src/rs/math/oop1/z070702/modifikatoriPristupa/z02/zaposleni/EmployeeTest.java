@@ -3,59 +3,59 @@ package rs.math.oop1.z070702.modifikatoriPristupa.z02.zaposleni;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-class Employee {
-   private String name;
-   private double salary;
+class Zaposleni {
+   private String ime;
+   private double plata;
    private Date hireDay;
 
-   public Employee(String n, double s, int godina, int mesec, int dan) {
-      name = n;
-      salary = s;
+   public Zaposleni(String n, double s, int godina, int mesec, int dan) {
+      ime = n;
+      plata = s;
       GregorianCalendar calendar = new GregorianCalendar(godina, mesec - 1, dan);
       // GregorianCalendar uses 0 for January
       hireDay = calendar.getTime();
    }
 
-   public String getName() {
+   public String getIme() {
 
-      return name;
+      return ime;
    }
 
-   public double getSalary() {
-      return salary;
+   public double getPlata() {
+      return plata;
    }
 
    public Date getHireDay() {
       return hireDay;
    }
 
-   public void raiseSalary(double byPercent) {
-      double raise = salary * byPercent / 100;
-      salary += raise;
+   public void povecajPlatu(double zaProcenat) {
+      double iznosPovisice = plata * zaProcenat / 100;
+      plata += iznosPovisice;
    }
 }
 
 public class EmployeeTest {
    public static void main(String[] args) {
-      // fill the staff array with three Employee objects
-      Employee[] staff = new Employee[3];
+      // fill the osoblje array with three Zaposleni objects
+      Zaposleni[] osoblje = new Zaposleni[3];
 
-      staff[0] = new Employee("Carl Cracker", 75000, 2007, 12, 15);
-      staff[1] = new Employee("Harry Hacker", 50000, 2009, 10, 1);
-      staff[2] = new Employee("Tony Tester", 40000, 2010, 3, 15);
+      osoblje[0] = new Zaposleni("Carl Cracker", 75000, 2007, 12, 15);
+      osoblje[1] = new Zaposleni("Harry Hacker", 50000, 2009, 10, 1);
+      osoblje[2] = new Zaposleni("Tony Tester", 40000, 2010, 3, 15);
 
-      System.out.println("Before salary raise");
-      for (Employee e : staff) {
-         System.out.println("name=" + e.getName() + ",salary=" + e.getSalary()
+      System.out.println("Before plata iznosPovisice");
+      for (Zaposleni e : osoblje) {
+         System.out.println("ime=" + e.getIme() + ",plata=" + e.getPlata()
                + ",hireDay=" + e.getHireDay());
       }
 
-      for (Employee e : staff)
-         e.raiseSalary(5);
+      for (Zaposleni e : osoblje)
+         e.povecajPlatu(5);
 
-      System.out.println("After salary raise");
-      for (Employee e : staff) {
-         System.out.println("name=" + e.getName() + ",salary=" + e.getSalary()
+      System.out.println("After plata iznosPovisice");
+      for (Zaposleni e : osoblje) {
+         System.out.println("ime=" + e.getIme() + ",plata=" + e.getPlata()
                + ",hireDay=" + e.getHireDay());
       }
    }

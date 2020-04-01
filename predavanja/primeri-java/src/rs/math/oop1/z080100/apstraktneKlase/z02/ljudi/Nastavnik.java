@@ -33,12 +33,6 @@ class Nastavnik extends Covek {
       this.godinaStaza = godinaStaza;
    }
 
-   public void predstaviSe() {
-      System.out.println("Nastavnik: "
-            + getIme() + " " + getPrezime() + " "
-            + predmet + " " + godinaStaza + ".");
-   }
-
    public void ucitajSe(Scanner ulaz) {
       System.out.println("Informacije o nastavniku");
       System.out.print("Ime: ");
@@ -50,4 +44,12 @@ class Nastavnik extends Covek {
       System.out.print("Staz: ");
       setGodinaStaza(ulaz.nextInt());
    }
+
+   @Override
+   public void predstaviSe() {
+      System.out.println("Nastavnik: "
+            + getIme() + " " + getPrezime() + " "
+            + predmet + " " + godinaStaza + ".");
+   }
+
 }
