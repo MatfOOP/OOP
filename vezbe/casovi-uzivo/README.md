@@ -16,8 +16,8 @@
     - [други час](https://us04web.zoom.us/j/458315776?pwd=UG5VejZFcWRiakRyOGVuNU4zaDVpUT09), Meeting ID: 458-315-776
     - лозинка за све: `izuzetak`
   - Немања: 01.04. (среда) у 18:00 
-    - [први час](https://us04web.zoom.us/j/193365110?pwd=QnZ3Rlpnd1ovd1hHSkVZeElmMVhuQT09), Meeting ID: 193-365-110
-    - [други час](https://us04web.zoom.us/j/480606883?pwd=dDkvSGNPMHQ1OFh6M3lpbDBneFNydz09), Meeting ID: 480-606-883
+    - [први час](https://us04web.zoom.us/j/708231658?pwd=Wk9aa3B0N0JQbUJFTC9XcE5NU1AyUT09), Meeting ID: 708-231-658
+    - [други час](https://us04web.zoom.us/j/224400695?pwd=cWVKeGdzL2tCOFRuMzhLd09IcmxVQT09), Meeting ID: 224-400-695
     - лозинка за све: `matfoop`
 
 
