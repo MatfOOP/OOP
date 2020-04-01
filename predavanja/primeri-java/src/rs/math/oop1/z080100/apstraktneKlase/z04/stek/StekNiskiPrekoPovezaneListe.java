@@ -13,7 +13,7 @@ package rs.math.oop1.z080100.apstraktneKlase.z04.stek;
 
 public class StekNiskiPrekoListe extends StekNiski {
 
-   private PovezanaLista elementi = new PovezanaLista();
+   private PovezanaListaNiski elementi = new PovezanaListaNiski();
 
    public void push(String elem) {
       elementi.dodajElemenatNaPocetak(elem);

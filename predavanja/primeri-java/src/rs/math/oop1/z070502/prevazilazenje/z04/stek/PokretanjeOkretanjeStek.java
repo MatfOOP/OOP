@@ -27,7 +27,7 @@ public class PokretanjeOkretanjeStek {
       for (String s : sekvenca)
          System.out.printf("%s\t", s);
       System.out.println();
-      //Stek stek = new StekNiskiPrekoListe();
+      //Stek stek = new StekNiskiPrekoPovezaneListe();
       Stek stek = new StekNiskiPrekoNiza();
       for (String s : sekvenca)
          stek.push(s);
