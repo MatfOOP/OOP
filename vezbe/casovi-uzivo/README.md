@@ -40,14 +40,15 @@
 ---
 
 ## Снимци одржаних часова вежби
-- Тема: Изузеци и клонирање
-  - [Денис](https://youtu.be/NeNkABXWxfY)
-
-- Тема: Интерфејси
+- Час 6: Интерфејси
   - [Денис](https://youtu.be/yJid-lC8RUw) 
   - [Ања](https://youtu.be/rVcXIdKxfyo) 
   - [Немања](https://youtu.be/eEBMNy6TeQ0)
 
+- Час 7: Изузеци и клонирање
+  - [Денис](https://youtu.be/NeNkABXWxfY)
+  - [Ања](https://youtu.be/2tUoWWEGoA0) 
+  - [Немања](https://youtu.be/fL5qIcN7eGA)
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
