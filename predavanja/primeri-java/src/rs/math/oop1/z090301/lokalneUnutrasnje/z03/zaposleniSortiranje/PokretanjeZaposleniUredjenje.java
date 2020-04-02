@@ -2,7 +2,7 @@ package rs.math.oop1.z090301.lokalneUnutrasnje.z02.zaposleniSortiranje;
 
 import java.util.*;
 
-public class EmployeeSortTest
+public class PokretanjeZaposleniUredjenje
 {
 	public static void main( String[] args )
 	{
