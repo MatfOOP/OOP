@@ -5,7 +5,7 @@ package rs.math.oop1.z080401.polimorfizam.z03.ljudiApstraktno;
  * Program ilustruje polimorfizam sa apstraktnim klasama.
  * 
  */
-public class LjudiTest
+public class PokretanjeLjudi
 {
 	
 	public static void main( String[] args )

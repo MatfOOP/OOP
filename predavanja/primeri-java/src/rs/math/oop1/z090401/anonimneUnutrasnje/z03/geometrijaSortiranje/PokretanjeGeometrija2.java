@@ -3,7 +3,7 @@ package rs.math.oop1.z090401.anonimneUnutrasnje.z03.geometrijaSortiranje;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class GeometrijaTest2
+public class PokretanjeGeometrija2
 {
 	
 	/**

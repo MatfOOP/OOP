@@ -1,6 +1,6 @@
 package rs.math.oop1.z070602.klasniInicijalizacioniBlok.z01.tacke;
 
-public class InicBlokTest {
+public class PokretanjeTacke {
 
     public static void main(String[] args) {
 

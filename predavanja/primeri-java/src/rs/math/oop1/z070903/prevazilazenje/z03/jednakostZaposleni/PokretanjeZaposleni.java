@@ -1,6 +1,6 @@
 package rs.math.oop1.z070903.prevazilazenje.z03.jednakostZaposleni;
 
-public class PokreniEmployee {
+public class PokretanjeZaposleni {
     public static void main(String[] args) {
 
         Zaposleni e1 = new Zaposleni("Carl Cracker", 1, 75000);

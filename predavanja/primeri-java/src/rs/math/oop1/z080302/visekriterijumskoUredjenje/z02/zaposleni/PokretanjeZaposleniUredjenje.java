@@ -2,7 +2,7 @@ package rs.math.oop1.z080302.visekriterijumskoUredjenje.z02.zaposleni;
 
 import java.util.*;
 
-public class EmployeeSortTest
+public class PokretanjeZaposleniUredjenje
 {
 	public static void main( String[] args )
 	{
@@ -23,18 +23,18 @@ public class EmployeeSortTest
 			System.out.println( "ime=" + e.getIme() + ",plata=" + e.getPlata() );
 		
 		System.out.println( "-Po imenu-" );
-		Comparator c = new EmployeeNameComparator();
+		Comparator c = new ZaposleniImeComparator();
 		Arrays.sort( osoblje, c );
 		for (Zaposleni e : osoblje)
 			System.out.println( "ime=" + e.getIme() + ",plata=" + e.getPlata() );
 		
 		System.out.println( "-Po imenu obratno-" );
-		Arrays.sort( osoblje, new EmployeeNameReverseComparator() );
+		Arrays.sort( osoblje, new ZaposleniImeObratnoComparator() );
 		for (Zaposleni e : osoblje)
 			System.out.println( "ime=" + e.getIme() + ",plata=" + e.getPlata() );
 		
 		System.out.println( "-Po plati-" );
-		Arrays.sort( osoblje, new EmployeeSalaryComparator() );
+		Arrays.sort( osoblje, new ZaposleniPlataComparator() );
 		for (Zaposleni e : osoblje)
 			System.out.println( "ime=" + e.getIme() + ",plata=" + e.getPlata() );
 

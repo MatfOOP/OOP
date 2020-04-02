@@ -1,6 +1,6 @@
 package rs.math.oop1.z090101.nestatickeUgnjezdene.z01.koriscenje;
 
-public class Spoljsanja1Test
+public class PokretanjeSpoljsanja1
 {
 	
 	public static void main( String[] args )

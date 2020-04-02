@@ -3,7 +3,7 @@ package rs.math.oop1.z080302.visekriterijumskoUredjenje.z01.niske;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class StringCustomSort
+public class PokretanjeUredjenjeNiskiCustom
 {
 	
 	public static void main( String[] args )

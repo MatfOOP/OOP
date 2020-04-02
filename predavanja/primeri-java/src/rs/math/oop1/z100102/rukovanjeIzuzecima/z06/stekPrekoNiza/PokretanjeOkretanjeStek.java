@@ -27,7 +27,7 @@ public class PokretanjeOkretanjeStek {
       //System.out.println(
       //         "Unesi tekst(<Ctrl>+z ili <Ctrl>+d za kraj):");
       Scanner sc = new Scanner("Miki Maus Paja Patak Mini Maus" );
-      StekNiski stek = new StekNiskiPrekoNiza();
+      StekNiski stek = new StekNiskiPrekoNizaSamorastuci();
       while (sc.hasNext())
          stek.push(sc.next());
       System.out.println("Broj pročitanih reči: "

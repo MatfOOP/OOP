@@ -1,6 +1,6 @@
 package rs.math.oop1.z100102.rukovanjeIzuzecima.z02.koriscenje;
 
-public class PokreniTryCatch
+public class PokretanjeTryCatch
 {
 	public static void main( String[] args )
 	{

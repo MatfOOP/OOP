@@ -1,6 +1,6 @@
 package rs.math.oop1.z100102.rukovanjeIzuzecima.z01.koriscenje;
 
-public class PokreniTryFinally {
+public class PokretanjeTryFinally {
     public static void main(String[] args) {
         int i = 11;
         int j = 0;

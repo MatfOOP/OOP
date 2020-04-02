@@ -1,6 +1,6 @@
 package rs.math.oop1.z070502.prevazilazenje.z05.petShop;
 
-public class PetShopGlavni
+public class PokretanjePetShop
 {
 	
 	public static void main( String[] args )

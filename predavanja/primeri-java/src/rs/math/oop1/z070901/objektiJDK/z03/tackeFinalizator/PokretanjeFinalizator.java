@@ -1,6 +1,6 @@
 package rs.math.oop1.z070901.objektiJDK.z03.tackeFinalizator;
 
-public class FinalizatorTest
+public class PokretanjeFinalizator
 {
 	
 	public static void main( String[] args )

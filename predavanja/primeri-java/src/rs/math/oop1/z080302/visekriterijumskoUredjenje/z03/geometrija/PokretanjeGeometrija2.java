@@ -2,7 +2,7 @@ package rs.math.oop1.z080302.visekriterijumskoUredjenje.z03.geometrija;
 
 import java.util.Arrays;
 
-public class GeometrijaTest2
+public class PokretanjeGeometrija2
 {
 	
 	/**

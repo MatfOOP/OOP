@@ -1,7 +1,7 @@
 package rs.math.oop1.z090401.anonimneUnutrasnje.z03.geometrijaSortiranje;
 
 
-public class GeometrijaTest
+public class PokretanjeGeometrija
 {
 	
 	/**

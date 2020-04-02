@@ -30,7 +30,7 @@ class Zaposleni {
     }
 }
 
-public class EmployeeTest {
+public class PokretanjeZaposleni {
     public static void main(String[] args) {
 
         // fill the osoblje array with three Zaposleni objects

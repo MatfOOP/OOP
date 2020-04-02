@@ -13,7 +13,7 @@ public class P060701ArgumentiPromenljiveDuzineZ03FunkcijaPodeliPokretanje {
         return rez;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         prikazi(podeli(2, 3));
         prikazi(podeli(2, 3, 4));
         prikazi(podeli(2, 3, 4, 5));

@@ -1,6 +1,6 @@
 package rs.math.oop1.z080302.visekriterijumskoUredjenje.z03.geometrija;
 
-public class GeometrijaTest
+public class PokretanjeGeometrija
 {
 	
 	/**

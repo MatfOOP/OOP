@@ -11,7 +11,7 @@
 
 package rs.math.oop1.z100102.rukovanjeIzuzecima.z06.stekPrekoNiza;
 
-public class StekNiskiPrekoNiza extends StekNiski {
+public class StekNiskiPrekoNizaSamorastuci extends StekNiski {
 
     private String[] elementi;
     private int vrhSteka;

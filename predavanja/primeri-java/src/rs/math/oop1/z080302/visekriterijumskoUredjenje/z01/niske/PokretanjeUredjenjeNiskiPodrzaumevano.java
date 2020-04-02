@@ -2,7 +2,7 @@ package rs.math.oop1.z080302.visekriterijumskoUredjenje.z01.niske;
 
 import java.util.Arrays;
 
-public class StringDefaultSort
+public class PokretanjeUredjenjeNiskiPodrzaumevano
 {
 	
 	public static void main( String[] args )

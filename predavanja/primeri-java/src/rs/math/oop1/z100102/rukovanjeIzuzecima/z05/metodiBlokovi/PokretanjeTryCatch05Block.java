@@ -2,7 +2,7 @@ package rs.math.oop1.z100102.rukovanjeIzuzecima.z05.metodiBlokovi;
 
 import java.io.IOException;
 
-public class TestTryCatch05Block
+public class PokretanjeTryCatch05Block
 {
 	public static void main( String[] args )
 	{

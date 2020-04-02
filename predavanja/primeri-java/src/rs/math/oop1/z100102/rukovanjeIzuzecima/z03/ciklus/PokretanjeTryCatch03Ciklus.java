@@ -1,6 +1,6 @@
-package rs.math.oop1.z100102.rukovanjeIzuzecima.z03.petlja;
+package rs.math.oop1.z100102.rukovanjeIzuzecima.z03.ciklus;
 
-public class TestTryCatch03Loop
+public class PokretanjeTryCatch03Ciklus
 {
 	public static void main( String[] args )
 	{

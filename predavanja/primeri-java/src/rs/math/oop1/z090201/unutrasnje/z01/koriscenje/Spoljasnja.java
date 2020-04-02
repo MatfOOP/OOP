@@ -1,4 +1,4 @@
-package rs.math.oop1.z090102.unutrasnje.z01.koriscenje;
+package rs.math.oop1.z090201.unutrasnje.z01.koriscenje;
 
 public class Spoljasnja {
     private int j = 24;

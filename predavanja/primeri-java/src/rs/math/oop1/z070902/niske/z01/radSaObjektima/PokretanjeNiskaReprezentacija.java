@@ -28,7 +28,7 @@ class Zaposleni {
     }
 }
 
-public class RadSaObjektimaiNiske {
+public class PokretanjeNiskaReprezentacija {
 
     public static void main(String[] args) {
         Zaposleni miki = new Zaposleni("Miki Maus", 42_000);

@@ -1,6 +1,6 @@
 package rs.math.oop1.z070603.konstruktori.z10.duziRazvezani;
 
-public class GeometrijaTest
+public class PokretanjeGeometrija
 {
 	
 	/**

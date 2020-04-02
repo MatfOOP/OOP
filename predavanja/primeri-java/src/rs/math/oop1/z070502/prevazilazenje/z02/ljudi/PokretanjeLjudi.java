@@ -5,7 +5,7 @@ package rs.math.oop1.z070502.prevazilazenje.z02.ljudi;
  * Program ilustruje koncept enkapsulacije tj. učaurivanja podataka.
  *
  */
-public class LjudiMain
+public class PokretanjeLjudi
 {
 	
 	public static void main( String[] komandnaLinija )

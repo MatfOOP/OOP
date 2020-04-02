@@ -1,6 +1,6 @@
 package rs.math.oop1.z100101tipoviIzuzetaka.z01.nastanak;
 
-public class TestTryCatch00Without {
+public class PokretanjeBezHvatanjaIzuzetka {
     public static void main(String[] args) {
         int i = 11;
         int j = 0;

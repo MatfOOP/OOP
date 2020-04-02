@@ -2,7 +2,7 @@ package rs.math.oop1.z100103.izuzeciIzbacivanje.z05.matrice;
 
 import java.util.Scanner;
 
-public class PokreniSaberiOduzmi {
+public class PokretanjeSaberiOduzmi {
    private static boolean kontrolaDim(double[][] m) throws MatricaNePostojiException {
       if (m == null)
          throw new MatricaNePostojiException();
@@ -97,7 +97,7 @@ public class PokreniSaberiOduzmi {
 
    public static void main(String[] args) {
       try {
-         double[][] a = {{1, 2, 4}, {3, 4, 5}};
+         double[][] a = {{1, 2, 3}, {3, 4}};
          //a = ucitaj();
          System.out.println("A je: ");
          prikazi(a);
@@ -110,10 +110,10 @@ public class PokreniSaberiOduzmi {
          System.out.println("Razlika je: ");
          prikazi(oduzmi(a, b));
       } catch ( //NegativnaDimenzijaMatriceException |
-             NekompatibilneDimenzijeMatriceException |
-             MatricaNePostojiException |
-             DvodimenzionalniNizNijeMatricaException
-            e) {
+            NekompatibilneDimenzijeMatriceException |
+                  MatricaNePostojiException |
+                  DvodimenzionalniNizNijeMatricaException
+                  e) {
          System.out.println("Doslo je do greske " + e);
          e.printStackTrace();
       }

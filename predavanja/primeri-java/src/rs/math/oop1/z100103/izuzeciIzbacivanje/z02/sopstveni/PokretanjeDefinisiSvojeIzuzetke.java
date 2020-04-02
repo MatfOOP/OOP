@@ -2,7 +2,7 @@ package rs.math.oop1.z100103.izuzeciIzbacivanje.z02.sopstveni;
 
 import java.io.IOException;
 
-public class TestDefinisiSvojeIzuzetke
+public class PokretanjeDefinisiSvojeIzuzetke
 {
 	// Divide method
 	public static int podeli(int[] niz, int indeks) throws DeljenjeNulomException

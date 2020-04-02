@@ -2,7 +2,7 @@ package rs.math.oop1.z070903.prevazilazenje.z02.niskaReprezentacijaZaposleniMena
 
 import java.util.*;
 
-public class EMTest
+public class PokretanjeZaposleniMenadzeri
 {
 	public static void main( String[] args )
 	{

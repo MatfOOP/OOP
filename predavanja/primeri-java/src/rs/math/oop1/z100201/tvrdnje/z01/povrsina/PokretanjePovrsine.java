@@ -10,6 +10,7 @@ public class PokretanjePovrsine {
       return poluprecnik * poluprecnik * Math.PI;
    }
 
+   // program pokrenuti sa opcijom virtulene masine: –ea
    public static void main( String args[] )
    {
       System.out.print("Poluprecnik kruga: " );

@@ -2,7 +2,7 @@ package rs.math.oop1.z100103.izuzeciIzbacivanje.z01.sopstveni;
 
 import java.io.IOException;
 
-public class TryBlockTest
+public class PokretanjeTryBlock
 {
 	public static void main( String[] args )
 	{
