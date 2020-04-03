@@ -8,7 +8,7 @@ public class MapTest
    {
       Map<String, Zaposleni> osoblje = new HashMap<>();
       osoblje.put("144-25-5464", new Zaposleni("Amy Lee", 10));
-      osoblje.put("567-24-2546", new Zaposleni("Harry Hacker", 20));
+      osoblje.put("567-24-2546", new Zaposleni("Marko Markovic", 20));
       osoblje.put("157-62-7935", new Zaposleni("Gary Cooper", 100));
       osoblje.put("456-62-5527", new Zaposleni("Francesca Cruz"));
 

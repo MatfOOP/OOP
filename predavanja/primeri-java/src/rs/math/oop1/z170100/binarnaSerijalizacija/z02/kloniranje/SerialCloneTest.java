@@ -5,7 +5,7 @@ import java.util.*;
 
 public class SerialCloneTest {
     public static void main(String[] args) {
-        Zaposleni harry = new Zaposleni("Harry Hacker", 35000, 1989, 10, 1);
+        Zaposleni harry = new Zaposleni("Marko Markovic", 35000, 1989, 10, 1);
         // clone harry
         Zaposleni harry2 = (Zaposleni) harry.clone();
 

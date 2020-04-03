@@ -1,19 +1,28 @@
 package rs.math.oop1.z080501.dogadjaji.z02.koriscenje;
 
-import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Radnik implements SunceKretanjeOsluskivac {
    private String ime;
+   private int status = Status.SPAVANJE;
+
+   public Radnik(String ime, int status) {
+      this.ime = ime;
+      this.status = status;
+   }
 
    public Radnik(String ime) {
-      this.ime = ime;
+      this(ime, Status.SPAVANJE);
+   }
+
+   public void setStatus(int status) {
+      this.status = status;
    }
 
    @Override
    public String toString() {
-      return "Radnik '" + ime + "'" + "";
+      return String.format("Radnik '%s' (%s)", ime, Status.opis(status));
    }
 
    @Override
@@ -24,40 +33,70 @@ public class Radnik implements SunceKretanjeOsluskivac {
       System.out.printf("%s kaže: Sunce je dana %s %s u vreme %s. ",
             this, datumVreme.format(formatDatum),
             e.isIzaslo() ? "izaslo" : "zaslo", datumVreme.format(formatVreme));
-      DayOfWeek danUNedelji = datumVreme.getDayOfWeek();
-      System.out.printf(" %s - ", danUNedelji);
+      int danUNedelji = datumVreme.getDayOfWeek().getValue();
+      System.out.printf(" %s - ", DanUNedelji.opis(danUNedelji));
       switch (danUNedelji) {
-         case MONDAY:
-            if (e.isIzaslo())
-               System.out.printf("Pcinje rad u novoj radnoj nedelji :( \n");
-            if (e.isZaslo())
-               System.out.printf("Nekako sam pregurao prvi radni dan... \n");
+         case DanUNedelji.PONEDELJAK:
+            if (e.isIzaslo()) {
+               status = Status.RAD;
+               System.out.printf("Pcinje rad u novoj radnoj nedelji :( Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
+            if (e.isZaslo()) {
+               status = Status.SPAVANJE;
+               System.out.printf("Nekako sam pregurao prvi radni dan... Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
             break;
-         case TUESDAY:
-         case WEDNESDAY:
-         case THURSDAY:
-            if (e.isIzaslo())
-               System.out.printf("I danas treba uskoro da se pocne sa radom. \n");
-            if (e.isZaslo())
-               System.out.printf("Za danas sam zavrsio sa poslom... \n");
+         case DanUNedelji.UTORAK:
+         case DanUNedelji.SREDA:
+         case DanUNedelji.CETVRTAK:
+            if (e.isIzaslo()) {
+               status = Status.RAD;
+               System.out.printf("I danas treba uskoro da se pocne sa radom. Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
+            if (e.isZaslo()) {
+               status = Status.SPAVANJE;
+               System.out.printf("Za danas sam zavrsio sa poslom... Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
             break;
-         case FRIDAY:
-            if (e.isIzaslo())
-               System.out.printf("Sto bi petak bio lepsi da sutra nije subota radna. \n");
-            if (e.isZaslo())
-               System.out.printf("Kraj dansenjeg posla. Jos sutra pa gotovo. \n");
+         case DanUNedelji.PETAK:
+            if (e.isIzaslo()) {
+               status = Status.RAD;
+               System.out.printf("Sto bi petak bio lepsi da sutra nije subota radna. Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
+            if (e.isZaslo()) {
+               status = Status.SPAVANJE;
+               System.out.printf("Kraj dansenjeg posla. Jos sutra pa gotovo. Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
             break;
-         case SATURDAY:
-            if (e.isIzaslo())
-               System.out.printf("Mrzim radne subote! \n");
-            if (e.isZaslo())
-               System.out.printf("Kraj subotnjeg posla. Slobodan sam! \n");
+         case DanUNedelji.SUBOTA:
+            if (e.isIzaslo()) {
+               status = Status.RAD;
+               System.out.printf("Mrzim radne subote! Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
+            if (e.isZaslo()) {
+               status = Status.SPAVANJE;
+               System.out.printf("Kraj subotnjeg posla. Slobodan sam!  Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
             break;
-         case SUNDAY:
-            if (e.isIzaslo())
-               System.out.printf("Sloboda!!! \n");
-            if (e.isZaslo())
-               System.out.printf("Jos malo, pa ponovo na posao :( \n");
+         case DanUNedelji.NEDELJA:
+            if (e.isIzaslo()) {
+               status = Status.ODMOR;
+               System.out.printf("Sloboda!!! Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
+            if (e.isZaslo()) {
+               status = Status.SPAVANJE;
+               System.out.printf("Jos malo, pa ponovo na posao :(  Moj novi status: %s. \n",
+                     Status.opis(status));
+            }
             break;
          default:
             System.out.printf("Ovo nikad ne bi smelo da se pojavi");

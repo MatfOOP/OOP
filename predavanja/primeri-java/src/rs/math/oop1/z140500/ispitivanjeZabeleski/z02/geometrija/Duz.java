@@ -9,7 +9,7 @@ import java.awt.Graphics;
 	   lastModified = "4/12/2014",
 	   lastModifiedBy = "Marija Milanovic",
 	   // Note array notation
-	   reviewers = {"Marko Markovic", "Janko Jankovic", "Petar Petrovic"}
+	   reviewers = {"Marko Markovic", "Janko Jankovic", "Janko Jankovic"}
 	)
 public class Duz extends GeometrijskiObjekat implements Prikaz
 {

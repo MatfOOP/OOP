@@ -7,7 +7,7 @@ public class MapTest2 {
         SortedMap<String, Employee2> osoblje = new TreeMap<>();
         osoblje.put("927-25-5464", new Employee2("Miki Maus", 10));
         osoblje.put("144-25-5464", new Employee2("Amy Lee", 10));
-        osoblje.put("567-24-2546", new Employee2("Harry Hacker", 20));
+        osoblje.put("567-24-2546", new Employee2("Marko Markovic", 20));
         osoblje.put("157-62-7935", new Employee2("Gary Cooper", 100));
         osoblje.put("456-62-5527", new Employee2("Francesca Cruz"));
 

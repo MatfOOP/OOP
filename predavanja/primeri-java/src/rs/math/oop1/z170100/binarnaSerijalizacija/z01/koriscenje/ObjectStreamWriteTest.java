@@ -7,8 +7,8 @@ class ObjectStreamWriteTest
 {
 	public static void main( String[] args )
 	{
-		Zaposleni harry = new Zaposleni( "Harry Hacker", 50000, 1989, 10, 1 );
-		Manager carl = new Manager( "Carl Cracker", 80000, 1987, 12, 15 );
+		Zaposleni harry = new Zaposleni( "Marko Markovic", 50000, 1989, 10, 1 );
+		Manager carl = new Manager( "Janko Jankovic", 80000, 1987, 12, 15 );
 		carl.setSecretary( harry );
 		Manager tony = new Manager( "Tony Tester", 40000, 1990, 3, 15 );
 		tony.setSecretary( harry );

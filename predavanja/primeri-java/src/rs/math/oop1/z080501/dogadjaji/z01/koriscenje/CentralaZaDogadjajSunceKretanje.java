@@ -10,14 +10,14 @@ import java.util.EventListener;
  * osmataju kretanje sunca.
  * Ona omogucava i registraciju i deregistraciju slusalaca dogadjaja.
  */
-public class CentralaZaDogadjaje {
+public class CentralaZaDogadjajSunceKretanje {
    private transient EventListener[] osluskivaci = new EventListener[1000];
    private int brojOsluskivaca = 0;
 
    /**
     * Konstruktor
     */
-   public CentralaZaDogadjaje() {
+   public CentralaZaDogadjajSunceKretanje() {
    }
 
    /**

@@ -36,8 +36,8 @@ public class PokretanjeZaposleni {
         // fill the osoblje array with three Zaposleni objects
         if (1 > 0) {
             Zaposleni[] osoblje = new Zaposleni[3];
-            osoblje[0] = new Zaposleni("Carl Cracker", 1, 75000);
-            osoblje[1] = new Zaposleni("Harry Hacker", 2, 50000);
+            osoblje[0] = new Zaposleni("Janko Jankovic", 1, 75000);
+            osoblje[1] = new Zaposleni("Marko Markovic", 2, 50000);
             osoblje[2] = new Zaposleni("Tony Tester", 3, 40000);
             for (Zaposleni e : osoblje)
                 System.out.println(e);
@@ -45,8 +45,8 @@ public class PokretanjeZaposleni {
         System.gc();
         for (int i = 0; i < 10_000; i += 3) {
             Zaposleni[] osoblje = new Zaposleni[3];
-            osoblje[0] = new Zaposleni("Carl Cracker", i, 75000);
-            osoblje[1] = new Zaposleni("Harry Hacker", i + 1, 50000);
+            osoblje[0] = new Zaposleni("Janko Jankovic", i, 75000);
+            osoblje[1] = new Zaposleni("Marko Markovic", i + 1, 50000);
             osoblje[2] = new Zaposleni("Tony Tester", i + 2, 40000);
             if (i % 300 == 0)
                 System.gc();

@@ -6,22 +6,29 @@ import java.time.format.DateTimeFormatter;
 public class Student implements SunceKretanjeOsluskivac {
    private String ime;
    private boolean naRaspustu;
+   private int status;
 
-   public Student(String ime, boolean naRaspustu) {
+   public Student(String ime, boolean naRaspustu, int status) {
       this.ime = ime;
       this.naRaspustu = naRaspustu;
+      this.status = status;
+   }
+
+   public Student(String ime, boolean naRaspustu) {
+      this(ime, naRaspustu, Status.SPAVANJE);
    }
 
    public Student(String ime) {
-      this( ime, false);
+      this(ime, false, Status.SPAVANJE);
+   }
+
+   public void setStatus(int status) {
+      this.status = status;
    }
 
    @Override
-   public String toString(){
-      if( naRaspustu)
-         return "Student '" + ime + "'" + "(na raspustu)";
-      else
-         return "Student '" + ime + "'" + "(studira)";
+   public String toString() {
+      return String.format("Student '%s' (%s)", ime, naRaspustu ? "na raspustu" : "studira");
    }
 
    @Override
@@ -31,17 +38,29 @@ public class Student implements SunceKretanjeOsluskivac {
       DateTimeFormatter formatVreme = DateTimeFormatter.ofPattern("HH:mm:ss");
       System.out.printf("%s kaže: Sunce je dana %s %s u vreme %s. ",
             this, datumVreme.format(formatDatum),
-            e.isIzaslo() ? "izaslo" : "zaslo", datumVreme.format(formatVreme));
-      if( naRaspustu ) {
-         if (e.isIzaslo())
-            System.out.println("Zavrsen provod, idem na spavanje.");
-         else
-            System.out.println("Gde cemo nocas u provod?");
+            e.isIzaslo() ? "izaslo" : "zaslo",
+            datumVreme.format(formatVreme));
+      if (naRaspustu) {
+         if (e.isIzaslo()) {
+            this.status = Status.SPAVANJE;
+            System.out.printf("Zavrsen provod, idem na spavanje. Moj novi status: %s\n",
+                  Status.opis(status));
+         } else {
+            this.status = Status.PROVOD;
+            System.out.printf("Gde cemo nocas u provod? Moj novi status: %s.\n",
+                  Status.opis(status));
+         }
+      } else {
+         if (e.isIzaslo()) {
+            this.status = Status.UCENJE;
+            System.out.printf("Pocinje novi dan, moram da ucim. Moj novi status: %s.\n",
+                  Status.opis(status));
+         }
+         else {
+            this.status = Status.SPAVANJE;
+            System.out.printf("Vredno sam ucio, jos malo pa na spavanje. Moj novi status: %s.\n",
+                  Status.opis(status));
+         }
       }
-      else {
-         if (e.isIzaslo())
-            System.out.println("Pocinje novi dan, moram da ucim.");
-         else
-            System.out.println("Vredno sam ucio, jos malo pa na spavanje.");
-      }   }
+   }
 }

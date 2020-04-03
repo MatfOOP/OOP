@@ -40,8 +40,8 @@ public class PokretanjeZaposleni {
       // fill the osoblje array with three Zaposleni objects
       Zaposleni[] osoblje = new Zaposleni[3];
 
-      osoblje[0] = new Zaposleni("Carl Cracker", 75000, 2007, 12, 15);
-      osoblje[1] = new Zaposleni("Harry Hacker", 50000, 2009, 10, 1);
+      osoblje[0] = new Zaposleni("Janko Jankovic", 75000, 2007, 12, 15);
+      osoblje[1] = new Zaposleni("Marko Markovic", 50000, 2009, 10, 1);
       osoblje[2] = new Zaposleni("Tony Tester", 40000, 2010, 3, 15);
 
       System.out.println("Before plata iznosPovisice");

@@ -26,7 +26,7 @@ public class PokretanjeDogadjajiSunce {
       System.out.println();
       koriscenje();
       Scanner sc = new Scanner(System.in);
-      CentralaZaDogadjaje centrala = new CentralaZaDogadjaje();
+      CentralaZaDogadjajSunceKretanje centrala = new CentralaZaDogadjajSunceKretanje();
       boolean gotovo = false;
       while (!gotovo) {
          String ulaz = sc.next().trim();

@@ -74,7 +74,7 @@ public class ObjectAnalyzerTest {
       String s = "Marko Markovic";
       System.out.println(new ObjectAnalyzer().prikaz(s));
 
-      Zaposleni pera = new Zaposleni("Petar Petrovic", 8000);
+      Zaposleni pera = new Zaposleni("Janko Jankovic", 8000);
       System.out.println(new ObjectAnalyzer().prikaz(pera));
 
       Manager mika = new Manager("Mika Petrovic", 8000, 4000);

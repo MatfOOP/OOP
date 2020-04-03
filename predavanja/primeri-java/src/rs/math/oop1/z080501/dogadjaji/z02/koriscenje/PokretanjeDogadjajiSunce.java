@@ -5,14 +5,16 @@ import java.util.Scanner;
 public class PokretanjeDogadjajiSunce {
 
    private static void koriscenje() {
-      System.out.println("Naredbe: p-<ime> = pretplati studenta <ime> na događaje ");
-      System.out.println("         r-<ime> = raskini pretplatu studenta <ime> na događaje ");
+      System.out.println("Naredbe: p-<ime> = pretplati <ime> na događaje ");
+      System.out.println("         r-<ime> = raskini pretplatu <ime> na događaje ");
       System.out.println("         i       = emituj događaj izlazak sunca ");
       System.out.println("         z       = emituj događaj zalazak sunca ");
       System.out.println("         k       = kraj ");
    }
 
    public static void main(String... argumenti) {
+      Suncokret suncokret = new Suncokret();
+      System.out.println("suncokret");
       Student petar = new Student("petar");
       System.out.println(petar);
       Student mitar = new Student("mitar");
@@ -27,12 +29,10 @@ public class PokretanjeDogadjajiSunce {
       System.out.println(supermen);
       Radnik spajdermen = new Radnik("spajdermen");
       System.out.println(spajdermen);
-      Suncokret suncokret = new Suncokret();
-      System.out.println("suncokret");
       System.out.println();
       koriscenje();
       Scanner sc = new Scanner(System.in);
-      CentralaZaDogadjaje centrala = new CentralaZaDogadjaje();
+      SunceKretanje sunceKretanje = new SunceKretanje();
       boolean gotovo = false;
       while (!gotovo) {
          String ulaz = sc.next().trim();
@@ -42,51 +42,51 @@ public class PokretanjeDogadjajiSunce {
                String ime = ulaz.substring(2);
                System.out.println("Pretplacuje se '" + ime + "' na dogadjaje kretanja sunca");
                if (ime.equals("petar"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(petar);
+                  sunceKretanje.dodajOsluskivac(petar);
                if (ime.equals("mitar"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(mitar);
+                  sunceKretanje.dodajOsluskivac(mitar);
                if (ime.equals("miki"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(miki);
+                  sunceKretanje.dodajOsluskivac(miki);
                if (ime.equals("paja"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(paja);
+                  sunceKretanje.dodajOsluskivac(paja);
                if (ime.equals("milica"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(milica);
+                  sunceKretanje.dodajOsluskivac(milica);
                if (ime.equals("supermen"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(supermen);
+                  sunceKretanje.dodajOsluskivac(supermen);
                if (ime.equals("spajdermen"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(spajdermen);
+                  sunceKretanje.dodajOsluskivac(spajdermen);
                if (ime.equals("suncokret"))
-                  centrala.dodajOsluskivacZaKretanjeSunca(suncokret);
+                  sunceKretanje.dodajOsluskivac(suncokret);
                break;
             }
             case 'r': {
                String ime = ulaz.substring(2);
                System.out.println("Raskida se pretplata '" + ime + "' na dogadjaje kretanja sunca");
                if (ime.equals("petar"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(petar);
+                  sunceKretanje.ukloniOsluskivac(petar);
                if (ime.equals("mitar"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(mitar);
+                  sunceKretanje.ukloniOsluskivac(mitar);
                if (ime.equals("miki"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(miki);
+                  sunceKretanje.ukloniOsluskivac(miki);
                if (ime.equals("paja"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(paja);
+                  sunceKretanje.ukloniOsluskivac(paja);
                if (ime.equals("milica"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(milica);
+                  sunceKretanje.ukloniOsluskivac(milica);
                if (ime.equals("supermen"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(supermen);
+                  sunceKretanje.ukloniOsluskivac(supermen);
                if (ime.equals("spajdermen"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(spajdermen);
+                  sunceKretanje.ukloniOsluskivac(spajdermen);
                if (ime.equals("suncokret"))
-                  centrala.ukloniOsluskivacZaKretanjeSunca(suncokret);
+                  sunceKretanje.ukloniOsluskivac(suncokret);
                break;
             }
             case 'i':
                System.out.println("Emituje se dogadjaj za izlazak sunca");
-               centrala.ispaliDogadjajZaKretanjeSunca(true);
+               sunceKretanje.ispaliDogadjaj(true);
                break;
             case 'z':
                System.out.println("Emituje se dogadjaj za zalazak sunca");
-               centrala.ispaliDogadjajZaKretanjeSunca(false);
+               sunceKretanje.ispaliDogadjaj(false);
                break;
             case 'k':
                System.out.println("Zavrsetak rada");

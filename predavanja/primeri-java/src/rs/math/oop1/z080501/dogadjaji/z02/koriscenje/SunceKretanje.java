@@ -11,27 +11,27 @@ import java.util.EventListener;
  * Kroz ulaz sa konzole korisnik ispaljuje
  * dogadjaje izlaska i zalaska sunca.
  */
-public class CentralaZaDogadjaje {
+public class SunceKretanje {
    private transient EventListener[] osluskivaci = new EventListener[1000];
    private int brojOsluskivaca = 0;
 
    /**
     * Konstruktor
     */
-   public CentralaZaDogadjaje() {
+   public SunceKretanje() {
    }
 
    /**
     * Registruje osluskivac za SunceKretanjeDogadjaj
     */
-   synchronized public void dodajOsluskivacZaKretanjeSunca(SunceKretanjeOsluskivac l) {
+   synchronized public void dodajOsluskivac(SunceKretanjeOsluskivac l) {
       osluskivaci[brojOsluskivaca++] = l;
    }
 
    /**
     * Uklanja osluskivac za SunceKretanjeDogadjaj
     */
-   synchronized public void ukloniOsluskivacZaKretanjeSunca(SunceKretanjeOsluskivac l) {
+   synchronized public void ukloniOsluskivac(SunceKretanjeOsluskivac l) {
       int pozicija = 0;
       for (; pozicija < brojOsluskivaca; pozicija++)
          if (osluskivaci[pozicija].equals(l))
@@ -46,7 +46,7 @@ public class CentralaZaDogadjaje {
    /**
     * Ispaljuje dogadjaj tipa SunceKretanjeDogadjaj za sve registrovane osluskivace
     */
-   protected void ispaliDogadjajZaKretanjeSunca(boolean izaslo) {
+   protected void ispaliDogadjaj(boolean izaslo) {
       // ako nema osluskivaca, ne radi nista...
       if (brojOsluskivaca == 0)
          return;

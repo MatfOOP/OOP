@@ -8,8 +8,8 @@ public class EmployeeSortTest
 	{
 		Zaposleni[] osoblje = new Zaposleni[4];
 		
-		osoblje[0] = new Zaposleni( "Harry Hacker", 85000 );
-		osoblje[1] = new Zaposleni( "Carl Cracker", 45000 );
+		osoblje[0] = new Zaposleni( "Marko Markovic", 85000 );
+		osoblje[1] = new Zaposleni( "Janko Jankovic", 45000 );
 		osoblje[2] = new Zaposleni( "Tony Tester", 20000 );
 		osoblje[3] = new Zaposleni( "Mickey Mouse", 45000 );
 		

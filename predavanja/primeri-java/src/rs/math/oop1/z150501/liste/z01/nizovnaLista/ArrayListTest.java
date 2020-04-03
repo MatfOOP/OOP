@@ -62,8 +62,8 @@ public class ArrayListTest
 		// fill the osoblje array list with three Zaposleni objects
 		Collection<Zaposleni> osoblje = new ArrayList<Zaposleni>();
 		
-		osoblje.add( new Zaposleni( "Carl Cracker", 75000, 1987, 12, 15 ) );
-		osoblje.add( new Zaposleni( "Harry Hacker", 50000, 1989, 10, 1 ) );
+		osoblje.add( new Zaposleni( "Janko Jankovic", 75000, 1987, 12, 15 ) );
+		osoblje.add( new Zaposleni( "Marko Markovic", 50000, 1989, 10, 1 ) );
 		osoblje.add( new Zaposleni( "Tony Tester", 40000, 1990, 3, 15 ) );
 		
 		// iznosPovisice everyone's plata by 5%

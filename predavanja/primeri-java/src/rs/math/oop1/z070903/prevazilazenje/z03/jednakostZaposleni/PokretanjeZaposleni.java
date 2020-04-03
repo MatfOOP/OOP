@@ -3,10 +3,10 @@ package rs.math.oop1.z070903.prevazilazenje.z03.jednakostZaposleni;
 public class PokretanjeZaposleni {
     public static void main(String[] args) {
 
-        Zaposleni e1 = new Zaposleni("Carl Cracker", 1, 75000);
-        Zaposleni e2 = new Zaposleni("Harry Hacker", 2, 50000);
-        Zaposleni e3 = new Zaposleni("Harry Hacker", 3, 40000);
-        Zaposleni e4 = new Zaposleni("Carl Cracker", 1, 75000);
+        Zaposleni e1 = new Zaposleni("Janko Jankovic", 1, 75000);
+        Zaposleni e2 = new Zaposleni("Marko Markovic", 2, 50000);
+        Zaposleni e3 = new Zaposleni("Marko Markovic", 3, 40000);
+        Zaposleni e4 = new Zaposleni("Janko Jankovic", 1, 75000);
         Zaposleni[] osoblje = { e1, e2, e3, e4, e1 };
         System.out.println("Elementi niza zaposlenih");
         for (Zaposleni e : osoblje)

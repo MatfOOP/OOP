@@ -8,10 +8,10 @@ public class PokretanjeZaposleniUredjenje
 	{
 		Zaposleni[] osoblje = new Zaposleni[4];
 		
-		osoblje[0] = new Zaposleni( "Harry Hacker", 75000 );
-		osoblje[1] = new Zaposleni( "Carl Cracker", 75000 );
+		osoblje[0] = new Zaposleni( "Marko Markovic", 75000 );
+		osoblje[1] = new Zaposleni( "Janko Jankovic", 75000 );
 		osoblje[2] = new Zaposleni( "Tony Tester", 38000 );
-		osoblje[3] = new Zaposleni( "Johnny Bravo", 18000 );
+		osoblje[3] = new Zaposleni( "Milena Milenkovic", 18000 );
 		
 		System.out.println( "-Pre sortiranja-" );
 		for (Zaposleni e : osoblje)
