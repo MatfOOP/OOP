@@ -20,10 +20,10 @@ public class PokretanjeDogadjajiSunce {
 
    public static void main(String... argumenti) {
       Suncokret[] suncokreti = new Suncokret[BROJ_CVETOVA];
-      OsluskivacKretanjaSuncaCvece[] slusaociCvetovi = new OsluskivacKretanjaSuncaCvece[BROJ_CVETOVA];
+      OsluskivacKretanjaSuncaCvetNormalni[] slusaociCvetovi = new OsluskivacKretanjaSuncaCvetNormalni[BROJ_CVETOVA];
       for (int i = 0; i < suncokreti.length; i++) {
          suncokreti[i] = new Suncokret();
-         slusaociCvetovi[i] = new OsluskivacKretanjaSuncaCvece(suncokreti[i]);
+         slusaociCvetovi[i] = new OsluskivacKretanjaSuncaCvetNormalni(suncokreti[i]);
          System.out.println(suncokreti[i]);
       }
       Student petar = new Student("petar");
@@ -70,7 +70,7 @@ public class PokretanjeDogadjajiSunce {
                         sunceKretanje.dodajOsluskivac(slusa);
                      break;
                   case 'c':
-                     for (OsluskivacKretanjaSuncaCvece slusa : slusaociCvetovi)
+                     for (OsluskivacKretanjaSuncaCvetNormalni slusa : slusaociCvetovi)
                         sunceKretanje.dodajOsluskivac(slusa);
                      break;
                   default:
@@ -90,7 +90,7 @@ public class PokretanjeDogadjajiSunce {
                         sunceKretanje.ukloniOsluskivac(slusa);
                      break;
                   case 'c':
-                     for (OsluskivacKretanjaSuncaCvece slusa : slusaociCvetovi)
+                     for (OsluskivacKretanjaSuncaCvetNormalni slusa : slusaociCvetovi)
                         sunceKretanje.ukloniOsluskivac(slusa);
                      break;
                   default:

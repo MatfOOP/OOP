@@ -11,14 +11,14 @@ import java.util.EventListener;
  * Kroz ulaz sa konzole korisnik ispaljuje
  * dogadjaje izlaska i zalaska sunca.
  */
-public class SunceKretanje {
+public class SunceKretanjeEmiter {
    private transient EventListener[] osluskivaci = new EventListener[1000];
    private int brojOsluskivaca = 0;
 
    /**
     * Konstruktor
     */
-   public SunceKretanje() {
+   public SunceKretanjeEmiter() {
    }
 
    /**
