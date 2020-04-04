@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 public class PokretanjeDogadjajiSunce {
 
-   private class OsluskivacKretanjaSuncaCvece implements SunceKretanjeOsluskivac {
-      private Object trpiUticaj;
+   private class OsluskivacKretanjaSuncaCvetNormalni implements SunceKretanjeOsluskivac {
+      public static final String skracenica = "SCvNor";
 
-      public OsluskivacKretanjaSuncaCvece(Object trpiUticaj) {
+      private Cvet trpiUticaj;
+
+      public OsluskivacKretanjaSuncaCvetNormalni(Cvet trpiUticaj) {
          this.trpiUticaj = trpiUticaj;
       }
 
@@ -22,9 +24,28 @@ public class PokretanjeDogadjajiSunce {
       }
    }
 
-   private static class OsluskivacKretanjaSuncaDanUNedelji implements SunceKretanjeOsluskivac {
+   private class OsluskivacKretanjaSuncaCvetInverzni implements SunceKretanjeOsluskivac {
+      public static final String skracenica = "SCvInv";
 
-      private static class DanUNedelji {
+      private Cvet trpiUticaj;
+
+      public OsluskivacKretanjaSuncaCvetInverzni(Cvet trpiUticaj) {
+         this.trpiUticaj = trpiUticaj;
+      }
+
+      @Override
+      public void sunceSePomerilo(SunceKretanjeDogadjaj e) {
+         if(e.isIzaslo())
+            System.out.printf("Cvet %s je sakupio svoj cvet \n", trpiUticaj);
+         if(e.isZaslo())
+            System.out.printf("Cvet %s je rasirio svoj cvet \n", trpiUticaj);
+      }
+   }
+
+   private final class OsluskivacKretanjaSuncaDanUNedelji implements SunceKretanjeOsluskivac {
+      public static final String skracenica = "SCoDun";
+
+      private final class DanUNedelji {
          public static final int PONEDELJAK = 1;
          public static final int UTORAK = 2;
          public static final int SREDA = 3;
@@ -33,7 +54,7 @@ public class PokretanjeDogadjajiSunce {
          public static final int SUBOTA = 6;
          public static final int NEDELJA = 7;
 
-         public static String opis(int dan) {
+         public final String opis(int dan) {
             switch (dan) {
                case PONEDELJAK:
                   return "ponedeljak";
@@ -71,7 +92,7 @@ public class PokretanjeDogadjajiSunce {
                meta, datumVreme.format(formatDatum),
                e.isIzaslo() ? "izaslo" : "zaslo", datumVreme.format(formatVreme));
          int danUNedelji = datumVreme.getDayOfWeek().getValue();
-         System.out.printf(" %s - ", DanUNedelji.opis(danUNedelji));
+         System.out.printf(" %s - ", (new DanUNedelji()).opis(danUNedelji));
          switch (danUNedelji) {
             case DanUNedelji.PONEDELJAK:
                if (e.isIzaslo()) {
@@ -139,10 +160,11 @@ public class PokretanjeDogadjajiSunce {
                System.out.printf("Ovo nikad ne bi smelo da se pojavi");
          }
       }
-
    }
 
    private class OsluskivacKretanjaSuncaRaspust implements SunceKretanjeOsluskivac {
+      public static final String skracenica = "SStRas";
+
       private Student meta;
 
       public OsluskivacKretanjaSuncaRaspust(Student meta) {
@@ -183,106 +205,135 @@ public class PokretanjeDogadjajiSunce {
       }
    }
 
-   private static int BROJ_CVETOVA = 4;
-
-   private void koriscenje() {
-      System.out.println("Naredbe: p-s = pretplati sve studente na događaje ");
-      System.out.println("         r-s = raskini pretplatu za sve studente na događaje ");
-      System.out.println("         p-r = pretplati sve radnike na događaje ");
-      System.out.println("         r-r = raskini pretplatu za sve radnike na događaje ");
-      System.out.println("         p-c = pretplati sve cvetove na događaje ");
-      System.out.println("         r-c = raskini pretplatu za sve cvetove na događaje ");
-      System.out.println("         i    = emituj događaj izlazak sunca ");
-      System.out.println("         z    = emituj događaj zalazak sunca ");
-      System.out.println("         k    = kraj ");
+   private static void koriscenje() {
+      System.out.println("Naredbe: p-<imeObjekta>-<slusalac> = kreiraj <slusalac>, pridruzi ga na <imeObjekta> ");
+      System.out.println("                                  i pretplati slusalac na događaje ");
+      System.out.println("         i = emituj događaj izlazak sunca ");
+      System.out.println("         z = emituj događaj zalazak sunca ");
+      System.out.println("         k = kraj ");
    }
 
    private void izvrsi() {
-      Suncokret[] suncokreti = new Suncokret[BROJ_CVETOVA];
-      OsluskivacKretanjaSuncaCvece[] slusaociCvetovi = new OsluskivacKretanjaSuncaCvece[BROJ_CVETOVA];
-      for (int i = 0; i < suncokreti.length; i++) {
-         suncokreti[i] = new Suncokret();
-         slusaociCvetovi[i] = new OsluskivacKretanjaSuncaCvece(suncokreti[i]);
-         System.out.println(suncokreti[i]);
-      }
+      System.out.println("Objekti: ");
+      Suncokret suncokret = new Suncokret();
+      System.out.println("suncokret");
+      NocnaFrajla nocnaFrajla = new NocnaFrajla();
+      System.out.println("nocnafrajla");
       Student petar = new Student("petar");
+      System.out.println(petar);
       Student mitar = new Student("mitar");
+      System.out.println(mitar);
       Student miki = new Student("miki", true);
+      System.out.println(miki);
       Student paja = new Student("paja", true);
+      System.out.println(paja);
       Student milica = new Student("milica");
-      Student[] studenti = {petar, mitar, miki, paja, milica};
-      OsluskivacKretanjaSuncaRaspust[] slusaociRaspust = new OsluskivacKretanjaSuncaRaspust[studenti.length - 1];
-      for (int i = 0; i < studenti.length - 1; i++) {
-         slusaociRaspust[i] = new OsluskivacKretanjaSuncaRaspust(studenti[i]);
-         System.out.println(studenti[i]);
-      }
+      System.out.println(milica);
       Radnik supermen = new Radnik("supermen");
+      System.out.println(supermen);
       Radnik spajdermen = new Radnik("spajdermen");
-      Radnik[] radnici = {supermen, spajdermen};
-      OsluskivacKretanjaSuncaDanUNedelji[] slusaociDanUNedelji =
-            new OsluskivacKretanjaSuncaDanUNedelji[radnici.length + 1];
-      for (int i = 0; i < radnici.length; i++) {
-         slusaociDanUNedelji[i] = new OsluskivacKretanjaSuncaDanUNedelji(radnici[i]);
-         System.out.println(studenti[i]);
-      }
-      slusaociDanUNedelji[radnici.length] = new OsluskivacKretanjaSuncaDanUNedelji(
-            studenti[studenti.length - 1]);
+      System.out.println(spajdermen);
+      System.out.println();
+
+      System.out.println("Slusaoci: ");
+      System.out.println( OsluskivacKretanjaSuncaCvetNormalni.class
+            + " - " + OsluskivacKretanjaSuncaCvetNormalni.skracenica);
+      System.out.println(OsluskivacKretanjaSuncaCvetInverzni.class
+            + " - " + OsluskivacKretanjaSuncaCvetInverzni.skracenica);
+      System.out.println(OsluskivacKretanjaSuncaDanUNedelji.class
+            + " - " + OsluskivacKretanjaSuncaDanUNedelji.skracenica);
+      System.out.println(OsluskivacKretanjaSuncaRaspust.class
+            + " - " + OsluskivacKretanjaSuncaRaspust.skracenica);
       System.out.println();
       koriscenje();
       Scanner sc = new Scanner(System.in);
-      SunceKretanje sunceKretanje = new SunceKretanje();
+      SunceKretanjeEmiter emiter = new SunceKretanjeEmiter();
       boolean gotovo = false;
       while (!gotovo) {
          String ulaz = sc.next().trim();
-         char naredba = ulaz.toCharArray()[0];
+         char naredba = ulaz.charAt(0);
          switch (naredba) {
             case 'p': {
-               char tip = ulaz.charAt(2);
-               System.out.println("Kreira se pretplata '" + tip + "' na dogadjaje kretanja sunca");
-               switch (tip) {
-                  case 's':
-                     for (OsluskivacKretanjaSuncaRaspust slusa : slusaociRaspust)
-                        sunceKretanje.dodajOsluskivac(slusa);
-                     break;
-                  case 'r':
-                     for (OsluskivacKretanjaSuncaDanUNedelji slusa : slusaociDanUNedelji)
-                        sunceKretanje.dodajOsluskivac(slusa);
-                     break;
-                  case 'c':
-                     for (OsluskivacKretanjaSuncaCvece slusa : slusaociCvetovi)
-                        sunceKretanje.dodajOsluskivac(slusa);
-                     break;
-                  default:
+               String[] delovi = ulaz.split("-");
+               if( delovi.length != 3){
+                  System.err.println("Komanda nema pravilan format");
+                  break;
                }
-               break;
-            }
-            case 'r': {
-               char tip = ulaz.charAt(2);
-               System.out.println("Raskida se pretplata '" + tip + "' na dogadjaje kretanja sunca");
-               switch (tip) {
-                  case 's':
-                     for (OsluskivacKretanjaSuncaRaspust slusa : slusaociRaspust)
-                        sunceKretanje.ukloniOsluskivac(slusa);
+               String imeObjekta = delovi[1];
+               String tipOsluskivaca = delovi[2];
+               System.out.println("Pretplata na dogadjaj - objekat: "
+                     + imeObjekta + " osluskivac tip: " + tipOsluskivaca);
+               Object objekat = null;
+               if (imeObjekta.equals("suncokret"))
+                  objekat = suncokret;
+               else if (imeObjekta.equals("nocnafrajla"))
+                  objekat = nocnaFrajla;
+               else if (imeObjekta.equals("petar"))
+                  objekat = petar;
+               else if (imeObjekta.equals("mitar"))
+                  objekat = mitar;
+               else if (imeObjekta.equals("miki"))
+                  objekat = miki;
+               else if (imeObjekta.equals("paja"))
+                  objekat = paja;
+               else if (imeObjekta.equals("milica"))
+                  objekat = milica;
+               else if (imeObjekta.equals("supermen"))
+                  objekat = supermen;
+               else if (imeObjekta.equals("spajdermen"))
+                  objekat = spajdermen;
+               else {
+                  System.err.println("Nije specificairan pravi objekat!");
+                  break;
+               }
+               if (objekat instanceof Cvet) {
+                  if (tipOsluskivaca.equals(OsluskivacKretanjaSuncaCvetNormalni.skracenica)) {
+                     OsluskivacKretanjaSuncaCvetNormalni slusa = new OsluskivacKretanjaSuncaCvetNormalni(
+                           (Cvet) objekat);
+                     emiter.dodajOsluskivac(slusa);
+                  } else if (tipOsluskivaca.equals(OsluskivacKretanjaSuncaCvetInverzni.skracenica)) {
+                     OsluskivacKretanjaSuncaCvetInverzni slusa = new OsluskivacKretanjaSuncaCvetInverzni(
+                           (Cvet) objekat);
+                     emiter.dodajOsluskivac(slusa);
+                  } else {
+                     System.err.println("Specificiran nekompatiblini osluskivac");
                      break;
-                  case 'r':
-                     for (OsluskivacKretanjaSuncaDanUNedelji slusa : slusaociDanUNedelji)
-                        sunceKretanje.ukloniOsluskivac(slusa);
+                  }
+               } else if (objekat instanceof Student) {
+                  if (tipOsluskivaca.equals(OsluskivacKretanjaSuncaRaspust.skracenica)) {
+                     OsluskivacKretanjaSuncaRaspust slusa = new OsluskivacKretanjaSuncaRaspust(
+                           (Student) objekat);
+                     emiter.dodajOsluskivac(slusa);
+                  } else if (tipOsluskivaca.equals(OsluskivacKretanjaSuncaDanUNedelji.skracenica)) {
+                     OsluskivacKretanjaSuncaDanUNedelji slusa = new OsluskivacKretanjaSuncaDanUNedelji(
+                           (Covek) objekat);
+                     emiter.dodajOsluskivac(slusa);
+                  } else {
+                     System.err.println("Specificiran nekompatiblini osluskivac");
                      break;
-                  case 'c':
-                     for (OsluskivacKretanjaSuncaCvece slusa : slusaociCvetovi)
-                        sunceKretanje.ukloniOsluskivac(slusa);
+                  }
+               } else if (objekat instanceof Covek) {
+                  if (tipOsluskivaca.equals(OsluskivacKretanjaSuncaDanUNedelji.skracenica)) {
+                     OsluskivacKretanjaSuncaDanUNedelji slusa = new OsluskivacKretanjaSuncaDanUNedelji(
+                           (Covek) objekat);
+                     emiter.dodajOsluskivac(slusa);
+                  } else {
+                     System.err.println("Specificiran nekompatiblini osluskivac");
                      break;
-                  default:
+                  }
+               } else {
+                  System.err.println("Specificiran nepostojeci osluskivac");
+                  break;
                }
                break;
             }
             case 'i':
                System.out.println("Emituje se dogadjaj za izlazak sunca");
-               sunceKretanje.ispaliDogadjaj(true);
+               emiter.ispaliDogadjaj(true);
                break;
             case 'z':
                System.out.println("Emituje se dogadjaj za zalazak sunca");
-               sunceKretanje.ispaliDogadjaj(false);
+               emiter.ispaliDogadjaj(false);
                break;
             case 'k':
                System.out.println("Zavrsetak rada");

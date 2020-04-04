@@ -3,15 +3,12 @@ package rs.math.oop1.z080501.dogadjaji.z02.koriscenje;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Student implements SunceKretanjeOsluskivac {
-   private String ime;
+public class Student extends Covek implements SunceKretanjeOsluskivac {
    private boolean naRaspustu;
-   private int status;
 
    public Student(String ime, boolean naRaspustu, int status) {
-      this.ime = ime;
+      super( ime, status);
       this.naRaspustu = naRaspustu;
-      this.status = status;
    }
 
    public Student(String ime, boolean naRaspustu) {
@@ -22,13 +19,9 @@ public class Student implements SunceKretanjeOsluskivac {
       this(ime, false, Status.SPAVANJE);
    }
 
-   public void setStatus(int status) {
-      this.status = status;
-   }
-
-   @Override
+    @Override
    public String toString() {
-      return String.format("Student '%s' (%s)", ime, naRaspustu ? "na raspustu" : "studira");
+      return String.format("Student '%s' (%s)", getIme(), naRaspustu ? "na raspustu" : "studira");
    }
 
    @Override
@@ -42,24 +35,24 @@ public class Student implements SunceKretanjeOsluskivac {
             datumVreme.format(formatVreme));
       if (naRaspustu) {
          if (e.isIzaslo()) {
-            this.status = Status.SPAVANJE;
+            setStatus( Status.SPAVANJE);
             System.out.printf("Zavrsen provod, idem na spavanje. Moj novi status: %s\n",
-                  Status.opis(status));
+                  Status.opis(getStatus()));
          } else {
-            this.status = Status.PROVOD;
+            setStatus( Status.PROVOD);
             System.out.printf("Gde cemo nocas u provod? Moj novi status: %s.\n",
-                  Status.opis(status));
+                  Status.opis(getStatus()));
          }
       } else {
          if (e.isIzaslo()) {
-            this.status = Status.UCENJE;
+            setStatus( Status.UCENJE);
             System.out.printf("Pocinje novi dan, moram da ucim. Moj novi status: %s.\n",
-                  Status.opis(status));
+                  Status.opis(getStatus()));
          }
          else {
-            this.status = Status.SPAVANJE;
+            setStatus( Status.SPAVANJE);
             System.out.printf("Vredno sam ucio, jos malo pa na spavanje. Moj novi status: %s.\n",
-                  Status.opis(status));
+                  Status.opis(getStatus()));
          }
       }
    }

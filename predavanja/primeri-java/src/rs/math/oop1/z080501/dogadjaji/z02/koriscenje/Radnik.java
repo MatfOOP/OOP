@@ -3,26 +3,19 @@ package rs.math.oop1.z080501.dogadjaji.z02.koriscenje;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Radnik implements SunceKretanjeOsluskivac {
-   private String ime;
-   private int status = Status.SPAVANJE;
+public class Radnik extends Covek implements SunceKretanjeOsluskivac {
 
    public Radnik(String ime, int status) {
-      this.ime = ime;
-      this.status = status;
+      super(ime, status);
    }
 
    public Radnik(String ime) {
       this(ime, Status.SPAVANJE);
    }
 
-   public void setStatus(int status) {
-      this.status = status;
-   }
-
    @Override
    public String toString() {
-      return String.format("Radnik '%s' (%s)", ime, Status.opis(status));
+      return String.format("Radnik '%s' (%s)", getIme(), Status.opis(getStatus()));
    }
 
    @Override
@@ -38,64 +31,64 @@ public class Radnik implements SunceKretanjeOsluskivac {
       switch (danUNedelji) {
          case DanUNedelji.PONEDELJAK:
             if (e.isIzaslo()) {
-               status = Status.RAD;
+               setStatus(Status.RAD);
                System.out.printf("Pcinje rad u novoj radnoj nedelji :( Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             if (e.isZaslo()) {
-               status = Status.SPAVANJE;
+               setStatus(Status.SPAVANJE);
                System.out.printf("Nekako sam pregurao prvi radni dan... Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             break;
          case DanUNedelji.UTORAK:
          case DanUNedelji.SREDA:
          case DanUNedelji.CETVRTAK:
             if (e.isIzaslo()) {
-               status = Status.RAD;
+               setStatus(Status.RAD);
                System.out.printf("I danas treba uskoro da se pocne sa radom. Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             if (e.isZaslo()) {
-               status = Status.SPAVANJE;
+               setStatus(Status.SPAVANJE);
                System.out.printf("Za danas sam zavrsio sa poslom... Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             break;
          case DanUNedelji.PETAK:
             if (e.isIzaslo()) {
-               status = Status.RAD;
+               setStatus(Status.RAD);
                System.out.printf("Sto bi petak bio lepsi da sutra nije subota radna. Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             if (e.isZaslo()) {
-               status = Status.SPAVANJE;
+               setStatus(Status.SPAVANJE);
                System.out.printf("Kraj dansenjeg posla. Jos sutra pa gotovo. Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             break;
          case DanUNedelji.SUBOTA:
             if (e.isIzaslo()) {
-               status = Status.RAD;
+               setStatus(Status.RAD);
                System.out.printf("Mrzim radne subote! Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             if (e.isZaslo()) {
-               status = Status.SPAVANJE;
+               setStatus(Status.SPAVANJE);
                System.out.printf("Kraj subotnjeg posla. Slobodan sam!  Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             break;
          case DanUNedelji.NEDELJA:
             if (e.isIzaslo()) {
-               status = Status.ODMOR;
+               setStatus(Status.ODMOR);
                System.out.printf("Sloboda!!! Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             if (e.isZaslo()) {
-               status = Status.SPAVANJE;
+               setStatus(Status.SPAVANJE);
                System.out.printf("Jos malo, pa ponovo na posao :(  Moj novi status: %s. \n",
-                     Status.opis(status));
+                     Status.opis(getStatus()));
             }
             break;
          default:

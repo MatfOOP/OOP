@@ -4,6 +4,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class OsluskivacKretanjaSuncaRaspust implements SunceKretanjeOsluskivac {
+
+   public static String skracenica = "SStRas";
+
    private Student meta;
 
    public OsluskivacKretanjaSuncaRaspust(Student meta) {

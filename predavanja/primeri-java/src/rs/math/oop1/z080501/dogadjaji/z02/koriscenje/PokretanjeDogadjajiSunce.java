@@ -13,8 +13,11 @@ public class PokretanjeDogadjajiSunce {
    }
 
    public static void main(String... argumenti) {
+      System.out.println("Objekti: ");
       Suncokret suncokret = new Suncokret();
       System.out.println("suncokret");
+      NocnaFrajla nocnaFrajla = new NocnaFrajla();
+      System.out.println("nocnafrajla");
       Student petar = new Student("petar");
       System.out.println(petar);
       Student mitar = new Student("mitar");
@@ -41,6 +44,10 @@ public class PokretanjeDogadjajiSunce {
             case 'p': {
                String ime = ulaz.substring(2);
                System.out.println("Pretplacuje se '" + ime + "' na dogadjaje kretanja sunca");
+               if (ime.equals("suncokret"))
+                  sunceKretanjeEmiter.dodajOsluskivac(suncokret);
+               if (ime.equals("nocnafrajla"))
+                  sunceKretanjeEmiter.dodajOsluskivac(nocnaFrajla);
                if (ime.equals("petar"))
                   sunceKretanjeEmiter.dodajOsluskivac(petar);
                if (ime.equals("mitar"))
@@ -55,13 +62,13 @@ public class PokretanjeDogadjajiSunce {
                   sunceKretanjeEmiter.dodajOsluskivac(supermen);
                if (ime.equals("spajdermen"))
                   sunceKretanjeEmiter.dodajOsluskivac(spajdermen);
-               if (ime.equals("suncokret"))
-                  sunceKretanjeEmiter.dodajOsluskivac(suncokret);
                break;
             }
             case 'r': {
                String ime = ulaz.substring(2);
                System.out.println("Raskida se pretplata '" + ime + "' na dogadjaje kretanja sunca");
+               if (ime.equals("nocnafrajla"))
+                  sunceKretanjeEmiter.ukloniOsluskivac(nocnaFrajla);
                if (ime.equals("petar"))
                   sunceKretanjeEmiter.ukloniOsluskivac(petar);
                if (ime.equals("mitar"))
@@ -76,8 +83,6 @@ public class PokretanjeDogadjajiSunce {
                   sunceKretanjeEmiter.ukloniOsluskivac(supermen);
                if (ime.equals("spajdermen"))
                   sunceKretanjeEmiter.ukloniOsluskivac(spajdermen);
-               if (ime.equals("suncokret"))
-                  sunceKretanjeEmiter.ukloniOsluskivac(suncokret);
                break;
             }
             case 'i':

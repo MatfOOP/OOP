@@ -5,6 +5,8 @@ import java.time.format.DateTimeFormatter;
 
 public class OsluskivacKretanjaSuncaDanUNedelji implements SunceKretanjeOsluskivac {
 
+   public static String skracenica = "SCoDun";
+
    private Covek meta;
 
    public OsluskivacKretanjaSuncaDanUNedelji(Covek meta) {

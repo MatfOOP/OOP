@@ -13,6 +13,7 @@ public class PokretanjeDogadjajiSunce {
    }
 
    public static void main(String... argumenti) {
+      System.out.println("Objekti: ");
       Student petar = new Student("petar");
       System.out.println(petar);
       Student mitar = new Student("mitar");

@@ -1,9 +1,11 @@
 package rs.math.oop1.z080501.dogadjaji.z03.koriscenje;
 
 public class OsluskivacKretanjaSuncaCvetNormalni implements SunceKretanjeOsluskivac {
-   private Object trpiUticaj;
+   private Cvet trpiUticaj;
 
-   public OsluskivacKretanjaSuncaCvetNormalni(Object trpiUticaj) {
+   public static String skracenica = "SCvNor";
+
+   public OsluskivacKretanjaSuncaCvetNormalni(Cvet trpiUticaj) {
       this.trpiUticaj = trpiUticaj;
    }
 
