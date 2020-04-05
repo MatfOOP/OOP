@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class PokretanjeArraysKopiranjeZNizCelih {
 
@@ -12,10 +11,12 @@ class PokretanjeArraysKopiranjeZNizCelih {
       int[] niz = {23, -7, 5, 6, 4, 34, -23};
       System.out.println("Ceo niz");
       prikazi(niz);
-      int[] deoNiza = Arrays.copyOf(niz, 4);
+
+      int[] deoNiza = java.util.Arrays.copyOf(niz, 4);
       System.out.println("Deo niza (prva 4 clana)");
       prikazi(deoNiza);
-      int[] prosirenNiz = Arrays.copyOf(niz, 11);
+
+      int[] prosirenNiz = java.util.Arrays.copyOf(niz, 11);
       System.out.println("Prosiren niz (sadrzi 11 elemenata)");
       prikazi(prosirenNiz);
    }

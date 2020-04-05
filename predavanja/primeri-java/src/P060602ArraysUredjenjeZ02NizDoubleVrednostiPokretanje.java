@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class PokretanjeArraysUredjenjeNizDoubleVrednosti {
 
@@ -8,7 +7,7 @@ class PokretanjeArraysUredjenjeNizDoubleVrednosti {
             System.out.print(x + " ");
         System.out.println();
 
-        Arrays.sort(niz);
+        java.util.Arrays.sort(niz);
 
         for (double x : niz)
             System.out.print(x + " ");

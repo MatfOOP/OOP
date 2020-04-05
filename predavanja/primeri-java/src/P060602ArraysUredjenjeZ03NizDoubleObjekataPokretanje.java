@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class PokretanjeArraysUredjenjeNizDoubleObjekata
 {
@@ -9,8 +8,8 @@ class PokretanjeArraysUredjenjeNizDoubleObjekata
 		for( Double d : niz )
 			System.out.print( d + " " );
 		System.out.println();
-		
-		Arrays.sort( niz );
+
+		java.util.Arrays.sort( niz );
 		
 		for( double d : niz )
 			System.out.print( d + " " );

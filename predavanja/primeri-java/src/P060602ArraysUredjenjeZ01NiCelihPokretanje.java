@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class PokretanjeArraysUredjenjeNiCelih {
 
@@ -8,7 +7,7 @@ class PokretanjeArraysUredjenjeNiCelih {
             System.out.print(x + " ");
         System.out.println();
 
-        Arrays.sort(niz);
+        java.util.Arrays.sort(niz);
 
         for (int x : niz)
             System.out.print(x + " ");

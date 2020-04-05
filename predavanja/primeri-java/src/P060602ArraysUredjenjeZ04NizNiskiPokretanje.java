@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class PokretanjeArraysUredjenjeNizNiski {
 
@@ -7,7 +6,7 @@ class PokretanjeArraysUredjenjeNizNiski {
         for (String x : niz)
             System.out.print(x + " ");
         System.out.println();
-        Arrays.sort(niz);
+        java.util.Arrays.sort(niz);
         for (String x : niz)
             System.out.print(x + " ");
         System.out.println();
@@ -17,7 +16,7 @@ class PokretanjeArraysUredjenjeNizNiski {
         for (String s : niz2)
             System.out.print(s + " ");
         System.out.println();
-        Arrays.sort(niz2);
+        java.util.Arrays.sort(niz2);
         System.out.println("Posle sortiranja");
         for (String s : niz2)
             System.out.print(s + " ");
