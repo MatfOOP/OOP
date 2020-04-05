@@ -30,6 +30,8 @@
 
 [Низови у Јави. Једнодимензионални низови.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
+[Колекцијски циклус for. Дводимензионални низови.](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=0m0s){:target="_blank"}
+
 ## Додатни снимци
 
 [Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}

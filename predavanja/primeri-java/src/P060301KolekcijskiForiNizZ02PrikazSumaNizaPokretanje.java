@@ -15,12 +15,12 @@
 class PokretanjeKolekcijskiForiNizPrikazSuma {
 
     public static void main(String[] args) {
-        double[] niz = {1, 2, 3.5, 4.4, -2.7, 1.53e1};
+        double[] niz = {1, 2, 3.5, 4.4, -2.7, 1.53e-1};
         double s = 0;
         for (double d : niz) {
-            System.out.printf("%8.2f ", d);
+            System.out.printf("%8.3f ", d);
             s += d;
         }
-        System.out.printf("\nSuma elemenata niza: %8.2f ", s);
+        System.out.printf("\nSuma elemenata niza: %8.3f ", s);
     }
 }

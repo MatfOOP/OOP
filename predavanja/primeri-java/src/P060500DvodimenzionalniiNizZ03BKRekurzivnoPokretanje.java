@@ -29,7 +29,7 @@ class PokretanjeDvodimenzionalniiNizBKRekurzivno {
    }
 
    public static void main(String[] args) {
-      int brojVrsta = 123; // 6
+      int brojVrsta = 15; // 6
       // alociraj trougaoni niz
       koeficijenti = new int[brojVrsta + 1][];
       for (int n = 0; n <= brojVrsta; n++)

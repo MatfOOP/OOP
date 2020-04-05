@@ -311,7 +311,7 @@
 
     1. Низовна променљива и индексна променљива [филм](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=3m58s){:target="_blank"}
 
-    1. Бројачки и колекцијски `for` циклус
+    1. Бројачки и колекцијски `for` циклус [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=0m0s){:target="_blank"}
 
         1. Синтакса колекцијског `for` циклуса
 
@@ -319,9 +319,9 @@
 
         1. Прескакање дела тела циклуса
 
-    1. Аргументи команде линије код улазне тачке програма
+    1. Аргументи команде линије код улазне тачке програма [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=8m46s){:target="_blank"}
 
-    1. Низови низова
+    1. Низови низова [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=16m50s){:target="_blank"}
 
         1. Дводимензионални низови
 

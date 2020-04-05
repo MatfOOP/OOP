@@ -93,10 +93,6 @@ class PokretanjeDvodimenzionalniiNizMatrice {
          return null;
       if (a[0].length != b.length)
          return null;
-      for (int i = 1; i < a.length; i++)
-         if (a[i].length != a[i].length)
-            return null;
-      if (nijeMatrica(a)) return null;
       double[][] c = new double[a.length][b[0].length];
       for (int i = 0; i < c.length; i++)
          for (int j = 0; j < c[i].length; j++) {
@@ -120,6 +116,8 @@ class PokretanjeDvodimenzionalniiNizMatrice {
    }
 
    static boolean jeKvadratna(double[][] a) {
+      if( a==null)
+         return false;
       if(nijeMatrica(a))
          return false;
       for (int i = 0; i < a.length; i++)

@@ -13,7 +13,6 @@
 class PokretanjeKolekcijskiForiNizPrikaz {
 
 
-
     public static void main(String[] args) {
         int n = 0b0000_1101; //binarni broj
         double[] niz = new double[n];
