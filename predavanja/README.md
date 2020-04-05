@@ -319,9 +319,9 @@
 
         1. Прескакање дела тела циклуса
 
-    1. Аргументи команде линије код улазне тачке програма [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=8m46s){:target="_blank"}
+    1. Аргументи команде линије код улазне тачке програма [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&feature=youtu.be&t=8m46s){:target="_blank"}
 
-    1. Низови низова [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=16m50s){:target="_blank"}
+    1. Низови низова [филм](https://www.youtube.com/watch?v=wPur8Ucguxs&feature=youtu.be&t=16m50s){:target="_blank"}
 
         1. Дводимензионални низови
 
@@ -483,9 +483,9 @@
 
         1. Реализација класа омотача за примитивне типове
 
-8. Напредни рад са класама и објектима
+8. Напредни рад са класама и објектима [презентација](/prezentacije/OOP11-Apstraktne klase i interfejsi.pdf){:target="_blank"}
 
-    1. Апстрактне класе [презентација](/prezentacije/OOP11-Apstraktne klase i interfejsi.pdf){:target="_blank"}
+    1. Апстрактне класе
 
         1. Дефинисање апстрактне класе
 
