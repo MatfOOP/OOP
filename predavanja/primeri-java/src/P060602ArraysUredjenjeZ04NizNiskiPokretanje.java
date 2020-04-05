@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class P060602ArraysUredjenjeZ04NizNiskiPokretanje {
+class PokretanjeArraysUredjenjeNizNiski {
 
     public static void main(String[] args) {
         String[] niz = {"23", "-7", "5", "54", "6", "4", "34", "-23"};
@@ -17,7 +17,7 @@ public class P060602ArraysUredjenjeZ04NizNiskiPokretanje {
         for (String s : niz2)
             System.out.print(s + " ");
         System.out.println();
-        Arrays.sort(niz);
+        Arrays.sort(niz2);
         System.out.println("Posle sortiranja");
         for (String s : niz2)
             System.out.print(s + " ");

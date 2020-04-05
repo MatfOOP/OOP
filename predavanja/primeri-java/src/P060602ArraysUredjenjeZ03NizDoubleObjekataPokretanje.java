@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class PokretanjeArraysUredjenjeNizDoubleOбjekata
+class PokretanjeArraysUredjenjeNizDoubleObjekata
 {
 	
 	public static void main( String[] args )

@@ -30,7 +30,9 @@
 
 [Низови у Јави. Једнодимензионални низови.](https://www.youtube.com/watch?v=ZJP5WIINRos&feature=youtu.be&t=0m0s){:target="_blank"}
 
-[Колекцијски циклус for. Дводимензионални низови.](https://www.youtube.com/watch?v=wPur8Ucguxs&list=PL4uJwj46TjzOMgpZF5a82_cCBq3gxGXDe&feature=youtu.be&t=0m0s){:target="_blank"}
+[Колекцијски циклус for. Дводимензионални низови.](https://www.youtube.com/watch?v=wPur8Ucguxs&feature=youtu.be&t=0m0s){:target="_blank"}
+
+[Класа Arrays. Променљиви број аргумената метода.](https://www.youtube.com/watch?v=gapMpZVPJcg&feature=youtu.be&&t=0m0s){:target="_blank"}
 
 ## Додатни снимци
 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class P060602ArraysUredjenjeZ02NizDoubleVrednostiPokretanje {
+class PokretanjeArraysUredjenjeNizDoubleVrednosti {
 
     public static void main(String[] args) {
         double[] niz = {23.5, -7.6, 5.0, 6, 4, 34.34, -23};

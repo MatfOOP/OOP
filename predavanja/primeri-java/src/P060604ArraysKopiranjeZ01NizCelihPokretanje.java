@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class P060604ArraysKopiranjeZ01NizCelihPokretanje {
+class PokretanjeArraysKopiranjeZNizCelih {
 
    private static void prikazi(int[] niz) {
       for (int x : niz)

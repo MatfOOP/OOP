@@ -14,8 +14,9 @@
 // као и постављање вредности за елементе низа коришћењем метода класе Arrays.
 // У овом примеру, користи се наредба import ради краћег записа програма.
 
-class PrepisClanovaNizaPokretanje {
+class PokretanjeArraysPopunjavanjeNiza {
    public static void main(String[] args) {
+
       java.util.Scanner skener = new java.util.Scanner(System.in);
       System.out.println("Dimenzija prvog niza");
       int n = skener.nextInt();
@@ -26,6 +27,8 @@ class PrepisClanovaNizaPokretanje {
       java.util.Arrays.fill(nizNiski, str);
       for (String s : nizNiski)
          System.out.printf("%s ", s);
+      System.out.println();
+
       System.out.println("Dimenzija drugog niza");
       n = skener.nextInt();
       double[] nizBrojeva = new double[n];

@@ -1,18 +1,19 @@
 
-public class P060603ArraysPretragaZ01NizCelihPokretanje {
+class PokretanjeArraysPretragaNizCelih {
 
    public static void main(String[] args) {
-      int[] niz = {23, -7, 5, 6, 4, 34, -23};
+      int[] niz = {23, -7, 5, 6, 4, 34, -23, 8};
       System.out.println("Na pocetku");
       for (int x : niz)
          System.out.print(x + " ");
       System.out.println();
-      java.util.Arrays.sort(niz);
 
+      java.util.Arrays.sort(niz);
       System.out.println("Posle sortiranja");
       for (int x : niz)
          System.out.print(x + " ");
       System.out.println();
+
       System.out.print("Unesite broj koji se trazi: ");
       java.util.Scanner skener = new java.util.Scanner(System.in);
       int traziSe = skener.nextInt();
