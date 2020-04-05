@@ -1,4 +1,4 @@
-class P060401KomandnaLinijaZ01NalepljivanjePrikazPokretanje {
+class PokretanjeKomandnaLinijaZ01NalepljivanjePrikaz {
 
 
 

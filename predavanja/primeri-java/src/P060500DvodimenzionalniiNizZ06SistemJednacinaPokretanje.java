@@ -82,8 +82,8 @@ class PokretanjeDvodimenzionalniiNizSistemJednacina {
     }
 
     public static void main(String[] args) {
-        //Scanner ulaz = new Scanner( "3 1 2 3 1 1 -1 2 3 8 0 1 2" );
-        Scanner ulaz = new Scanner(System.in);
+        Scanner ulaz = new Scanner( "3 1 2 3 1 1 -1 2 3 8 0 1 2" );
+        //Scanner ulaz = new Scanner(System.in);
         System.out.println("Dimenzija kvadratne matrice");
         int n = ulaz.nextInt();
         double[][] a = ucitajMatricuSistema(ulaz, n);
