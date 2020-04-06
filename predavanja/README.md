@@ -485,7 +485,7 @@
 
 8. Напредни рад са класама и објектима [презентација](/prezentacije/OOP11-Apstraktne klase i interfejsi.pdf){:target="_blank"}
 
-    1. Апстрактне класе
+    1. Апстрактне класе [филм](https://www.youtube.com/watch?v=j2dAq4adfq8&feature=youtu.be&&t=0m7s){:target="_blank"}
 
         1. Дефинисање апстрактне класе
 

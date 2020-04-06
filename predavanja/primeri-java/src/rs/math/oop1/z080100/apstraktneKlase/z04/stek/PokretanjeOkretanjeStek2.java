@@ -33,6 +33,5 @@ public class PokretanjeOkretanjeStek2 {
       System.out.println("Reči u obratnom redosledu: ");
       while (stek.brojElemenata() > 0)
          System.out.printf("%s\t", stek.pop());
-      System.out.println();
    }
 }

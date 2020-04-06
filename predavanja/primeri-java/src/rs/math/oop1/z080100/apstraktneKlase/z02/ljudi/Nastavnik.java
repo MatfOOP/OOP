@@ -7,14 +7,14 @@ class Nastavnik extends Covek {
    private String predmet;
    private int godinaStaza;
 
-   public Nastavnik(String ime, String prezime, String predmet, int godinaStaza) {
-      super(ime, prezime);
+   public Nastavnik(String ime, String prezime, String jmbg, String predmet, int godinaStaza) {
+      super(ime, prezime, jmbg);
       this.predmet = predmet;
       this.godinaStaza = godinaStaza;
    }
 
-   public Nastavnik(){
-      this("","","",0);
+   public Nastavnik() {
+      this("", "", "", "", 0);
    }
 
    public String getPredmet() {
@@ -39,6 +39,8 @@ class Nastavnik extends Covek {
       setIme(ulaz.next());
       System.out.print("Prezime: ");
       setPrezime(ulaz.next());
+      System.out.print("JMBG: ");
+      setJmbg(ulaz.next());
       System.out.print("Predmet: ");
       setPredmet(ulaz.next());
       System.out.print("Staz: ");
@@ -46,10 +48,21 @@ class Nastavnik extends Covek {
    }
 
    @Override
+   public String toString() {
+      return "Nastavnik{"
+            + getIme() + " " + getPrezime() + " " + getJmbg() + " "
+            + predmet + " " + godinaStaza +
+            '}';
+   }
+
+   @Override
    public void predstaviSe() {
-      System.out.println("Nastavnik: "
-            + getIme() + " " + getPrezime() + " "
-            + predmet + " " + godinaStaza + ".");
+      System.out.println(this);
+   }
+
+   @Override
+   public void leciSe() {
+      System.out.println( "Odlazi u u dom zdravlja..." );
    }
 
 }

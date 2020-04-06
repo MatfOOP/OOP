@@ -3,9 +3,9 @@ package rs.math.oop1.z080100.apstraktneKlase.z02.ljudi;
 public class Apsolvent extends Student {
    private int brojRokovaDoIstekaStaza;
 
-   public Apsolvent(String ime, String prezime, String smer, String brojIndeksa, int godinaStudija,
+   public Apsolvent(String ime, String prezime, String jmbg, String smer, String brojIndeksa, int godinaStudija,
                     int brojRokovaDoIstekaStaza) {
-      super(ime, prezime, smer, brojIndeksa, godinaStudija);
+      super(ime, prezime, jmbg, smer, brojIndeksa, godinaStudija);
       this.brojRokovaDoIstekaStaza = brojRokovaDoIstekaStaza;
    }
 
@@ -18,11 +18,16 @@ public class Apsolvent extends Student {
    }
 
    @Override
-   public void predstaviSe() {
-      System.out.println("Apsolvent: "
-            + getIme() + " " + getPrezime() + " "
+   public String toString() {
+      return "Apsolvent{"
+            + getIme() + " " + getPrezime() + " " + getJmbg() + " "
             + getSmer() + " " + getBrojIndeksa() + " "
-            + getGodinaStudija() + " "
-            + brojRokovaDoIstekaStaza + ".");
+            + getGodinaStudija() + " " + brojRokovaDoIstekaStaza +
+            '}';
+   }
+
+   @Override
+   public void predstaviSe() {
+      System.out.println(this);
    }
 }

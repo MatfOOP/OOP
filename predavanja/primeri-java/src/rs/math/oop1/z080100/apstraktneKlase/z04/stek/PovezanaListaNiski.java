@@ -79,12 +79,10 @@ public class PovezanaListaNiski {
       }
       System.out.print("]");
    }
-   
-   public int broj()
-   {
-      int br =0;
-      for (ElemenatListe tekuci = pocetak; tekuci != null; 
-               tekuci = tekuci.getSledeci()) 
+
+   public int broj() {
+      int br = 0;
+      for (ElemenatListe tekuci = pocetak; tekuci != null; tekuci = tekuci.getSledeci())
          br++;
       return br;
    }

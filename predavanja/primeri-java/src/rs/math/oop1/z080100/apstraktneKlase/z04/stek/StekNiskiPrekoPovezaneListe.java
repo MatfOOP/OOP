@@ -24,7 +24,7 @@ public class StekNiskiPrekoPovezaneListe extends StekNiski {
    public String pop() {
       String elem = elementi.ukloniElemenatSaPocetka();
       if (elem == null) {
-         System.out.println("Greska POP: StekNiski je prazan!");
+         System.err.println("Greska POP: StekNiski je prazan!");
          return "<nema>";
       }
       return elem;
