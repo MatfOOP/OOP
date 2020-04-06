@@ -59,7 +59,7 @@ class Student extends Covek implements Deskripcija, Kvalitet {
    public String toString() {
       return "" +
             super.toString() +
-            "smer: '" + smer + '\'' +
+            " smer: '" + smer + '\'' +
             ", broj indeksa: '" + brojIndeksa + '\'' +
             ", godina studija: " + godinaStudija +
             "";

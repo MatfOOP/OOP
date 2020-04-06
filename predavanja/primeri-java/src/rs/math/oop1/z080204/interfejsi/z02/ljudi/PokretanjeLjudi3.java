@@ -27,8 +27,8 @@ public class PokretanjeLjudi3
 
 		for (Deskripcija des : niz)
 		{
+			des.predstaviSe();
 			if( des instanceof Kvalitet) {
-				des.predstaviSe();
 				Kvalitet kva = (Kvalitet) des;
 				System.out.printf("postenje: %d dobrota: %d\n",kva.jePosten(), kva.jeDobar() );
 			}

@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z02.dvaInterfejsa;
+package rs.math.oop1.z080201.interfejsi.z03.dvaInterfejsa;
 
 
 public class PokretanjeProba {
@@ -13,12 +13,12 @@ public class PokretanjeProba {
         System.out.println(proba.pitanje2());
         System.out.println();
 
-        Prvi p = new Proba();
+        Prvi p = new Proba(); //proba;
         p.prikaziPitanje();
         System.out.println(p.pitanje());
         System.out.println();
 
-        Drugi d = new Proba();
+        Drugi d = proba; //new Proba();
         d.prikaziOdgovor();
         System.out.println(d.odgovor());
         System.out.println();

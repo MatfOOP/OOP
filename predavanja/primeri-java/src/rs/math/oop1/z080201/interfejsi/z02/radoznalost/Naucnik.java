@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z03.radoznalost;
+package rs.math.oop1.z080201.interfejsi.z02.radoznalost;
 
 public class Naucnik implements Radoznao {
    private String ime;

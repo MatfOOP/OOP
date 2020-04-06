@@ -36,7 +36,7 @@ public class StekNiskiPrekoNizaSamorastuci implements StekNiski {
    @Override
    public String pop() {
       if (vrhSteka == -1) {
-         System.out.println("Greska POP: StekNiski je prazan!");
+         System.err.println("Greska POP: StekNiski je prazan!");
          return "<nema>";
       }
       return elementi[vrhSteka--];

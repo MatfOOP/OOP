@@ -1,6 +1,6 @@
 package rs.math.oop1.z080204.interfejsi.z02.ljudi;
 
-class Apsolvent extends Student implements Deskripcija, Kvalitet {
+class Apsolvent extends Student {
    private int brojRokovaDoIstekaStaza;
 
    public Apsolvent(String ime, String prezime, String smer, String brojIndeksa, int godinaStudija,
@@ -13,7 +13,7 @@ class Apsolvent extends Student implements Deskripcija, Kvalitet {
    public String toString() {
       return "" +
             super.toString() +
-            "broj rokova do isteka staza: " + brojRokovaDoIstekaStaza +
+            " broj rokova do isteka staza: " + brojRokovaDoIstekaStaza +
             "";
    }
 

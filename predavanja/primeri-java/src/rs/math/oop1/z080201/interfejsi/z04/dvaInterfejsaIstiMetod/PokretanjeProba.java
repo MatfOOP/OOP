@@ -6,6 +6,8 @@ public class PokretanjeProba {
     {
         Prvi p = new Proba();
         System.out.println(p.pita());
+        System.out.println();
+
         Drugi d = new Proba();
         System.out.println(d.pita());
     }

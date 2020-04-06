@@ -1,7 +1,7 @@
-package rs.math.oop1.z080201.interfejsi.z03.radoznalost;
+package rs.math.oop1.z080201.interfejsi.z02.radoznalost;
 
 public class Istrazivac extends Naucnik {
-   String probojUOblasti;
+   private String probojUOblasti;
 
    public Istrazivac(String ime, String probojUOblasti) {
       super(ime);

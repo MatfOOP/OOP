@@ -34,7 +34,10 @@
 
 [Класа Arrays. Променљиви број аргумената метода.](https://www.youtube.com/watch?v=gapMpZVPJcg&feature=youtu.be&&t=0m0s){:target="_blank"
 
-[Апстракнте класе.](https://www.youtube.com/watch?v=j2dAq4adfq8&feature=youtu.be&&t=0m7s){:target="_blank"}
+[Апстракнте класе.](https://www.youtube.com/watch?v=j2dAq4adfq8&feature=youtu.be&&t=0m0s){:target="_blank"}
+
+[Интерфејси.](https://www.youtube.com/watch?v=Z7dMwl7SAgw&feature=youtu.be&&t=0m0s){:target="_blank"}
+
 
 ## Додатни снимци
 
