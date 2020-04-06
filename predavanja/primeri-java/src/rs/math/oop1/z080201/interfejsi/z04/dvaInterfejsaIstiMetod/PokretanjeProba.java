@@ -1,6 +1,6 @@
-package rs.math.oop1.z080201.interfejsi.z01.dvaInterfejsa;
+package rs.math.oop1.z080201.interfejsi.z03.dvaInterfejsaIstiMetod;
 
-public class ProbaPokretanje {
+public class PokretanjeProba {
 
     public static void main(String[] arg)
     {

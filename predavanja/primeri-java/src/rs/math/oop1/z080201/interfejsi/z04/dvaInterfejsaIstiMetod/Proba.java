@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z01.dvaInterfejsa;
+package rs.math.oop1.z080201.interfejsi.z03.dvaInterfejsaIstiMetod;
 
 public class Proba implements Prvi, Drugi{
 
@@ -6,6 +6,5 @@ public class Proba implements Prvi, Drugi{
     {
         return "Prvi pita...";
     }
-
 
 }
