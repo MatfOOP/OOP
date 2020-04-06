@@ -1,4 +1,4 @@
-package rs.math.oop1.z080201.interfejsi.z03.dvaInterfejsaIstiMetod;
+package rs.math.oop1.z080201.interfejsi.z04.dvaInterfejsaIstiMetod;
 
 public class Proba implements Prvi, Drugi{
 

@@ -4,7 +4,7 @@
 
  */
 
-package rs.math.oop1.z70401.definicjeMetoda.z04.paskalovTrougao;
+package rs.math.oop1.z070401.definicjeMetoda.z04.paskalovTrougao;
 
 class PaskalovTrougао {
    // deklarisi trougaoni niz

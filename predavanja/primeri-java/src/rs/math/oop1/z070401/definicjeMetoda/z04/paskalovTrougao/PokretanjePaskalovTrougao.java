@@ -11,7 +11,7 @@
 // као и учитавање бројева са улаза.
 // У овом примеру не користи се наредба import, већ се свуда користе пуна имена класа.
 
-package rs.math.oop1.z70401.definicjeMetoda.z04.paskalovTrougao;
+package rs.math.oop1.z070401.definicjeMetoda.z04.paskalovTrougao;
 
 public class PokretanjePaskalovTrougao {
 

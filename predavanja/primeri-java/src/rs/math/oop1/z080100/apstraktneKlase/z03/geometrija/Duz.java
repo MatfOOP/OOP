@@ -62,7 +62,7 @@ public class Duz extends GeometrijskiObjekat {
 
    @Override
    public void prikaziSe() {
-      System.out.printf("%s", this);
+      System.out.printf("%s\n", this);
    }
 
    @Override

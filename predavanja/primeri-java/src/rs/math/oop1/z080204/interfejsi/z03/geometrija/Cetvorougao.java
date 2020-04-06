@@ -119,5 +119,4 @@ public class Cetvorougao extends GeometrijskiObjekat implements Prikaz, Oblik, M
       }
    }
 
-
 }
