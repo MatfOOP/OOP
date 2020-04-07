@@ -37,6 +37,9 @@
   - [Ања](https://youtu.be/2tUoWWEGoA0) 
   - [Немања](https://youtu.be/fL5qIcN7eGA)
   
+ - Час 8: Генеричке класе
+  - [Денис](https://youtu.be/pae4I1DdSGM)
+ 
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
