@@ -9,8 +9,13 @@
 ### Тема: Генеричке класе
 Термини:
 - Денис: 06.04. у 11:15 
-  - [линк](https://us04web.zoom.us/j/636854504?pwd=dmxXV2graXpDU09JNVNHK1dqY3NxUT09), Meeting ID: 636-854-504
+  - [линк](https://us04web.zoom.us/j/636854504?pwd=dmxXV2graXpDU09JNVNHK1dqY3NxUT09)
+  - Meeting ID: 636-854-504
   - лозинка: `matfoop`
+- Ања: 08.04. у 11:00 
+  - [линк](https://us04web.zoom.us/j/611574582?pwd=WG5nOE1nK2NRSmc2MzR5YWFhVzBJZz09)
+  - Meeting ID: 611-574-582
+  - лозинка: `generic`
 
 
 ### Тема: Интерфејси
