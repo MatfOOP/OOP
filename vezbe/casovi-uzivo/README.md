@@ -42,6 +42,7 @@
   
  - Час 8: Генеричке класе
    - [Денис](https://youtu.be/pae4I1DdSGM)
+   - [Ања](https://youtu.be/th4Q0ykunsM)
  
 ---
 
