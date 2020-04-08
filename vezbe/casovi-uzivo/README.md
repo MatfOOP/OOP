@@ -31,18 +31,19 @@
 
 ## Снимци одржаних часова вежби
 - Час 6: Интерфејси
-  - [Денис](https://youtu.be/yJid-lC8RUw) 
-  - [Ања](https://youtu.be/rVcXIdKxfyo) 
-  - [Немања](https://youtu.be/eEBMNy6TeQ0)
+	- [Денис](https://youtu.be/yJid-lC8RUw) 
+	- [Ања](https://youtu.be/rVcXIdKxfyo) 
+	- [Немања](https://youtu.be/eEBMNy6TeQ0)
 
 - Час 7: Изузеци и клонирање
-  - [Денис](https://youtu.be/NeNkABXWxfY)
-  - [Ања](https://youtu.be/2tUoWWEGoA0) 
-  - [Немања](https://youtu.be/fL5qIcN7eGA)
+	- [Денис](https://youtu.be/NeNkABXWxfY)
+	- [Ања](https://youtu.be/2tUoWWEGoA0) 
+	- [Немања](https://youtu.be/fL5qIcN7eGA)
   
- - Час 8: Генеричке класе
-   - [Денис](https://youtu.be/pae4I1DdSGM)
-   - [Ања](https://youtu.be/th4Q0ykunsM)
+- Час 8: Генеричке класе
+	- [Денис](https://youtu.be/pae4I1DdSGM)
+	- [Ања](https://youtu.be/th4Q0ykunsM)
+	- [Немања](https://www.youtube.com/watch?v=HX8e5eR-VOA)
  
 ---
 
