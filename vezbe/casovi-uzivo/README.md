@@ -16,9 +16,12 @@
   - [линк](https://us04web.zoom.us/j/611574582?pwd=WG5nOE1nK2NRSmc2MzR5YWFhVzBJZz09)
   - Meeting ID: 611-574-582
   - лозинка: `generic`
+- Немања: 08.04. у 18:00 
+    - [први час](https://us04web.zoom.us/j/708231658?pwd=Wk9aa3B0N0JQbUJFTC9XcE5NU1AyUT09), Meeting ID: 708-231-658
+    - [други час](https://us04web.zoom.us/j/224400695?pwd=cWVKeGdzL2tCOFRuMzhLd09IcmxVQT09), Meeting ID: 224-400-695
+    - лозинка: `matfoop`
 
-
-### Тема: Интерфејси
+### Тема: Интерфејс
 Термини:
 - Биљана: 27.03. у 12:00 
   - Отказују се заказани часови уживо из техничких разлога. Студенти су добили обавештење и путем е-поште.
