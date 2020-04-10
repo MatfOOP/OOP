@@ -1,9 +1,9 @@
 package rs.math.oop1.z200201.iscrtavanje.z02.krug;
 
 import javafx.application.Application;
-import javafx.scene.GroupBuilder;
+import javafx.scene.Cursor;
+import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.SceneBuilder;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
@@ -11,15 +11,15 @@ import javafx.stage.Stage;
 public class Krug extends Application {
    @Override
    public void start(Stage etapa) {
-      Scene scena = SceneBuilder.create()
-            .width(100)
-            .height(100)
-            .root(
-                  GroupBuilder.create()
-                        .children(new Circle(50.0f, 50.0f, 50.0f, Color.RED))
-                        .build()
-            )
-            .build();
+      Group koren = FxUtil.build(new Group(),
+            gr -> {
+               gr.getChildren().addAll(new Circle(50.0f, 50.0f, 50.0f, Color.RED));
+            });
+      Scene scena = FxUtil.build(new Scene(koren, 100, 100),
+            sc -> {
+               sc.setRoot(koren);
+               sc.setCursor(Cursor.HAND);
+            });
       etapa.setScene(scena);
       etapa.show();
    }

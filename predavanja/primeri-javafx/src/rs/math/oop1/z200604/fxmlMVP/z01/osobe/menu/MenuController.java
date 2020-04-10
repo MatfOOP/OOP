@@ -1,11 +1,11 @@
-package rs.math.oop1.z200602.fxmlMVP.z01.osobe.menu;
+package rs.math.oop1.z200604.fxmlMVP.z01.osobe.menu;
 
 import java.io.File;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.MenuBar;
 import javafx.stage.FileChooser;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.model.DataModel;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.model.DataModel;
 
 public class MenuController {
 

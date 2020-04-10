@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.p1802.dugme;
+package rs.math.oop1.z200402.pano.z01.odgovorNaAkciju;
 
 import javafx.application.Application;
 import javafx.scene.Parent;
@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 
 import java.util.Random;
 
-public class PokreniDugme extends Application {
+public class PokreniDugmePano extends Application {
 
    private Button ispisi;
    private Pane poMeniSePise;
@@ -26,7 +26,7 @@ public class PokreniDugme extends Application {
    @Override
    public void start(Stage primarnaScena) throws Exception {
       Scene scena = new Scene(kreirajScenu(), 600, 400);
-      primarnaScena.setTitle("PokreniDugme 2");
+      primarnaScena.setTitle("PokreniDugmePano 2");
       primarnaScena.setScene(scena);
       primarnaScena.show();
    }

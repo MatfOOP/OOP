@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.geometry.Insets?>
 
-<GridPane fx:controller="rs.math.oop1.z200602.fxmlMVP.z01.osobe.editor.EditorController" xmlns:fx="http://javafx.com/fxml/1" hgap="5" vgap="5">
+<GridPane fx:controller="rs.math.oop1.z200604.fxmlMVP.z01.osobe.editor.EditorController" xmlns:fx="http://javafx.com/fxml/1" hgap="5" vgap="5">
 	<columnConstraints>
 		<ColumnConstraints halignment="RIGHT" hgrow="NEVER"/>
 		<ColumnConstraints halignment="LEFT" hgrow="ALWAYS"/>

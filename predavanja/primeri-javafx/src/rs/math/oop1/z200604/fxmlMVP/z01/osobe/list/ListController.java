@@ -1,10 +1,10 @@
-package rs.math.oop1.z200602.fxmlMVP.z01.osobe.list;
+package rs.math.oop1.z200604.fxmlMVP.z01.osobe.list;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.model.DataModel;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.model.Osoba;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.model.DataModel;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.model.Osoba;
 
 public class ListController {
 

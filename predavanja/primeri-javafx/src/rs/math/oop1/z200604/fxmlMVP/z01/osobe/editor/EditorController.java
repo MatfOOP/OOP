@@ -1,8 +1,8 @@
-package rs.math.oop1.z200602.fxmlMVP.z01.osobe.editor;
+package rs.math.oop1.z200604.fxmlMVP.z01.osobe.editor;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.model.DataModel;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.model.DataModel;
 
 public class EditorController {
 

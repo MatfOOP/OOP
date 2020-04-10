@@ -13,7 +13,7 @@ public class Krug extends Application {
    public void start(Stage etapa) {
       Parent koren = null;
       try {
-         koren = FXMLLoader.load(getClass().getResource("example.fxml"));
+         koren = FXMLLoader.load(getClass().getResource("krug.fxml"));
       } catch (IOException e) {
          e.printStackTrace();
       }

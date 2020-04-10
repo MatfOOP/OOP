@@ -1,4 +1,4 @@
-package rs.math.oop1.z200402.dugme.z01.odgovorNaAkciju;
+package rs.math.oop1.z200401.dugme.z01.odgovorNaAkciju;
 
 import java.util.Random;
 

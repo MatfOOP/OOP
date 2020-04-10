@@ -1,14 +1,14 @@
-package rs.math.oop1.z200602.fxmlMVP.z01.osobe.application;
+package rs.math.oop1.z200604.fxmlMVP.z01.osobe.application;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.editor.EditorController;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.list.ListController;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.menu.MenuController;
-import rs.math.oop1.z200602.fxmlMVP.z01.osobe.model.DataModel;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.editor.EditorController;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.list.ListController;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.menu.MenuController;
+import rs.math.oop1.z200604.fxmlMVP.z01.osobe.model.DataModel;
 
 public class ContactApp extends Application {
 
@@ -17,17 +17,17 @@ public class ContactApp extends Application {
 
       BorderPane root = new BorderPane();
       FXMLLoader listLoader = new FXMLLoader(getClass().getResource(
-            "/rs/math/oop1/z200602/fxmlMVP/z01/osobe/list/list.fxml"));
+            "/rs/math/oop1/z200604/fxmlMVP/z01/osobe/list/list.fxml"));
       root.setCenter(listLoader.load());
       ListController listController = listLoader.getController();
 
       FXMLLoader editorLoader = new FXMLLoader(getClass().getResource(
-            "/rs/math/oop1/z200602/fxmlMVP/z01/osobe/editor/editor.fxml"));
+            "/rs/math/oop1/z200604/fxmlMVP/z01/osobe/editor/editor.fxml"));
       root.setRight(editorLoader.load());
       EditorController editorController = editorLoader.getController();
 
       FXMLLoader menuLoader = new FXMLLoader(getClass().getResource(
-            "/rs/math/oop1/z200602/fxmlMVP/z01/osobe/menu/menu.fxml"));
+            "/rs/math/oop1/z200604/fxmlMVP/z01/osobe/menu/menu.fxml"));
       root.setTop(menuLoader.load());
       MenuController menuController = menuLoader.getController();
 

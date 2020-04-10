@@ -1,4 +1,4 @@
-package rs.math.oop1.z200602.fxmlMVP.z01.osobe.model;
+package rs.math.oop1.z200604.fxmlMVP.z01.osobe.model;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
