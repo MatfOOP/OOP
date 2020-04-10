@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.p1704.tekst;
+package rs.math.oop1.z200207.statickiTekst.z01.pozicijaBoja;
 
 import java.util.Random;
 import javafx.application.Application;

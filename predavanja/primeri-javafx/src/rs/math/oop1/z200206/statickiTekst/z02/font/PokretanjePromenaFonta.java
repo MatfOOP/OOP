@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.p1705.tekst;
+package rs.math.oop1.z200207.statickiTekst.z02.font;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  * 
  * @author cdea
  */
-public class ChangingTextFonts extends Application
+public class PokretanjePromenaFonta extends Application
 {
 	/**
 	 * @param args
