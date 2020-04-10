@@ -1,4 +1,4 @@
-package rs.math.oop1.z200207.statickiTekst.z01.pozicijaBoja;
+package rs.math.oop1.z200206.statickiTekst.z01.pozicijaBoja;
 
 import java.util.Random;
 import javafx.application.Application;

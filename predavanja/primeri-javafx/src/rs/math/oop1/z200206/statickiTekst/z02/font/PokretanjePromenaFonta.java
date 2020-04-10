@@ -1,4 +1,4 @@
-package rs.math.oop1.z200207.statickiTekst.z02.font;
+package rs.math.oop1.z200206.statickiTekst.z02.font;
 
 import javafx.application.Application;
 import javafx.scene.Group;
