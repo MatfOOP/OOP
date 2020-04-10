@@ -1,4 +1,4 @@
-package rs.ac.bg.matf.oop_p.p1801.dugme;
+package rs.math.oop1.z200402.dugme.z01.odgovorNaAkciju;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ import javafx.scene.paint.*;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Dugme extends Application
+public class PokreniDugme extends Application
 {
 	
 	private Button ispisi = new Button();
@@ -31,12 +31,12 @@ public class Dugme extends Application
 	public void start( Stage primarnaScena )
 	{
 		
-		primarnaScena.setTitle( "Dugme" );
+		primarnaScena.setTitle( "Pokreni dugme" );
 		Group koren = new Group();
 		Scene scena = new Scene( koren, 600, 400 );
 		ispisi.setLayoutX( 250 );
 		ispisi.setLayoutY( 20 );
-		ispisi.setText( "Ispisi" );
+		ispisi.setText( "Prikaz poruka" );
 		ispisi.setOnAction( new EventHandler<ActionEvent>()
 		{
 			public void handle( ActionEvent event )
@@ -65,7 +65,7 @@ public class Dugme extends Application
 			int red = rand.nextInt(255);
 			int green = rand.nextInt(255);
 			int blue = rand.nextInt(255);
-			Text text = new Text(x, y, "JavaFX 2.0");
+			Text text = new Text(x, y, "Vlado je bio ovde!!!");
 			int rot = rand.nextInt(360);
 			text.setFill(Color.rgb(red, green, blue, .99));
 			text.setRotate(rot);
