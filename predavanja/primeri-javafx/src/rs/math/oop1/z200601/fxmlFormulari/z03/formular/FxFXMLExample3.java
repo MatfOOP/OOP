@@ -11,8 +11,7 @@ import javafx.stage.Stage;
 
 public class FxFXMLExample3 extends Application
 {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args)	{
 		Application.launch(args);
 	}
 
@@ -22,7 +21,7 @@ public class FxFXMLExample3 extends Application
 		// Create the FXMLLoader
 		FXMLLoader loader = new FXMLLoader();
 		// Path to the FXML File
-		String fxmlDocPath = "Path-To-Your-FXML-Files/FxFXMLExample3.fxml";
+		String fxmlDocPath = getClass().getResource("FxFXMLExample3.fxml").getPath();
 		FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
 		// Create the Pane and all Details

@@ -22,7 +22,7 @@ public class FxFXMLExample2 extends Application
 		// Create the FXMLLoader
 		FXMLLoader loader = new FXMLLoader();
 		// Path to the FXML File
-		String fxmlDocPath = "Path-To-Your-FXML-Files/FxFXMLExample2.fxml";
+		String fxmlDocPath = getClass().getResource("FxFXMLExample2.fxml").getPath();
 		FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
 		// Create the Pane and all Details

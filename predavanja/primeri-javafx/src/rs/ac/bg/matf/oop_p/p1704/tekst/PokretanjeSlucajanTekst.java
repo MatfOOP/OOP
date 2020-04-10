@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * 
  * @author cdea
  */
-public class DrawingText extends Application
+public class PokretanjeSlucajanTekst extends Application
 {
 	/**
 	 * @param args
