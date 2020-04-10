@@ -37,7 +37,7 @@ public class DrawingText extends Application
 			int red = slucajni.nextInt( 255 );
 			int green = slucajni.nextInt( 255 );
 			int blue = slucajni.nextInt( 255 );
-			Text poruka = new Text( x, y, "JavaFX 2.0" );
+			Text poruka = new Text( x, y, "JavaFX tekst" );
 			int rotacija = slucajni.nextInt( 360 );
 			poruka.setFill( Color.rgb( red, green, blue, .99 ) );
 			poruka.setRotate( rotacija );
