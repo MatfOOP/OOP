@@ -1,4 +1,4 @@
-package rs.math.oop1.z080302.visekriterijumskoUredjenje.z03.geometrija;
+package rs.math.oop1.z080302.visekriterijumskoUredjenje.z04.geometrija;
 
 import java.awt.*;
 import static  java.lang.Math.*;

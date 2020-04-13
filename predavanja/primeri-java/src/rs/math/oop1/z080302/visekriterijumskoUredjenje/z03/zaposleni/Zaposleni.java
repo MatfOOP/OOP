@@ -1,4 +1,4 @@
-package rs.math.oop1.z080302.visekriterijumskoUredjenje.z02.zaposleni;
+package rs.math.oop1.z080302.visekriterijumskoUredjenje.z03.zaposleni;
 
 
 public class Zaposleni implements Comparable
