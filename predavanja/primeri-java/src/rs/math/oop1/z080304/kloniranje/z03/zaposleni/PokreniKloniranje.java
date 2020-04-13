@@ -1,8 +1,6 @@
-package rs.math.oop1.z080304.kloniranje.z01.zaposleni;
-
+package rs.math.oop1.z080304.kloniranje.z02.zaposleni;
 
 public class PokreniKloniranje {
-
    public static void main(String[] args) {
       try {
          Zaposleni original = new Zaposleni("Jovan", "Petović", "pripravnik", 300);
