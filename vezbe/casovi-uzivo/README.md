@@ -6,20 +6,12 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Генеричке класе
+### Тема: Датотеке и поређење објеката
 Термини:
-- Денис: 06.04. у 11:15 
-  - [линк](https://us04web.zoom.us/j/636854504?pwd=dmxXV2graXpDU09JNVNHK1dqY3NxUT09)
-  - Meeting ID: 636-854-504
+- Денис: 13.04. у 11:15 
+  - [линк](https://us04web.zoom.us/j/72780941178?pwd=MnRkWDFNQlRZN2l3bEp5Smk0RnVwUT09)
+  - Meeting ID: 727-8094-1178
   - лозинка: `matfoop`
-- Ања: 08.04. у 11:00 
-  - [линк](https://us04web.zoom.us/j/611574582?pwd=WG5nOE1nK2NRSmc2MzR5YWFhVzBJZz09)
-  - Meeting ID: 611-574-582
-  - лозинка: `generic`
-- Немања: 08.04. у 18:00 
-    - [први час](https://us04web.zoom.us/j/708231658?pwd=Wk9aa3B0N0JQbUJFTC9XcE5NU1AyUT09), Meeting ID: 708-231-658
-    - [други час](https://us04web.zoom.us/j/224400695?pwd=cWVKeGdzL2tCOFRuMzhLd09IcmxVQT09), Meeting ID: 224-400-695
-    - лозинка: `matfoop`
 
 ### Тема: Интерфејси
 Термини:
