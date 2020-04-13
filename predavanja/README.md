@@ -501,7 +501,7 @@
 
         1. Параметри типа интерфејса
 
-    1. Интерфејси у ЈДК-у
+    1. Интерфејси у ЈДК-у [филм](https://www.youtube.com/watch?v=RDAEOcYik2g&feature=youtu.be&&t=0m0s){:target="_blank"}
 
         1. Уређење у колекцији, интерфејс `Comparable`
 

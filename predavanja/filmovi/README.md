@@ -38,6 +38,7 @@
 
 [Интерфејси.](https://www.youtube.com/watch?v=Z7dMwl7SAgw&feature=youtu.be&&t=0m0s){:target="_blank"}
 
+[Интерфејси у ЈДК-у.](https://www.youtube.com/watch?v=RDAEOcYik2g&feature=youtu.be&&t=0m0s){:target="_blank"}
 
 ## Додатни снимци
 

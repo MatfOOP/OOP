@@ -1,4 +1,4 @@
-package rs.math.oop1.z080304.kloniranje.z01.zaposleni;
+package rs.math.oop1.z080304.kloniranje.z02.zaposleni;
 
 
 public class PokreniKloniranje {

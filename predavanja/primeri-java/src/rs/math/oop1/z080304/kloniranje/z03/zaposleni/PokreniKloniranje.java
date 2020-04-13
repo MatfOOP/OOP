@@ -1,4 +1,4 @@
-package rs.math.oop1.z080304.kloniranje.z02.zaposleni;
+package rs.math.oop1.z080304.kloniranje.z03.zaposleni;
 
 public class PokreniKloniranje {
    public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class PokreniKloniranje {
          Zaposleni original = new Zaposleni("Jovan", "Petović", "pripravnik", 300);
          original.setDatumZaposlenja(2017, 2, 14);
          Zaposleni kopija = original.clone();
-         System.out.println("Posel kloniranja, a pre promena");
+         System.out.println("Posle kloniranja, a pre promena");
          System.out.println("original= " + original);
          System.out.println("kopija=   " + kopija);
 
