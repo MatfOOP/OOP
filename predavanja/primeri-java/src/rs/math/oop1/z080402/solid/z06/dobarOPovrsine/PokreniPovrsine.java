@@ -17,7 +17,12 @@ public class PokreniPovrsine {
       double a = sc.nextDouble();
       double b = sc.nextDouble();
       Pravougaonik p = new Pravougaonik(a,b);
-      out.printf("Povrsina pravougaonika je: %f\n", p.povrsina());
+      out.printf("Povrsina pravougaonika je: %f\n\n", p.povrsina());
       sc.close();
+
+      Oblik[] oblici = {k,p};
+      for(Oblik o: oblici){
+         out.printf("Povrsina oblika je: %f\n", o.povrsina());
+      }
    }
 }

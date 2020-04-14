@@ -5,7 +5,7 @@ import static java.lang.System.out;
 public class KlijentA implements Klijent {
    private Servis servis;
 
-   public KlijentA( Servis servis) {
+   public KlijentA(Servis servis) {
       this.servis = servis;
    }
 

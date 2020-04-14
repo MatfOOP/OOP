@@ -8,13 +8,11 @@ import static java.lang.System.out;
 
 public class PokreniPovrsine {
 
-   public static double povrsinaPravougaonika(Pravougaonik p)
-   {
+   public static double povrsinaPravougaonika(Pravougaonik p){
       return p.getSirina() * p.getVisina();
    }
 
-   public static double povrsinaKruga(Krug k)
-   {
+   public static double povrsinaKruga(Krug k) {
       return PI * k.getPoluprecnik() * k.getPoluprecnik();
    }
 

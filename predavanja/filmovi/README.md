@@ -40,6 +40,8 @@
 
 [Интерфејси у ЈДК-у.](https://www.youtube.com/watch?v=RDAEOcYik2g&feature=youtu.be&&t=0m0s){:target="_blank"}
 
+[Препоруке за објектно оријентисани дизајн](https://www.youtube.com/watch?v=fj7A2fKrZ4s&feature=youtu.be&&t=0m0s)
+
 ## Додатни снимци
 
 [Подешавање библиотеке ради коришћења JavaFX (код Јава 7)](https://www.youtube.com/watch?v=QMD0JHiz6PQ&list=PL4uJwj46TjzPI5jJ-D-tx9gW_3ZUnjp1B&index=1){:target="_blank"}
