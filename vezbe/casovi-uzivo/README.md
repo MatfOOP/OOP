@@ -12,6 +12,10 @@
   - [линк](https://us04web.zoom.us/j/72780941178?pwd=MnRkWDFNQlRZN2l3bEp5Smk0RnVwUT09)
   - Meeting ID: 727-8094-1178
   - лозинка: `matfoop`
+- Ања: 15.04. у 11:00 
+  - [линк](https://us04web.zoom.us/j/464326936?pwd=aUFvTjliZEtRbW9YMGowV1BEOUJ3Zz09)
+  - Meeting ID: 464-326-936
+  - лозинка: `compare`
 
 ### Тема: Интерфејси
 Термини:
@@ -36,7 +40,9 @@
 	- [Денис](https://youtu.be/pae4I1DdSGM)
 	- [Ања](https://youtu.be/th4Q0ykunsM)
 	- [Немања](https://www.youtube.com/watch?v=HX8e5eR-VOA)
- 
+	
+ - Час 9: Датотеке и поређење објеката
+	- [Денис](https://youtu.be/7hycG24wSao)
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
