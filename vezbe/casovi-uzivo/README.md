@@ -16,6 +16,11 @@
   - [линк](https://us04web.zoom.us/j/464326936?pwd=aUFvTjliZEtRbW9YMGowV1BEOUJ3Zz09)
   - Meeting ID: 464-326-936
   - лозинка: `compare`
+- Немања: 15.04. у 18:00 
+  - [линк](https://us04web.zoom.us/j/8968957619?pwd=TXYzQUFQSjk3enc2ZkhhVWNDS0VlZz09)
+  - Meeting ID: 896-895-7619
+  - лозинка: `matfoop`
+  
 
 ### Тема: Интерфејси
 Термини:
