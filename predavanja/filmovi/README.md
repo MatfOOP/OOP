@@ -40,7 +40,7 @@
 
 [Интерфејси у ЈДК-у.](https://www.youtube.com/watch?v=RDAEOcYik2g&feature=youtu.be&&t=0m0s){:target="_blank"}
 
-[Препоруке за објектно оријентисани дизајн](https://www.youtube.com/watch?v=fj7A2fKrZ4s&feature=youtu.be&&t=0m0s)
+[Препоруке за објектно оријентисани дизајн.](https://www.youtube.com/watch?v=71zLBtFWsFk&feature=youtu.be&&t=0m0s)
 
 ## Додатни снимци
 
