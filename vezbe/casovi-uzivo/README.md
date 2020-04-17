@@ -49,7 +49,7 @@
  - Час 9: Датотеке и поређење објеката
 	- [Денис](https://youtu.be/7hycG24wSao)
 	- [Ања](https://youtu.be/jRXVtql72Ys)
-
+	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&t=3s)
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
