@@ -6,20 +6,12 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Датотеке и поређење објеката
+### Тема: Генеричке колекције
 Термини:
-- Денис: 13.04. у 11:15 
-  - [линк](https://us04web.zoom.us/j/72780941178?pwd=MnRkWDFNQlRZN2l3bEp5Smk0RnVwUT09)
-  - Meeting ID: 727-8094-1178
-  - лозинка: `matfoop`
-- Ања: 15.04. у 11:00 
-  - [линк](https://us04web.zoom.us/j/464326936?pwd=aUFvTjliZEtRbW9YMGowV1BEOUJ3Zz09)
-  - Meeting ID: 464-326-936
-  - лозинка: `compare`
-- Немања: 15.04. у 18:00 
-  - [линк](https://us04web.zoom.us/j/8968957619?pwd=TXYzQUFQSjk3enc2ZkhhVWNDS0VlZz09)
-  - Meeting ID: 896-895-7619
-  - лозинка: `matfoop`
+- Ања: 22.04. у 11:00 
+  - [линк](https://us04web.zoom.us/j/75494289313?pwd=VDJ3bU1BTGJBSjFmeERpNkdxMHQ2QT09)
+  - Meeting ID: 754-9428-9313
+  - лозинка: `generic`
   
 
 ### Тема: Интерфејси
@@ -50,6 +42,9 @@
 	- [Денис](https://youtu.be/7hycG24wSao)
 	- [Ања](https://youtu.be/jRXVtql72Ys)
 	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&t=3s)
+
+
+
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
