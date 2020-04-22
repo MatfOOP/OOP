@@ -16,6 +16,10 @@
   - [линк](https://nordeus.zoom.us/j/94394476665?pwd=WGFpb2pSdlVGbUcyN0F3VFBBZExpZz09)
   - Meeting ID: 943-9447-6665
   - лозинка: `matfoop`
+- Денис: 24.04. у 15:00
+  - [линк](https://us04web.zoom.us/j/76910238883?pwd=bW5WS1JOZnpjbWw3enU1Y2VXazRGQT09)
+  - Meeting ID: 769-1023-8883
+  - лозинка: `matfoop`
 
 ### Тема: Интерфејси
 Термини:
