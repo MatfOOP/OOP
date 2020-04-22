@@ -46,6 +46,8 @@
 	- [Ања](https://youtu.be/jRXVtql72Ys)
 	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&t=3s)
 
+ - Час 10: Генеричке колекције
+	- [Ања](https://youtu.be/-KHhVwXlKdw)
 
 
 ---
