@@ -12,9 +12,9 @@
   - [линк](https://us04web.zoom.us/j/75494289313?pwd=VDJ3bU1BTGJBSjFmeERpNkdxMHQ2QT09)
   - Meeting ID: 754-9428-9313
   - лозинка: `generic`
-- Немања: 22.04. у 18:00
-  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
-  - Meeting ID: 911-0661-7400
+- Немања: 24.04. у 18:00
+  - [линк](https://nordeus.zoom.us/j/94394476665?pwd=WGFpb2pSdlVGbUcyN0F3VFBBZExpZz09)
+  - Meeting ID: 943-9447-6665
   - лозинка: `matfoop`
 
 ### Тема: Интерфејси
