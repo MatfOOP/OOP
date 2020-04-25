@@ -6,7 +6,7 @@
 
 Задаци из претходних година:
 
-* 2018-2019: [Тиг](./rokovi/oop.2018.2019.jun1.tig.pdf){:target="_blank"}, [Поруке](./rokovi/oop.2018.2019.jun1.poruke.pdf){:target="_blank"}, [Процеси](./rokovi/oop.2018.2019.jun2.procesi.pdf){:target="_blank"}, [БусПлус](./rokovi/oop.2018.2019.jun2.busPlus.pdf){:target="_blank"}, [Рели](./rokovi/oop.2018.2019.sept1.reli.pdf){:target="_blank"}, [Вешала](./rokovi/oop.2018.2019.sept2.vesala.pdf){:target="_blank"}
+* 2018-2019: [Тиг](./rokovi/oop.2018.2019.jun1.tig.pdf){:target="_blank"}, [Поруке](./rokovi/oop.2018.2019.jun1.poruke.pdf){:target="_blank"}, [Процеси](./rokovi/oop.2018.2019.jun2.procesi.pdf){:target="_blank"}, [БусПлус](./rokovi/oop.2018.2019.jun2.busplus.pdf){:target="_blank"}, [Рели](./rokovi/oop.2018.2019.sept1.reli.pdf){:target="_blank"}, [Вешала](./rokovi/oop.2018.2019.sept2.vesala.pdf){:target="_blank"}
 
 * 2017-2018: [Покемони](./rokovi/oop.2017.2018.jun1.pokemoni.pdf){:target="_blank"}, [Сакупљање драгуља](./rokovi/oop.2017.2018.jun1.sakupljanjeDragulja.pdf){:target="_blank"}, [Препоруке](./rokovi/oop.2017.2018.jun2.preporuke.pdf){:target="_blank"}, [Рачунари](./rokovi/oop.2017.2018.jun2.racunari.pdf){:target="_blank"}, [Класификација](./rokovi/oop.2017.2018.sept1.klasifikacija.pdf){:target="_blank"}, [Подморнице](./rokovi/oop.2017.2018.sept2.podmornice.pdf){:target="_blank"}
 
