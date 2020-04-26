@@ -48,11 +48,11 @@
  - Час 9: Датотеке и поређење објеката
 	- [Денис](https://youtu.be/7hycG24wSao)
 	- [Ања](https://youtu.be/jRXVtql72Ys)
-	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&t=3s)
+	- [Немања](https://www.youtube.com/watch?v=KBDBUloBTDI&feature=youtu.be)
 
  - Час 10: Генеричке колекције
 	- [Ања](https://youtu.be/-KHhVwXlKdw)
-
+	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&feature=youtu.be)
 
 ---
 
