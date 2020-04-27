@@ -6,21 +6,16 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Датотеке и поређење објеката
+### Тема: JavaFX
 Термини:
-- Денис: 13.04. у 11:15 
-  - [линк](https://us04web.zoom.us/j/72780941178?pwd=MnRkWDFNQlRZN2l3bEp5Smk0RnVwUT09)
-  - Meeting ID: 727-8094-1178
+- Денис: 27.04. у 11:00
+  - [линк](https://us04web.zoom.us/j/74179936083?pwd=dnRnNGFwS0VCdUtCbE10UXEvVC9EUT09)
+  - Meeting ID: 741-7993-6083
   - лозинка: `matfoop`
-- Ања: 15.04. у 11:00 
-  - [линк](https://us04web.zoom.us/j/464326936?pwd=aUFvTjliZEtRbW9YMGowV1BEOUJ3Zz09)
-  - Meeting ID: 464-326-936
-  - лозинка: `compare`
-- Немања: 15.04. у 18:00 
-  - [линк](https://us04web.zoom.us/j/8968957619?pwd=TXYzQUFQSjk3enc2ZkhhVWNDS0VlZz09)
-  - Meeting ID: 896-895-7619
-  - лозинка: `matfoop`
-  
+- Ања: 29.04. у 09:00
+  - [линк](https://us04web.zoom.us/j/78846627911?pwd=V3V4VzFzZzFpaGIzSU4xRmhQak9rUT09)
+  - Meeting ID: 788-4662-7911
+  - лозинка: `javafx`
 
 ### Тема: Интерфејси
 Термини:
@@ -49,6 +44,12 @@
  - Час 9: Датотеке и поређење објеката
 	- [Денис](https://youtu.be/7hycG24wSao)
 	- [Ања](https://youtu.be/jRXVtql72Ys)
+	- [Немања](https://www.youtube.com/watch?v=KBDBUloBTDI&feature=youtu.be)
+
+ - Час 10: Генеричке колекције
+ 	- [Денис](https://youtu.be/g0-DnQ7eYRk)
+	- [Ања](https://youtu.be/-KHhVwXlKdw)
+	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&feature=youtu.be)
 
 ---
 
