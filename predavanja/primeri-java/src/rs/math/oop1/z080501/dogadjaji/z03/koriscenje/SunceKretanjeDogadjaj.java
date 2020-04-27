@@ -7,8 +7,8 @@ import java.util.EventObject;
  * Dogadjaj koji predstavlja izlazak ili zalazak sunca
  */
 public class SunceKretanjeDogadjaj extends EventObject {
-  private boolean izaslo;
-  private LocalDateTime datumVreme;
+  private final boolean izaslo;
+  private final LocalDateTime datumVreme;
 
   public SunceKretanjeDogadjaj(Object source, boolean izasloSunce, LocalDateTime vremeIzlaska) {
     super(source);
