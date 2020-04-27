@@ -5,7 +5,7 @@ import java.util.EventListener;
 /**
  * ugovor izmedju izvora dogadjaja i objekata koji osluskuju
  */
-public interface SunceKretanjeOsluskivac extends EventListener {
+public interface SunceKretanjeDogadjajOsluskivac extends EventListener {
    /**
     * Poyiva se kada bude ispaljen dogadjaj da je sunce izaslo/zaslo
     */

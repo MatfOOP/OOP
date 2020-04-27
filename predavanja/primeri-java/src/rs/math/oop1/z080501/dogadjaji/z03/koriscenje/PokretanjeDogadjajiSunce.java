@@ -51,7 +51,7 @@ public class PokretanjeDogadjajiSunce {
       System.out.println();
       koriscenje();
       Scanner sc = new Scanner(System.in);
-      SunceKretanjeEmiter sunceKretanje = new SunceKretanjeEmiter();
+      SunceKretanjeDogadjajIzvor sunceKretanje = new SunceKretanjeDogadjajIzvor();
       boolean gotovo = false;
       while (!gotovo) {
          String ulaz = sc.next().trim();

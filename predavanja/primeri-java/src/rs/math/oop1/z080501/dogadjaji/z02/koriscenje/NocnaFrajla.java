@@ -1,6 +1,6 @@
 package rs.math.oop1.z080501.dogadjaji.z02.koriscenje;
 
-public class NocnaFrajla implements SunceKretanjeOsluskivac{
+public class NocnaFrajla implements SunceKretanjeDogadjajOsluskivac {
    @Override
    public void sunceSePomerilo(SunceKretanjeDogadjaj e) {
       if(e.isIzaslo())

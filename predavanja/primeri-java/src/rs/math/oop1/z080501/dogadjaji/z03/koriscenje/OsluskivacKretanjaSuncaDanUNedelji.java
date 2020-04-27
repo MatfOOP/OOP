@@ -3,7 +3,7 @@ package rs.math.oop1.z080501.dogadjaji.z03.koriscenje;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class OsluskivacKretanjaSuncaDanUNedelji implements SunceKretanjeOsluskivac {
+public class OsluskivacKretanjaSuncaDanUNedelji implements SunceKretanjeDogadjajOsluskivac {
 
    public static String skracenica = "SCoDun";
 

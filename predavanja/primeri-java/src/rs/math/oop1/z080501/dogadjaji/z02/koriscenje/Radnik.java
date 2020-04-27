@@ -3,7 +3,7 @@ package rs.math.oop1.z080501.dogadjaji.z02.koriscenje;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Radnik extends Covek implements SunceKretanjeOsluskivac {
+public class Radnik extends Covek implements SunceKretanjeDogadjajOsluskivac {
 
    public Radnik(String ime, int status) {
       super(ime, status);

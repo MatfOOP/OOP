@@ -3,7 +3,7 @@ package rs.math.oop1.z080501.dogadjaji.z01.koriscenje;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Student implements SunceKretanjeOsluskivac {
+public class Student implements SunceKretanjeDogadjajOsluskivac {
    private String ime;
    private boolean naRaspustu;
 

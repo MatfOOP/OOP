@@ -10,27 +10,27 @@ import java.util.EventListener;
  * osmataju kretanje sunca.
  * Ona omogucava i registraciju i deregistraciju slusalaca dogadjaja.
  */
-public class SunceKretanjeEmiter {
+public class SunceKretanjeDogadjajIzvor {
    private transient EventListener[] osluskivaci = new EventListener[1000];
    private int brojOsluskivaca = 0;
 
    /**
     * Konstruktor
     */
-   public SunceKretanjeEmiter() {
+   public SunceKretanjeDogadjajIzvor() {
    }
 
    /**
     * Registruje osluskivac za SunceKretanjeDogadjaj
     */
-   synchronized public void dodajOsluskivac(SunceKretanjeOsluskivac l) {
+   synchronized public void dodajOsluskivac(SunceKretanjeDogadjajOsluskivac l) {
       osluskivaci[brojOsluskivaca++] = l;
    }
 
    /**
     * Uklanja osluskivac za SunceKretanjeDogadjaj
     */
-   synchronized public void ukloniOsluskivac(SunceKretanjeOsluskivac l) {
+   synchronized public void ukloniOsluskivac(SunceKretanjeDogadjajOsluskivac l) {
       int pozicija = 0;
       for (; pozicija < brojOsluskivaca; pozicija++)
          if (osluskivaci[pozicija].equals(l))
@@ -62,7 +62,7 @@ public class SunceKretanjeEmiter {
       // iteriranje kroz kopiju liste osluskivaca
       // i pozivanje metoda sunceSePomerilo za svaki od njih
       for(int i=0; i<brojKopija; i++) {
-         SunceKretanjeOsluskivac osl = (SunceKretanjeOsluskivac) kopija[i];
+         SunceKretanjeDogadjajOsluskivac osl = (SunceKretanjeDogadjajOsluskivac) kopija[i];
          osl.sunceSePomerilo(dogadjaj);
       }
    }

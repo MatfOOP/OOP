@@ -1,6 +1,6 @@
 package rs.math.oop1.z080501.dogadjaji.z03.koriscenje;
 
-public class OsluskivacKretanjaSuncaCvetInverzni implements SunceKretanjeOsluskivac {
+public class OsluskivacKretanjaSuncaCvetInverzni implements SunceKretanjeDogadjajOsluskivac {
    private Cvet trpiUticaj;
 
    public static String skracenica = "SCvInv";
