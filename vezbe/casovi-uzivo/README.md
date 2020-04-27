@@ -12,6 +12,10 @@
   - [линк](https://us04web.zoom.us/j/74179936083?pwd=dnRnNGFwS0VCdUtCbE10UXEvVC9EUT09)
   - Meeting ID: 741-7993-6083
   - лозинка: `matfoop`
+- Ања: 29.04. у 09:00
+  - [линк](https://us04web.zoom.us/j/78846627911?pwd=V3V4VzFzZzFpaGIzSU4xRmhQak9rUT09)
+  - Meeting ID: 788-4662-7911
+  - лозинка: `javafx`
 
 ### Тема: Интерфејси
 Термини:
