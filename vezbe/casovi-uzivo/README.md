@@ -6,19 +6,11 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Генеричке колекције
+### Тема: JavaFX
 Термини:
-- Ања: 22.04. у 11:00 
-  - [линк](https://us04web.zoom.us/j/75494289313?pwd=VDJ3bU1BTGJBSjFmeERpNkdxMHQ2QT09)
-  - Meeting ID: 754-9428-9313
-  - лозинка: `generic`
-- Немања: 24.04. у 18:00
-  - [линк](https://nordeus.zoom.us/j/94394476665?pwd=WGFpb2pSdlVGbUcyN0F3VFBBZExpZz09)
-  - Meeting ID: 943-9447-6665
-  - лозинка: `matfoop`
-- Денис: 24.04. у 15:00
-  - [линк](https://us04web.zoom.us/j/76910238883?pwd=bW5WS1JOZnpjbWw3enU1Y2VXazRGQT09)
-  - Meeting ID: 769-1023-8883
+- Денис: 27.04. у 11:00
+  - [линк](https://us04web.zoom.us/j/74179936083?pwd=dnRnNGFwS0VCdUtCbE10UXEvVC9EUT09)
+  - Meeting ID: 741-7993-6083
   - лозинка: `matfoop`
 
 ### Тема: Интерфејси
