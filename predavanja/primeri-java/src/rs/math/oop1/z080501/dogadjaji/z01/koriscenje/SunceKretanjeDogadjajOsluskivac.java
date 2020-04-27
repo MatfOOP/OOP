@@ -7,7 +7,7 @@ import java.util.EventListener;
  */
 public interface SunceKretanjeOsluskivac extends EventListener {
    /**
-    * Poyiva se kada bude ispaljen dogadjaj da je sunce izaslo/zaslo
+    * Poziva se kada bude ispaljen dogadjaj da je sunce izaslo/zaslo
     */
    public void sunceSePomerilo(SunceKretanjeDogadjaj e);
 }
