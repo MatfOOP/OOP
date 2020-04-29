@@ -16,6 +16,10 @@
   - [линк](https://us04web.zoom.us/j/78846627911?pwd=V3V4VzFzZzFpaGIzSU4xRmhQak9rUT09)
   - Meeting ID: 788-4662-7911
   - лозинка: `javafx`
+- Немања: 29.04. у 18:00
+  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
+  - Meeting ID: 911-0661-7400
+  - лозинка: `matfoop`
 
 ### Тема: Интерфејси
 Термини:
