@@ -51,12 +51,13 @@
 	- [Немања](https://www.youtube.com/watch?v=KBDBUloBTDI&feature=youtu.be)
 
  - Час 10: Генеричке колекције
- 	- [Денис](https://youtu.be/g0-DnQ7eYRk)
+    - [Денис](https://youtu.be/g0-DnQ7eYRk)
 	- [Ања](https://youtu.be/-KHhVwXlKdw)
 	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&feature=youtu.be)
 
  - Час 11: JavaFX
- 	- [Денис](https://youtu.be/HhrVK4djalI)
+    - [Денис](https://youtu.be/HhrVK4djalI)
+	- [Ања](https://youtu.be/-KHhVwXlKdw)
 
 ---
 
