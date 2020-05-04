@@ -6,20 +6,13 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: JavaFX
+### Тема: Стримови
 Термини:
-- Денис: 27.04. у 11:00
-  - [линк](https://us04web.zoom.us/j/74179936083?pwd=dnRnNGFwS0VCdUtCbE10UXEvVC9EUT09)
-  - Meeting ID: 741-7993-6083
-  - лозинка: `matfoop`
-- Ања: 29.04. у 09:00
-  - [линк](https://us04web.zoom.us/j/78846627911?pwd=V3V4VzFzZzFpaGIzSU4xRmhQak9rUT09)
-  - Meeting ID: 788-4662-7911
-  - лозинка: `javafx`
-- Немања: 29.04. у 18:00
-  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
-  - Meeting ID: 911-0661-7400
-  - лозинка: `matfoop`
+- Денис: 04.05. у 11:15
+  - [линк](https://us04web.zoom.us/j/74811074081?pwd=OHlkdHluejVqTDRYcDZvMnp2YlZSUT09)
+  - Meeting ID: 748-1107-4081
+  - лозинка: `stream`
+
 
 ### Тема: Интерфејси
 Термини:
