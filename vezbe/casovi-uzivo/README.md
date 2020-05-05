@@ -6,11 +6,15 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Стримови
+### Тема: Токови
 Термини:
 - Денис: 04.05. у 11:15
   - [линк](https://us04web.zoom.us/j/74811074081?pwd=OHlkdHluejVqTDRYcDZvMnp2YlZSUT09)
   - Meeting ID: 748-1107-4081
+  - лозинка: `stream`
+- Ања: 06.05. у 11:00
+  - [линк](https://us04web.zoom.us/j/78197662356?pwd=MG44WS9veGlzZkVrR2hCV0tCbkhmdz09)
+  - Meeting ID: 781-9766-2356
   - лозинка: `stream`
 
 
