@@ -58,6 +58,9 @@
  - Час 11: JavaFX
     - [Денис](https://youtu.be/HhrVK4djalI)
 	- [Ања](https://youtu.be/qEX8dH8dMXY)
+  
+ - Час 12: Токови
+	- [Ања](https://youtu.be/wgIHWVUAA-I)
 
 ---
 
