@@ -16,7 +16,10 @@
   - [линк](https://us04web.zoom.us/j/78197662356?pwd=MG44WS9veGlzZkVrR2hCV0tCbkhmdz09)
   - Meeting ID: 781-9766-2356
   - лозинка: `stream`
-
+- Немања: 06.05. у 18:00
+  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
+  - Meeting ID: 911-0661-7400
+  - лозинка: `matfoop`
 
 ### Тема: Интерфејси
 Термини:
