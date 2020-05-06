@@ -56,11 +56,12 @@
 	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&feature=youtu.be)
 
  - Час 11: JavaFX
-    - [Денис](https://youtu.be/HhrVK4djalI)
+    	- [Денис](https://youtu.be/HhrVK4djalI)
 	- [Ања](https://youtu.be/qEX8dH8dMXY)
   
  - Час 12: Токови
 	- [Ања](https://youtu.be/wgIHWVUAA-I)
+	- [Немања](https://youtu.be/DmRD5o5Tx-Q)
 
 ---
 
