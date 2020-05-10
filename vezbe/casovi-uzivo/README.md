@@ -63,6 +63,9 @@
  - Час 12: Токови
 	- [Ања](https://youtu.be/wgIHWVUAA-I)
 	- [Немања](https://youtu.be/DmRD5o5Tx-Q)
+	- Денис: 
+		- [1. час](https://youtu.be/gwovj-iLKoY)
+		- [2. час](https://youtu.be/UOUNQhKm8Zg)
 
 ---
 
