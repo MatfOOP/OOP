@@ -6,20 +6,13 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: Токови
+### Тема: Припрема за испит	
 Термини:
-- Денис: 04.05. у 11:15
-  - [линк](https://us04web.zoom.us/j/74811074081?pwd=OHlkdHluejVqTDRYcDZvMnp2YlZSUT09)
-  - Meeting ID: 748-1107-4081
-  - лозинка: `stream`
-- Ања: 06.05. у 11:00
-  - [линк](https://us04web.zoom.us/j/78197662356?pwd=MG44WS9veGlzZkVrR2hCV0tCbkhmdz09)
-  - Meeting ID: 781-9766-2356
-  - лозинка: `stream`
-- Немања: 06.05. у 18:00
-  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
-  - Meeting ID: 911-0661-7400
-  - лозинка: `matfoop`
+- Денис: 11.05. у 11:15
+  - [линк](https://us04web.zoom.us/j/73003091066?pwd=aXRVSVBhSVVyUkNpOVA2aGgzK3RyZz09)
+  - Meeting ID: 730-0309-1066
+  - лозинка: `ispit`
+
 
 ### Тема: Интерфејси
 Термини:
