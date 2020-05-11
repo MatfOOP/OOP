@@ -59,7 +59,11 @@
 	- Денис: 
 		- [1. час](https://youtu.be/gwovj-iLKoY)
 		- [2. час](https://youtu.be/UOUNQhKm8Zg)
-
+		
+- Час 13: Припрема за испит
+    	- [Денис](https://youtu.be/23hzyX7kQH4)
+	
+	
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
