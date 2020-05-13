@@ -16,6 +16,10 @@
   - [линк](https://us04web.zoom.us/j/76824584965?pwd=UEUwRDdGTFZVRUVacWVmeGdZNDNzUT09)
   - Meeting ID: 768-2458-4965
   - лозинка: `ispit`
+- Немања: 13.05. у 18:00
+  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
+  - Meeting ID: 911 0661 7400
+  - лозинка: `matfoop`
 
 
 ### Тема: Интерфејси
