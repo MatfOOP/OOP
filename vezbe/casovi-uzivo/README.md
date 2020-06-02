@@ -6,16 +6,21 @@
 
 ## Приступ часу вежби уживо
 
-### Тема: JavaFX
+### Тема: Припрема за испит	
 Термини:
-- Денис: 27.04. у 11:00
-  - [линк](https://us04web.zoom.us/j/74179936083?pwd=dnRnNGFwS0VCdUtCbE10UXEvVC9EUT09)
-  - Meeting ID: 741-7993-6083
+- Денис: 11.05. у 11:15
+  - [линк](https://us04web.zoom.us/j/73003091066?pwd=aXRVSVBhSVVyUkNpOVA2aGgzK3RyZz09)
+  - Meeting ID: 730-0309-1066
+  - лозинка: `ispit`
+- Ања: 13.05. у 11:00
+  - [линк](https://us04web.zoom.us/j/76824584965?pwd=UEUwRDdGTFZVRUVacWVmeGdZNDNzUT09)
+  - Meeting ID: 768-2458-4965
+  - лозинка: `ispit`
+- Немања: 13.05. у 18:00
+  - [линк](https://nordeus.zoom.us/j/91106617400?pwd=T3RyYjdtRXVUNzhvcDNBWS9KOXEwdz09)
+  - Meeting ID: 911 0661 7400
   - лозинка: `matfoop`
-- Ања: 29.04. у 09:00
-  - [линк](https://us04web.zoom.us/j/78846627911?pwd=V3V4VzFzZzFpaGIzSU4xRmhQak9rUT09)
-  - Meeting ID: 788-4662-7911
-  - лозинка: `javafx`
+
 
 ### Тема: Интерфејси
 Термини:
@@ -47,10 +52,27 @@
 	- [Немања](https://www.youtube.com/watch?v=KBDBUloBTDI&feature=youtu.be)
 
  - Час 10: Генеричке колекције
- 	- [Денис](https://youtu.be/g0-DnQ7eYRk)
+	- [Денис](https://youtu.be/g0-DnQ7eYRk)
 	- [Ања](https://youtu.be/-KHhVwXlKdw)
 	- [Немања](https://www.youtube.com/watch?v=rpuuhvG-R9s&feature=youtu.be)
 
+ - Час 11: JavaFX
+	- [Денис](https://youtu.be/HhrVK4djalI)
+	- [Ања](https://youtu.be/qEX8dH8dMXY)
+	- [Немања](https://youtu.be/WGcEZZFYY4g)
+  
+ - Час 12: Токови
+	- [Ања](https://youtu.be/wgIHWVUAA-I)
+	- [Немања](https://youtu.be/DmRD5o5Tx-Q)
+	- Денис: 
+		- [1. час](https://youtu.be/gwovj-iLKoY)
+		- [2. час](https://youtu.be/UOUNQhKm8Zg)
+		
+- Час 13: Припрема за испит
+	- [Денис](https://youtu.be/23hzyX7kQH4)
+	- [Ања](https://youtu.be/FZyE_a0NK-E)
+	- [Немања](https://youtu.be/Qg0pniMr9fU)
+	
 ---
 
 [ООП](../../README.md) [Вежбе](../README.md)
