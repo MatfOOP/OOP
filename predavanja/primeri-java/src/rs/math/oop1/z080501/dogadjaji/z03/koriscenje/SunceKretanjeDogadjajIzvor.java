@@ -12,7 +12,8 @@ import java.util.EventListener;
  * dogadjaje izlaska i zalaska sunca.
  */
 public class SunceKretanjeDogadjajIzvor {
-   private transient EventListener[] osluskivaci = new EventListener[1000];
+   private int maxBrojOsluskivaca = 1000;
+   private transient EventListener[] osluskivaci = new EventListener[maxBrojOsluskivaca];
    private int brojOsluskivaca = 0;
 
    /**
@@ -25,6 +26,12 @@ public class SunceKretanjeDogadjajIzvor {
     * Registruje osluskivac za SunceKretanjeDogadjaj
     */
    synchronized public void dodajOsluskivac(SunceKretanjeDogadjajOsluskivac l) {
+      if( brojOsluskivaca >= maxBrojOsluskivaca){
+         maxBrojOsluskivaca = Math.max(2*maxBrojOsluskivaca, brojOsluskivaca);
+         EventListener[] stariOsluskivaci = osluskivaci;
+         osluskivaci = new EventListener[maxBrojOsluskivaca];
+         System.arraycopy(stariOsluskivaci,0,osluskivaci, 0, brojOsluskivaca);
+      }
       osluskivaci[brojOsluskivaca++] = l;
    }
 

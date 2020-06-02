@@ -969,4 +969,4 @@
 
   * [Примери из књиге "Java", аутор Хортон](https://github.com/MatfOOP/OOP/tree/master/predavanja/primeri-java-knjiga-horton){:target="_blank"}
 
-[ООП](../README.md
+[ООП](../README.md)
