@@ -23,6 +23,6 @@
 
 * **[Колоквијуми (када нема пандемије)](/kolokvijumi/README.md)**
 
-* **[Писмени испити](/pismeni-ispiti/README.md)**
+* **[Практични испити](/pismeni-ispiti/README.md)**
 
 * **[Усмени испити](/usmeni-ispiti/README.md)**
