@@ -95,6 +95,7 @@
 
    5. [Домаћи](./domaci/03_oop.pdf){:target="_blank"}
 
+<!---
 4. [Наслеђивање](./prezentacije/04.klase.nasledjivanje.pdf){:target="_blank"}
 
    1. Допуна класе `Tacka`: конструктор копије, статичке променљиве и методе
@@ -206,7 +207,7 @@
 
 
 13. [Токови](./primeri-java/13.tokovi.zip){:target="_blank"}
-
+-->
 ---
 
 [ООП](../README.md)  [Часови уживо 2019/2020](./casovi-uzivo/README.md)
