@@ -20,8 +20,8 @@
     6.  [Домаћи](./domaci/01.txt)
 
 
-2. Низови, матрице и ниске
-   1.  [Низови и матрице примитивних типова](./prezentacije/02.nizovi.matrice.pdf){:target="_blank"}
+2. [Низови, матрице](./prezentacije/02.nizovi.matrice.pdf){:target="_blank"} и [нискe](./prezentacije/02.stringovi.pdf){:target="_blank"}
+   1.  Низови и матрице примитивних типова
    
    2.  Класа `Arrays`
    
