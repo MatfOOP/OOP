@@ -22,9 +22,13 @@
 
 2. Низови, матрице и ниске
    1.  [Низови и матрице примитивних типова](./prezentacije/02.nizovi.matrice.pdf){:target="_blank"}
+   
    2.  Класа `Arrays`
+   
    3.  Класе `String` и `StringBuilder`
+   
    4.  [Пројекат са свим кодовима](./primeri-java/02.nizovi.matrice.stringovi.zip)
+   
    5.  Домаћи: [низови](./domaci/02_nizovi.txt), [ниске](./domaci/02_stringovi.pdf)
 
 3. [Објектно-оријентисано програмирање](./prezentacije/03.oop.pdf){:target="_blank"}
