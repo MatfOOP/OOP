@@ -57,7 +57,6 @@
 
    4. [Домаћи](./domaci/04_nasledjivanje.pdf){:target="_blank"} 
 
-<!---
 5. Апстрактне класе, полиморфизам
    1. Проширивање хијерархије облика: апстрактни методи за рачунање површине и обима, оператор `instanceof` и метод `getClass()`.
 
@@ -67,6 +66,7 @@
 
    4. [Пројекат са свим кодовима](./primeri-java/05.apstraktne.polimorfizam.zip){:target="_blank"} 
 
+<!---
 6. Интерфејси
    1. Имплементација интерфејса `SrpskiJezik` и `EngleskiJezik`.
    
