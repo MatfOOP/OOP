@@ -66,7 +66,7 @@
 
    4. [Пројекат са свим кодовима](./primeri-java/05.apstraktne.polimorfizam.zip){:target="_blank"} 
 
-<!---
+
 6. Интерфејси
    1. Имплементација интерфејса `SrpskiJezik` и `EngleskiJezik`.
    
@@ -79,7 +79,8 @@
    5. Клонирање: имплементација интерфејса `Clonable`, плитко и дубоко клонирање. 
    
    6. [Пројекат са свим кодовима](./primeri-java/06.interfejsi.zip){:target="_blank"} 
-   7. 
+   
+<!---
 7. Изузеци
    
    1. Хватање изузетка - `try-catch`  блок
