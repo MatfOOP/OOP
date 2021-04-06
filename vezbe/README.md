@@ -80,7 +80,6 @@
    
    6. [Пројекат са свим кодовима](./primeri-java/06.interfejsi.zip){:target="_blank"} 
    
-<!---
 7. Изузеци
    
    1. Хватање изузетка - `try-catch`  блок
@@ -93,6 +92,7 @@
    
    5. [Пројекат са свим кодовима](./primeri-java/07.izuzeci.kloniranje.zip){:target="_blank"} 
 
+<!---
 8. Генеричке класе
 
    1. Генеричке функције
