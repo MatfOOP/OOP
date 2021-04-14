@@ -92,7 +92,6 @@
    
    5. [Пројекат са свим кодовима](./primeri-java/07.izuzeci.kloniranje.zip){:target="_blank"} 
 
-<!---
 8. Генеричке класе
 
    1. Генеричке функције
@@ -107,7 +106,7 @@
    
    6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"}  
 
-
+<!---
 9.  Генеричке колекције
 
     1.  `LinkendList<T>`
