@@ -106,7 +106,6 @@
    
    6. [Пројекат са свим кодовима](./primeri-java/08.genericke.klase.zip){:target="_blank"}  
 
-<!---
 9.  Генеричке колекције
 
     1.  `LinkendList<T>`
@@ -121,6 +120,7 @@
    
     6.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
 
+<!---
 10. Поређење објеката
    
     1.  Интерфејс `Comparable<T>`
