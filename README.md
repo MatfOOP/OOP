@@ -6,7 +6,7 @@
 **[Важно! Резултати практичног дела испита у року Јануар1ПС](/pismeni-ispiti/info/README.md)**
 -->
 
-<span style="color:DeepSkyBlue">Obaveštenje \[grupa 2RL1A\]: Nadoknada časa vezbi koji gubimo 30.04. (neradni dan) biće održana unapred, u sredu 28.04. 11-13h putem Webex sastanka.</span>
+<span style="color:DeepSkyBlue">Обавештење \[група 2РЛ1A\]: Надокнада часа вежби који губимо 30.04. (нерадни дан) биће одржана унапред, у среду 28.04. 11-13h путем Webex састанка. </span>
 
 <!--
 **[Важно! Резултати практичног дела испита у року Јануар1ПС](/pismeni-ispiti/info/README.md)**
