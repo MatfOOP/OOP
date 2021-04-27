@@ -120,7 +120,6 @@
    
     6.  [Пројекат са свим кодовима](./primeri-java/09.kolekcije.zip){:target="_blank"}  
 
-<!---
 10. Поређење објеката
    
     1.  Интерфејс `Comparable<T>`
@@ -132,6 +131,7 @@
     1.  [Пројекат са свим кодовима](./primeri-java/10.poredjenje.objekata.zip){:target="_blank"} 
 
 
+<!---
 11. [Датотеке](./primeri-java/11.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
 
 12. Графичко корисничко окружење
