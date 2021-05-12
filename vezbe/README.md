@@ -133,9 +133,9 @@
 
 
 11. Датотеке
-    1. 'IO' pristup
+    1. `IO` pristup
     
-    2. 'NIO' pristup
+    2. `NIO` pristup
     
     3. [Пројекат са свим кодовима](./primeri-java/11.datoteke_novo.zip){:target="_blank"}  
 
