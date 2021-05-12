@@ -134,7 +134,9 @@
 
 11. Датотеке
     1. IO pristup
+    
     2. NIO pristup
+    
     3. [Пројекат са свим кодовима](./primeri-java/11.datoteke_novo.zip){:target="_blank"}  
 
 
@@ -157,7 +159,8 @@
     
 	7.  [Пројекат са свим кодовима](./primeri-java/12.javafx.zip){:target="_blank"} 
 
-
+-->
+<!--
 13. [Токови](./primeri-java/13.tokovi.zip){:target="_blank"}
 -->
 ---
