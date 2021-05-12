@@ -131,9 +131,14 @@
     1.  [Пројекат са свим кодовима](./primeri-java/10.poredjenje.objekata.zip){:target="_blank"} 
 
 
-<!---
-11. [Датотеке](./primeri-java/11.datoteke/src/datoteke/CitanjePisanje.java){:target="_blank"}  
 
+11. Датотеке
+    1. IO pristup
+    2. NIO pristup
+    3. [Пројекат са свим кодовима](./primeri-java/11.datoteke_novo.zip){:target="_blank"}  
+
+
+<!--
 12. Графичко корисничко окружење
 
     1.  Библиотека `JavaFx`
