@@ -160,6 +160,9 @@
 	7.  [Пројекат са свим кодовима](./primeri-java/12.javafx.zip){:target="_blank"} 
 
 13. Вежбање за испит
+	1.  Решавање рока Јануар1ПС 2021. ([Вакцине](https://matfoop.github.io/OOP/pismeni-ispiti/zadaci/rokovi/oop.2019.2020.jan1ps.vakcine.pdf))
+	2.  Решавање рока Септембар3 2021. ([СНД](https://matfoop.github.io/OOP/pismeni-ispiti/zadaci/rokovi/oop.2019.2020.sep3.snd.pdf))
+	
 
 <!--
 13. [Токови](./primeri-java/13.tokovi.zip){:target="_blank"}
