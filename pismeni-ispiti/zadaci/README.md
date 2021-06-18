@@ -6,6 +6,8 @@
 
 Задаци из претходних рокова:
 
+* 2020-2021: [Банкарска Апликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.pdf){:target="_blank"}
+
 * 2019-2020: [Лозинке](./rokovi/oop.2019.2020.jun1.lozinke.pdf){:target="_blank"}, [Болница](./rokovi/oop.2019.2020.jun1.bolnica.pdf){:target="_blank"}, [Продавница](./rokovi/oop.2019.2020.jun2.prodavnica.pdf){:target="_blank"}, [Лутрија](./rokovi/oop.2019.2020.sep1.lutrija.pdf){:target="_blank"}, [Настава](./rokovi/oop.2019.2020.sep2.nastava.pdf){:target="_blank"}, [СНД](./rokovi/oop.2019.2020.sep3.snd.pdf){:target="_blank"}, [Вакцине](./rokovi/oop.2019.2020.jan1ps.vakcine.pdf){:target="_blank"}
 
 * 2018-2019: [Тиг](./rokovi/oop.2018.2019.jun1.tig.pdf){:target="_blank"}, [Поруке](./rokovi/oop.2018.2019.jun1.poruke.pdf){:target="_blank"}, [Процеси](./rokovi/oop.2018.2019.jun2.procesi.pdf){:target="_blank"}, [БусПлус](./rokovi/oop.2018.2019.jun2.busPlus.pdf){:target="_blank"}, [Рели](./rokovi/oop.2018.2019.sept1.reli.pdf){:target="_blank"}, [Вешала](./rokovi/oop.2018.2019.sept2.vesala.pdf){:target="_blank"}
