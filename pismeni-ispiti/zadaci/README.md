@@ -6,7 +6,7 @@
 
 Задаци из претходних рокова:
 
-* 2020-2021: [Банкарска апликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.pdf){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.pdf){:target="_blank"}
+* 2020-2021: [Банкарска апликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.pdf){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.pdf){:target="_blank"}, [Сладоледи](./rokovi/oop.2020.2021.sept0.sladoledi.pdf){:target="_blank"}
 
 * 2019-2020: [Лозинке](./rokovi/oop.2019.2020.jun1.lozinke.pdf){:target="_blank"}, [Болница](./rokovi/oop.2019.2020.jun1.bolnica.pdf){:target="_blank"}, [Продавница](./rokovi/oop.2019.2020.jun2.prodavnica.pdf){:target="_blank"}, [Лутрија](./rokovi/oop.2019.2020.sep1.lutrija.pdf){:target="_blank"}, [Настава](./rokovi/oop.2019.2020.sep2.nastava.pdf){:target="_blank"}, [СНД](./rokovi/oop.2019.2020.sep3.snd.pdf){:target="_blank"}, [Вакцине](./rokovi/oop.2019.2020.jan1ps.vakcine.pdf){:target="_blank"}
 
