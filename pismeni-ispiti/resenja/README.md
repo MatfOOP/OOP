@@ -6,7 +6,7 @@
 
 Решења задатака из претходних година:
 
-* 2020-2021: [Банкарска aпликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.zip){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.zip){:target="_blank"}
+* 2020-2021: [Банкарска aпликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.zip){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.zip){:target="_blank"}, [Сладоледи](./rokovi/oop.2020.2021.sept0.sladoledi.zip){:target="_blank"}
 
 * 2019-2020: [Вакцине](./rokovi/oop.2019.2020.jan1ps.vakcine.zip){:target="_blank"}
 
