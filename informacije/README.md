@@ -8,7 +8,7 @@
 
 * Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena_ciric){:target="_blank"}**
 
-* Асистент: **[Огњен Милинковић](http://www.matf.bg.ac.rs/p/ognjen-milinkovic/pocetna/){:target="_blank"}**
+* Асистент: **[Страхиња Станојевић](http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/){:target="_blank"}**
 
 ---
 
@@ -24,9 +24,9 @@
 
 * Александар Картељ: биће накнадно утврђено.
 
-* Невена Ћирић: средом 10-11h и петком 17-18h путем Webex апликације (најавити се мејлом дан раније).
+* Невена Ћирић: биће накнадно утврђено. <!-- средом 10-11h и петком 17-18h путем Webex апликације (најавити се мејлом дан раније). -->
 
-* Огњен Милинковић: биће накнадно утврђено.
+* Страхиња Станојевић: биће накнадно утврђено.
 
 ---
 
@@ -36,7 +36,7 @@
 
   *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena_ciric){:target="_blank"}*
 
-  *[Огњен Милинковић](http://www.matf.bg.ac.rs/p/ognjen-milinkovic/pocetna/){:target="_blank"}*
+  *[Страхиња Станојевић](http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/){:target="_blank"}*
 
 ---
 
