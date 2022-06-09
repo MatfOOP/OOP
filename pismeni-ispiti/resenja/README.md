@@ -6,6 +6,9 @@
 
 Решења задатака из претходних година:
 
+
+* 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.zip){:target="_blank"}
+
 * 2020-2021: [Банкарска aпликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.zip){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.zip){:target="_blank"}, [Сладоледи](./rokovi/oop.2020.2021.sept0.sladoledi.zip){:target="_blank"}, [Огласи](./rokovi/oop.2020.2021.sept1.oglasi.zip){:target="_blank"}, [Исцртавање многоуглова](./rokovi/oop.2020.2021.sept2.iscrtavanjeMnogouglova.zip){:target="_blank"}
 
 * 2019-2020: [Вакцине](./rokovi/oop.2019.2020.jan1ps.vakcine.zip){:target="_blank"}
