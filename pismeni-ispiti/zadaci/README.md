@@ -6,7 +6,7 @@
 
 Задаци из претходних рокова:
 
-* 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.pdf){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.pdf)
+* 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.pdf){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.pdf){:target="_blank"}
 
 * 2020-2021: [Банкарска апликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.pdf){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.pdf){:target="_blank"}, [Сладоледи](./rokovi/oop.2020.2021.sept0.sladoledi.pdf){:target="_blank"}, [Огласи](./rokovi/oop.2020.2021.sept1.oglasi.pdf){:target="_blank"}, [Исцртавање многоуглова](./rokovi/oop.2020.2021.sept2.iscrtavanjeMnogouglova.pdf){:target="_blank"}
 
