@@ -7,7 +7,7 @@
 Решења задатака из претходних година:
 
 
-* 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.zip){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.zip){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.zip){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.zip){:target="_blank"}
+* 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.zip){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.zip){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.zip){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.zip){:target="_blank"}, [Деда Мразов помоћник](./rokovi/oop.2021.2022.jan1.dedaMrazovPomocnik.zip){:target="_blank"}
 
 * 2020-2021: [Банкарска aпликација](./rokovi/oop.2020.2021.jun1.bankarskaAplikacija.zip){:target="_blank"}, [Куповина меморије](./rokovi/oop.2020.2021.jun2.kupovinaMemorije.zip){:target="_blank"}, [Сладоледи](./rokovi/oop.2020.2021.sept0.sladoledi.zip){:target="_blank"}, [Огласи](./rokovi/oop.2020.2021.sept1.oglasi.zip){:target="_blank"}, [Исцртавање многоуглова](./rokovi/oop.2020.2021.sept2.iscrtavanjeMnogouglova.zip){:target="_blank"}
 
