@@ -6,9 +6,9 @@
 
 * Наставник: **[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}**
 
-* Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena_ciric){:target="_blank"}**
+* Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}**
 
-* Асистент: **[Страхиња Станојевић](http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/){:target="_blank"}**
+* Асистент: **[Бојана Јошић](http://www.matf.bg.ac.rs/p/-bojana-josic){:target="_blank"}**
 
 ---
 
@@ -20,13 +20,13 @@
 
 ---
 
-## Термини за консултације у академској 2021/22 години
+## Термини за консултације у академској 2022/23 години
 
 * Александар Картељ: биће накнадно утврђено.
 
-* Невена Ћирић: средом 19-21h путем Webex апликације (најавити се мејлом дан раније). 
+* Невена Ћирић: биће накнадно утврђено.  
 
-* Страхиња Станојевић: биће накнадно утврђено.
+* Бојана Јошић: биће накнадно утврђено.
 
 ---
 
@@ -34,9 +34,9 @@
 
   *[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}*
 
-  *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena_ciric){:target="_blank"}*
+  *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}*
 
-  *[Страхиња Станојевић](http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/){:target="_blank"}*
+  *[Бојана Јошић](http://www.matf.bg.ac.rs/p/-bojana-josic){:target="_blank"}*
 
 ---
 
