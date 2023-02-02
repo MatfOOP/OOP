@@ -4,7 +4,7 @@
 
 ## Наставници и асистенти  
 
-* Наставник: **[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}**
+* Наставник: **[др Александар Картељ](https://poincare.matf.bg.ac.rs/~aleksandar.kartelj/){:target="_blank"}**
 
 * Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}**
 
@@ -32,7 +32,7 @@
 
 ## Аутори веб страна курса
 
-  *[др Александар Картељ](http://poincare.matf.bg.ac.rs/~kartelj/){:target="_blank"}*
+  *[др Александар Картељ](poincare.matf.bg.ac.rs/~aleksandar.kartelj/){:target="_blank"}*
 
   *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}*
 
