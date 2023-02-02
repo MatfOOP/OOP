@@ -32,7 +32,7 @@
 
 ## Аутори веб страна курса
 
-  *[др Александар Картељ](poincare.matf.bg.ac.rs/~aleksandar.kartelj/){:target="_blank"}*
+  *[др Александар Картељ](https://poincare.matf.bg.ac.rs/~aleksandar.kartelj/){:target="_blank"}*
 
   *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}*
 
