@@ -16,7 +16,7 @@
 
 * **[Званичан план и програм курса](http://www.math.rs/files/RM04_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
-* **[Начин реализације курса у академској 2021/2022 години](Nacin-realizacije-kursa.md)**
+* **[Начин реализације курса у академској 2022/2023 години](Nacin-realizacije-kursa.md)**
 
 ---
 
