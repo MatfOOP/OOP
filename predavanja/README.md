@@ -3,6 +3,6 @@
 
 [ООП](../README.md)
 
-**[Материјали са предавања се могу наћи на страници наставника др Александра Картеља](http://poincare.matf.bg.ac.rs/~kartelj/?content=OOP){:target="_blank"}**
+**[Материјали са предавања се могу наћи на страници наставника др Александра Картеља](http://poincare.matf.bg.ac.rs/~aleksandar.kartelj/?content=OOP){:target="_blank"}**
 
 [ООП](../README.md)
