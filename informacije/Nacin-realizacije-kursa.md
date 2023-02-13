@@ -74,7 +74,7 @@
 
 - Материјал са [предавања](../predavanja/README.md) (нису и не могу бити замена за праву литературу)
 
-- [Скрипта](http://147.91.66.2/~vladaf/Courses/Matf%20OOP/Predavanja/SkriptaOOP.pdf) са задацима са вежби (укључује и већи број решених испитних задатака)
+- [Скрипта](http://147.91.66.2/~vladimir.filipovic/Courses/Matf%20OOP/Predavanja/SkriptaOOP.pdf) са задацима са вежби (укључује и већи број решених испитних задатака)
 
 - Материјал са [вежби](../vezbe/README.md)
 
