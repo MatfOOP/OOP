@@ -6,6 +6,8 @@
 
 * Наставник: **[др Александар Картељ](https://poincare.matf.bg.ac.rs/~aleksandar.kartelj/){:target="_blank"}**
 
+* Наставник: **[др Сташа Вујичић Станковић](http://poincare.matf.bg.ac.rs/~stasa.vujicic.stankovic/){:target="_blank"}**
+
 * Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}**
 
 * Асистент: **[Бојана Јошић](http://www.matf.bg.ac.rs/p/-bojana-josic){:target="_blank"}**
