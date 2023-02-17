@@ -5,7 +5,7 @@
 
 Материјали са предавања се могу наћи на страници наставника:
 
-* [др Александра Картеља](http://poincare.matf.bg.ac.rs/~aleksandar.kartelj/?content=OOP){:target="_blank"}**
+* [др Александaр Картељ](http://poincare.matf.bg.ac.rs/~aleksandar.kartelj/?content=OOP){:target="_blank"}**
 
 * [др Сташа Вујичић Станковић](http://poincare.matf.bg.ac.rs/~stasa.vujicic.stankovic/){:target="_blank"}**
 
