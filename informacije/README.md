@@ -38,7 +38,7 @@
 
   *[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}*
 
-  *[Бојана Јошић](http://www.matf.bg.ac.rs/p/-bojana-josic){:target="_blank"}*
+  *Бојана Јошић*
 
 ---
 
