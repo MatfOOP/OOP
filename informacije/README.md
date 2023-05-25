@@ -10,7 +10,7 @@
 
 * Асистент: **[Невена Ћирић](http://poincare.matf.bg.ac.rs/~nevena.ciric){:target="_blank"}**
 
-* Асистент: **Бојана Јошић (мејл <code>bojanajosic1998@gmail.com</code>)**
+* Асистент: **Бојана Јошић (мејл <code>mr17128@alas.matf.bg.ac.rs</code>)**
 
 ---
 
