@@ -6,6 +6,7 @@
 
 Решења задатака из претходних година:
 
+* 2022-2023: [Аукцијска кућа](./rokovi/oop.2022.2023.jun1.aukcijskaKuca.zip){:target="_blank"}
 
 * 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.zip){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.zip){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.zip){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.zip){:target="_blank"}, [Деда Мразов помоћник](./rokovi/oop.2021.2022.jan1.dedaMrazovPomocnik.zip){:target="_blank"}
 
