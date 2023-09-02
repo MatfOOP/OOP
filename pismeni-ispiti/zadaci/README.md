@@ -6,7 +6,7 @@
 
 Задаци из претходних рокова:
 
-* 2022-2023: [Аукцијска кућа](./rokovi/oop.2022.2023.jun1.aukcijskaKuca.pdf){:target="_blank"}, [Археолошко налазиште](./rokovi/oop.2022.2023.jun2.arheoloskoNalaziste.pdf){:target="_blank"}
+* 2022-2023: [Аукцијска кућа](./rokovi/oop.2022.2023.jun1.aukcijskaKuca.pdf){:target="_blank"}, [Археолошко налазиште](./rokovi/oop.2022.2023.jun2.arheoloskoNalaziste.pdf){:target="_blank"}, [КННПредиктор](./rokovi/oop.2022.2023.sept1.KNNPrediktor.pdf){:target="_blank"}
 
 * 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.pdf){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.pdf){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.pdf){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.pdf){:target="_blank"}, [Деда Мразов помоћник](./rokovi/oop.2021.2022.jan1.dedaMrazovPomocnik.pdf){:target="_blank"}
 
