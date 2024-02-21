@@ -8,7 +8,7 @@
 
 * Наставник: **[др Сташа Вујичић Станковић](http://poincare.matf.bg.ac.rs/~stasa.vujicic.stankovic/){:target="_blank"}**
 
-* Асистент: **Милица Карличић**
+* Асистент: **[Милица Карличић](http://www.matf.bg.ac.rs/p/milica-karlicic/pocetna/){:target="_blank"}**
 
 * Асистент: **Јелена Бонџић (мејл <code>jelena.bondzic@matf.bg.ac.rs</code>)**
   
