@@ -13,6 +13,7 @@
 ### Јун 1 - резултати практичног дела испита
 
 [Р](./rezultati/godina23_24/lazarjelena_jun1.pdf) - за увид у радове јавити се на мејл код свог асистента: <b>jelena.bondzic@matf.bg.ac.rs</b> или <b>lazar.stanojevic@matf.bg.ac.rs</b>.
+
 ---
 
 09.06.
