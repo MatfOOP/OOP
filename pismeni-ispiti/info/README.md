@@ -15,6 +15,7 @@
 
 [Р](./rezultati/godina23_24/lazarJelenaJun2.pdf) - за увид у радове јавити се на мејл код свог асистента: 
 <b>jelena.bondzic@matf.bg.ac.rs</b> или <b>lazar.stanojevic@matf.bg.ac.rs</b>.
+
 ---
 
 27.06.
