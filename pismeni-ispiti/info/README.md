@@ -5,7 +5,16 @@
 ---
 
 # Обавештења из школске 2023/2024. године
+---
 
+04.07.
+
+### Јун 2 - резултати практичног дела испита
+
+[МНВЛ](./rezultati/godina23_24/milica_jun2.pdf) - за увид у радове јавити се на мејл <b>milica.karlicic@matf.bg.ac.rs</b> 
+
+[Р](./rezultati/godina23_24/lazarJelenaJun2.pdf) - за увид у радове јавити се на мејл код свог асистента: 
+<b>jelena.bondzic@matf.bg.ac.rs</b> или <b>lazar.stanojevic@matf.bg.ac.rs</b>.
 ---
 
 27.06.
