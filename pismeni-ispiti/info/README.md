@@ -7,11 +7,14 @@
 # Обавештења из школске 2023/2024. године
 ---
 
-03.09.
+05.09.
 
 ### Септембар 1 - резултати практичног дела испита
 
 [МНВЛ](./rezultati/godina23_24/milica_sep1.pdf) - за увид у радове јавити се на мејл <b>milica.karlicic@matf.bg.ac.rs</b> 
+
+[Р](./rezultati/godina23_24/lazarJelenaSep1.pdf) - за увид у радове јавити се на мејл код свог асистента: 
+<b>jelena.bondzic@matf.bg.ac.rs</b> или <b>lazar.stanojevic@matf.bg.ac.rs</b>.
 
 ---
 
