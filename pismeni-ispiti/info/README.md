@@ -8,11 +8,14 @@
 
 ---
 
-22.09.
+23.09.
 
 ### Септембар 2 - резултати практичног дела испита
 
 [МНВЛ](./rezultati/godina23_24/milica_sep2.pdf) - за увид у радове јавити се на мејл <b>milica.karlicic@matf.bg.ac.rs</b> 
+[Р](./rezultati/godina23_24/rezultati_sep2.pdf) - за увид у радове јавити се на мејл код свог асистента: 
+<b>jelena.bondzic@matf.bg.ac.rs</b> или <b>lazar.stanojevic@matf.bg.ac.rs</b>.
+
 
 ---
 
