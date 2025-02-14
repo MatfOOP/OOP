@@ -11,8 +11,8 @@
 
 
 * Асистент: **Јелена Бонџић (мејл <code>jelena.bondzic@matf.bg.ac.rs</code>)**
-* Асистент: **[Анђела Дамњановић](мејл <code>andjela.damnjanovic@matf.bg.ac.rs</code>}**
-* Асистент: **[Милоје Јоксимовић](мејл <code>miloje.joksimovic@matf.bg.ac.rs</code>}**
+* Асистент: **Анђела Дамњановић(мејл <code>andjela.damnjanovic@matf.bg.ac.rs</code>}**
+* Асистент: **Милоје Јоксимовић(мејл <code>miloje.joksimovic@matf.bg.ac.rs</code>}**
 * Асистент: **[Милица Карличић](http://www.matf.bg.ac.rs/p/milica-karlicic/pocetna/){:target="_blank"}**
 * Асистент: **Лазар Станојевић (мејл <code>lazar.stanojevic@matf.bg.ac.rs</code>)**
 
