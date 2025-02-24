@@ -3,6 +3,7 @@ package primeri;
 import java.util.Scanner;
 
 public class Primer10Math {
+
 	
 	static double toDegrees(double radians) {
 		return (radians * 180) / Math.PI;
@@ -14,7 +15,7 @@ public class Primer10Math {
 
 	public static void main(String[] args) {
 		// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-		// Klasa 'Math' sadrzi vist statickih funckija vezanih za matematiku. Sledi par primera.
+		// Klasa 'Math' sadrzi vise statickih funckija vezanih za matematiku. Sledi par primera.
 		// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 		Scanner sc = new Scanner(System.in);
 
@@ -27,6 +28,7 @@ public class Primer10Math {
 		fiiiii = toRadians(fiiiii);
 		// Postoji i ugradjena funkcija:
 		// fiiiii = Math.toRadians(fiiiii);
+		// postoji i Math.toDegrees()
 
 		System.out.println("Uneti ugao u radijanima: " + fiiiii);
 		System.out.printf("sin(%g)  = %g\n", fiiiii, Math.sin(fiiiii));
