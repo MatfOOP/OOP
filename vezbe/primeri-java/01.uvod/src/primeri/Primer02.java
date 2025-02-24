@@ -22,7 +22,8 @@ public class Primer02 {
 		
 		// ------------------------------------------------------------------------------
 		//  Java ima i ugradjen tip za rad sa stringovima.
-		// Ono sto je zabavno je sto stringove mozemo spajati koristeci operator +.
+		// Ono sto je zabavno je sto stringove mozemo spajati koristeci operator +. (imati na umu
+		// da je String u Javi imutabilan - o tome na casu gde detaljnije radimo stringove)
 		// ------------------------------------------------------------------------------
 		
 		// Pravimo promenljivu tipa 'String' koju cemo nazvati 'str'.
