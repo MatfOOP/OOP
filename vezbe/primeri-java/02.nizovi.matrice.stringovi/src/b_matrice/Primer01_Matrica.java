@@ -55,6 +55,8 @@ public class Primer01_Matrica {
 	}
 
 	static void ispisi3(int[][] a) {
+		//Na ovaj nacin mozemo ugradjenom metodom da ispisemo elemente matrice, probajte
+		//sta bi se desilo kada bismo ispisivali samo a, ili samo Arrays.toString(a)
 		System.out.println(Arrays.deepToString(a));
 	}
 }
