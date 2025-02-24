@@ -14,6 +14,8 @@ public class Primer02Brojanje {
         // Brojimo pojavljivanja cifara, slova i belina
         int brCifara = 0, brSlova = 0, brBelina = 0;
 
+
+        //U klasi Character se nalaze metode za rad sa pojedinacnim karakterima
         for (int i = 0; i < ulaz.length(); ++i) // length() <- duzina stringa
             // ako je i-ti karakter cifra
             if (Character.isDigit(ulaz.charAt(i)))
