@@ -28,17 +28,24 @@ public class Primer04Scanner {
 		// Slede primeri kako mozemo citati sa standardnog ulaza.
 		// ------------------------------------------------------------------------------
 		System.out.println("Unesite ceo broj:");
-		int x = sc.nextInt();
+		int x = sc.nextInt(); //Ukoliko ocekujemo Int na ulazu
 		System.out.println("Uneli ste broj: " + x);
 		
 		System.out.println("Unesite realan broj:");
-		double y = sc.nextDouble();
+		double y = sc.nextDouble(); //Ukoliko ocekujemo Double na ulazu
 		System.out.println("Uneli ste broj: " + y);
 		
 		System.out.println("Unesite rec:");
-		String word = sc.next();
+		String word = sc.next(); //Cita bilo koji sledeci token sa ulaza
 		System.out.println("Uneta je rec: " + word);
-		
+
+
+		// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		// Scanner nema metod koji ucitava karakter tako da se mozemo dovijati
+		// koristeci metod 'next' koji vraca ucitanu rec, a onda od nje
+		// mozemo izdvojiti nulti karakter.
+		// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 		System.out.println("Unesite 1 karakter:");
 		String tmp = sc.next();
 		char z = tmp.charAt(0);
