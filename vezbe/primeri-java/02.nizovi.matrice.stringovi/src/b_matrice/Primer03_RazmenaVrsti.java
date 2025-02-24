@@ -59,7 +59,14 @@ public class Primer03_RazmenaVrsti {
 	 * odgovarajucih vrsti u nasoj matrici.
 	 * Vremenska slozenost: O(1)
 	 * Memorijska slozenost: O(1)
-	 */
+
+
+	// detaljnije: Ova metoda efikasno razmenjuje dve vrste u matrici bez kopiranja podataka.
+    	// U Javi, nizovi su objekti i promenljive tipa niz (npr. a[i]) ne sadrže direktno podatke,
+    	// već samo referencu na mesto u memoriji gde se niz nalazi.
+    	// Kada razmenimo a[i] i a[j], zapravo razmenjujemo njihove reference,
+    	// tako da sada i-ta vrsta pokazuje na podatke koji su ranije bili u j-toj vrsti i obrnuto.
+	*/
 	static void razmeniEfikasno(int[][] a, int i, int j) {
 		int[] tmp = a[i]; 		// cuvamo referencu na i-tu vrstu
 		a[i] = a[j];
@@ -82,6 +89,8 @@ public class Primer03_RazmenaVrsti {
 		return tmp;
 	}
 
+
+	//Ovom metodom osiguravamo da smo ucitali ceo broj
 	public static int unesiSiguranInt() {
 		if (sc.hasNextInt())
 			return sc.nextInt();
