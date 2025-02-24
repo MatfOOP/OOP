@@ -54,7 +54,8 @@ public class Primer01 {
         // NAPOMENA 2:
         // -----------------------------------------------
         // ako u programu postoje dve ili vise istovetnih
-        // String konstanti, za njih se nece praviti zasebni objekti,
+        // String konstanti (ako string odmah inicijalzujemo sa tekstom 
+        // izmedju navodnika, to je string kontanta), za njih se nece praviti zasebni objekti,
         // vec ce postojati samo jedan
         // zbog toga == za njih vraca true
 
