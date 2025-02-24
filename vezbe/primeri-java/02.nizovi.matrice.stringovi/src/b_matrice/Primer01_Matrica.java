@@ -14,6 +14,9 @@ public class Primer01_Matrica {
 			{4, 5, 6},
 			{7, 8, 9}
 		};
+
+		// a[0] je niz {1, 2, 3}, tj. prva vrsta matrice
+		// a[0][0] je prvi element prve vrste matrice, tj. 1
 		
 		System.out.println("ispisi1(a):");
 		ispisi1(a);
@@ -43,6 +46,12 @@ public class Primer01_Matrica {
 				System.out.print(e + " ");
 			System.out.println();
 		}
+
+		//detaljnije objasnjenje: 
+		//elementi matrice a su 3 niza : {1, 2, 3} , {4, 5, 6}, {7, 8, 9}, 
+		//tako da kada hocemo da prodjemo kroz matricu, u spoljnoj petlji prolazimo kroz te nizove
+		//pa je zato tmp tipa int[], 
+		//a u unutrasnjoj petlji prolazimo kroz svaki element pojedinacnog niza, te je e tipa int
 	}
 
 	static void ispisi3(int[][] a) {
