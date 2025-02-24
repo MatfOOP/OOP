@@ -3,6 +3,9 @@ package b_matrice;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
+//Primer kao prethodni samo sa korisnicki definisanom matricom
+
 public class Primer02_Matrica {
 
 	public static void main(String[] args) {
