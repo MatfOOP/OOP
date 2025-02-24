@@ -9,6 +9,10 @@ public class Primer01 {
 	 * i njihov ispis.
 	 */
 	public static void main(String[] args) {
+
+		//ukoliko znamo elemente niza unapred, mozemo odmah inicjalizovati niz:
+		// int[] a = {1, 2, 4, 5};
+		
 		// Kada Scanner vezujemo na standardni ulaz,
 		// necemo ga zatvarati (jer ce to zatvarati standardni ulaz,
 		// tako da nas program ne moze da ga koristi na dalje).
@@ -19,7 +23,8 @@ public class Primer01 {
 		System.out.println("Unesite duzinu niza:");
 		int n = sc.nextInt();
 		
-		// Pravimo niz duzine n
+		// Pravimo niz duzine n bez inicijalizacije, pa ce svaki element
+		// imati podrazumevanu vrednost (sto je 0 za int)
 		int[] a = new int[n];
 		
 		System.out.println("Unesite " + n + " brojeva:");
@@ -42,9 +47,10 @@ public class Primer01 {
 		System.out.println("Uneti brojevi (foreach petlja):");
 		for (int e: a)
 			System.out.print(e + " ");
-		
+
 		// NE ZATVARAMO SCANNER
 		// sc.close();
+
 	}
 
 }
