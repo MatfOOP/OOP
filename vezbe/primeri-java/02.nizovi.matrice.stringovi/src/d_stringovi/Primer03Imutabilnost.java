@@ -36,6 +36,11 @@ public class Primer03Imutabilnost {
         // tako da cemo transformaciju izvrsiti
         // nad nizom karaktera koji cemo posle
         // vratiti kao String
+
+        // npr. :
+        // 1. "Zdravo Svete" -> { 'Z', 'd', 'r', 'a', ....}
+        // 2. radimo sta hocemo nad nizom karaktera
+        // 3. nizKaraktera -> String
         char[] tmp = t.toCharArray();
         for (int i = 0; i < tmp.length; i++)
             if (Character.isUpperCase(tmp[i]))
