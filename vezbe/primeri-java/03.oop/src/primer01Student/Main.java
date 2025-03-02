@@ -15,7 +15,22 @@ public class Main {
 		Student[] studenti = {s1, s2, s3, s4, s5, s6, s7, s8};
 		for (Student student : studenti)
 			System.out.println(student);
-//			System.out.println(student.toString());
+		
+		
+		/*
+			 sledeci poziv funkcije za ispis ekvivalentan je prethodnom, jer u  
+			 slucaju da se funkciji za ispis ne prosledi nista osim objekta, 
+			 implicitno se poziva bas toString() metod nad objektom
+			
+			 NAPOMENA: cak i u slucaju da toString() metod nije definisan u okviru
+			 klase kojoj pripada objekat za koji je pozvan metod ispisa, nece doci
+			 do greske, jer ce biti pozvan odgovarajuci metod koji se nalazi unutar klase 
+			 Object() koju sve ostale klase koje pisemo nasledjuju (a o nasledjivanju ce
+			 biti vise reci na sledecem casu :) )
+			 
+			System.out.println(student.toString());
+			*/
+
 	}
 
 }
