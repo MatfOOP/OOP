@@ -4,10 +4,23 @@ public class Student {
 	// Polja koja opisuju stanje nase klase.
 	private String ime, prezime, indeks;
 	private double prosek;
+	// Modifikator pristupa private govori da su navedeni atributi/metodi 
+	// vidljivi samo ostalim clanovima ove klase i da im se ne moze pristupiti
+	// iz "spoljnog sveta" (npr. iz Main klase ili nekog drugog paketa).
+	// Sa druge strane, modifikator public (sa kojim smo se sretali do sad)
+	// oznacava da je atribut/metod vidljiv iz bilo kog drugog paketa ili klase.
 	
 	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	// Konstruktor - funkcija koja se poziva pri
-	// pravljenju objekta
+	// pravljenju objekta. Ona nema povratnu vrednost i mora 
+	// nositi isto ime kao i klasa.
+
+	// Svaka klasa MORA imati BAR 1 konstruktor. Ukoliko programeri ne napisu
+	// eksplicitno konstruktor, implicitno se poziva PODRAZUMEVANI konstruktor (on nema
+	// argumenata i on postavlja polja klase na podrazumevane vrednosti). 
+	// Ukoliko programer definise svoj konstruktor 
+	// onda podrazumevani konstruktor prestaje da postoji.
+	//
 	//
 	// this - referenca na objekat u kojem se trenutno nalazimo
 	// U konstruktoru cesto koristimo kako bi razresili koliziju imena
@@ -49,10 +62,6 @@ public class Student {
 		String tmp = "" + indeks.charAt(4) + indeks.charAt(5) + indeks.charAt(6);
 		return Integer.parseInt(tmp);
 	}
-	
-	public void setIndeks(String indeks) {
-		this.indeks = indeks;
-	}
 
 	public String getSmer() {
 		char studije = indeks.charAt(0);
@@ -78,6 +87,17 @@ public class Student {
 	public double getProsek() {
 		return prosek;
 	}
+
+	
+	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	// "SETERI" - Funkcije koje sluze da promene trenutno stanje objekta.
+	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	
+	
+	public void setIndeks(String indeks) {
+		this.indeks = indeks;
+	}
+
 	
 	public String toString() {
 		return ime + " " + prezime + ", " + indeks + ", " + prosek;
