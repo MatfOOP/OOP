@@ -1,6 +1,11 @@
 package z_dodatno01Stack;
 
 public class Stack {
+
+	// Zelimo da implementiramo stek pomocu obicnog niza.
+	// Stoga nam je od polja klase potreban sam niz elemenata
+	// koji se nalaze na steku, kao i pokazivac na mesto
+	// u nizu gde treba ubaciti novi element
 	private int[] elements;
 	private int headPtr;
 	
@@ -10,6 +15,10 @@ public class Stack {
 	}
 	
 	private void checkCapacity() {
+		// Ako smo popunili ceo niz, alociramo jos prostora 
+		// (duplo od prethodne velicine - The reason behind doubling is that it turns repeatedly 
+		// appending an element into an amortized O(1) operation. Put another way, appending n elements takes O(n) time.) 
+
 		if (headPtr == elements.length-1) {
 			// Debugging purposes
 			// System.out.println("Reallocating array from size " + elements.length + " to " + 2*elements.length + "...");
@@ -26,6 +35,12 @@ public class Stack {
 	}
 	
 	public int top() {
+		// headPtr je pokazivac na sledece slobodno mesto
+		// u nizu, pa se poslednji dodati element nalazi
+		// na poziciji iza headPtr pokazivaca
+		
+		// za vezbu dodati proveru da li uopste ima elemenata
+		// koji se nalaze na steku
 		return elements[headPtr];
 	}
 	
