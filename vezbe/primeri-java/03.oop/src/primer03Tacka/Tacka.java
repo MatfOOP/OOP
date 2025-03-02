@@ -12,6 +12,9 @@ public class Tacka {
 	
 	// Standardan konstruktor za tacku, pozivamo sa:
 	// Tacka t = new Tacka(2, 5);
+	// Postojanje vise metoda sa istim nazivom, ali
+	// sa razlicitim brojem argumenata naziva se 
+	// PREOPTERECENJE metoda (vise o ovome kasnije)
 	public Tacka(double x, double y) {
 		this.x = x;
 		this.y = y;
@@ -29,6 +32,7 @@ public class Tacka {
 	// Primetimo da ova funkcija poredi objekte 'this' i 't' koji tu tacke.
 	// Funkcija je jako slicna onoj koju poseduje klasa String.
 	public boolean equals(Tacka t) {
+		// Smemo pristupiti privatnim clanovima tacke 't' jer smo unutar klase
 		return this.x == t.x && this.y == t.y;
 	}
 	
