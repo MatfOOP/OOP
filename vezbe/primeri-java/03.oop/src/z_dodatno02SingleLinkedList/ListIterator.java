@@ -26,7 +26,11 @@ package z_dodatno02SingleLinkedList;
 
 public class ListIterator {
 	private Node currentNode;
-	
+
+	// Konstruktor klase prima odgovarajuci objekat klase 
+	// LinkedList i, ukoliko povezana lista ima elemenata
+	// postavlja vrednost trenutnog cvora na glavu liste,
+	// u suprotnom, trenutni cvor nema vrednost
 	public ListIterator(LinkedList list) {
 		if (list != null)
 			currentNode = list.getHead();
@@ -34,10 +38,12 @@ public class ListIterator {
 			currentNode = null;
 	}
 	
+	// Vracamo informaciju da li sledeci cvor postoji ili ne
 	public boolean hasNext() {
 		return currentNode != null;
 	}
 	
+	// Vracamo sledecu vrednost koja se nalazi u listi
 	public int next() {
 		if (currentNode != null) {
 			int tmp = currentNode.getData();
