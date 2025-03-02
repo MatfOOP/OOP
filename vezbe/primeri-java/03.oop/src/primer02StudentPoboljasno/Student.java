@@ -1,18 +1,11 @@
 package primer02StudentPoboljasno;
 
 public class Student {
-	// Polja koja opisuju stanje nase klase.
+	
 	private String ime, prezime, indeks;
 	private double prosek;
 	
-	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	// Konstruktor - funkcija koja se poziva pri
-	// pravljenju objekta
-	//
-	// this - referenca na objekat u kojem se trenutno nalazimo
-	// U konstruktoru cesto koristimo kako bi razresili koliziju imena
-	// 	kada konstruktor prima argument koji se zove isto kao neko od polja.
-	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 	public Student(String ime, String prezime, String indeks, double prosek) {
 		this.ime = ime;
 		this.prezime = prezime;
@@ -20,12 +13,7 @@ public class Student {
 		this.prosek = prosek;
 	}
 
-	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	// "GETERI" - Funkcije koje vracaju korisniku nase klase deo trenutnog
-	// 				stanja objekta.
-	// Ne mora da znaci da svako polje TREBA da ima svoj geter. Konkretan geter
-	// pravimo onda kada procenimo da ce nam neka vrednost biti potrebna.
-	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	
 	public String getIme() {
 		return ime;
 	}
@@ -53,7 +41,8 @@ public class Student {
 	public void setIndeks(String indeks) {
 		// Umesto da odmah postavimo vrednost indeksa,
 		// mozemo proveriti da li je argument metoda u dobrom obliku,
-		// odnosno da li je oblika ABCCDDD
+		// odnosno da li je oblika mxGGBBB, gde je x iz skupa 
+		// vrednosti (m, l, n, v, r, i)
 		if (validirajIndeks(indeks))
 			this.indeks = indeks;
 		else
@@ -75,6 +64,10 @@ public class Student {
 			return false;
 
 		// Proveravamo smer
+		// Metod contains() kao argument prima string, pa
+		// je potrebno pretvoriti karakter u string, sto
+		// se najjednostavnije radi konkatenacijom praznog
+		// stringa na njega
 		String dopustiviSmerovi = "mnvlrif";
 		if (!dopustiviSmerovi.contains("" + indeks.charAt(1)))
 			return false;
