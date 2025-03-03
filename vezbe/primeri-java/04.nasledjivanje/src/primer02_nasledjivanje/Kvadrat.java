@@ -30,6 +30,8 @@ public class Kvadrat extends Pravougaonik {
 		return this.sirina;
 	}
 
+	// Primetimo da je toString() metoda overrideovana i da ce se ova implementacija
+	// koristiti umesto one iz nadklase.
 	public String toString() {
 		return "Kvadrat centar = " + centar + " a = " + sirina;
 	}

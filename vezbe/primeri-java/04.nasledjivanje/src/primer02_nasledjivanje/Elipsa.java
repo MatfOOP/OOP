@@ -50,6 +50,8 @@ public class Elipsa extends Oblik {
 		return b;
 	}
 
+	// Primetimo da je toString() metoda overrideovana i da ce se ova implementacija
+	// koristiti umesto one iz nadklase.
 	public String toString() {
 		return "Elipsa a = " + a + " b = " + b;
 	}

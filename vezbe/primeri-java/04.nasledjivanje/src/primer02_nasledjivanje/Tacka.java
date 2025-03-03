@@ -5,6 +5,9 @@ public class Tacka {
 
 	// Privatna staticka promenljiva koju cemo koristiti
 	// da brojimo koliko je instancirano objekata klase 'Tacka'.
+	// Staticka promenljiva pripada svim instancama klase,
+	// odnosno pripada klasi, a ne odredjenoj instanci
+	// i sve instance je dele
 	private static int brojacTacaka;
 	
 	// Staticki inicijalizacioni blok (SIB)
