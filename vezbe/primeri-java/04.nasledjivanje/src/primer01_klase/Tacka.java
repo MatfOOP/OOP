@@ -5,6 +5,9 @@ public class Tacka {
 
 	// Privatna staticka promenljiva koju cemo koristiti
 	// da brojimo koliko je instancirano objekata klase 'Tacka'.
+	// Staticka promenljiva pripada svim instancama klase,
+	// odnosno pripada klasi, a ne odredjenoj instanci
+	// i sve instance je dele
 	private static int brojacTacaka;
 	
 	// Staticki inicijalizacioni blok (SIB)
@@ -69,6 +72,12 @@ public class Tacka {
 		// funkciju koja racuna rastojanje koje nam treba.
 		return Tacka.distance(this, t);
 	}
+
+	// Translacija tacke za dx i dy
+	public void translate(double dx, double dy) {
+		x += dx;
+		y += dy;
+	}
 	
 	/// Nas interni brojac krijemo od spoljasnjeg svega, spoljasnjem svetu
 	/// dozvoljavamo samo da procita vrednost brojaca.
@@ -82,11 +91,6 @@ public class Tacka {
 
 	public double getY() {
 		return y;
-	}
-
-	public void translate(double dx, double dy) {
-		x += dx;
-		y += dy;
 	}
 
 	@Override

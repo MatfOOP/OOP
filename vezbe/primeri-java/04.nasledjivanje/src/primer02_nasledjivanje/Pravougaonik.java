@@ -50,6 +50,8 @@ public class Pravougaonik extends Oblik {
 		return visina;
 	}
 
+	// Primetimo da je toString() metoda overrideovana i da ce se ova implementacija
+	// koristiti umesto one iz nadklase.
 	public String toString() {
 		return "Pravougaonik sirina = " + sirina + " visina = " + visina;
 	}

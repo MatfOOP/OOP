@@ -67,7 +67,9 @@ public class Trougao extends Oblik {
 		this.b = new Tacka(b);
 		this.c = new Tacka(c);
 	}
-	
+
+	// Primetimo da je toString() metoda overrideovana i da ce se ova implementacija
+	// koristiti umesto one iz nadklase.
 	@Override
 	public String toString() {
 		return "Trougao a = " + a + " b = " + b + " c = " + c;

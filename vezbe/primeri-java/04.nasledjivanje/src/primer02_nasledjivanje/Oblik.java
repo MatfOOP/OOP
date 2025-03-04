@@ -6,9 +6,8 @@ public class Oblik {
 	protected Tacka centar;
 
 	public Oblik(Tacka c) {
-		// Primetimo da instanca klase Oblik dobija
-		// SOPSTVENU KOPIJU tacke od koje se konstruise,
-		// ne koristi prosledjenu tacku direktno.
+		// Pravimo kopiju prosleđene tačke umesto da koristimo istu referencu.
+		// Time osiguravamo da promene originalne tačke ne utiču na centar oblika.
 		
 		// Pozivamo konstruktor kopije za tacku.
 		centar = new Tacka(c);

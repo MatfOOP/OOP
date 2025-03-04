@@ -30,6 +30,8 @@ public class Krug extends Elipsa {
 		return this.a;
 	}
 
+	// Primetimo da je toString() metoda overrideovana i da ce se ova implementacija
+	// koristiti umesto one iz nadklase.
 	public String toString() {
 		return "Krug centar = " + centar + " r = " + a;
 		// 												^ duzina poluse 1 elipse koju smo nasledili
