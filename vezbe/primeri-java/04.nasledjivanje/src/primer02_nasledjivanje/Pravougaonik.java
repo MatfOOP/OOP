@@ -5,6 +5,7 @@ public class Pravougaonik extends Oblik {
 	// DIREKTNO pristupiti iz podklase (klase Kvadrat).
 	protected double sirina, visina;
 
+	// Konstruktor pravougaonika - kreira Pravougaonik na osnovu tacke njegovog centra, sirine i duzine
 	public Pravougaonik(Tacka centar, double sirina, double visina) {
 		// Potrebno je da pozovemo konstruktor nadklase (UVEK PRI NASLEDJIVANJU)
 		// tako sto koristimo sintaksu slicnu this(...) osim sto koristimo super.
@@ -18,25 +19,29 @@ public class Pravougaonik extends Oblik {
 		init(sirina, visina);
 	}
 
+	// Konstruktor Pravougaonika - kreira Pravougaoink na osnovu koordinata njegovog centra, sirine i duzine
 	public Pravougaonik(double x, double y, double sirina, double visina) {
 		// Poziva konstruktor Oblik(double x, double y)
 		super(x, y);
 		init(sirina, visina);
 	}
 
+	// Konstruktor Pravougaonika - kreira pravougaonik na osnovu podrazumevane Tacke centra (koordinatni pocetak) i visine i sirine
 	public Pravougaonik(double sirina, double visina) {
 		// Poziva konstruktor Oblik()
 		super();
 		init(sirina, visina);
 	}
 
-	/// Konstruktor kopije
+	/// Konstruktor kopije - kreira Pravougaonik sa istim vrednostima kao p
 	public Pravougaonik(Pravougaonik p) {
 		// Poziva konstruktor Oblik(Tacka c)
 		super(p.centar);
 		init(p.sirina, p.visina);
 	}
 
+	// Pomocna metoda koja postavlja vrednosti sirine i visine.
+	// Ova logika se ponavlja kroz klasu, pa smo je postavili kao metodu zbog citljivosti i manje mogucnosti greske
 	private void init(double sirina, double visina) {
 		this.visina = visina;
 		this.sirina = sirina;
