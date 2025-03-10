@@ -5,6 +5,9 @@ public class Tacka {
 
 	// Privatna staticka promenljiva koju cemo koristiti
 	// da brojimo koliko je instancirano objekata klase 'Tacka'.
+	// Staticka promenljiva pripada svim instancama klase,
+	// odnosno pripada klasi, a ne odredjenoj instanci
+	// i sve instance je dele
 	private static int brojacTacaka;
 	
 	// Staticki inicijalizacioni blok (SIB)
@@ -22,7 +25,7 @@ public class Tacka {
 			brojacTacaka *= 0;
 	}
 	
-	
+	// Konstruktor kojim kreiramo novu Tacku na osnovu x i y koordinata.
 	public Tacka(double x, double y) {
 		this.x = x;
 		this.y = y;
@@ -33,10 +36,11 @@ public class Tacka {
 		brojacTacaka++;
 	}
 
+	// Konstruktor kojim cemo da pravimo tacku bez prosledjivanja argumenata.
 	public Tacka() {
 		// this(0, 0) poziva konstruktor Tacka(double x, double y)
 		// koji nadalje preuzima odgovornost za inicijalizaciju objekta.
-		// Na ovaj nacin mozemo smanjiti kolicinu kodu i logike koja se ponavlja.
+		// Na ovaj nacin mozemo smanjiti kolicinu koda i logike koja se ponavlja.
 		// Primetimo da sada ne moramo da vrsimo brojanje objekata jer to radi
 		// konstruktor kojem delegiramo posao.
 		this(0, 0);
@@ -46,6 +50,7 @@ public class Tacka {
 		// brojacTacaka++;
 	}
 
+	// Konstruktor kopije - kreira novu instancu na osnovu postojece tacke t
 	public Tacka(Tacka t) {
 		this(t.x, t.y);
 		// Alternativni kod:
@@ -69,6 +74,12 @@ public class Tacka {
 		// funkciju koja racuna rastojanje koje nam treba.
 		return Tacka.distance(this, t);
 	}
+
+	// Translacija tacke za dx i dy
+	public void translate(double dx, double dy) {
+		x += dx;
+		y += dy;
+	}
 	
 	/// Nas interni brojac krijemo od spoljasnjeg svega, spoljasnjem svetu
 	/// dozvoljavamo samo da procita vrednost brojaca.
@@ -82,11 +93,6 @@ public class Tacka {
 
 	public double getY() {
 		return y;
-	}
-
-	public void translate(double dx, double dy) {
-		x += dx;
-		y += dy;
 	}
 
 	@Override

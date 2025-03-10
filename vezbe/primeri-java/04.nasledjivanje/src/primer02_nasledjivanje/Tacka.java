@@ -5,6 +5,9 @@ public class Tacka {
 
 	// Privatna staticka promenljiva koju cemo koristiti
 	// da brojimo koliko je instancirano objekata klase 'Tacka'.
+	// Staticka promenljiva pripada svim instancama klase,
+	// odnosno pripada klasi, a ne odredjenoj instanci
+	// i sve instance je dele
 	private static int brojacTacaka;
 	
 	// Staticki inicijalizacioni blok (SIB)
@@ -22,7 +25,7 @@ public class Tacka {
 			brojacTacaka *= 0;
 	}
 	
-	
+	// Konstruktor Tacke - kreira Tacku sa zadatim vrednostima koordinata x i y
 	public Tacka(double x, double y) {
 		this.x = x;
 		this.y = y;
@@ -33,10 +36,11 @@ public class Tacka {
 		brojacTacaka++;
 	}
 
+	// Konstruktor Tacke - kreira Tacku bez argumenata i postavlja vrednosti koordinata na podrazumevanu vrednost (0,0)
 	public Tacka() {
 		// this(0, 0) poziva konstruktor Tacka(double x, double y)
 		// koji nadalje preuzima odgovornost za inicijalizaciju objekta.
-		// Na ovaj nacin mozemo smanjiti kolicinu kodu i logike koja se ponavlja.
+		// Na ovaj nacin mozemo smanjiti kolicinu koda i logike koja se ponavlja.
 		// Primetimo da sada ne moramo da vrsimo brojanje objekata jer to radi
 		// konstruktor kojem delegiramo posao.
 		this(0, 0);
@@ -46,6 +50,7 @@ public class Tacka {
 		// brojacTacaka++;
 	}
 
+	// Konstuktor kopije - kreira Tacku sa istim vrednostima koordinata kao zadata tacka t
 	public Tacka(Tacka t) {
 		this(t.x, t.y);
 		// Alternativni kod:
