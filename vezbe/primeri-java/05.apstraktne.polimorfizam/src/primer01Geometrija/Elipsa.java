@@ -1,5 +1,7 @@
 package primer01Geometrija;
 
+// Nasledjujemo klasu Oblik i kako je ta klasa apstraktna
+// moramo implementirati logiku metoda getObim i getPovrsina.
 public class Elipsa extends Oblik {
 	private double a, b;
 

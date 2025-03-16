@@ -1,5 +1,9 @@
 package primer01Geometrija;
 
+// Nasledjujemo klasu Elipsa koja je vec nasledila apstraktnu klasu Oblik
+// i vec implementirala apstraktne metode getObim i getPovrsina.
+// Krug ce samo "iskoristiti" tu klasu kao i u 4. casu nasledjivanja
+// postavljajuci odgovarajuce parametre za konstruktor.
 public class Krug extends Elipsa {
 
 	public Krug(Tacka centar, double r) {

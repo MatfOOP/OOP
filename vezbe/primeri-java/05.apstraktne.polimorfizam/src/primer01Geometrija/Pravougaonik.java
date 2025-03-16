@@ -1,5 +1,7 @@
 package primer01Geometrija;
 
+// Nasledjujemo klasu Oblik i kako je ta klasa apstraktna
+// moramo implementirati logiku metoda getObim i getPovrsina.
 public class Pravougaonik extends Oblik {
 	private double sirina, visina;
 
@@ -9,11 +11,13 @@ public class Pravougaonik extends Oblik {
 		this.visina = visina;
 	}
 
+	// Implementacija logike apstraktne metode getObim
 	@Override
 	public double getObim() {
 		return 2*sirina + 2*visina;
 	}
 
+	// Implementacija logike apstraktne metode getPovrsina
 	@Override
 	public double getPovrsina() {
 		return sirina * visina;

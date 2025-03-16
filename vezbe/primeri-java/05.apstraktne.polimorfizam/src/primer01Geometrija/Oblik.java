@@ -1,8 +1,9 @@
 package primer01Geometrija;
 
 // Klasa je apstraktna ako poseduje barem jednu
-// apstraktnu funkciju. Apstraktne klase ne mozemo
-// da instanciramo.
+// apstraktnu funkciju. Logiku apstraktnih funkcija
+// implementira podklasa.
+// Apstraktne klase ne mozemo da instanciramo.
 public abstract class Oblik {
 	private Tacka centar;
 
