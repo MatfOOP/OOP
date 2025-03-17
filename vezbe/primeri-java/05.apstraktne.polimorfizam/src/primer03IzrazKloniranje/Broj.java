@@ -1,6 +1,6 @@
 package primer03IzrazKloniranje;
 
-public class Broj extends Izraz {
+public class 	Broj extends Izraz {
 	private double vrednost;
 	
 	public Broj(double vrednost) {
@@ -19,6 +19,7 @@ public class Broj extends Izraz {
 	public Izraz klon() {
 		// Mozemo iskoristiti konstruktor kopije za klasu kako
 		// bi izbegli ponavljanje logike.
+		// Mogli smo da koristimo i: return new Broj(this.vrednost);
 		return new Broj(this);
 	}
 	

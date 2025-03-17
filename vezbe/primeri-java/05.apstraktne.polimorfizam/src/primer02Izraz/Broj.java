@@ -1,5 +1,6 @@
 package primer02Izraz;
 
+// Broj nasledjuje klasu izraz i implmentira logiku za izracunaj()
 public class Broj extends Izraz {
 	private double vrednost;
 	
@@ -10,7 +11,8 @@ public class Broj extends Izraz {
 	public double getVrednost() {
 		return vrednost;
 	}
-	
+
+	// Sam broj za izeacunaj vraca samo svoju vrednost
 	@Override
 	public double izracunaj() {
 		return vrednost;

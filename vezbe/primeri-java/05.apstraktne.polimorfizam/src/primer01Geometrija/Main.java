@@ -2,6 +2,12 @@ package primer01Geometrija;
 
 public class Main {
 
+	// Apstraktna klasa je klasa koja ne može biti instancirana (ne možemo napraviti njen objekat direktno),
+	// već služi kao osnova za druge klase. Koristi se kada želimo da definišemo opšte ponašanje koje će
+	// podklase naslediti i eventualno prilagoditi.
+	//
+	// Polimorfizam je jedan od četiri osnovna principa objektno-orijentisanog programiranja,
+	// koji omogućava da se objekti različitih klasa tretiraju kao objekti zajedničke nadklase
 	public static void main(String[] args) {
 		Kvadrat kvadrat = new Kvadrat(new Tacka(), 10);
 		Pravougaonik pravougaonik = new Pravougaonik(new Tacka(10, 20), 100, 20);
@@ -24,7 +30,8 @@ public class Main {
 		// Iteriramo kroz niz
 		for (Oblik o: oblici) {
 			System.out.println(o);
-			// Polimorfno se izvrsavaju metodi 'getObim()' i 'getPovrsina()'.
+			// Polimorfno se izvrsavaju metodi 'getObim()' i 'getPovrsina()'
+			// Svaka od klasa je nasledila klasu Oblik i implementirala logiku tih metode.
 			System.out.println("O = " + o.getObim());
 			System.out.println("P = " + o.getPovrsina() + "\n");
 		}
@@ -43,11 +50,11 @@ public class Main {
 		
 		// Kako traziti samo instance klase pravougaonik (bez kvadrata)?
 		// Za objasnjenje konsultovati materijal okacen na stranici.
-		brojacPravougaonika = 0;
+		int brojacPravougaonikaBezKvadrata = 0;
 		for (Oblik o: oblici)
 			if (o.getClass() == Pravougaonik.class)
-				brojacPravougaonika++;
-		System.out.println("Pronadjeno pravougaonika: " + brojacPravougaonika);
+				brojacPravougaonikaBezKvadrata++;
+		System.out.println("Pronadjeno pravougaonika koji nisu kvadrati: " + brojacPravougaonikaBezKvadrata);
 		
 	}
 

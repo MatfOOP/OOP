@@ -1,5 +1,8 @@
 package primer02Izraz;
 
+// Klasa promenljiva nasledjuje apstraktnu klasu izraz
+// i za razliku od klase Broj ona ima jos jedno polje
+// koje predstavlja ime
 public class Promenljiva extends Izraz {
 	private String ime;
 	private double vrednost;
@@ -20,7 +23,8 @@ public class Promenljiva extends Izraz {
 	public void setVrednost(double vrednost) {
 		this.vrednost = vrednost;
 	}
-	
+
+	// Logika metode izracunaj je jednostavno vracanje vrednosti promenljive.
 	@Override
 	public double izracunaj() {
 		return vrednost;

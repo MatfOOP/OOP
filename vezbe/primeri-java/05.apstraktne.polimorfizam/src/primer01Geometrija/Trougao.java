@@ -1,5 +1,7 @@
 package primer01Geometrija;
 
+// Nasledjujemo klasu Oblik i kako je ta klasa apstraktna
+// moramo implementirati logiku metoda getObim i getPovrsina.
 public class Trougao extends Oblik {
 	private Tacka a, b, c;
 
@@ -47,11 +49,13 @@ public class Trougao extends Oblik {
 		return c.distance(a);
 	}
 
+	// Implementacija logike apstraktne metode getObim
 	@Override
 	public double getObim() {
 		return getAB() + getBC() + getCA();
 	}
 
+	// Implementacija logike apstraktne metode getPovrsina
 	@Override
 	public double getPovrsina() {
 		double o = getObim()/2;
