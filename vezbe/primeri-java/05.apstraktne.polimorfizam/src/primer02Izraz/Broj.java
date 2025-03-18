@@ -12,7 +12,7 @@ public class Broj extends Izraz {
 		return vrednost;
 	}
 
-	// Sam broj za izeacunaj vraca samo svoju vrednost
+	// Sam broj za izracunaj vraca samo svoju vrednost
 	@Override
 	public double izracunaj() {
 		return vrednost;

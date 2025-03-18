@@ -3,12 +3,13 @@ package primer03IzrazKloniranje;
 // BinarnaOperacija je klasa koja ima dva izraza, levi i desni.
 // Ona je apstraktna i nece implementirati apstraktnu metodu izracunaj() i klon()
 // iz klase Izraz, vec ce to odloziti svojim podklasama.
+// Kao sto vidimo, apstraktna klasa moze naslediti drugu apstraktnu klasu
 public  abstract class BinarnaOperacija extends Izraz {
 	private Izraz levi, desni;
 
 	// Konstruktor koji dobija levi i desni izraz
 	// podrazumevamo da nece zeleti da referencira na njih
-	// vec da zelimo da promene sa klasom ne uticu na inicijalne izrace
+	// vec da zelimo da promene sa klasom ne uticu na inicijalne izraze
 	// i zato cemo koristiti klonove tih izraza
 	public BinarnaOperacija(Izraz levi, Izraz desni) {
 		// Umesto this.levi = levi

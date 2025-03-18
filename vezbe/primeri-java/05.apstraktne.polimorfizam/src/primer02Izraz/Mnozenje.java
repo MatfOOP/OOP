@@ -11,6 +11,7 @@ public class Mnozenje extends BinarnaOperacija {
 	// Metoda izracunaj ovde predstavlja proizvod izracunavanja levog i desnog izraza
 	@Override
 	public double izracunaj() {
+		// Ovde vidimo da postoji mogucnost ulancavanje metoda
 		return getLevi().izracunaj() * getDesni().izracunaj();
 	}
 	

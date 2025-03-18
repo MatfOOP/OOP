@@ -9,7 +9,7 @@ public class Sabiranje extends BinarnaOperacija {
 	}
 	
 	public Sabiranje(Sabiranje s) {
-		// Ne vrsimo kloniranje operanada sabiranje vec
+		// Ne vrsimo kloniranje operanada sabiranja vec
 		// reference prosledjujemo nadklasi.
 		// Klasa BinarnaOperacija
 		// ciji konstruktor pozivamo, poziva kloniranje prosledjenih izraza.
