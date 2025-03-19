@@ -1,4 +1,4 @@
-package primer04Kloniranje;
+package primer05Kloniranje;
 
 /* Definisemo klasu PasLjubimac koja sadrzi objekat Buva kao clan koji je
  * takodje cloneable
@@ -51,6 +51,8 @@ public class PasLjubimac extends Zivotinja implements Cloneable {
     // Nasledjeni metod izbacuje CloneNotSupportedException izuzetak
     // pa se metod mora deklarisati na prikazani nacin, inace nece
     // proci kompajliranje
+    //Ono sto cemo uglavnom raditi je da iz protected predefinisemo u public,
+    //i da pozovemo clone metod natklase
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }

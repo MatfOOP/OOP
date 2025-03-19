@@ -1,5 +1,10 @@
 package primer02Geometrija;
 
+//Zelimo da modifikujemo hijerarhiju oblika sa prethodnog casa. Dodajemo jos jedan oblik - Duz. Medjutim,
+//nema mnogo smisla racunati povrsinu i obim duzi,a morali bismo jer Duz nasledjuje apstraktnu klasu.
+//Zato logiku povrsine i obima izmestamo da budu interfejsi, i samo one klase koje zele da racunaju
+//povrsinu i obim to i mogu tako sto ce implementirati te interfejse,
+// a ostale nisu primorane kao sto bi bile pre izmene.
 public class Main {
 
 	public static void main(String[] args) {
@@ -7,7 +12,7 @@ public class Main {
 		Kvadrat kvadrat = new Kvadrat(new Tacka(2, 3), 10);
 		Krug krug = new Krug();
 		
-		// 												prouzrokovace gresku
+		// prouzrokovace gresku
 		Povrsina[] povrsine = {pravougaonik, kvadrat, krug /*, Duz */};
 		for (Povrsina p: povrsine) {
 			System.out.println(p.toString() + ":");

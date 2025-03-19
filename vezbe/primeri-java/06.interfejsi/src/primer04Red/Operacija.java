@@ -9,6 +9,7 @@ public enum Operacija {
 	EXIT_OPERACIJA(5);
 
 
+	//metoda za vracanje operacije na osnovu celog broja koji nju odredjuje
     public static Operacija fromInt(int op) {
     	switch (op) {
 			case 0:	return ADD_OPERACIJA;

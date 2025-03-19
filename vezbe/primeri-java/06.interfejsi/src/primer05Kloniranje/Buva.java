@@ -1,4 +1,4 @@
-package primer04Kloniranje;
+package primer05Kloniranje;
 
 public class Buva extends Zivotinja implements Cloneable {
 

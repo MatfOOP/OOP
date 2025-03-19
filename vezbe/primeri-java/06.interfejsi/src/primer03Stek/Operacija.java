@@ -1,5 +1,7 @@
 package primer03Stek;
 
+//Enum koji nam sluzi za sve moguce operacije u nasem steku
+//Struktura pravljenja enuma u Javi je sledeca:
 public enum Operacija {
     PUSH_OPERACIJA(0),
 	POP_OPERACIJA(1),
@@ -9,6 +11,7 @@ public enum Operacija {
 
 	private final int op;
 
+	//privatan konstruktor kome se salje celi broj koji oznacava koja je to operacija
     private Operacija(int op) {
     	this.op = op;
 	}

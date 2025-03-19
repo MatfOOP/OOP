@@ -3,13 +3,16 @@ package primer03Stek;
 import java.util.Arrays;
 
 public class Niz implements Stek {
+	//niz koji ce predstavljati sam stek
 	private int[] elementi;
 	private int vrhSteka, kapacitet;
 
+	//ako pravimo stek bez navodjenja kapaciteta, neka pocetni kapacitet bude npr. 10
 	public Niz() {
 		this(10);
 	}
 
+	//ako pravimo stek sa unapred zadatim kapacitetom
 	public Niz(int kapacitet) {
 		this.kapacitet = kapacitet;
 		vrhSteka = 0;
@@ -22,6 +25,7 @@ public class Niz implements Stek {
 
 	@Override
 	public int pop() {
+		//ukoliko nema elemenata u steku
 		if (vrhSteka == 0) {
 			System.err.println("Stack underflow!");
 			return 0;
@@ -33,6 +37,7 @@ public class Niz implements Stek {
 
 	@Override
 	public void push(int x) {
+		//ukoliko je stek pun, dupliramo mu kapacitet
 		if (vrhSteka == kapacitet) {
 			kapacitet *= 2;
 			elementi = Arrays.copyOf(elementi, kapacitet);
@@ -44,6 +49,7 @@ public class Niz implements Stek {
 
 	@Override
 	public int top() {
+		//ukoliko je stek prazan
 		if (vrhSteka == 0) {
 			System.err.println("Stack underflow!");
 			return 0;
