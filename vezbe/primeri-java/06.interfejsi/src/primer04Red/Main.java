@@ -2,6 +2,7 @@ package primer04Red;
 
 import java.util.Scanner;
 
+//implementacija reda preko niza, slicno kao u prethodnom primeru, samo nije logika LIFO nego FIFO
 public class Main {
 
 	public static void prikaziInstrukcije() {

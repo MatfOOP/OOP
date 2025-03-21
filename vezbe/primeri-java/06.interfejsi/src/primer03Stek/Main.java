@@ -2,6 +2,8 @@ package primer03Stek;
 
 import java.util.Scanner;
 
+//Zelimo da napravimo stek koji je implementiran preko niza, tako da pravimo
+//klasu Niz koja implementira interfejs Stek
 public class Main {
 
 	public static void prikaziInstrukcije() {
@@ -10,12 +12,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
+		//pravimo novi stek s koji je implementiran preko niza, to mozemo zato
+		//sto klasa Niz implementira interfejs Stek
 		Stek s = new Niz();
 		
 		prikaziInstrukcije();
 		int i = sc.nextInt();
 
-		// Vraca sve vrednosti enuma
+		// Metod values vraca sve vrednosti enuma u vidi niza [PUSH_OPERACIJA, POP_OPERACIJA, TOP_OPERACIJA, SIZE_OPERACIJA, EXIT_OPERACIJA]
 		// Mora se takodje proveriti indeks, probati sa nevalidnim
 		Operacija opcija = Operacija.values()[i];
 

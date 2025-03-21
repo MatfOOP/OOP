@@ -5,6 +5,7 @@ package primer02Geometrija;
 public class Duz extends Oblik {
 	private Tacka a, b;
 
+	//konstruktor za pravljenje nove duzi ab
 	public Duz(Tacka a, Tacka b) {
 		// Izracunavamo sredisnju tacku (centar oblika)
 		super(new Tacka((a.getX()+b.getX())/2, (a.getY()+a.getY())/2));
