@@ -31,7 +31,7 @@ public class Main {
 			} else if (opcija == Operacija.POP_OPERACIJA)
 				System.out.println("Sa steka je skinut element: " + s.pop());
 			else if (opcija == Operacija.TOP_OPERACIJA)
-				System.out.println("Va vrhu steka je element: " + s.top());
+				System.out.println("Na vrhu steka je element: " + s.top());
 			else if (opcija == Operacija.SIZE_OPERACIJA)
 				System.out.println("Broj elemenata steka: " + s.size());
 			s.show();

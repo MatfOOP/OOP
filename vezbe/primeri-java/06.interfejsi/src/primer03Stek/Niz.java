@@ -37,7 +37,15 @@ public class Niz implements Stek {
 
 	@Override
 	public void push(int x) {
-		//ukoliko je stek pun, dupliramo mu kapacitet
+		/*ukoliko je stek pun, dupliramo mu kapacitet, ovim dupliranjem postižemo:
+		1. Efikasnost – Dupliranje kapaciteta smanjuje broj
+		realokacija memorije u odnosu na linearno povećavanje.
+		2. Izbegavanje čestih kopiranja – Ako bismo kapacitet povećavali
+		za fiksan broj, često bismo morali da kopiramo niz u novi, veći niz.
+		3. Amortizovana složenost – Operacija push ostaje efikasna jer se
+		realokacija događa retko (u proseku O(1) složenost).
+		-link za vise informacija : https://en.wikipedia.org/wiki/Buddy_memory_allocation
+		 */
 		if (vrhSteka == kapacitet) {
 			kapacitet *= 2;
 			elementi = Arrays.copyOf(elementi, kapacitet);
