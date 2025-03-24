@@ -19,7 +19,7 @@ public class Primer02 {
 			// u prethodnim catch konstrukcijama, mozemo da navedemo 'Exception'
 			// koji hvata sve izuzetke.
 			// Blok catch u sustini radi poredjenje koristeci operator 'instanceof'
-			// (pogledati primer pod komentarom kako bi se to vestacki imitirali).
+			// (pogledati primer pod komentarom kako bi se to vestacki imitiralo).
 			System.out.println("Doslo je do neke greske koju ne znamo...");
 			System.out.println("Greska: " + e.getMessage());
 			
@@ -27,9 +27,11 @@ public class Primer02 {
 			// kada je detektovana greska.
 			e.printStackTrace();
 		} finally {
-			// Finally blok se uvek izvrsava i sluzi da zatvori koriscenje resurse
-			// koji se mozda nisu zatvorili u try bloku (jer je izvrsavanje stalo
-			// 	usled prouzrokovane greske).
+			// Pored try i catch bloka, moze se koristiti i finally blok, 
+			// koji nije obavezan.Finally blok se uvek izvrsava (bilo da je
+			// doslo do "hvatanja" izuzetka ili ne) i sluzi da
+			// zatvori koriscene resurse koji se mozda nisu zatvorili u 
+			// try bloku (jer je izvrsavanje stalo usled prouzrokovane greske).
 			if (sc != null)
 				sc.close();
 		}

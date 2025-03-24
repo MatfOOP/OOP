@@ -34,6 +34,11 @@ public class Buva extends Zivotinja implements Cloneable {
     }
 
     // Predefinisanje nasledjenog metoda clone() da bismo ga ucinili public
+    // Ukoliko zelimo da naznacimo da metod moze da izbaci neki izuzetak, to
+    // radimo tako sto navedemo kljucnu rec "throws" koju prati izuzetak koji
+    // moze biti bacen (ukoliko metod moze da baci vise izuzetaka, oni se navode
+    // redom, razdvojeni zarezima ili mozemo da objedinimo sve izuzetke i samo 
+    // napisati "throws Exception").  
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }

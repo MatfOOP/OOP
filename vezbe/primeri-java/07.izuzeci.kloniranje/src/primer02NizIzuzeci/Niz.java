@@ -18,6 +18,14 @@ public class Niz {
 	}
 	
 	public int get(int i) {
+		// Java nudi i mogucnost "ispaljivanja" izuzetka od
+		// strane programera. Zasto je "ispaljivanje" izuzetaka korisno?
+		// Na primer, ukoliko je potrebno da korisnik u neku anketu unese 
+		// koliko ima godina, znamo da taj broj ne moze biti manji od 0
+		// ali ni veci od 100 (u najvecem broju slucajeva). Recimo da 
+		// korisnik unese da ima 200 godina. Ni kompajler ni JVM ne bi 
+		// prepoznali da se radi o gresci. Stoga je korisno imati
+		// mogucnost "ispaljivanja" izuzetaka.  
 		// Primer kako mozemo da "ispalimo" izuzetak kada
 		// detektujemo odredjenu gresku u nasem kodu.
 		if (i < 0 || i >= a.length)

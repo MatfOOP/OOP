@@ -17,6 +17,9 @@ public class Primer03TryWithResources {
 		
 		// Primetimo da nema catch bloka, nije neophodan kada
 		// se Scanner vezuje za standardni ulaz.
+		// Ukoliko bismo zeleli da u okviru istog try bloka otvorimo
+		// vise resursa, to bismo mogli da uradimo pisanjem niza komandi
+		// jednu za drugom razdvojene sa ;
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println(sc.nextLine());
 		}
@@ -24,7 +27,7 @@ public class Primer03TryWithResources {
 		// Nakon izvrsavanja try bloka, poziva se metod 'close()' nad
 		// Scanner objektom (programer nije duzan da sam poziva).
 		// Poziva se close cak iako je izbacen izuzetak, tako da je ova
-		// konstrukcija  onoj oblika;
+		// konstrukcija analogna onoj oblika:
 		// try {
 		// 	...
 		// 	...
