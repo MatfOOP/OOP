@@ -20,6 +20,9 @@ public class Primer03TryWithResources {
 		// Ukoliko bismo zeleli da u okviru istog try bloka otvorimo
 		// vise resursa, to bismo mogli da uradimo pisanjem niza komandi
 		// jednu za drugom razdvojene sa ;
+		// Napomena: try-with-resources se moze koristiti samo sa objektima
+		// koji implementiraju AutoClosable interfejs (kako bi mogli biti 
+		// zatvoreni u slucaju da dodje do izuzetka), npr. klase Scanner, File...
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println(sc.nextLine());
 		}

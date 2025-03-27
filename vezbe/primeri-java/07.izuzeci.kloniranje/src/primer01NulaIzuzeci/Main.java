@@ -22,6 +22,13 @@ public class Main {
 	public static void main(String[] args) {
 		int x = 10;
 		
+		// Ukoliko bismo pokusali da izvrsimo deljenje nulom bez try bloka 
+		// dobili bismo izuzetak. Detaljnije informacije o izuzetku mogu se videti
+		// u terminalu nakon izvrsene sledece naredbe (otkomentarisati radi demonstracije)
+		// System.out.println(x/0); 
+		// Nakon sto smo saznali koji je izuzetak u pitanju, mozemo ga "hvatati" u okviru catch 
+		// bloka i reagovati na njega na odgovarajuci nacin.
+
 	 	try {
 			// Pokusavamo "rizicnu" radnju.
 			System.out.println(x/0);

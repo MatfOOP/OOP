@@ -12,6 +12,10 @@ public class Main {
 		// Jedna od najcescih gresaka pri radu sa nizovima jeste
 		// pokusaj pristupa elementu van granica niza, te bi bilo
 		// pozeljno na vreme uociti gresku ako postoji.
+
+		// Ukoliko pokusamo da pristupimo stotom elementu niza bez 
+		// try bloka dobicemo odgovarajuci izuzetak (otkomentarisati i probati)
+		// System.out.println("niz[100] = " + niz.get(100));
 		try {
 			System.out.println("niz[100] = " + niz.get(100));
 		} catch (ArrayIndexOutOfBoundsException e) {

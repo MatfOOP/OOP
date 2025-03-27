@@ -17,6 +17,10 @@ public class Primer01 {
 	// zahtevaju razlicit odgovor na njih. 
 	public static void main(String[] args) {
 		try {
+			// Pozivamo metod testiranjeIzuzetaka sa argumentom 1.
+			// Vidimo da taj metod kao rezultat "izbacuje" 
+			// ArrayIndexOutOfBoundsException koji ce biti "uhvacen" u
+			// (u ovom slucaju) prvom catch bloku. 
 			testiranjeIzuzetaka(1);
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.err.println(e.getMessage());

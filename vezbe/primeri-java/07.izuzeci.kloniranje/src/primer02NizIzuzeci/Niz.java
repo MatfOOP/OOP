@@ -1,5 +1,7 @@
 package primer02NizIzuzeci;
 
+// Za dalju demonstraciju rada sa izuzecima, koristicemo klasu Niz
+// koja simulira ponasanje obicnog niza. 
 public class Niz {
 	private int[] a;
 	
@@ -28,12 +30,15 @@ public class Niz {
 		// mogucnost "ispaljivanja" izuzetaka.  
 		// Primer kako mozemo da "ispalimo" izuzetak kada
 		// detektujemo odredjenu gresku u nasem kodu.
+
 		if (i < 0 || i >= a.length)
 			// throw new ArrayIndexOutOfBoundsException();
 			// Ukoliko navedemo String u konstruktoru, taj string se
 			// vraca kada se nad izuzetkom pozove metod 'getMessage'.
 			throw new ArrayIndexOutOfBoundsException("Lose indeksiranje!");
 			// Ispaljivanje ovog izuzetka prekida izvrsavanje funkcije.
+			// Ovako ispaljen izuzetak bice uhvacen u Mainu kada se bude
+			// pozvao metod get za stoti element niza i tu ce biti obradjen.
 		return a[i];
 	}
 	

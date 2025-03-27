@@ -38,9 +38,20 @@ public class Buva extends Zivotinja implements Cloneable {
     // radimo tako sto navedemo kljucnu rec "throws" koju prati izuzetak koji
     // moze biti bacen (ukoliko metod moze da baci vise izuzetaka, oni se navode
     // redom, razdvojeni zarezima ili mozemo da objedinimo sve izuzetke i samo 
-    // napisati "throws Exception").  
+    // napisati "throws Exception"). 
+
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+    // Zasto ovde naglasavamo da metod izbacuje izuzetak dok to nismo radili
+    // u prethodnim primerima?  
+    // Na primer, u vezbe/primeri-java/07.izuzeci.kloniranje/src/primer03VisestrukiCatchIzuzeci/Primer01.java
+    // svi izuzeci koji su bili hvatani nastajali su u toku izvrsavanja. Ovakvi
+    // izuzeci svi pripadaju superklasi RuntimeException koja moze da bude 
+    // obradjivana bez throws klauze.
+    // Za obican Exception kompajler ce prijaviti gresku ako nemamo 
+    // obradu odmah ili propagiramo sa throws klauzulom
+    // Posto izuzetak ne obradjujemo odmah u metodu, moramo ga propagirati. 
 
 }
