@@ -11,8 +11,16 @@ public class Primer01 {
 			throw new NullPointerException("x = 3 :)");
 	}
 	
+	// Ukoliko kod moze izbaciti vise izuzetaka, moguce je
+	// svaki izuzetak hvatati u zasebnom catch bloku.
+	// Ova opcija je pozeljna ukoliko razliciti izuzeci 
+	// zahtevaju razlicit odgovor na njih. 
 	public static void main(String[] args) {
 		try {
+			// Pozivamo metod testiranjeIzuzetaka sa argumentom 1.
+			// Vidimo da taj metod kao rezultat "izbacuje" 
+			// ArrayIndexOutOfBoundsException koji ce biti "uhvacen" u
+			// (u ovom slucaju) prvom catch bloku. 
 			testiranjeIzuzetaka(1);
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.err.println(e.getMessage());
@@ -22,7 +30,10 @@ public class Primer01 {
 			System.err.println(e.getMessage());
 		}
 		
-		// Isti (od java7 standardna) efekat mozemo postici sledecom konstrukcijom.
+		// Sa druge strane, ukoliko je obrada svih izuzetaka ista, nema potrebe 
+		// za visestrukim catch blokovima, dovoljno je sve moguce izuzetke 
+		// navesti u jednom catch bloku razdvojene uspravnom crtom 
+		// (od java7 standarda).
 		try {
 			testiranjeIzuzetaka(1);
 		} catch (ArrayIndexOutOfBoundsException | ArithmeticException | NullPointerException e) {
