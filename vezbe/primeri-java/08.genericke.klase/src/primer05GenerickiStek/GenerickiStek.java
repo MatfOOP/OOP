@@ -1,7 +1,8 @@
 package primer05GenerickiStek;
 
 // Setite se da smo ranije na vezbama pravili stek koji je radio sa brojevima.
-// Dosao je svecani trenutak da napravimo genericki stek!
+// Kako osobine steka, dodavnje, skidanje i posmatranje elementa na vrhu ne zavise od konkretnog tipa,
+// dosao je svecani trenutak da napravimo genericki stek!
 public interface GenerickiStek<T>
 {
     // Vraca element sa vrha steka.

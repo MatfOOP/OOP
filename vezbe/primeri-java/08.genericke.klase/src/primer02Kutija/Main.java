@@ -4,6 +4,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // Tip predmeta nase kutije ce biti Integer
         Kutija<Integer> kutija = new Kutija<>();
         System.out.println("Ubacuje se predmet 10");
         kutija.ubaciPredmet(10);

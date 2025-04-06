@@ -1,5 +1,10 @@
 package primer02Kutija;
 
+// U klasi Kutija imamo funkcionalnosti provere da li je nesto sasdrzano u kutiji,
+// ubacivanja u kutiju, uzimanja iz kutije i ispisa sta je u kutiji.
+// Posto nijedna od ovih funkcionalnosti nije specificna za neki odredjeni tip,
+// mozemo tip predmeta da predstavimo kao genericki parametar klase Kutija.
+// Na taj nacin povecavamo njenu upotrebljivost i omogucavamo rad sa razlicitim tipovima podataka.
 public class Kutija<T>
 {
     private T predmet;
