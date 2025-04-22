@@ -15,6 +15,11 @@ public class Oblik implements Comparable<Oblik> {
         return centar;
     }
 
+    @Override
+    public int compareTo(Oblik o) {
+        return poredjenjePomocnaFunkcija(this, o);
+    }
+
     /*
         Implementacija preko komparatora bi bila slicna,
         osim sto bi this zamenili sa 'o1' (referenca na prvi
@@ -29,11 +34,6 @@ public class Oblik implements Comparable<Oblik> {
             return poredjenjePomocnaFunkcija(o1, o2);
         }
     };
-
-    @Override
-    public int compareTo(Oblik o) {
-        return poredjenjePomocnaFunkcija(this, o);
-    }
 
 
     /*

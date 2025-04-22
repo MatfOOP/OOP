@@ -33,6 +33,10 @@ public class Tacka implements Comparable<Tacka>{
 	public int compareTo(Tacka o) {
 		// Ako tacke imaju istu x koordinatu,
 		// poredimo ih po y koordinati.
+		// Poredjenje se, prilikom sortiranja neopadajuce vrsi na sledeci nacin:
+			// Ukoliko tacke imaju iste koordinate, vracamo 0.
+			// Ukoliko je tacka o leksikografski pre trenutne tacke, vracamo <0
+			// Ukoliko je trenutna tacka leksikografski manja od tacke o, vracamo >0
 		if (x == o.x)
 			return y - o.y;
 		return x-o.x;

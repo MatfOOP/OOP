@@ -29,7 +29,11 @@ public class Test {
             instancira svaki put kada se zeli poredjenje.
             Dodatno, sakrili smo klasu 'PorediPoXPaY' od spoljasnjeg
             sveta jer je ona sada umetnuta u klasu
-            'comparatorV2.Tacka' kao privatna.
+            'comparatorV2.Tacka' kao privatna. 
+            Jos jedna prednost ovog nacina inplementacije je ta sto
+            ne moramo da 'nagadjamo' koji su sve komparatori
+            implementirani (jer se pre nisu nalazili u okviru klase Tacka).
+            Sada, kada je sve na jednom mestu, uslovi za rad su laksi.
         */
         Collections.sort(tacke, Tacka.porediPoXPaY);
         System.out.println(tacke);

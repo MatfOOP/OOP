@@ -20,13 +20,16 @@ public class Test {
         ));
 
         /*
-            Konstruisemo komparator objekat koji ce se proslediti
-            funkciji za sortiranje. Na ovaj nacin, funkcija za
+            Postoji jos jedan nacin da se definise funkcija 'sort', a
+            on podrazumeva da mu se pored kolekcije koju je potrebno
+            sortirati prosledi i komparator koji govori kako se porede
+            dve instance date klase. Na ovaj nacin, logika poredjenja
+            preneta je u zasebnu klasu i funkcija za
             sortiranje zna da poredi elemente dok se bude 
             primenjivao algoritam za sortiranje.
             Poredjenje se vrsi tako sto algoritam sortiranja
-            poziva metod 'compare' nad komparatorem kojem
-            prosledjuje elemente iz kolekcije koja se sortira.
+            poziva metod 'compare' (koji smo definisali) nad komparatorom kojem
+            i prosledjuje elemente iz kolekcije koja se sortira.
         */
         PorediPoXPaY poXpaY = new PorediPoXPaY();
         Collections.sort(tacke, poXpaY);
