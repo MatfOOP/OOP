@@ -6,6 +6,8 @@
 
 Задаци из претходних рокова:
 
+* 2023-2024: [Концерт](./rokovi/oop.2023.2024.jun1.Koncert.pdf){:target="_blank"}, [Европско првенство](./rokovi/oop.2023.2024.jun2.EvropskoPrvenstvo.pdf){:target="_blank"}, [Друштвена мрежа](./rokovi/oop.2023.2024.sept1.DrustvenaMreza.pdf){:target="_blank"}, [Половни аутомобили](./rokovi/oop.2023.2024.sept2.PolovniAutomobili.pdf){:target="_blank"}
+
 * 2022-2023: [Аукцијска кућа](./rokovi/oop.2022.2023.jun1.aukcijskaKuca.pdf){:target="_blank"}, [Археолошко налазиште](./rokovi/oop.2022.2023.jun2.arheoloskoNalaziste.pdf){:target="_blank"}, [КNN предиктор](./rokovi/oop.2022.2023.sept1.KNNPrediktor.pdf){:target="_blank"}, [Терминал](./rokovi/oop.2022.2023.sept2.Terminal.pdf){:target="_blank"}
 
 * 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.pdf){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.pdf){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.pdf){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.pdf){:target="_blank"}, [Деда Мразов помоћник](./rokovi/oop.2021.2022.jan1.dedaMrazovPomocnik.pdf){:target="_blank"}
