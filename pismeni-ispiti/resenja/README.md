@@ -6,6 +6,8 @@
 
 Решења задатака из претходних година:
 
+* 2023-2024: [Европско првенство](./rokovi/oop.2023.2024.jun2.EvropskoPrvenstvo.zip){:target="_blank"}, [Друштвена мрежа](./rokovi/oop.2023.2024.sept1.DrustvenaMreza.zip){:target="_blank"}, [Половни аутомобили](./rokovi/oop.2023.2024.sept2.PolovniAutomobili.zip){:target="_blank"}
+
 * 2022-2023: [Аукцијска кућа](./rokovi/oop.2022.2023.jun1.aukcijskaKuca.zip){:target="_blank"}, [Археолошко налазиште](./rokovi/oop.2022.2023.jun2.arheoloskoNalaziste.zip){:target="_blank"}, [КNN предиктор](./rokovi/oop.2022.2023.sept1.KNNPrediktor.zip){:target="_blank"}, [Терминал](./rokovi/oop.2022.2023.sept2.Terminal.zip){:target="_blank"}
 
 * 2021-2022: [Телефонски листинг](./rokovi/oop.2021.2022.jun1.telefonskiListing.zip){:target="_blank"}, [Хотелске резервације](./rokovi/oop.2021.2022.jun2.hotelskeRezervacije.zip){:target="_blank"}, [UEFA такмичења](./rokovi/oop.2021.2022.sept1.UEFATakmicenja.zip){:target="_blank"}, [Ресторан](./rokovi/oop.2021.2022.sept2.restoran.zip){:target="_blank"}, [Деда Мразов помоћник](./rokovi/oop.2021.2022.jan1.dedaMrazovPomocnik.zip){:target="_blank"}
