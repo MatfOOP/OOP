@@ -8,6 +8,18 @@
 
 ---
 
+17.08.
+
+### Јануар 1 - резултати практичног дела испита
+
+[Резултати](./jan12024.25Rezultati.pdf) 
+
+За увид у радове јавити се на мејл код свог асистента: 
+jelena.bondzic@matf.bg.ac.rs или andjela.damjanovic@matf.bg.ac.rs или miloje.joksimovic@matf.bg.ac.rs.
+Уколико сте распоређени код колеге Лазара Станојевића, јавити се на andjela.damjanovic@matf.bg.ac.rs.
+
+---
+
 14.08.
 
 ### Јануар 1 - распоред седења
