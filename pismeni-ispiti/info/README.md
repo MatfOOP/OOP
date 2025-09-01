@@ -9,7 +9,7 @@
 ---
 ### Јануар 2 - резултати практичног дела испита
 
-[Резултати](./jan22024.25Rezultati.pdf) 
+[Резултати](./jan22024.25Rezultati.pdf.pdf) 
 
 За увид у радове јавити се на мејл код свог асистента: 
 jelena.bondzic@matf.bg.ac.rs или andjela.damnjanovic@matf.bg.ac.rs.
