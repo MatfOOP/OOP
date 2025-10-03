@@ -5,6 +5,16 @@
 ---
 
 # Обавештења из школске 2024/2025. године
+
+
+---
+### Јун 2 - резултати практичног дела испита
+
+[Резултати](./jun2_2024_25_rezultati.pdf) 
+
+За увид у радове јавити се на мејл код свог асистента: jelena.bondzic@matf.bg.ac.rs, miloje.joksimovic@matf.bg.ac.rs или andjela.damnjanovic@matf.bg.ac.rs.
+Уколико сте распоређени код колеге Лазара Станојевића, јавити се на andjela.damnjanovic@matf.bg.ac.rs.
+
 ---
 ### Распоред седења
 
