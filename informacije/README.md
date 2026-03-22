@@ -1,4 +1,4 @@
-# Информације о курсу -- Објектно-оријентисано програмирање  (М, Н, В, Р, Л)@ Математички факултет
+# Информације о курсу -- Објектно-оријентисано програмирање  (М, Н, С, Р, Л)@ Математички факултет
 
 [ООП](../README.md)
 
@@ -11,8 +11,12 @@
 
 
 * Асистент: **Бојана Јошић (мејл <code>bojana.josic@matf.bg.ac.rs</code>)**
+
+
 * Асистент: **Ђурђа Милошевић (мејл <code>djurdja.milosevic@matf.bg.ac.rs</code>)**
-* Асистент: **Милица Карличић (мејл <code>milica.karlicic@matf.bg.ac.rs</code>)**
+
+
+* Асистент: **[Милица Карличић](http://old.matf.bg.ac.rs/p/milica-karlicic/pocetna/){:target="_blank"} (мејл <code>milica.karlicic@matf.bg.ac.rs</code>)**
 
 ---
 

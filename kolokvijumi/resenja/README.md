@@ -4,8 +4,6 @@
 
 ---
 
-03.04.
-
 Решења задатака из претходних година:
 
 * 2017-2018: [Пророци](./kol201718_1_Proroci.zip){:target="_blank"}, [Видеотека](./kol201718_2_Videoteka.zip){:target="_blank"}, [Озвучење](./kol201718_3_Ozvucenje.zip){:target="_blank"}
