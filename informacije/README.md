@@ -10,9 +10,9 @@
 
 
 
-* Асистент: **Јелена Бонџић (мејл <code>jelena.bondzic@matf.bg.ac.rs</code>)**
-* Асистент: **Анђела Дамњановић(мејл <code>andjela.damnjanovic@matf.bg.ac.rs</code>)**
-* Асистент: **Милоје Јоксимовић(мејл <code>miloje.joksimovic@matf.bg.ac.rs</code>)**
+* Асистент: **Бојана Јошић (мејл <code>bojana.josic@matf.bg.ac.rs</code>)**
+* Асистент: **Ђурђа Милошевић (мејл <code>djurdja.milosevic@matf.bg.ac.rs</code>)**
+* Асистент: **Милица Карличић (мејл <code>milica.karlicic@matf.bg.ac.rs</code>)**
 
 ---
 
@@ -21,18 +21,6 @@
 * **[Званичан план и програм курса](http://www.math.rs/files/RM04_-_Objektno_orijentisano_programiranje.pdf){:target="_blank"}**
 
 * **[Начин реализације курса у академској 2024/2025. години](Nacin-realizacije-kursa.md)**
-
----
-
-## Термини за консултације у академској 2024/25. години
-
-* Александар Картељ: биће накнадно утврђено.
-
-* Јелена Бонџић: по договору.
-  
-* Анђела Дамњановић: по договору.
-  
-* Милоје Јоксимовић: по договору.
 
 ---
 
