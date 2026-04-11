@@ -10,8 +10,7 @@
 
 
 
-* Асистент: **Бојана Јошић (мејл <code>bojana.josic@matf.bg.ac.rs</code>)**
-
+* Асистент: **[Бојана Јошић](https://josicb16.github.io/){:target="_blank"} (мејл <code>bojana.josic@matf.bg.ac.rs</code>)**
 
 * Асистент: **Ђурђа Милошевић (мејл <code>djurdja.milosevic@matf.bg.ac.rs</code>)**
 
