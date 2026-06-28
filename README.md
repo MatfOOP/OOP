@@ -11,9 +11,13 @@
 
 ## Обавештења
 
-[**Вежбе 19.06. за групе 2РА и 2РБ**](/vezbe/info/README.md)
+[**Јун 1 - распоред седења**](/pismeni-ispiti/info/README.md)
 
-[**Вежбе 19.06. за групу 2М-в**](/vezbe/info/README.md)
+[**Додатни поени за активност**](/vezbe/info/README.md)
+
+<!-- [**Вежбе 19.06. за групе 2РА и 2РБ**](/vezbe/info/README.md)
+
+[**Вежбе 19.06. за групу 2М-в**](/vezbe/info/README.md) -->
 
 <!--
 [**Вежбе 06.06. за групе 2Р**](/vezbe/info/README.md)-->
