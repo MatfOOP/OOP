@@ -11,7 +11,7 @@
 
 ## Обавештења
 
-[**Јун 2 - распоред седења**](/pismeni-ispiti/info/README.md)
+[**Јун 2 - резултати практичног дела испита**](/pismeni-ispiti/info/README.md)
 
 [**Јун 1 - резултати практичног дела испита**](/pismeni-ispiti/info/README.md)
 
